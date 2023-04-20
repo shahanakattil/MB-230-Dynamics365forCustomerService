@@ -1,10 +1,4 @@
----
-lab:
-    title: 'Lab: Validate lab environment'
-    module: 'Module 0: Course introduction'
----
-
-# Practice Lab - Validate lab environment
+# Practice Lab - Setup Dynamics 365 for Customer Service
 
 ## Scenario
 
