@@ -23,14 +23,37 @@ In this Module 0 lab, you will validate that your classroom tenant is working as
 
 3. Feel free to explore the Power Platform admin center but **do not make any changes.**
 
-### Task 2 – Access the Dynamics 365 application
+### Task 2 – Create Environment into the Power Platform admin center
 
 1. Access <https://admin.powerplatform.microsoft.com/environments>.
 
-2. Select the **WWLLABnnn** environment, where nnn is a number. This is the shared Dynamics 365 environment where you will be performing all labs.
+2. Select the option labeled **+ New** located in the top task bar by clicking on it.
 
-3. Click **Open**.
+3. On the **New environment** page, specify the following settings and click on **Save**:
+
+   |Setting|Value|
+   |---|---|
+   |Name|**Prod-Env-[DeploymentID]**|
+   |Region|**United States**|
+   |Type|**Production**|
+   |Add a Dataverse data store?|**Enabled** and select Next|
+   |Enable Dynamics 365 apps?|**Enabled**|
+   |Security group|click on **+ Select** and select the **None** option from the list and click on Done|
+   
+   >Note : **[DeploymentId] can be found in the user name (example: odl_user_xxxxxx@azurehol1396.onmicrosoft.com) **xxxxxx** is the [DeploymentID]**.
+   
+   >**Note**: Wait for the Environment to get ready before you continue with this lab.
+
+   ![](../images/prod-name.png)
+   
+   ![](../images/dataverse.png)
+
+2. Select the **Prod-Env-[DeploymentID]** environment. This is the shared Dynamics 365 environment where you will be performing all labs.
+
+3. Select the option labeled **Open** located in the top task bar by clicking on it.
 
 4. From the list of available Dynamics 365 apps, select the **Customer Service Hub** app.
+
+   ![](../images/service-hub-app.png)
 
 5. Spend a few minutes exploring the application.
