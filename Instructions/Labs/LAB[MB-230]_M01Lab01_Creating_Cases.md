@@ -166,4 +166,6 @@ In this exercise, you will create a Phone Call activity and then convert the act
 
 5.  Click **Convert**.
 
+    ![](../images/Covert Phone Call activity.png)
+
 6.  Review the case that was created. Note that the customer is linked to the contact and the origin is set to Phone.
