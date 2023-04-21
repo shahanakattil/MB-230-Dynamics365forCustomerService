@@ -12,11 +12,14 @@ In this Module 0 lab, you will validate that your classroom tenant is working as
 
 ### Task 1 – Log into the Power Platform admin center
 
-1. Access <https://admin.powerplatform.microsoft.com> and log in with your Dynamics 365 tenant credentials.
+1. Access <https://admin.powerplatform.microsoft.com> 
 
-2. Record your user credential up to the **@** symbol on a scratch piece of paper or in Notepad. This will be your lab alias that you will use to differentiate the data you create within the shared Dynamics 365 organization.
+1. Enter your username and password, which can be found under the environment details tab.
 
-**Important:** Please be aware that this tenant and the Dynamics 365 organization will be shared with the other students in your classroom, like employees would share a tenant when using the Dynamics 365 instance belonging to their organization. Do not use any PII (personally identifiable information) when creating records. It is also good practice to use your user's prefix (ex., **mollyc**) in front of all records, data, apps, flows, etc. that you create.
+    ![](../images/azure-login.png)
+
+
+    ![](../images/azure-login-password.png)
 
 3. Feel free to explore the Power Platform admin center but **do not make any changes.**
 
