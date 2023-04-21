@@ -1,9 +1,3 @@
----
-lab:
-    title: 'Lab: Creating cases'
-    module: 'Module 1: Case Management'
----
-
 # Practice Lab 1 – Creating cases
 
 ## Scenario
@@ -63,7 +57,6 @@ In this exercise, you will create an Account, a Contact, and a Case record. You 
 8.  Enter **mollycJon** for **First Name**.
 
 9.  Enter **Doe** for **Last Name**.
-
 10.  Enter *your prefix ex. mollyc* in the **Account Name** field, click on the lookup icon and select the account **mollycRelecloud**.
 
 11.  Click **Save & Close**.
