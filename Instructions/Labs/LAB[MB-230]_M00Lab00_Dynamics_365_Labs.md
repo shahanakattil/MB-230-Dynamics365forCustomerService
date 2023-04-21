@@ -27,7 +27,7 @@ In this Module 0 lab, you will validate that your classroom tenant is working as
 
 1. Access <https://admin.powerplatform.microsoft.com/environments>.
 
-2. Select the option labeled **+ New** located in the top task bar by clicking on it.
+2. Click **+ New** located on the command bar.
 
 3. On the **New environment** page, specify the following settings and click on **Save**:
 
@@ -50,7 +50,7 @@ In this Module 0 lab, you will validate that your classroom tenant is working as
 
 2. Select the **Prod-Env-[DeploymentID]** environment. This is the shared Dynamics 365 environment where you will be performing all labs.
 
-3. Select the option labeled **Open** located in the top task bar by clicking on it.
+3. Click **Open** located on the command bar.
 
 4. From the list of available Dynamics 365 apps, select the **Customer Service Hub** app.
 
