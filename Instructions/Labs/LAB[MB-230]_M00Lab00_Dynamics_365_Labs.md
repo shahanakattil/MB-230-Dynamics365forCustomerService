@@ -14,7 +14,7 @@ In this Module 0 lab, you will validate that your classroom tenant is working as
 
 1. Access <https://admin.powerplatform.microsoft.com> 
 
-1. Enter your username and password, which can be found under the environment details tab.
+2. Enter your username and password, which can be found under the environment details tab.
 
     ![](../images/azure-login.png)
     
