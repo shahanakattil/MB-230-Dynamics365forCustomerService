@@ -71,49 +71,49 @@ In this exercise, you will create an Account, a Contact, and a Case record. You 
 
 3.  Enter **mollycDefective Screen** for **Case Title**.
 
-4.  Click on the **Subject** field and enter **Maintenance** into the box and press enter.
+4.  Click on the **Subject** field and type **Maintenance** into the box and press enter.
 
 5.  Enter *your prefix ex. mollyc* in the **Customer** field, click on the lookup icon and select the account you created in Task 1.
 
 6.  Select **Phone** from the **Origin** drop-down field.
 
-8.  Enter **Laptop display is too bright** in the **Description** field.
+7.  Enter **Laptop display is too bright** in the **Description** field.
 
-9.  Click on the **Identify** stage in the business process flow.
+8.  Click on the **Identify** stage in the business process flow.
 
-10. Enter *your prefix ex. mollyc* in the **Find Contact** field, click on the lookup icon and select the **Jane Doe** contact you created in Task 2.
+9. Enter *your prefix ex. mollyc* in the **Find Contact** field, click on the lookup icon and select the **Jane Doe** contact you created in Task 2.
 
     ![](../images/identify.png)
 
-11. Select the **Details** tab.
+10. Select the **Details** tab.
 
-12. Select **Problem** from the **Type** drop-down field.
+11. Select **Problem** from the **Type** drop-down field.
 
-13. Click **Save**.
+12. Click **Save**.
 
-14. Click on the **Identify** stage in the business process flow, and select **Next Stage**.
+13. Click on the **Identify** stage in the business process flow, and select **Next Stage**.
 
     ![](../images/next-stage.png)
 
-15. Select the **Summary Tab**. In the Timeline, click on **+**, and select **Phone Call**.
+14. Select the **Summary Tab**. In the Timeline, click on **+**, and select **Phone Call**.
 
     ![](../images/Timeline.png)
 
-16. Enter **mollyc further details** for **Subject**.
+15. Enter **mollyc further details** for **Subject**.
 
-17. Select **Outgoing** from the **Direction** drop-down field.
+16. Select **Outgoing** from the **Direction** drop-down field.
 
-18. Ensure that your user record is set for **Call From**.
+17. Ensure that your user record is set for **Call From**.
 
-19. Ensure that the Jane Doe contact is set for **Call To**.
+18. Ensure that the Jane Doe contact is set for **Call To**.
 
-20. Select **15 minutes** from the **Duration** drop-down field.
+19. Select **15 minutes** from the **Duration** drop-down field.
 
-21. Select tomorrow's date and 9:00AM for **Due**.
+20. Select tomorrow's date and 9:00AM for **Due**.
 
-22. Select **High** from the **Priority** drop-down field.
+21. Select **High** from the **Priority** drop-down field.
 
-23. Select **Save & Close**
+22. Select **Save & Close**
 
     ![](../images/phone-call.png)
 
