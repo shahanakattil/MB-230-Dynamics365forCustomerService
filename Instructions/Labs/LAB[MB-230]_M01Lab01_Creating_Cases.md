@@ -18,9 +18,9 @@ In this exercise, you will navigate to the Dynamics 365 Customer Service Applica
 
 1.  Navigate to Access <https://admin.powerplatform.microsoft.com/environments>.
 
-2.  Select the Dynamics 365 environment.
+2.  Select the **Prod-Env-[DeploymentID]** environment.
 
-3.  Click **Open**.
+3.  Click **Open** located on the command bar.
 
 4.  You should be in the **Customer Service Hub** app. If you are in a different app, click on the name of the app in the top left of the application next to Dynamics 365 and from the list of published apps, select the **Customer Service Hub** app
 
@@ -36,9 +36,11 @@ In this exercise, you will create an Account, a Contact, and a Case record. You 
 
 2.  Click **+ New** located on the command bar.
 
-3.  Enter **[your prefix ex. mollyc]** + **Relecloud** for **Account Name**.
+3.  Enter **mollycRelecloud** for **Account Name**.
 
 4.  Click **Save & Close**.
+
+    ![](../images/create-case.png)
 
 ### Task 2 – Create Contacts
 
@@ -46,23 +48,27 @@ In this exercise, you will create an Account, a Contact, and a Case record. You 
 
 2.  Click **+ New** located on the command bar.
 
-3.  Enter **[your prefix ex. mollyc]** + **Jane** for **First Name**.
+3.  Enter **mollycJane** for **First Name**.
 
 4.  Enter **Doe** for **Last Name**.
 
-5.  Enter *your prefix ex. mollyc* in the **Account Name** field, click on the lookup icon and select the account you created in Task 1.
+5.  Enter *your prefix ex. mollyc* in the **Account Name** field, click on the lookup icon and select the account **mollycRelecloud**.
 
 6.  Click **Save & Close**.
 
+    ![](../images/contacts.png)
+
 7.  Click **+ New** located on the command bar.
 
-8.  Enter **[your prefix ex. mollyc]** + **Jon** for **First Name**.
+8.  Enter **mollycJon** for **First Name**.
 
 9.  Enter **Doe** for **Last Name**.
 
-10.  Enter *your prefix ex. mollyc* in the **Account Name** field, click on the lookup icon and select the account you created in Task 1.
+10.  Enter *your prefix ex. mollyc* in the **Account Name** field, click on the lookup icon and select the account **mollycRelecloud**.
 
 11.  Click **Save & Close**.
+
+     ![](../images/contacts-jon.png)
 
 ### Task 3 – Create Case
 
@@ -70,21 +76,21 @@ In this exercise, you will create an Account, a Contact, and a Case record. You 
 
 2.  Click **+ New Case** located on the command bar.
 
-3.  Enter **[your prefix ex. mollyc]** + **Defective Screen** for **Case Title**.
+3.  Enter **mollycDefective Screen** for **Case Title**.
 
-4.  Click on the **Subject** field and expand **Service** and select **Maintenance**.
+4.  Click on the **Subject** field and enter **Maintenance** into the box and press enter.
 
 5.  Enter *your prefix ex. mollyc* in the **Customer** field, click on the lookup icon and select the account you created in Task 1.
 
 6.  Select **Phone** from the **Origin** drop-down field.
-
-7.  Enter *JBO* in the **Product** field, click on the lookup icon and select the **JBO Top D. Hifi** product.
 
 8.  Enter **Laptop display is too bright** in the **Description** field.
 
 9.  Click on the **Identify** stage in the business process flow.
 
 10. Enter *your prefix ex. mollyc* in the **Find Contact** field, click on the lookup icon and select the **Jane Doe** contact you created in Task 2.
+
+    ![](../images/identify.png)
 
 11. Select the **Details** tab.
 
@@ -94,9 +100,13 @@ In this exercise, you will create an Account, a Contact, and a Case record. You 
 
 14. Click on the **Identify** stage in the business process flow, and select **Next Stage**.
 
+    ![](../images/next-stage.png)
+
 15. Select the **Summary Tab**. In the Timeline, click on **+**, and select **Phone Call**.
 
-16. Enter **[your prefix ex. mollyc]** + **further details** for **Subject**.
+    ![](../images/Timeline.png)
+
+16. Enter **mollyc further details** for **Subject**.
 
 17. Select **Outgoing** from the **Direction** drop-down field.
 
@@ -112,6 +122,8 @@ In this exercise, you will create an Account, a Contact, and a Case record. You 
 
 23. Select **Save & Close**
 
+    ![](../images/phone-call.png)
+
 ## Exercise 3 – Create case from an activity
 
 In this exercise, you will create a Phone Call activity and then convert the activity to a Case.
@@ -120,13 +132,13 @@ In this exercise, you will create a Phone Call activity and then convert the act
 
 1.  Click on **Contacts** in the **Customers** section of the sitemap.
 
-2.  Enter *your prefix ex. mollyc* in the **Search this view** field, click on the lookup icon and select the **Jon Doe** contact you created in Task 2.
+2.  select the **Jon Doe** contact you created in Task 2 from the list.
 
 3.  In the Timeline, click on **+**, and select **Phone Call**.
 
-4.  Enter **[your prefix ex. mollyc]** + **Service required** for **Subject**.
+4.  Enter **mollycService required** for **Subject**.
 
-5.  Select **Incoming** from the **Type** drop-down field.
+5.  Select **Incoming** from the **Direction** drop-down field.
 
 6.  Ensure that the Jon Doe contact is set for **Call From**.
 
@@ -140,6 +152,8 @@ In this exercise, you will create a Phone Call activity and then convert the act
 
 11. Select **Save and Close**
 
+    ![](../images/jon-phone-call.png)
+
 ### Task 2 – Covert Phone Call activity
 
 1.  In the Timeline, click on the **Open Record** icon for the phone call you just created.
@@ -150,8 +164,6 @@ In this exercise, you will create a Phone Call activity and then convert the act
 
 4.  Enter *your prefix ex. mollyc* and select the **Jon Doe** contact you created in Task 2.
 
-5.  Click on the **Subject** field and expand **Service** and select **Maintenance**.
+5.  Click **Convert**.
 
-6.  Click **Convert**.
-
-7.  Review the case that was created. Note that the customer is linked to the contact and the origin is set to Phone.
+6.  Review the case that was created. Note that the customer is linked to the contact and the origin is set to Phone.
