@@ -18,7 +18,7 @@ In this exercise, you will create four queues.
     
 3. On the new page, select the Settings drop down and select **Service Management**.
 
-    ![](../images/service-management.png)
+    ![](../images/service-management..png)
 
 4. Click on **Queues** in the **Case Settings** section.
 
