@@ -1,9 +1,3 @@
----
-lab:
-    title: 'Lab: Resolving cases'
-    module: 'Module 1: Case Management'
----
-
 # Practice Lab 3 – Resolving cases
 
 ## Scenario
@@ -20,8 +14,6 @@ You are a customer service manager at City Power & Light who has been tasked wit
 
 3.  Click on **Cases** in the **Service** section of the sitemap.
 
-4.  Enter *your prefix ex. mollyc* in the **Search this view** field, click on the lookup icon.
-
 5.  Open the **Defective Screen** case you created.
 
 6.  Click on the **Research** stage of the **Business Process Flow**.
@@ -36,9 +28,11 @@ You are a customer service manager at City Power & Light who has been tasked wit
 
 11. Click **Confirm**.
 
-12. Select **Problem Solved** for **Resolution Type** and enter **Sent Replacement** for **Resolution**.
+    ![](../images/resolved-case.png)
 
-13. Enter **30 minutes** for **Billable Time**, enter **Sent replacement screen** for **Remarks**, and click **Resolve**.
+12. Select **Problem Solved** for **Resolution Type** and enter **Sent Replacement** for **Resolution** and click **Resolve**.
+
+    ![](../images/resolve.png)
 
 ### Task 2 – Reactivate Resolved Case
 
@@ -48,8 +42,12 @@ You are a customer service manager at City Power & Light who has been tasked wit
 
 3.  Open the case you resolved in task 1.
 
-4.  Click on the **Reactivate Case** button located in the command bar. A dialog will be displayed with the message to confirm, Select **Reactivate**. 
+4.  Click on the **Reactivate Case** button located in the command bar. A dialog will be displayed with the message to confirm, Select **Reactivate**.
 
-5.  Change the **Case Title** to **[your prefix ex. mollyc]** + **Defective Screen Not Received** in the **Details** tab.
+    ![](../images/re-activecase.png)
+
+5.  Change the **Case Title** to **mollyc Defective Screen Not Received** in the **Details** tab.
 
 6.  Click **Save & Close**.
+
+    ![](../images/save&close.png)
