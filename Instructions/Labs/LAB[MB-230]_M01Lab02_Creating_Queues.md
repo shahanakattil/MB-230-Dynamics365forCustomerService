@@ -1,9 +1,3 @@
----
-lab:
-    title: 'Lab: Creating queues'
-    module: 'Module 1: Case Management'
----
-
 # Practice Lab 2 – Queues
 
 ## Scenario
@@ -18,47 +12,67 @@ In this exercise, you will create four queues.
 
 1.  Open the **Customer Service Hub** app.
 
-2.  Click on **Service** at the bottom of the **Site Map** in the left-hand navigation and select **Service Management**.
+2.  Click on **Settings** from the top right corner and select **Advanced settings**.
 
-2.  Click on **Queues** in the **Case Settings** section.
+    ![](../images/Advanced-settings.png)
+    
+3. On the new page, select the Settings drop down and select **Service Management**.
 
-4.  Click **+ New** located on the command bar.
+    ![](../images/service-management.png)
 
-5.  Enter **[your prefix ex. mollyc]** + **Support** for **Name** and select **Public** for **Type**, and enter **[your prefix ex. mollyc]** + **.support@test.invalid** for **Incomming Email**.
+4. Click on **Queues** in the **Case Settings** section.
 
-6.  Click **Save**.
+    ![](../images/Queues.png)
 
-7.  Click **+ New**.
+5.  Click **+ New** located on the command bar.
 
-8.  Enter **[your prefix ex. mollyc]** + **Bronze** for **Name** and select **Private** for **Type**.
+6.  Enter **mollyc Support** for **Name** and select **Public** for **Type**, and enter the user name from the environment details pages of the lab guide ex. `odl_user_926235@azureholxxxx.onmicrosoft.com`  for **Incomming Email**.
 
-9.  Click **Save**.
+7.  Click **Save**.
 
-10. Click **+ New**.
+    ![](../images/save.png)
 
-11. Enter **[your prefix ex. mollyc]** + **Silver** for **Name** and select **Private** for **Type**.
+8.  Click **+ New**.
 
-12. Click **Save**.
+9.  Enter **mollyc Bronze** for **Name** and select **Private** for **Type**.
 
-13. Click **+ New**.
+10.  Click **Save**.
 
-14. Enter **[your prefix ex. mollyc]** + **Gold** for **Name** and select **Private** for **Type**.
+11. Click **+ New**.
 
-15. Click **Save**.
+12. Enter **mollyc Silver** for **Name** and select **Private** for **Type**.
 
-16. Click **Queues** under the **Case Settings** section.
+13. Click **Save**.
 
-17. Select the **My Active Queues** view
+14. Click **+ New**.
 
-18. You should now see a private queue that was created for your user automatically, the public queue, and three private queues that you created in this lab.
+15. Enter **mollyc Gold** for **Name** and select **Private** for **Type**.
 
-19. Click on **Service Management** at the bottom of the **Site Map** in the left-hand navigation and select **Service**.
+16. Click **Save**.
 
-20. Click **Queues** under the **Service** section.
+17. Click on **Service Management** to go back to case settings.
 
-21. Change the view from **Items I am working on** to **All items**
+    ![](../images/back-to-service-management.png)
 
-22. Review the options in the list for **Queues I'm a member of**. You should be able to see the four queues you created.
+18. Click **Queues** under the **Case Settings** section.
+
+19. Select the **My Active Queues** view.
+
+    ![](../images/my-active.png)
+
+20. You should now see a private queue that was created for your user automatically, the public queue, and three private queues that you created in this lab.
+
+21. Close the current tab and navigate back to the previous "services" page.
+
+22. On the services page, refresh the page and Click **Queues** under the **Service** section.
+
+23. Change the view from **Items I am working on** to **All items**
+
+    ![](../images/all-item.png)
+
+24. Review the options in the list for **Queues I'm a member of**. You should be able to see the four queues you created.
+
+    ![](../images/all-member.png)
 
 ### Task 2 – Add cases to queues
 
@@ -66,7 +80,7 @@ In this exercise, you will create four queues.
 
 2.  Click on **Cases** in the **Service** section of the sitemap.
 
-3.  Enter *your prefix ex. mollyc* in the **Search this view** field, click on the lookup icon and select the **Service Required** case you created in the earlier lab.
+3.  Select the **mollycService Required** case you created in the earlier lab.
 
 4.  Click **Add to Queue** located on the command bar.
 
@@ -74,15 +88,19 @@ In this exercise, you will create four queues.
 
 6.  Click **Add**
 
+    ![](../images/add.png)
+
 7.  Click on **Cases** in the **Service** section of the sitemap.
 
-8.  Enter *your prefix ex. mollyc* in the **Search this view** field, click on the lookup icon and select the **Defective Screen** case you created in the earlier lab.
+8.  Select the **mollycDefective Screen** case you created in the earlier lab.
 
 9.  Click **Add to Queue** located on the command bar.
 
 10. Enter *your prefix ex. mollyc* in the **Queue** field, click on the lookup icon and select the **Support** queue you created in the task
 
 11. Click **Add**
+
+    ![](../images/support-add.png)
 
 12. Click **Queues** under the **Service** section.
 
@@ -95,6 +113,8 @@ In this exercise, you will create four queues.
 16. You should see the Defective Screen case listed for the Support queue.
 
 17. Change the queue selector to **All Queues**.
+
+    ![](../images/all-queues.png)
 
 ### Task 3 – Perform actions on queue items
 
@@ -110,6 +130,8 @@ In this exercise, you will create four queues.
 
 6.  Click **Queue Item Details** located on the command bar.
 
+    ![](../images/details.png)
+
 7.  Note that **Worked By** is blank.
 
 8.  Click **Close**
@@ -117,6 +139,8 @@ In this exercise, you will create four queues.
 9.  Click to the left of the case in the queue to select it.
 
 10. Click **Pick** located on the command bar.
+
+    ![](../images/pick.png)
 
 11. Leave the *Also remove the item(s) from the Queue* option set to **No**, and click **Pick**.
 
@@ -128,8 +152,12 @@ In this exercise, you will create four queues.
 
 15. Note that **Worked By** is set to your user.
 
+    ![](../images/worked-by.png)
+
 16. Click **Close**
 
 17. Click to the left of the case in the queue to select it.
 
 18. Click **Release** located on the command bar and click **Release**.
+
+    ![](../images/release.png)
