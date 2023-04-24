@@ -1,9 +1,3 @@
----
-lab:
-    title: 'Lab: Entitlements and templates'
-    module: 'Module 2: Entitlements and Service Level Agreements'
----
-
 # Practice Lab 5 – Entitlements and SLAs
 
 ## Scenario
@@ -20,21 +14,27 @@ In this task, you will create an entitlement with 100 total terms for the Relecl
 
 1.  Open the **Customer Service Hub** app.
 
-2.  Click on **Home** at the top of the left-hand side navigation.
+2.  Click on **Settings** from the top right corner and select **Advanced settings**.
 
-3.  Click on **Service** at the bottom of the **Site Map** in the left-hand navigation and select **Service Management**.
+    ![](../images/Advanced-settings.png)
+    
+3. On the new page, select the Settings drop down and select **Service Management**.
+
+    ![](../images/service-management..png)
 
 4.  Click on **Entitlements** in the **Service Terms** section.
 
 5.  Click **+ New** located on the command bar.
 
-6.  Enter **[your prefix ex. mollyc]** + **Entitlement 1** for **Name**, select the account you created for Relecloud in the earlier lab for **Primary Customer**, select today's date for **Start Date**, and select a month from today for **End Date**.
+6.  Enter **mollyc Entitlement 1** for **Name**, select the account you created for Relecloud in the earlier lab for **Primary Customer**, select today's date for **Start Date**, and select a month from today for **End Date**.
 
 7.  Select **Yes** for **Restrict based on entitlement terms**.
 
 8.  Select **Number of Cases** for **Allocation Type**, select **Case Creation** for **Decrease Remaining On**, and enter **100** for **Total Terms**.
 
 9.  Click **Save**. DO NOT navigate away from the Entitlement form.
+
+    ![](../images/entitlement.png)
 
 ### Task 2 – Add Channels to the entitlement
 
