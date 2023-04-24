@@ -1,9 +1,3 @@
----
-lab:
-    title: 'Lab: Routing cases'
-    module: 'Module 1: Case Management'
----
-
 # Practice Lab 4 – Routing cases
 
 ## Scenario
@@ -16,15 +10,29 @@ You are a customer service manager at City Power & Light who has been tasked wit
 
 1.  Open the **Customer Service Hub** app.
 
-2.  Click on **Service** at the bottom of the **Site Map** in the left-hand navigation and select **Service Management**.
+2.  Click on **Settings** from the top right corner and select **Advanced settings**.
+
+    ![](../images/Advanced-settings.png)
+    
+3. On the new page, select the Settings drop down and select **Service Management**.
+
+    ![](../images/service-management..png)
 
 2.  Click on **Automatic record creation and update rules** in the **Case Settings** section.
 
 4.  Click **+ New** located on the command bar.
 
-5.  Enter **[your prefix ex. mollyc]** + **Create case for support email** for **Rule name**, select the **Support** queue you created for **Queue to monitor**, and select **Email** for **Activity type to monitor**.
+5.  Enter **mollyc Create case for support email** for **Rule name**, and select **Email** for **Activity type to monitor**.
+
+6.  Under the Queue list select **Look up more records** and select the check box of **show only my records** and select the mollyc support from the list .
+
+    ![](../imageslook-up.png)
+    
+    ![](../images/support-select.png)
 
 6.  Click **Save**.
+
+    ![](../images/support-select.png)
 
 7.  In **Step two: conditions to evaluate and actions to take**, click **+ New**.
 
