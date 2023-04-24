@@ -24,9 +24,11 @@ In this Module 0 lab, you will validate that your classroom tenant is working as
 
 ### Task 2 – Create Environment into the Power Platform admin center
 
-1. Access <https://admin.powerplatform.microsoft.com/environments>.
+1. Sign in to the Power Platform admin center at <https://admin.powerplatform.microsoft.com/environments>.
 
-2. Click **+ New** located on the command bar.
+2. In the navigation pane, select Environments, and then select New.
+
+    ![](../images/new-environment.png)
 
 3. On the **New environment** page, specify the following settings and click on **Save**:
 
