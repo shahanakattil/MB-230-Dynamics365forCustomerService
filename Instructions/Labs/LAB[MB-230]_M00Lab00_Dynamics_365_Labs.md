@@ -41,7 +41,7 @@ In this Module 0 lab, you will validate that your classroom tenant is working as
    |Enable Dynamics 365 apps?|**Enabled**|
    |Security group|click on **+ Select** and select the **None** option from the list and click on Done|
    
-   >Note : **[DeploymentId] can be found in the user name (example: `odl_user_xxxxxx@azureholxxxx.onmicrosoft.com`) **xxxxxx** is the [DeploymentID]**.
+   >Note : **[DeploymentId] can be found in the user name (example: `odl_user_xxxxxx.onmicrosoft.com`) **xxxxxx** is the [DeploymentID]**.
    
    >**Note**: Wait for the Environment to get ready before you continue with this lab.
 
