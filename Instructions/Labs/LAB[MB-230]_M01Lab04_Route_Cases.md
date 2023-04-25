@@ -30,47 +30,47 @@ You are a customer service manager at City Power & Light who has been tasked wit
     
     ![](../images/support-select.png)
 
-6.  Click **Save**.
+7.  Click **Save**.
 
     ![](../images/support-select.png)
 
-7.  In **Step two: conditions to evaluate and actions to take**, click **+ New**.
+8.  In **Step two: conditions to evaluate and actions to take**, click **+ New**.
 
-8.  Enter **High priority emails** for **Condition name**.
+9.  Enter **High priority emails** for **Condition name**.
 
-9.  Click on **Add** and **Add row** .
+10.  Click on **Add** and **Add row** .
 
-10. In the left-hand side of the condition, select **Priority (Email)**
+11. In the left-hand side of the condition, select **Priority (Email)**
 
-11. Select **Equals** for the operator.
+12. Select **Equals** for the operator.
 
-12. In the right-hand side of the condition, select **High**.
+13. In the right-hand side of the condition, select **High**.
 
-13. Click **Save and open Power Automate**.
+14. Click **Save and open Power Automate**.
 
-14. If prompted to connect to Dataverse, click **Continue**.
+15. If prompted to connect to Dataverse, click **Continue**.
 
-15. Expand the **Create a record (don't rename this step)** step.
+16. Expand the **Create a record (don't rename this step)** step.
 
-16. Set the **Case Type** to **Request**.
+17. Set the **Case Type** to **Request**.
 
-17. Set the **Priority field** to **High**.
+18. Set the **Priority field** to **High**.
 
-18. Click **Save** and close the Power Automate browser tab.
+19. Click **Save** and close the Power Automate browser tab.
 
-19. Click **Close** in the *Record Creation and Update Rule Item* dialog.
+20. Click **Close** in the *Record Creation and Update Rule Item* dialog.
 
-20. In **Step three: additional actions to take after matching with a condition**, set *Automatically reply to email*  to **Yes**.
+21. In **Step three: additional actions to take after matching with a condition**, set *Automatically reply to email*  to **Yes**.
 
-21. In *Select email template*, search for and select **Case Auto Response**.
+22. In *Select email template*, search for and select **Case Auto Response**.
 
-22. Click **Save**.
-
-23. Click **Activate**.
+23. Click **Save**.
 
 24. Click **Activate**.
 
-25. Due to the lack of administrative access to email mailboxes, you will not be able to test this rule.
+25. Click **Activate**.
+
+26. Due to the lack of administrative access to email mailboxes, you will not be able to test this rule.
 
 ## Exercise 2 – Basic routing
 
