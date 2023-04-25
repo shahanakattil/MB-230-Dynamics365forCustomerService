@@ -25,8 +25,6 @@ You are a customer service manager at City Power & Light who has been tasked wit
 6.  Enter **odl_user_DID_Create case for support email** for **Rule name**, and select **Email** for **Activity type to monitor**.
 
 7.  Under the Queue list select **Look up more records** and select the check box of **show only my records** and select the **odl_user_DID_support** from the list .
-
-    ![](../images/look-up.png)
     
     ![](../images/support-select-1.png)
 
@@ -36,19 +34,19 @@ You are a customer service manager at City Power & Light who has been tasked wit
 
 9.  Under the **SPECIFY CONDITIONS FOR RECORD CREATION**, select the check box for **Create records for email from unknown senders**.
 
-22. Under the **SPECIFY AUTORESPONSE SETTINGS**, select the check box for **Send automatic email response to customer on record creation**.
+10. Under the **SPECIFY AUTORESPONSE SETTINGS**, select the check box for **Send automatic email response to customer on record creation**.
 
-23. In *Select email template to resopond to customer*, search for and select **Case Auto Response**.
+11. In *Select email template to resopond to customer*, search for and select **Case Auto Response**.
 
-24. Click **Save**.
+12. Click **Save**.
 
-25. Click **Activate**.
+13. Click **Activate**.
 
-26. Click **Activate**.
+14. Click **Activate**.
 
     ![](../images/support-select-3.png)
 
-27. Due to the lack of administrative access to email mailboxes, you will not be able to test this rule.
+15. Due to the lack of administrative access to email mailboxes, you will not be able to test this rule.
 
 ## Exercise 2 – Basic routing
 
@@ -80,35 +78,35 @@ You are a customer service manager at City Power & Light who has been tasked wit
 
 9.  Enter **Problem** for **Name**.
 
-14. Select **Queue** for **Route To**.
+10. Select **Queue** for **Route To**.
 
-15. Search for and select the **Gold** queue you created in the earlier lab.
+11. Search for and select the **Gold** queue you created in the earlier lab.
 
     ![](../images/rules3.png)
 
-16. Click **Save & Close**.
+12. Click **Save & Close**.
 
     ![](../images/rules4.png)
 
+13. Click **+ New Rule Item**.
+
+14. Select **Queue** for **Route To**.
+
+15. Search for and select the **Silver** queue you created in the earlier lab.
+
+16. Click **Save & Close**.
+
 17. Click **+ New Rule Item**.
 
-23. Select **Queue** for **Route To**.
+18. Enter **Questions and Requests** for **Name**.
 
-24. Search for and select the **Silver** queue you created in the earlier lab.
+19. Select **Queue** for **Route To**.
 
-25. Click **Save & Close**.
+20. Search for and select the **Bronze** queue you created in the earlier lab.
 
-26. Click **+ New Rule Item**.
+21. Click **Save & Close**.
 
-27. Enter **Questions and Requests** for **Name**.
-
-32. Select **Queue** for **Route To**.
-
-33. Search for and select the **Bronze** queue you created in the earlier lab.
-
-34. Click **Save & Close**.
-
-36. Click **Activate** and click **Yes**.
+22. Click **Activate** and click **Yes**.
 
 ## Exercise 3 – Route cases
 
@@ -120,31 +118,30 @@ You are a customer service manager at City Power & Light who has been tasked wit
 
 3.  Click on **Cases** in the **Service** section of the sitemap.
 
-5.  Open the **Defective Screen** case you created.
+4.  Open the **Defective Screen** case you created.
 
-6.  Click **Queue Item Details** located on the command bar.
+5.  Click **Queue Item Details** located on the command bar.
 
-7.  The following message should be displayed *This record is not added to any queue.*
+6.  The following message should be displayed *This record is not added to any queue.*
 
-8.  Click **OK**.
+7.  Click **OK**.
 
     ![](../images/rules5.png)
 
-9.  Click **Save & Route** and click **Route**.
+8.  Click **Save & Route** and click **Route**.
 
-10. Open the **Defective Screen** case again.
+9. Open the **Defective Screen** case again.
 
-11. Click **Queue Item Details** located on the command bar.
+10. Click **Queue Item Details** located on the command bar.
 
-12. The case will be have been routed to the *Gold* queue.
+11. The case will be have been routed to the *Gold* queue.
 
-13. In the case view, click to the left of the **Service Required** case to select it.
+12. In the case view, click to the left of the **Service Required** case to select it.
 
-14. Click **Apply Routing Rule** and click **Route**.
+13. Click **Apply Routing Rule** and click **Route**.
 
     ![](../images/rules6.png)
 
-15. Open the **Service Required** case.
+14. Open the **Service Required** case.
 
-16. The case will be have been routed to the *Silver* queue.
-
+15. The case will be have been routed to the *Silver* queue.
