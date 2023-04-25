@@ -86,7 +86,7 @@ You are a customer service manager at City Power & Light who has been tasked wit
 
 12. Click **Save & Close**.
 
-    ![](../images/rules4.png)
+    ![](../images/rule4.png)
 
 13. Click **+ New Rule Item**.
 
@@ -126,7 +126,7 @@ You are a customer service manager at City Power & Light who has been tasked wit
 
 7.  Click **OK**.
 
-    ![](../images/rules5.png)
+    ![](../images/rule5.png)
 
 8.  Click **Save & Route** and click **Route**.
 
@@ -140,7 +140,7 @@ You are a customer service manager at City Power & Light who has been tasked wit
 
 13. Click **Apply Routing Rule** and click **Route**.
 
-    ![](../images/rules6.png)
+    ![](../images/rule6.png)
 
 14. Open the **Service Required** case.
 
