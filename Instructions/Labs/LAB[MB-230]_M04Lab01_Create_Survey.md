@@ -4,6 +4,8 @@
 
 You are a customer service manager at City Power & Light who has been tasked with trying the new Customer Voice functionality to capture feedback on cases before rolling it out to your customers.
 
+> `Important`: The **[DeploymentId]/[DID] can be found under the environment details tab in the user name (example: `odl_user_xxxxxx.onmicrosoft.com`) **xxxxxx** is the [DeploymentID]**.
+
 ## Exercise 1: Create survey
 
 In this exercise, you will create a project and use a template to create a survey.
@@ -34,7 +36,7 @@ In this exercise, you will create a project and use a template to create a surve
 
 10.  Enter **odl_user_DID_Case Feedback** and click on **Rename**.
 
-    ![](../images/rename.png)
+     ![](../images/rename.png)
 
 ### Task 2: Customize survey
 
@@ -116,7 +118,7 @@ In this exercise, you will create a project and use a template to create a surve
 
 10.  Select **Sentiment** and select the text question.
 
-    ![](../images/Question3.png)
+     ![](../images/Question3.png)
 
 11.  Click **Save**.
 
