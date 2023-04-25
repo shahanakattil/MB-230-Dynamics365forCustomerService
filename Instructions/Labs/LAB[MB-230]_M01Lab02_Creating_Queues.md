@@ -40,7 +40,7 @@ In this exercise, you will create four queues.
 
 10.  Click **Save**.
 
-    ![](../images/Bronze.png)
+    ![](../images/bz.png)
 
 11. Click **+ New**.
 
