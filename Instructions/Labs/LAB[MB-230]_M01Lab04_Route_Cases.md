@@ -14,63 +14,63 @@ You are a customer service manager at City Power & Light who has been tasked wit
 
     ![](../images/Advanced-settings.png)
     
-3. On the new page, select the Settings drop down and select **Service Management**.
+3.  On the new page, select the Settings drop down and select **Service Management**.
 
     ![](../images/service-management..png)
 
-2.  Click on **Automatic record creation and update rules** in the **Case Settings** section.
+4.  Click on **Automatic record creation and update rules** in the **Case Settings** section.
 
-4.  Click **+ New** located on the command bar.
+5.  Click **+ New** located on the command bar.
 
-5.  Enter **mollyc Create case for support email** for **Rule name**, and select **Email** for **Activity type to monitor**.
+6.  Enter **mollycCreate case for support email** for **Rule name**, and select **Email** for **Activity type to monitor**.
 
-6.  Under the Queue list select **Look up more records** and select the check box of **show only my records** and select the mollyc support from the list .
+7.  Under the Queue list select **Look up more records** and select the check box of **show only my records** and select the mollyc support from the list .
 
-    ![](../imageslook-up.png)
+    ![](../images/look-up.png)
     
     ![](../images/support-select.png)
 
-7.  Click **Save**.
+8.  Click **Save**.
 
     ![](../images/support-select.png)
 
-8.  In **Step two: conditions to evaluate and actions to take**, click **+ New**.
+9.  In **Step two: conditions to evaluate and actions to take**, click **+ New**.
 
-9.  Enter **High priority emails** for **Condition name**.
+10.  Enter **High priority emails** for **Condition name**.
 
-10.  Click on **Add** and **Add row** .
+11.  Click on **Add** and **Add row** .
 
-11. In the left-hand side of the condition, select **Priority (Email)**
+12. In the left-hand side of the condition, select **Priority (Email)**
 
-12. Select **Equals** for the operator.
+13. Select **Equals** for the operator.
 
-13. In the right-hand side of the condition, select **High**.
+14. In the right-hand side of the condition, select **High**.
 
-14. Click **Save and open Power Automate**.
+15. Click **Save and open Power Automate**.
 
-15. If prompted to connect to Dataverse, click **Continue**.
+16. If prompted to connect to Dataverse, click **Continue**.
 
-16. Expand the **Create a record (don't rename this step)** step.
+17. Expand the **Create a record (don't rename this step)** step.
 
-17. Set the **Case Type** to **Request**.
+18. Set the **Case Type** to **Request**.
 
-18. Set the **Priority field** to **High**.
+19. Set the **Priority field** to **High**.
 
-19. Click **Save** and close the Power Automate browser tab.
+20. Click **Save** and close the Power Automate browser tab.
 
-20. Click **Close** in the *Record Creation and Update Rule Item* dialog.
+21. Click **Close** in the *Record Creation and Update Rule Item* dialog.
 
-21. In **Step three: additional actions to take after matching with a condition**, set *Automatically reply to email*  to **Yes**.
+22. In **Step three: additional actions to take after matching with a condition**, set *Automatically reply to email*  to **Yes**.
 
-22. In *Select email template*, search for and select **Case Auto Response**.
+23. In *Select email template*, search for and select **Case Auto Response**.
 
-23. Click **Save**.
-
-24. Click **Activate**.
+24. Click **Save**.
 
 25. Click **Activate**.
 
-26. Due to the lack of administrative access to email mailboxes, you will not be able to test this rule.
+26. Click **Activate**.
+
+27. Due to the lack of administrative access to email mailboxes, you will not be able to test this rule.
 
 ## Exercise 2 – Basic routing
 
