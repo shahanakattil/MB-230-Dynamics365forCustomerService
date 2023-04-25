@@ -20,6 +20,8 @@ You are a customer service manager at City Power & Light who has been tasked wit
 
 7.  Click **Next Stage**.
 
+    ![](../images/stage-2.png)
+
 8.  The **Business process Flow** will advance to the **Resolve** stage. Click on the **Resolve** stage and click **Finish**.
 
 9.  Click on the **Resolve Case** button located in the command bar. Note: You may need to click the ellipsis (...) to see the button.
@@ -28,11 +30,11 @@ You are a customer service manager at City Power & Light who has been tasked wit
 
 11. Click **Confirm**.
 
-    ![](../images/resolved-case.png)
+    ![](../images/resolved-case-1.png)
 
 12. Select **Problem Solved** for **Resolution Type** and enter **Sent Replacement** for **Resolution** and click **Resolve**.
 
-    ![](../images/resolve.png)
+    ![](../images/resolve-1.png)
 
 ### Task 2 – Reactivate Resolved Case
 
@@ -44,10 +46,8 @@ You are a customer service manager at City Power & Light who has been tasked wit
 
 4.  Click on the **Reactivate Case** button located in the command bar. A dialog will be displayed with the message to confirm, Select **Reactivate**.
 
-    ![](../images/re-activecase.png)
+    ![](../images/re-activecase-1.png)
 
-5.  Change the **Case Title** to **mollyc Defective Screen Not Received** in the **Details** tab.
+5.  Change the **Case Title** to **odl_user_DID_Defective Screen Not Received** in the **Details** tab.
 
 6.  Click **Save & Close**.
-
-    ![](../images/save&close.png)
