@@ -1,9 +1,3 @@
----
-lab:
-    title: 'Lab: Create survey'
-    module: 'Module 4: Customer Voice'
----
-
 # Practice Lab 7 – Customer Voice
 
 ## Scenario
@@ -24,9 +18,13 @@ In this exercise, you will create a project and use a template to create a surve
 
 4.  Select the **Support** template
 
-5.  Click **Next**
+    ![](../images/template.png)
 
-6.  Select the **WWLLABnnn** Dynamics 365 environment.
+5.  Click **Next**.
+
+6. Select **See all environments** from the recent locations.
+
+6.  Select the **Prod-Env-[DeploymentID]** Dynamics 365 environment and click on select and close..
 
 7.  Click **Create**.
 
@@ -34,7 +32,9 @@ In this exercise, you will create a project and use a template to create a surve
 
 9.  Click on the ellipsis next your project and select **Rename**.
 
-10.  Enter **[your prefix ex. mollyc]** + **Case Feedback** and click on **Rename**.
+10.  Enter **odl_user_DID_Case Feedback** and click on **Rename**.
+
+    ![](../images/rename.png)
 
 ### Task 2: Customize survey
 
@@ -44,29 +44,43 @@ In this exercise, you will create a project and use a template to create a surve
 
 3.  Hover the mouse over the header and click on the **Theme color** icon and change from 2266e3 to **ffdd66**.
 
+    ![](../images/colour.png)
+
 4.  Hover the mouse over the header and click on the **Image** icon and choose one of the images from the gallery.
 
 5.  Select question 1 and set as **Required**.
+
+    ![](../images/required.png)
 
 6.  Select question 2 and set as **Required**.
 
 7.  Select the last question in the survey and click on **+ Add new** and click on the chevron(V) and select the **Net Promoter Score** question type. Set the question as **Required**.
 
+    ![](../images/score.png)
+
 8.  Click on **Post-survey message** and change the Heading from *Thanks!* to **Thank you for your feedback** and change the Message to **We look at all feedback to improve our service.**
+
+    ![](../images/message.png)
 
 9.  Click in the Footer and enter **The feedback you submit will not be shared outside of the company.**
 
 10. Expand **Customization** and select **Personalization**
 
+    ![](../images/person.png)
+
 11. Click + **Add variable** and enter **casereference** with default value **Your support case**.
 
 12. Click **Save**.
 
+    ![](../images/person-1.png)
+
 13. Click **Close**.
 
-14. Select **Formatting**
+14. Select **Formatting** from **Customization**.
 
 15. Toggle **Progress bar** to **Off** and close the formatting pane.
+
+    ![](../images/formatting.png)
 
 16. Click into the section header and clear the text *Input your title here*, click on the **variables** drop down and select **casereference**.
 
@@ -86,17 +100,23 @@ In this exercise, you will create a project and use a template to create a surve
 
 4.  Select **CSAT** and select the first question.
 
+    ![](../images/Question1.png)
+
 5.  Click **Save**.
 
 6.  Click **+ Add metric**
 
 7.  Select **Net Promoter Score** and select the last question.
 
+    ![](../images/Question2.png)
+
 8.  Click **Save**.
 
 9.  Click **+ Add metric**
 
 10.  Select **Sentiment** and select the text question.
+
+    ![](../images/Question3.png)
 
 11.  Click **Save**.
 
@@ -114,9 +134,11 @@ In this exercise, you will create an email template and send the survey by email
 
 4.  Click on the **Email** tile.
 
+    ![](../images/EMAIL.png)
+
 5.  Click on the **Template** drop-down and select **Create new**.
 
-6.  Enter **[your prefix ex. mollyc]** + **Case Resolution** and click **Add**.
+6.  Enter **odl_user_DID_Case Resolution** and click **Add**.
 
 7.  Click on the **Insert** drop-down and select **First question in survey**.
 
@@ -154,11 +176,15 @@ In this exercise, you will use Power Automate to send a survey when a case is re
 
 5.  Select the **Send a survey when a case is resolved in Dynamics 365** template. You may need to click on **See more templates**.
 
+    ![](../images/newtemplate.png)
+
 6.  If the connections require action, click **Fix connection** and sign in when prompted.
 
 7.  Click **Continue**.
 
-8.  Select the **WWLLABnnn** Dynamics 365 environment.
+    ![](../images/continue.png)
+
+8.  Select the **Prod-Env-[DeploymentID]** Dynamics 365 environment.
 
 9.  Click **Create**.
 
@@ -166,14 +192,18 @@ In this exercise, you will use Power Automate to send a survey when a case is re
 
 11. Sign in with your Dynamics 365 tenant credentials.
 
-12. Switch to the **WWLLABnnn** Dynamics 365 environment.
+12. Switch to the **Prod-Env-[DeploymentID]** Dynamics 365 environment.
 
 13. Click on **My flows**
+
+    ![](../images/myflow.png)
 
 14. Select the **Send a survey when a case is resolved in Dynamics 365** flow and click **Edit**.
 
 15. Expand the steps in the flow and select the send a survey steps.
 
 16. Clear the **Email** template field and select the **Case Resolution** template you created.
+
+    ![](../images/case2.png)
 
 17. Click **Save**.
