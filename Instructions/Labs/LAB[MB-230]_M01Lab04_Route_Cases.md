@@ -4,6 +4,8 @@
 
 You are a customer service manager at City Power & Light who has been tasked with trying the new case routing functionality before rolling it out to your users. In this lab, you will create record creation rules, and case routing rules and test how they work.
 
+> `Important`: The **[DeploymentId]/[DID] can be found under the environment details tab in the user name (example: `odl_user_xxxxxx.onmicrosoft.com`) **xxxxxx** is the [DeploymentID]**.
+
 ## Exercise 1 – Configure record creation rules
 
 ### Task 1 – Enable a case to be created from an email in a queue
