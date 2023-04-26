@@ -20,7 +20,7 @@ In this task, you will create an entitlement with 100 total terms for the Relecl
 
     ![](../images/Advanced-settings.png)
     
-3. On the new page, select the Settings drop down and select **Service Management**.
+3.  On the new page, select the Settings drop down and select **Service Management**.
 
     ![](../images/service-management..png)
 
@@ -244,8 +244,8 @@ In this task, you will test the entitlement you created from the entitlement tem
 
 15. Since you didn’t select the **Phone Call Only Terms** entitlement, the case will now be created.
 
-16.  Open the **Customer Service Hub** app.
-17.  Click on **Settings** from the top right corner and select **Advanced settings**.
+16. Open the **Customer Service Hub** app.
+17. Click on **Settings** from the top right corner and select **Advanced settings**.
 
     ![](../images/Advanced-settings.png)
     
