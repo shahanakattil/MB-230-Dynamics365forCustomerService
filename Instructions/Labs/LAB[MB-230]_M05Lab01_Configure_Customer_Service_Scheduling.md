@@ -1,14 +1,10 @@
----
-lab:
-    title: 'Lab: Configure Customer Service Scheduling'
-    module: 'Module 5: Customer Service Scheduling'
----
-
 # Practice Lab 8 – Customer Service Scheduling Configuration
 
 ## Scenario
 
 You are the scheduling manager at City Power & Light who has been tasked with setting up the new Service Scheduling functionality to perform services for customers at three of your locations.
+
+> `Important`: The **[DeploymentId]/[DID] can be found under the environment details tab in the user name (example: `odl_user_xxxxxx.onmicrosoft.com`) **xxxxxx** is the [DeploymentID]**.
 
 ## Exercise 1: Configure Customer Service Scheduling
 
@@ -22,11 +18,15 @@ In this task, you will define three organizational units to act as service locat
 
 2.  Click **Settings** and select **Personalization Settings**.
 
+    ![](../images/setting.png)
+
 3.  Select your **Time Zone** and click **OK**.
 
 4.  Click on **Home** at the top of the left-hand side navigation.
 
 5.  Click on **Service** at the bottom of the **Site Map** in the left-hand navigation and select **Scheduling**.
+
+    ![](../images/scheduling.png)
 
 6. Click on (hierarchy icon) **Organization Units** in the **Settings** section.
 
