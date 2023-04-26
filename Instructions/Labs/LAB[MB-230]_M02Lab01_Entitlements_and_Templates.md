@@ -28,7 +28,7 @@ In this task, you will create an entitlement with 100 total terms for the Relecl
 
 5.  Click **+ New** located on the command bar.
 
-6.  Enter **mollyc Entitlement 1** for **Name**, select the account you created for Relecloud in the earlier lab for **Primary Customer**, select today's date for **Start Date**, and select a month from today for **End Date**.
+6.  Enter **odl_user_DID_Entitlement 1** for **Name**, select the account you created for **odl_user_DID_Relecloud** in the earlier lab for **Primary Customer**, select today's date for **Start Date**, and select a month from today for **End Date**.
 
 7.  Select **Yes** for **Restrict based on entitlement terms**.
 
@@ -36,43 +36,53 @@ In this task, you will create an entitlement with 100 total terms for the Relecl
 
 9.  Click **Save**. DO NOT navigate away from the Entitlement form.
 
-    ![](../images/entitlement.png)
+    ![](../images/entitlement-1.png)
 
 ### Task 2 – Add Channels to the entitlement
 
 In this task, you will add entitlement channels to the default entitlement and then activate the entitlement.
 
-1.  In the **Entitlement Channel** section of the Entitlement form, click on the ellipsis (...) and select **+ New Entitlement Channel**.
+1.  Open the newly created entitlement **odl_user_DID_Entitlement 1** and select **pop out this form** from top right corner.
 
-2.  Select **Email** for **Name**, enter **50** for **Total Terms** and click **Save & Close**.
+    ![](../images/pop.png)
 
-3.  Click on the ellipsis button and select **+ New Entitlement Channel**.
+2.  In the **Entitlement Channel** section of the Entitlement form, click on the ellipsis (...) and select **+ New Entitlement Channel**.
 
-4.  Select **Web** for **Name**, enter **30** for **Total Terms** and click **Save and Close**.
+    ![](../images/new-1.png)
 
-5.  Click on the ellipsis button and select **+ New Entitlement Channel**.
+3.  Select **Email** for **Name**, enter **50** for **Total Terms** and click **Save & Close**.
 
-6.  Select **Facebook** for **Name**, enter **10** for **Total Terms** and click **Save and Close**.
+    ![](../images/email.png)
 
-7.  Click on the ellipsis button and select **+ New Entitlement Channel**.
+4.  Click on the ellipsis button and select **+ New Entitlement Channel**.
 
-8.  Select **Twitter** for **Name**, enter **10** for **Total Terms** and click **Save and Close**.
+5.  Select **Web** for **Name**, enter **30** for **Total Terms** and click **Save and Close**.
 
-9.  Click on the ellipsis button and select **+ New Entitlement Channel**.
+6.  Click on the ellipsis button and select **+ New Entitlement Channel**.
 
-10. Select **Phone** for **Name**, enter **0** for **Total Terms** and click **Save and Close**.
+7.  Select **Facebook** for **Name**, enter **10** for **Total Terms** and click **Save and Close**.
 
-11. Click on the ellipsis button and select **+ New Entitlement Channel**.
+8.  Click on the ellipsis button and select **+ New Entitlement Channel**.
 
-12. Select **IoT** for **Name**, enter **0** for **Total Terms** and click **Save and Close**.
+9.  Select **Twitter** for **Name**, enter **10** for **Total Terms** and click **Save and Close**.
 
-13. Click **Activate**.
+10.  Click on the ellipsis button and select **+ New Entitlement Channel**.
+
+11. Select **Phone** for **Name**, enter **0** for **Total Terms** and click **Save and Close**.
+
+12. Click on the ellipsis button and select **+ New Entitlement Channel**.
+
+13. Select **IoT** for **Name**, enter **0** for **Total Terms** and click **Save and Close**.
 
 14. Click **Activate**.
 
-15. Click **Set as Default**.
+    ![](../images/activate.png)
 
-16. Click **Confirm**.
+15. Click **Activate**.
+
+16. Click **Set as Default**.
+
+17. Click **Confirm**.
 
 ### Task 3 – Test the Entitlement
 
@@ -84,25 +94,37 @@ In this task, you will test the default entitlement for Relecloud.
 
 3.  Click **+ New Case**.
 
-4.  Enter **[your prefix ex. mollyc]** + **Audio System Setup Issues** for **Case Title**, select the **Relecloud** account you created in the earlier lab for **Customer**, select **Email** for **Origin** and click **Save & Close**. The entitlement should be applied automatically.
+4.  Enter **odl_user_DID_Audio System Setup Issues** for **Case Title**, select the **odl_user_DID_Relecloud** account you created in the earlier lab for **Customer**, select **Email** for **Origin** and click **Save & Close**. The entitlement should be applied automatically.
+
+    ![](../images/newcase1.png)
 
 5.  Click **+ New Case**.
 
-6. Enter **[your prefix ex. mollyc]** + **Defective Speaker** for **Case Title**, select the **Relecloud** account you created in the earlier lab for **Customer**, select **Facebook** for **Origin**, select the **Entitlement 1** record you created for **Entitlement** and click **Save & Close**.
+6. Enter **odl_user_DID_Defective Speaker** for **Case Title**, select the **odl_user_DID_Relecloud** account you created in the earlier lab for **Customer**, select **Facebook** for **Origin**, select the **odl_user_DID_Entitlement 1** record you created for **Entitlement** and click **Save & Close**.
+
+    ![](../images/newcase2.png)
 
 7.  Click **+ New Case**.
 
-8.  Enter **[your prefix ex. mollyc]** + **Product Query** for **Case Title**, select the **Relecloud** account you created in the earlier lab for **Customer**, select **Phone** for **Origin**, select the **Entitlement 1** record you created for **Entitlement** and click **Save**.
+8.  Enter **odl_user_DID_Product Query** for **Case Title**, select the **odl_user_DID_Relecloud** account you created in the earlier lab for **Customer**, select **Phone** for **Origin**, select the **odl_user_DID_Entitlement 1** record you created for **Entitlement** and click **Save**.
+
+    ![](../images/newcase3.png)
 
 9. The following message will be displayed, *You can't create a case for this entitlement because there are no available terms.*
 
+    ![](../images/error.png)
+
 10. Click **OK**.
 
-11. Scroll to the **Entitlement** field and click on the **[your prefix ex. mollyc]+ Entitlement 1**. Click **Discard changes**.
+11. Scroll to the **Entitlement** field and click on the **odl_user_DID_Entitlement 1**. Click **Discard changes**.
+
+12. Switch back to the **Service management** page opened in the browser and click on the **odl_user_DID_Entitlement 1** createdand refresh the page.
 
 12. Go to the **Entitlement Terms** section and make sure you have **98 Remaining Terms**.
 
 13. Go to the **Entitlement Channel** sub-grid and make sure you have **49 Remaining Terms** for **Email**, **9 Remaining Terms** for **Facebook**, **10 Remaining Terms** for **Twitter**, and **30 Remaining Terms** for **Web**.
+
+    ![](../images/score-3.png)
 
 ## Exercise 2 – Entitlement Templates
 
@@ -114,17 +136,25 @@ In this task, you will create an entitlement template with 20 terms.
 
 1.  Open the **Customer Service Hub** app.
 
-2.  Click on **Home** at the top of the left-hand side navigation.
+2.  Click on **Settings** from the top right corner and select **Advanced settings**.
 
-3.  Click on **Service** at the bottom of the **Site Map** in the left-hand navigation and select **Service Management**.
+    ![](../images/Advanced-settings.png)
+    
+3. On the new page, select the Settings drop down and select **Service Management**.
+
+    ![](../images/service-management..png)
 
 4.  Click on **Entitlements Templates** in the **Templates** section.
 
-5.  Click **+ New**.
+5.  Click **+ New** and select **pop out this form** from top right corner.
 
-6.  Enter **[your prefix ex. mollyc]** + **20 Free Terms** for **Entitlement Template Name**, select **Yes** for **Restrict on Entitlement Terms**, select **Number of Cases** for **Allocation Type**, select **Case Creation** for **Decrease Remaining On**, enter **20** for **Total Terms**.
+    ![](../images/pop2.png)
+
+6.  Enter **odl_user_DID_20 Free Terms** for **Entitlement Template Name**, select **Yes** for **Restrict on Entitlement Terms**, select **Number of Cases** for **Allocation Type**, select **Case Creation** for **Decrease Remaining On**, enter **20** for **Total Terms**.
 
 7.  Click **Save**. DO NOT navigate away from this page.
+
+    ![](../images/templates-2.png)
 
 8.  Go to the **Entitlement Channel** sub-grid, click on the ellipsis and select **+ New Entitlement Template Channel**.
 
@@ -150,23 +180,31 @@ In this task, you will create an entitlement template with 20 terms.
 
 19. Select **IoT** for **Name**, enter **0** for **Total Terms** and click **Save and Close**.
 
+    ![](../images/score4.png)
+
 ### Task 2 – Create Entitlement from Template
 
 In this task, you will create 20 phone call only entitlement from the entitlement template you created.
 
 1.  Click on **Entitlements** in the **Service Terms** section.
 
+    ![](../images/services2.png)
+
 2.  Click on the **V** chevron button next to the **+ New** button and select **From Template**.
+
+    ![](../images/v.png)
 
 3.  Select **20 Free Terms** template you created for **Entitlement Template** and click **Select**.
 
 4.  Some of the fields will be auto-filled from the template.
 
-5.  Enter **[your prefix ex. mollyc]** + **Phone Call Only Terms** for **Name**, select the **Relecloud** account for **Primary Customer**, select today's date for **Start Date**, select a year from today for **End Date**, and click **Save**.
+5.  Enter **odl_user_DID_Phone Call Only Terms** for **Name**, select the **odl_user_DID_Relecloud** account for **Primary Customer**, select today's date for **Start Date**, select a year from today for **End Date**, and click **Save**.
+
+    ![](../images/newentitlement.png)
 
 6.  Click **Activate**.
 
-7.  Confirm activation. DO NOT navigate away from this page.
+7.  Confirm activation.
 
 ### Task 3 – Test the Entitlement
 
@@ -178,13 +216,15 @@ In this task, you will test the entitlement you created from the entitlement tem
 
 3.  Click **+ New Case**.
 
-4.  Enter **[your prefix ex. mollyc]** + **Missing Parts** for **Case Title** and select the **Relecloud** account for **Customer**.
+4.  Enter **odl_user_DID_Missing Parts** for **Case Title** and select the **odl_user_DID_Relecloud** account for **Customer**.
 
 5.  Select **Phone** for **Origin**, select **Phone Call Only Terms** for **Entitlement** and click **Save**.
 
+    ![](../images/newcase5.png)
+
 6.  Click **Go back**, click **+ New Case**.
 
-7.  Enter **[your prefix ex. mollyc]** + **Wrong cables** for **Case Title** and select the **Relecloud** account for **Customer**.
+7.  Enter **odl_user_DID_Wrong cables** for **Case Title** and select the **odl_user_DID_Relecloud** account for **Customer**.
 
 8.  Select **Web** for **Origin**.
 
@@ -194,6 +234,8 @@ In this task, you will test the entitlement you created from the entitlement tem
 
 11. Click **OK**.
 
+    ![](../images/error2.png)
+
 12. You should get the same error if you select Email, Facebook or Twitter for Origin.
 
 13. Select **Web** for **Origin** and clear the **Entitlement** field.
@@ -202,13 +244,22 @@ In this task, you will test the entitlement you created from the entitlement tem
 
 15. Since you didn’t select the **Phone Call Only Terms** entitlement, the case will now be created.
 
-16. Click on **Service** at the bottom of the **Site Map** in the left-hand navigation and select **Service Management**.
+16.  Open the **Customer Service Hub** app.
+17.  Click on **Settings** from the top right corner and select **Advanced settings**.
 
-17. Click on **Entitlements** in the **Service Terms** section.
+    ![](../images/Advanced-settings.png)
+    
+18. On the new page, select the Settings drop down and select **Service Management**.
 
-18. Click to open the **Phone Call Only Terms** entitlement.
+    ![](../images/service-management..png)
 
-19. Make sure you have **19 Remaining Terms** and **19 Phone** channel **Remaining Terms**.
+19. Click on **Entitlements** in the **Service Terms** section.
+
+20. Click to open the **Phone Call Only Terms** entitlement.
+
+21. Make sure you have **19 Remaining Terms** and **19 Phone** channel **Remaining Terms**.
+
+    ![](../images/19.png)
 
 ## Exercise 3 – Service Level Agreements
 
@@ -220,15 +271,19 @@ In this task, you will create A holiday schedule to be used with Customer Servic
 
 1.  Open the **Customer Service Hub** app.
 
-2.  Click on **Home** at the top of the left-hand side navigation.
+2.  Click on **Settings** from the top right corner and select **Advanced settings**.
 
-3.  Click on **Service** at the bottom of the **Site Map** in the left-hand navigation and select **Service Management**.
+    ![](../images/Advanced-settings.png)
+    
+3. On the new page, select the Settings drop down and select **Service Management**.
+
+    ![](../images/service-management..png)
 
 4.  Click on **Holiday Schedule** in the **Service Terms** section.
 
 5.  Click **+ New**.
 
-6.  Enter **[your prefix ex. mollyc]** + **Holidays** for **Name**.
+6.  Enter **odl_user_DID_Holidays** for **Name**.
 
 7.  Click **Create**. If a pop-up appears stating "service-level agreements (SLAs) are deprecated in the web client" Click **I acknowledge**.
 
@@ -238,141 +293,181 @@ In this task, you will create A holiday schedule to be used with Customer Servic
 
 10. Click **OK**.
 
+    ![](../images/holidays.png)
+
 11. Click **Save & Close**.
 
 ### Task 2 – Customer Service Schedule
 
 In this task, you will create a Customer Service Schedule to use with SLAs.
 
-1.  In the **Customer Service Hub** app. Click on **Customer Service Schedule** in the **Service Terms** section.
+1.  Open the **Customer Service Hub** app.
 
-2.  Click **+ New**.
+2.  Click on **Settings** from the top right corner and select **Advanced settings**.
 
-3.  Enter **[your prefix ex. mollyc]** + **Customer Service Schedule** for **Name**.
+    ![](../images/Advanced-settings.png)
+    
+3. On the new page, select the Settings drop down and select **Service Management**.
 
-4.  Click **Create**.
+    ![](../images/service-management..png)
 
-5.  Uncheck **Saturday** and **Sunday**.
+4.  In the **Customer Service Hub** app. Click on **Customer Service Schedule** in the **Service Terms** section.
 
-6.  Click **Set Work Hours**.
+5.  Click **+ New**.
 
-7. Set Start to **9:00AM** and End to **5:00PM**.
+6.  Enter **odl_user_DID_Customer Service Schedule** for **Name**.
 
-8. Click **OK**.
+7.  Click **Create**.
 
-9. Set **Holiday Schedule** to **Observe** and select the Holiday Schedule you created.
+8.  Uncheck **Saturday** and **Sunday**.
 
-10. Select your local **Time Zone**
+9.  Click **Set Work Hours**.
 
-11. Click **Save & Close**.
+10. Set Start to **9:00AM** and End to **5:00PM**.
+
+11. Click **OK**.
+
+12. Set **Holiday Schedule** to **Observe** and select the Holiday Schedule you created.
+
+13. Select your local **Time Zone**
+
+14. Click **Save & Close**.
+
+    ![](../images/time3.png)
 
 ### Task 3 – Create Service Level Agreement
 
 In this task, you will create a SLA that sets a 1 hour response time on a problem case.
 
-1.  In the **Customer Service Hub** app, click on **SLA KPIs** in the **Service Terms** section.
+1.  Open the **Customer Service Hub** app.
 
-2.  Click **+ New**.
+2.  Click on **Settings** from the top right corner and select **Advanced settings**.
 
-3.  Enter **[your prefix ex. mollyc]** + **Case Response By** for **Name**.
+    ![](../images/Advanced-settings.png)
+    
+3. On the new page, select the Settings drop down and select **Service Management**.
 
-4.  Select **Case** for **Entity Name**.
+    ![](../images/service-management..png)
 
-5.  Select **First Response By KPI** for **KPI FIeld**
+4.  In the **Service Management** app, click on **SLA** in the **Service Terms** section.
 
-6.  Select **Created On** for **Applicable From**
+    ![](../images/sla1.png)
 
-7. Click **Save**. DO NOT navigate away from this form.
+5.  Click **+ New**.
 
-8. Click **Activate** in the command bar.
+6.  Enter **Trial** for **Name**.
 
-9. Click **Activate**.
+7.  Select **Case** for **Entity Name** and click Ok.
+    
+8.  Open the newly created SLA **odl_user_DID_Case Response By** and select **pop out this form** from top right corner.
 
-10. Click on **Service Level Agreements** in the **Service Terms** section.
+9.  Enter **odl_user_DID_SLA** for **Name**.
 
-11. Click **+ New**.
+10. Select **Case** for **Primary Entity**.
 
-12. Enter **[your prefix ex. mollyc]** + **SLA** for **Name**.
+11. Click **Save**.
 
-13. Select **Case** for **Primary Entity**.
+12. Click **+ New SLA Item** from right side of the page.
 
-14. Click **Save**.
+13. Enter **Problems** for **Name**.
 
-15. Click **+ New SLA Item**
+14. Select the **+ SLA KPI** from the check box.
 
-16. Enter **Problems** for **Name**.
+15. Enter **odl_user_DID_Case Response By** for **Name**.
 
-17. Select the **SLA KPI** you created for **KPI**.
+16.  Select **Case** for **Entity Name**.
 
-18. Select the **Customer Service Schedule** you created for **Business Hours**.
+17.  Select **First Response By KPI** for KPI FIeld.
 
-19. Under **Applicable When**, click on **Add** and **Add row**.
+18.  Select Created On for Applicable From.
 
-20. In the left-hand side of the condition, select **Case Type (Case)**.
+19.  Click **Save and close**.
 
-21. Select **Equals** for the operator.
+20. Select the **Customer Service Schedule** you created for **Business Hours**.
 
-22. In the right-hand side of the condition, select **Problem**.
+21. Under **Applicable When**, click on **Add** and **Add row**.
 
-23. Under **Success Conditions**, click on **Add** and **Add row**.
+22. In the left-hand side of the condition, select **Case Type (Case)**.
 
-24. In the left-hand side of the condition, select **First Response Sent (Case)**.
+23. Select **Equals** for the operator.
 
-25. Select **Equals** for the operator.
+24. In the right-hand side of the condition, select **Problem**.
 
-26. In the right-hand side of the condition, select **Yes**.
+25. Under **Success Conditions**, click on **Add** and **Add row**.
 
-27. Set **Warn After** to **45 minutes**.
+26. In the left-hand side of the condition, select **First Response Sent (Case)**.
 
-28. Set **Failure After** to **1 hour**.
+27. Select **Equals** for the operator.
 
-29. Click **Save**.
+28. In the right-hand side of the condition, select **Yes**.
 
-30. Click **Configure Actions**
+29. Set **Warn After** to **45 minutes**.
 
-31. If prompted to connect to Dataverse, click **Continue**.
+30. Set **Failure After** to **1 hour**.
 
-32. Expand the **Switch** step.
+31. Click **Save**.
 
-33. In the **Non-compliant** path, click on **Add an action**.
+    ![](../images/kpi.png)
 
-34. Search for an select **Microsoft Dataverse**.
+32. Click **Configure Actions**
 
-35. Select the **Update a row** action.
+33. If prompted to connect to Dataverse, click **Continue**.
 
-36. Select **Cases** for **Table name**.
+    ![](../images/continue4.png)
 
-37. Select **Regarding ID** for **Row ID**.
+34. Expand the **Switch** step.
 
-38. Click **Show Advanced options**.
+35. In the **Non-compliant** path, click on **Add an action**.
 
-39. Set **Is Escalated** to **Yes**.
+36. Search for an select **Microsoft Dataverse**.
 
-40. Click **Save** and close the Power Automate browser tab..
+37. Select the **Update a row** action.
 
-41. Click **Close** in the *SLA Item* dialog.
+38. Select **Cases** for **Table name**.
 
-42. Click **Save**.
+39. Select **Regarding ID** for **Row ID**.
 
-43. Click **Activate**.
+40. Click **Show Advanced options**.
 
-44. Click **Activate**.
+41. Set **Is Escalated** to **Yes**.
 
-45. Click **Set As Default**. Click **OK** in the **Change default SLA** pop-up.
+42. Click **Save** and close the Power Automate browser tab.
+
+43. Click **Close** in the *SLA Item* dialog.
+
+44. Click **Save**.
+
+45. Click **Activate**.
+
+46. Click **Activate**.
+
+47. Click **Set As Default**. Click **OK** in the **Change default SLA** pop-up.
 
 ### Task 4 – Service Level Agreement settings
 
 In this task, you will configure the settings for service level agreements.
 
-1.  In the **Customer Service Hub** app, click on **Service Configuration Settings** in the **Service Terms** section.
+1.  Open the **Customer Service Hub** app.
 
-2.  Verify that the **Disable SLAs** option is set to **No**.
+2.  Click on **Settings** from the top right corner and select **Advanced settings**.
 
-3.  Set the **Apply SLA after manual override** to **Yes**.
+    ![](../images/Advanced-settings.png)
+    
+3. On the new page, select the Settings drop down and select **Service Management**.
 
-4.  In **Select SLA Pause Status**, move **On Hold** and **Waiting for Details** from **Available** to **Selected**.
+    ![](../images/service-management..png)
 
-5.  Click **Save**.
+4.  In the **Customer Service Hub** app, click on **Service Configuration Settings** in the **Service Terms** section.
+
+5.  Verify that the **Disable SLAs** option is set to **No**.
+
+6.  Set the **Apply SLA after manual override** to **Yes**.
+
+7.  In **Select SLA Pause Status**, move **On Hold** and **Waiting for Details** from **Available** to **Selected**.
+
+8.  Click **OK**.
+
+    ![](../images/SETTINGS-2.png)
 
 ### Task 5 – Test Service Level Agreements
 
@@ -384,9 +479,11 @@ In this task, you will test that the SLA is applied to cases.
 
 3.  Click **+ New Case**.
 
-4.  Enter **[your prefix ex. mollyc]** + **SLA Test #1** for **Case Title** and select the **Relecloud** account for **Customer**.
+4.  Enter **odl_user_DID_SLA Test #1** for **Case Title** and select the **odl_user_DID_Relecloud** account for **Customer**.
 
 5.  Select **Web** for **Origin** and click **Save**.
+
+    ![](../images/SLA3.png)
 
 6.  Select the **SLA** tab. You should see the Case Response By SLA KPI in progress with failure time set to 1 hour's time.
 
@@ -396,7 +493,7 @@ In this task, you will test that the SLA is applied to cases.
 
 9.  Click **Go back**, click **+ New Case**.
 
-10. Enter **[your prefix ex. mollyc]** + **SLA Test #2** for **Case Title** and select the **Relecloud** account for **Customer**.
+10. Enter **odl_user_DID_SLA Test #2** for **Case Title** and select the **odl_user_DID_Relecloud** account for **Customer**.
 
 11. Select **Email** for **Origin** and click **Save**.
 
