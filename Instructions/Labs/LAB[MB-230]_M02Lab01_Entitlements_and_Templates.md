@@ -4,6 +4,8 @@
 
 As a customer service manager at City Power & Light, you need to create entitlements and entitlement templates to manage complex service offerings and guide your team in processing cases from various channels. In this lab, you will create an entitlement with entitlement channels. You will also create an entitlement template and create an entitlement from the template.
 
+> `Important`: The **[DeploymentId]/[DID] can be found under the environment details tab in the user name (example: `odl_user_xxxxxx.onmicrosoft.com`) **xxxxxx** is the [DeploymentID]**.
+
 ## Exercise 1 – Entitlements
 
 In this exercise, you will create an entitlement for your user, this entitlement will allow you to create 50 case through Email channel, 30 Cases through Web channel, 10 Cases each for Twitter and Facebook channels.
