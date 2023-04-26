@@ -1,14 +1,10 @@
----
-lab:
-    title: 'Lab: Create knowledge articles'
-    module: 'Module 3: Knowledge Management'
----
-
 # Practice Lab 6 – Knowledge management
 
 ## Scenario
 
 As a customer care coordinator at City Power & Light, you are responsible for instructing the customer service team and providing them with troubleshooting articles to support case resolution. You need to create a knowledge article within Dynamics 365 for Customer Service. In this lab, you will create a knowledge article, walk through the publishing process and then revise that article.
+
+> `Important`: The **[DeploymentId]/[DID] can be found under the environment details tab in the user name (example: `odl_user_xxxxxx.onmicrosoft.com`) **xxxxxx** is the [DeploymentID]**.
 
 ## Exercise 1 – Knowledge Management
 
@@ -26,7 +22,9 @@ In this task, you will create an internal Knowledge Article for missing parts.
 
 4.  Click **+ New**.
 
-7.  Enter **[your prefix ex. mollyc]** + **Missing Parts** for **Title**, enter **missing, parts** for **Keywords** and click **Save**.
+7.  Enter **odl_user_DID_Missing Parts** for **Title**, enter **missing, parts** for **Keywords** and click **Save**.
+
+    ![](../images/knowledge.png)
 
 8.  Go to the **Content** area and make sure you have the **Designer** tab selected.
 
@@ -34,19 +32,21 @@ In this task, you will create an internal Knowledge Article for missing parts.
 
 10. Click on the **Paragraph Format** selector and select **H2**. This option will only appear if your screen is fully expanded.
 
-11. Hit the **\<Return\>** key to start a new line. The **Format Selector** should change back to **Normal**.
+    ![](../images/Designer.png)
+
+11. Hit the **Enter** key to start a new line. The **Format Selector** should change back to **Normal**.
 
 12. Type the paragraph below.
 
     Use procedure below to resolve Phone call cases that are related to missing parts.
 
-13. Hit the **\<Return\>** key to start a new line.
+13. Hit the **Enter** key to start a new line.
 
 14. Click on the **Paragraph Format** selector and select **Heading 2**.
 
 15. Type **Procedure**.
 
-16. Hit the **\<Return\>** key to start a new line.
+16. Hit the **Enter** key to start a new line.
 
 17. Go to the ribbon and click **Insert/Remove Numbered List**. This action will insert numbered list.
 
@@ -59,11 +59,15 @@ In this task, you will create an internal Knowledge Article for missing parts.
     5.  If yes, Send the Customer a replacement order and a return label.
     6.  If no, escalate case.
 
+    ![](../images/h2.png)
+
 19. Click Save.
 
 20. Go to the **Business Process Flow** and click on the **Author** stage.
 
-21. Select **Service** for **Article Subject**, check the **Mark for Review** checkbox, and click **Next Stage**.
+21. Select **Default subject** for **Article Subject**, check the **Mark for Review** checkbox, and click **Next Stage**.
+
+    ![](../images/nextstage.png)
 
 ### Task 2 – Approve and Publish Knowledge Article
 
@@ -87,6 +91,8 @@ In this task, you will assume the role of the Knowledge Article Approver and App
 
 9.  Select **Now** for **Publish**, **Published** for **Published Status**, and click **Publish**. Do NOT navigate away from this page.
 
+    ![](../images/public.png)
+
 ### Task 3 – Revise Knowledge Article
 
 In this task, you will change step 6 of the Knowledge Article you created from Escalate Case to Assign to Manager, and then you will revise the Knowledge
@@ -104,9 +110,13 @@ Article.
 
 6.  Click **Save**.
 
+    ![](../images/step6.png)
+
 7.  Click **Approve**. You may need to click the ellipsis to see this. Click **OK**.
 
 8.  Click **Publish**.
+
+    ![](../images/publish.png)
 
 9. Select **Now** and click **Publish** again.
 
