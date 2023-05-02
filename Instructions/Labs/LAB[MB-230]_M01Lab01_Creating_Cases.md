@@ -67,6 +67,26 @@ In this exercise, you will create an Account, a Contact, and a Case record. You 
 
 ### Task 3 – Create Case
 
+1.  Click on the **Customer Service Hub** app from the top and select **Customer service admin**.
+
+    ![](../images/Customer-service-admin-1.png)
+    
+1.  In the site map, select **Case Settings** in Customer Support. The Case Settings page appears.
+
+1.  In the Subjects section, select **Manage**.
+
+    ![](../images/Customer-service-admin-9.png)
+
+1.  On the Subject tree page, in the Subject tree management area, select Add.
+
+1.  In the Create a subject dialog, enter the following information and remaining leave default:
+    
+    a. Title: Type **Maintenance** for the subject.
+    b. Set the toggle for Visibility to **Yes** if you want the subject to be available for the agent.
+    ![](../images/Customer-service-admin-10.png)
+    
+1.  Select Save and close.
+
 1.  Click on **Cases** in the **Service** section of the sitemap.
 
 2.  Click **+ New Case** located on the command bar.
