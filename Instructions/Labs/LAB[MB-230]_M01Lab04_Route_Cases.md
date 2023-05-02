@@ -54,17 +54,13 @@ You are a customer service manager at City Power & Light who has been tasked wit
 
 ### Task 1 – Configure basic routing rule set
 
-1.  Open the **Customer Service Hub** app.
+1.  Click on the **Customer Service Hub** app from the top and select **Customer service admin**.
 
-2.  Click on **Settings** from the top right corner and select **Advanced settings**.
-
-    ![](../images/Advanced-settings.png)
+    ![](../images/Customer-service-admin-1.png)
     
-3.  On the new page, select the Settings drop down and select **Service Management**.
+1.  Click on **Routing** in the **Customer support** section and then click on **Manage** from right side of the **Basic routing rile sets**.
 
-    ![](../images/service-management..png)
-
-4.  Click on **Routing Rule Sets** in the **Case Settings** section.
+    ![](../images/Basic-routing-1.png)
 
 5.  Click **+ New** located on the command bar.
 
@@ -72,43 +68,75 @@ You are a customer service manager at City Power & Light who has been tasked wit
 
 7.  Click **Save**.
 
-    ![](../images/rules1.png)
+    ![](../images/Basic-routing-2.png)
 
 8.  Click **+ New Rule Item**.
 
-    ![](../images/rules2.png)
+    ![](../images/Basic-routing-3.png)
 
 9.  Enter **Problem** for **Name**.
 
-10. Select **Queue** for **Route To**.
+10. Click on **Add** and **Add row**.
 
-11. Search for and select the **Gold** queue you created in the earlier lab.
+    ![](../images/Basic-routing-4.png)
 
-    ![](../images/rules3.png)
+11. In the left-hand side of the condition, select **Case Type (Case)**.
 
-12. Click **Save & Close**.
+12. Select **Equals** for the operator.
 
-    ![](../images/rule4.png)
-
-13. Click **+ New Rule Item**.
+13. In the right-hand side of the condition, select **Problem**.
 
 14. Select **Queue** for **Route To**.
 
-15. Search for and select the **Silver** queue you created in the earlier lab.
+15. Search for and select the **Gold** queue you created in the earlier lab.
 
 16. Click **Save & Close**.
 
+    ![](../images/Basic-routing-5.png)
+
 17. Click **+ New Rule Item**.
 
-18. Enter **Questions and Requests** for **Name**.
+18. Enter **Maintenance** for **Name**.
 
-19. Select **Queue** for **Route To**.
+19. Click on **Add** and **Add row**.
 
-20. Search for and select the **Bronze** queue you created in the earlier lab.
+20. In the left-hand side of the condition, select **Subject (Case)**.
 
-21. Click **Save & Close**.
+21. Select **Equals** for the operator.
 
-22. Click **Activate** and click **Yes**.
+22. In the right-hand side of the condition, select **Service**.
+
+23. Select **Queue** for **Route To**.
+
+24. Search for and select the **Silver** queue you created in the earlier lab.
+
+25. Click **Save & Close**.
+
+    ![](../images/Basic-routing-9.png)
+
+26. Click **+ New Rule Item**.
+
+27. Enter **Questions and Requests** for **Name**.
+
+28. Click on **Add** and **Add row**.
+
+29. In the left-hand side of the condition, select **Case Type (Case)**.
+
+30. Select **Equals** for the operator.
+
+31. In the right-hand side of the condition, select **Question** and select **Request**.
+
+32. Select **Queue** for **Route To**.
+
+33. Search for and select the **Bronze** queue you created in the earlier lab.
+
+34. Click **Save & Close**.
+
+    ![](../images/Basic-routing-7.png)
+
+35. Click **Save**.
+
+36. Click **Activate** and click **Yes**.
 
 ## Exercise 3 – Route cases
 
@@ -120,30 +148,32 @@ You are a customer service manager at City Power & Light who has been tasked wit
 
 3.  Click on **Cases** in the **Service** section of the sitemap.
 
-4.  Open the **Defective Screen** case you created.
+4.  Enter *your prefix ex. mollyc* in the **Search this view** field, click on the lookup icon.
 
-5.  Click **Queue Item Details** located on the command bar.
+5.  Open the **Defective Screen** case you created.
 
-6.  The following message should be displayed *This record is not added to any queue.*
+6.  Click **Queue Item Details** located on the command bar.
 
-7.  Click **OK**.
+7.  The following message should be displayed *This record is not added to any queue.*
 
-    ![](../images/rule5.png)
+8.  Click **OK**.
 
-8.  Click **Save & Route** and click **Route**.
+9.  Click **Save & Route** and click **Route**.
 
-9. Open the **Defective Screen** case again.
+10. Open the **Defective Screen** case again.
 
-10. Click **Queue Item Details** located on the command bar.
+11. Click **Queue Item Details** located on the command bar.
 
-11. The case will be have been routed to the *Gold* queue.
+12. The case will be have been routed to the *Gold* queue.
 
-12. In the case view, click to the left of the **Service Required** case to select it.
+    ![](../images/Basic-routing-8.png)
 
-13. Click **Apply Routing Rule** and click **Route**.
+13. In the case view, click to the left of the **Service Required** case to select it.
 
-    ![](../images/rule6.png)
+14. Click **Apply Routing Rule** and click **Route**.
 
-14. Open the **Service Required** case.
+15. Open the **Service Required** case.
 
-15. The case will be have been routed to the *Silver* queue.
+16. The case will be have been routed to the *Silver* queue.
+
+    ![](../images/Basic-routing-10.png)
