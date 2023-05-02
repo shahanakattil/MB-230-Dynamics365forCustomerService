@@ -12,75 +12,65 @@ In this exercise, you will create four queues.
 
 ### Task 1 – Create Queues
 
-1.  Open the **Customer Service Hub** app.
+1.  Click on the **Customer Service Hub** app from the top and select **Customer service admin**.
 
-2.  Click on **Settings** from the top right corner and select **Advanced settings**.
+    ![](../images/Customer-service-admin-1.png)
 
-    ![](../images/Advanced-settings.png)
-    
-3. On the new page, select the Settings drop down and click on **Service Management**.
+1. Click on **Queues** in the **Customer support** section and then click on **Manage** from right side.
 
-    ![](../images/service-management..png)
+    ![](../images/Customer-service-admin-2.png)
 
-4. Click on **Queues** in the **Case Settings** section.
+1.  Click **+ New** located on the command bar.
 
-    ![](../images/Queues-1.png)
+1.  Enter **odl_user_DID_Support** for **Name** and select **Public** for **Type**, and enter the user name from the environment details pages of the lab guide ex. `odl_user_926235@azureholxxxx.onmicrosoft.com`  for **Incomming Email**.
 
-5.  Click **+ New** located on the command bar.
+1.  Click **Save**.
 
-6.  Enter **odl_user_DID_Support** for **Name** and select **Public** for **Type**, and enter the user name from the environment details pages of the lab guide ex. `odl_user_926235@azureholxxxx.onmicrosoft.com`  for **Incomming Email**.
+    ![](../images/Customer-service-admin-3.png)
 
-7.  Click **Save**.
+1.  Click **+ New**.
 
-    ![](../images/save-1.png)
+1.  Enter **odl_user_DID_Bronze** for **Name** and select **Private** for **Type**.
 
-8.  Click **+ New**.
+1.  Click **Save**.
 
-9.  Enter **odl_user_DID_Bronze** for **Name** and select **Private** for **Type**.
+     ![](../images/Customer-service-admin-4.png)
 
-10.  Click **Save**.
+1. Click **+ New**.
 
-     ![](../images/bz.png)
+1. Enter **odl_user_DID_Silver** for **Name** and select **Private** for **Type**.
 
-11. Click **+ New**.
+1. Click **Save**.
 
-12. Enter **odl_user_DID_Silver** for **Name** and select **Private** for **Type**.
+    ![](../images/Customer-service-admin-5.png)
 
-13. Click **Save**.
+1. Click **+ New**.
 
-    ![](../images/Silver.png)
+1. Enter **odl_user_DID_Gold** for **Name** and select **Private** for **Type**.
 
-14. Click **+ New**.
+1. Click **Save**.
 
-15. Enter **odl_user_DID_Gold** for **Name** and select **Private** for **Type**.
+    ![](../images/Customer-service-admin-6.png)
 
-16. Click **Save**.
+1. Click on **Queues** in the **Customer support** section and then click on **Manage** from right side.
 
-    ![](../images/gold.png)
+    ![](../images/Customer-service-admin-2.png)
 
-17. Click on **Service Management** to go back to case settings.
+1. Select the **My Active Queues** view.
 
-    ![](../images/back-to-service-management.png)
+1. You should now see a private queue that was created for your user automatically, the public queue, and three private queues that you created in this lab.
 
-18. Click **Queues** under the **Case Settings** section.
+    ![](../images/Customer-service-admin-7.png)
 
-19. Select the **My Active Queues** view.
+1. Navigate back to the previous **services** tab of **Customer Services Hub**.
 
-    ![](../images/my-active.png)
+1. On the services page, refresh the page and Click **Queues** under the **Service** section.
 
-20. You should now see a private queue that was created for your user automatically, the public queue, and three private queues that you created in this lab.
-
-    ![](../images/activity-1.png)
-
-21. Close the current tab and navigate back to the previous "services" page.
-
-22. On the services page, refresh the page and Click **Queues** under the **Service** section.
-
-23. Change the view from **Items I am working on** to **All items**
+1. Change the view from **Items I am working on** to **All items**
 
     ![](../images/all-item.png)
 
-24. Review the options in the list for **Queues I'm a member of**. You should be able to see the four queues you created.
+1. Review the options in the list for **Queues I'm a member of**. You should be able to see the four queues you created.
 
     ![](../images/all-item-1.png)
 
@@ -88,43 +78,45 @@ In this exercise, you will create four queues.
 
 1.  Open the **Customer Service Hub** app.
 
-2.  Click on **Cases** in the **Service** section of the sitemap.
+1.  Click on **Cases** in the **Service** section of the sitemap.
 
-3.  Select the **odl_user_DID_Service Required** case you created in the earlier lab.
+1.  Select the **odl_user_DID_Service Required** case you created in the earlier lab.
 
-4.  Click **Add to Queue** located on the command bar.
+1.  Click **Add to Queue** located on the command bar.
 
     ![](../images/add-1.png)
 
-5.  Enter *your prefix ex. odl_user_DID* in the **Queue** field, click on the lookup icon and select the **Bronze** queue you created in the task
+1.  Enter *your prefix ex. odl_user_DID* in the **Queue** field, click on the lookup icon and select the **Bronze** queue you created in the task
 
-6.  Click **Add**
+1.  Click **Add**
 
     ![](../images/add-2.png)
 
-7.  Click on **Cases** in the **Service** section of the sitemap.
+1.  Click on **Cases** in the **Service** section of the sitemap.
 
-8.  Select the **odl_user_DID_Defective Screen** case you created in the earlier lab.
+1.  Select the **odl_user_DID_Defective Screen** case you created in the earlier lab.
 
-9.  Click **Add to Queue** located on the command bar.
+1.  Click **Add to Queue** located on the command bar.
 
-10. Enter *your prefix ex. odl_user_DID* in the **Queue** field, click on the lookup icon and select the **Support** queue you created in the task
+1. Enter *your prefix ex. odl_user_DID* in the **Queue** field, click on the lookup icon and select the **Support** queue you created in the task
 
-11. Click **Add**
+1. Click **Add**
 
     ![](../images/support-add-1.png)
 
-12. Click **Queues** under the **Service** section.
+1. Click **Queues** under the **Service** section.
 
-13. Change the view from **Items I am working on** to **All items**
+1. Change the view from **Items I am working on** to **All items**
 
-14. You should see the Service Required case listed for the Bronze queue.
+1. You should see the Service Required case listed for the Bronze queue.
 
-15. Change the queue selector from **Queues I'm a member of** to **All Public Queues**.
+1. Change the queue selector from **Queues I'm a member of** to **All Public Queues**.
 
-16. You should see the Defective Screen case listed for the Support queue.
+    ![](../images/Customer-service-admin-8.png)
 
-17. Change the queue selector to **All Queues**.
+1. You should see the Defective Screen case listed for the Support queue.
+
+1. Change the queue selector to **All Queues**.
 
     ![](../images/all-queues-1.png)
 
@@ -132,44 +124,44 @@ In this exercise, you will create four queues.
 
 1.  Click **Queues** under the **Service** section.
 
-2.  Change the view from **Items I am working on** to **Items available to work on**.
+1.  Change the view from **Items I am working on** to **Items available to work on**.
 
-3.  Change the queue selector to **Queues I'm a member of**.
+1.  Change the queue selector to **Queues I'm a member of**.
 
-4.  You should see the Service Required case listed for the Bronze queue.
+1.  You should see the Service Required case listed for the Bronze queue.
 
-5.  Click to the left of the case in the queue to select it.
+1.  Click to the left of the case in the queue to select it.
 
-6.  Click **Queue Item Details** located on the command bar.
+1.  Click **Queue Item Details** located on the command bar.
 
-7.  Note that **Worked By** is blank.
+1.  Note that **Worked By** is blank.
 
     ![](../images/details-1.png)
 
-8.  Click **Close** from the three dots.
+1.  Click **Close** from the three dots.
 
-9.  Click to the left of the case in the queue to select it.
+1.  Click to the left of the case in the queue to select it.
 
-10. Click **Pick** located on the command bar.
+1. Click **Pick** located on the command bar.
 
     ![](../images/pick-1.png)
 
-11. Leave the *Also remove the item(s) from the Queue* option set to **No**, and click **Pick**.
+1. Leave the *Also remove the item(s) from the Queue* option set to **No**, and click **Pick**.
 
-12. Change the view from **Items available to work on** to **Items I am working on**.
+1. Change the view from **Items available to work on** to **Items I am working on**.
 
-13. Click to the left of the case in the queue to select it.
+1. Click to the left of the case in the queue to select it.
 
-14. Click **Queue Item Details** located on the command bar.
+1. Click **Queue Item Details** located on the command bar.
 
-15. Note that **Worked By** is set to your user.
+1. Note that **Worked By** is set to your user.
 
     ![](../images/worked-by-1.png)
 
-16. Click **Close**
+1. Click **Close**
 
-17. Click to the left of the case in the queue to select it.
+1. Click to the left of the case in the queue to select it.
 
-18. Click **Release** located on the command bar and click **Release**.
+1. Click **Release** located on the command bar and click **Release**.
 
     ![](../images/release-1.png)
