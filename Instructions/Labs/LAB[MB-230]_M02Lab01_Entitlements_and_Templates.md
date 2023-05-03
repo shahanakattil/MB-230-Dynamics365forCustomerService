@@ -428,6 +428,8 @@ In this task, you will test that the SLA is applied to cases.
 
 5.  Select **Web** for **Origin** and click **Save**.
 
+6.  Select **Details tab** and in Type select **Problem** from the drop down click **Save**.
+
 6.  Select the **SLA** tab. You should see the Case Response By SLA KPI in progress with failure time set to 1 hour's time.
 
 7.  Select the **Details** tab and set **First Response Sent** to **Yes** and click **Save**.
