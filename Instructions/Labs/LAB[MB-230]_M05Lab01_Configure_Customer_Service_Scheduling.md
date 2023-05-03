@@ -22,38 +22,51 @@ In this task, you will define three organizational units to act as service locat
 
 3.  Select your **Time Zone** and click **OK**.
 
-4.  Click on **Home** at the top of the left-hand side navigation.
+4.  Switch back to the **Power Platform admin center** tab and select the **Prod-Env-DID**.
 
-5.  Click on **Service** at the bottom of the **Site Map** in the left-hand navigation and select **Scheduling**.
+    ![](../images/Organization-Units-1.png)
 
-    ![](../images/scheduling.png)
+5.  Click on **Settings** at the top of the command bar and select **User + permissions** drop down.
 
-6. Click on (hierarchy icon) **Organization Units** in the **Settings** section.
+6.  Click on **Business Units** from the list.
 
-7.  Click **+ New**.
+    ![](../images/Organization-Units-2.png)
 
-8. Enter **[your prefix ex. mollyc]** + **Main Ave Location** for **Name**. Click on the **Scheduling** tab and enter a valid number for both Latitude and Longitude. 
+7.  Click **+ New** from the new tab opened.
 
-9. Click **Save and Close**.
+8.  Enter **odl_user_DID_Main_Ave_Location** for **Name**.
+
+9.  Click **Save and Close**.
+
+    ![](../images/Organization-Units-3.png)
 
 10. Create two more **Sites** with the values listed in the table below.
 
- -19th Ave Location 
- -35th St Location 
+     odl_user_DID-19th_Ave_Location
+
+     odl_user_DID-35th_St_Location 
 
 11. You should now have three Sites.
 
-12. Do not navigate away from this application.
+    ![](../images/Organization-Units-4.png)
 
 ## Task 2: Define Business Closure
 
 In this task, you will define a new business closure.
 
+1.  Switch back to the **Customer Service Hub** app.
+
+1.  Click on **Service** at the bottom of the **Site Map** in the left-hand navigation and select **Scheduling**.
+
 1.  Click on **Business Closures** in the **Settings** section.
 
 2.  Click **+ New**.
 
-3.  Enter **[your prefix ex. mollyc]** + **Worldwide Rest Day** for **Name**, select a date one week from now for **Start Date**, and click **OK**.
+    ![](../images/Organization-Units-5.png)
+
+3.  Enter **odl_user_DID_Worldwide_Rest_Day** for **Name**, select a date one week from now for **Start Date**, and click **OK**.
+
+    ![](../images/Organization-Units-6.png)
 
 4.  Do not navigate away from this application.
 
@@ -65,9 +78,15 @@ In this task, you will create facilities/equipment records for the organizationa
 
 2.  Click **+ New**.
 
-3.  Enter **[your prefix ex. mollyc]** + **Main Ave** - **Service Bay 1** for **Name**, select **Main Ave Location** for **Organizational Unit**, select a *Time Zone**, select the root **Business Unit**, and click **Save**.
+    ![](../images/Organization-Units-7.png)
+
+3.  Enter **odl_user_DID_Main_Ave-Service_Bay_1** for **Name**, select **odl_user_DID_Main_Ave_Location** for Business Unit, select a Time Zone*, select the root Business Unit, and click Save.
+
+    ![](../images/Organization-Units-8.png)
 
 4.  Select the **Work Hours** tab, click on one of the events listed on the calendar, click **Edit**, and select **All events in the series**.
+
+    ![](../images/Organization-Units-9.png)
 
 5.  Select **08:00 AM to 08:00 PM**, remove **Saturday** and **Sunday**, and click **Remove end date**, if there is an end date selected.
 
@@ -75,11 +94,13 @@ In this task, you will create facilities/equipment records for the organizationa
 
 7.  Click **Save** to save the working hours.
 
+    ![](../images/Organization-Units-10.png)
+
 8.  Click **Save and Close**.
 
 9.  Click **+ New**.
 
-10. Enter **[your prefix ex. mollyc]** + **Main Ave - Service Bay 2** for **Name**, select **Main Ave Location** for **Organizational Unit**, select your **Time Zone**, select the root **Business Unit**, and click **Save**.
+10. Enter **odl_user_DID_Main Ave-Service_Bay_2** for **Name**, select **odl_user_DID_Main_Ave_Location** for Business Unit, select your Time Zone, select the root Business Unit, and click Save.
 
 11. Select the **Work Hours** tab, click on one of the events listed on the calendar, click **Edit**, and select **All events in the series**.
 
@@ -91,17 +112,19 @@ In this task, you will create facilities/equipment records for the organizationa
 
 15. Repeat the previous 5 steps and create the **Facilities/Equipment** listed in the table below.
 
-| **Name**                 | **Organizational Unit** | **Time Zone**  | **Business Unit**  | **Working Hours**        |
-|--------------------------|-------------------------|----------------|--------------------|--------------------------|
-| Main Ave - Tire Jack     | Main Ave Location       | Your time zone | Root business unit | Mon-Fri 8:00AM to 8:00PM |
-| 19th Ave - Service Bay 1 | 19th Ave Location       | Your time zone | Root business unit | Mon-Fri 8:00AM to 8:00PM |
-| 19th Ave - Service Bay 2 | 19th Ave Location       | Your time zone | Root business unit | Mon-Fri 8:00AM to 8:00PM |
-| 19th Ave - Tire Jack     | 19th Ave Location       | Your time zone | Root business unit | Mon-Fri 8:00AM to 8:00PM |
-| 35th St - Service Bay 1  | 35th St Location        | Your time zone | Root business unit | Mon-Fri 8:00AM to 8:00PM |
-| 35th St - Service Bay 2  | 35th St Location        | Your time zone | Root business unit | Mon-Fri 8:00AM to 8:00PM |
-| 35th St - Tire Jack      | 35th St Location        | Your time zone | Root business unit | Mon-Fri 8:00AM to 8:00PM |
+| **Name**                                | **Business Unit**                | **Time Zone**  | **Working Hours**        |
+|-----------------------------------------|----------------------------------|----------------|--------------------------|
+| odl_user_DID_Main_Ave-Tire_Jack         | odl_user_DID_Main_Ave _Location  | Your time zone | Mon-Fri 8:00AM to 8:00PM |
+| odl_user_DID_19th Ave-Service_Bay_1     | odl_user_DID_19th_Ave_Location   | Your time zone | Mon-Fri 8:00AM to 8:00PM |
+| odl_user_DID_19th_Ave-Service_Bay_2     | odl_user_DID_19th_Ave_Location   | Your time zone | Mon-Fri 8:00AM to 8:00PM |
+| odl_user_DID_19th_Ave-Tire_Jack         | odl_user_DID_19th_Ave_Location   | Your time zone | Mon-Fri 8:00AM to 8:00PM |
+| odl_user_DID_35th_St-Service_Bay_1      | odl_user_DID_35th_St_Location    | Your time zone | Mon-Fri 8:00AM to 8:00PM |
+| odl_user_DID_35th_St-Service_Bay_2      | odl_user_DID_35th_St_Location    | Your time zone | Mon-Fri 8:00AM to 8:00PM |
+| odl_user_DID_35th_St-Tire_Jack          | odl_user_DID_35th_St_Location    | Your time zone | Mon-Fri 8:00AM to 8:00PM |
 
 16. You should now have total of 9 Facilities/Equipment records.
+
+    ![](../images/Organization-Units-11.png)
 
 ## Exercise 2: Resource Configuration
 
@@ -113,27 +136,31 @@ In this task you will create new contact records.
 
 1.  Open the **Customer Service Hub** app.
 
-2.  Click on **Home** at the top of the left-hand side navigation.
+2.  Click on **Scheduling** at the bottom of the **Site Map** in the left-hand navigation and select **Service**
 
 3.  Click on **Contacts** in the **Customers** section.
 
 4.  Click **+ New**.
 
-5.  Enter **[your prefix ex. mollyc]** + **Mike** for **First Name**, **Smith** for **Last Name**, and click **Save and Close**.
+    ![](../images/Organization-Units-12.png)
+
+5.  Enter **odl_user_DID_Mike** for **First Name**, **Smith** for **Last Name**, and click **Save and Close**.
+
+    ![](../images/Organization-Units-13.png)
 
 6.  Repeat the previous two steps and create the **Contact** records listed in the table below.
 
-| **First Name** | **Last Name** |
-|----------------|---------------|
-| Jennifer       | Leary         |
-| Judy           | Anderson      |
-| Allan          | Jackson       |
-| Sven           | Locarte       |
-| Alex           | Nelson        |
+| **First Name**              | **Last Name** |
+|-----------------------------|---------------|
+| odl_user_DID_Jennifer       | Leary         |
+| odl_user_DID_Judy           | Anderson      |
+| odl_user_DID_Allan          | Jackson       |
+| odl_user_DID_Sven           | Locarte       |
+| odl_user_DID_Alex           | Nelson        |
 
 7.  You should now have six contact records.
 
-8.  Do NOT navigate away from this application.
+    ![](../images/Organization-Units-14.png)
 
 ## Task 2: Create Resource Categories
 
