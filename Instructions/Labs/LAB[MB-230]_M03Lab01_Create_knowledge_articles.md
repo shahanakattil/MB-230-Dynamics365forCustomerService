@@ -16,41 +16,41 @@ In this task, you will create an internal Knowledge Article for missing parts.
 
 1.  Open the **Customer Service Hub** app.
 
-2.  Click on **Home** at the top of the left-hand side navigation.
+1.  Click on **Home** at the top of the left-hand side navigation.
 
-3.  Click on **Knowledge Articles** in the **Knowledge** section.
+1.  Click on **Knowledge Articles** in the **Knowledge** section.
 
-4.  Click **+ New**.
+1.  Click **+ New**.
 
-7.  Enter **odl_user_DID_Missing Parts** for **Title**, enter **missing, parts** for **Keywords** and click **Save**.
+1.  Enter **odl_user_DID_Missing_Parts** for **Title**, enter **missing, parts** for **Keywords** and click **Save**.
 
     ![](../images/knowledge.png)
 
-8.  Go to the **Content** area and make sure you have the **Designer** tab selected.
+1.  Go to the **Content** area and make sure you have the **Designer** tab selected.
 
-9.  Type **Purpose & Scope**.
+1.  Type **Purpose & Scope**.
 
-10. Click on the **Paragraph Format** selector and select **H2**. This option will only appear if your screen is fully expanded.
+1. Click on the **Paragraph Format** selector and select **H2**. This option will only appear if your screen is fully expanded.
 
-    ![](../images/Designer.png)
+    ![](../images/Knowledge-management-1.png)
 
-11. Hit the **Enter** key to start a new line. The **Format Selector** should change back to **Normal**.
+1. Hit the **Enter** key to start a new line. The **Format Selector** should change back to **Normal**.
 
-12. Type the paragraph below.
+1. Type the paragraph below.
 
     Use procedure below to resolve Phone call cases that are related to missing parts.
 
-13. Hit the **Enter** key to start a new line.
+1. Hit the **Enter** key to start a new line.
 
-14. Click on the **Paragraph Format** selector and select **Heading 2**.
+1. Click on the **Paragraph Format** selector and select **Heading 2**.
 
-15. Type **Procedure**.
+1. Type **Procedure**.
 
-16. Hit the **Enter** key to start a new line.
+1. Hit the **Enter** key to start a new line.
 
-17. Go to the ribbon and click **Insert/Remove Numbered List**. This action will insert numbered list.
+1. Go to the ribbon and click **Insert/Remove Numbered List**. This action will insert numbered list.
 
-18. Provide the steps below.
+1. Provide the steps below.
 
     1.  Get Order Number for Customer.
     2.  Locate Order record.
@@ -61,13 +61,13 @@ In this task, you will create an internal Knowledge Article for missing parts.
 
     ![](../images/h2.png)
 
-19. Click Save.
+1. Click Save.
 
-20. Go to the **Business Process Flow** and click on the **Author** stage.
+1. Go to the **Business Process Flow** and click on the **Author** stage.
 
-21. Select **Default subject** for **Article Subject**, check the **Mark for Review** checkbox, and click **Next Stage**.
+1. Select **Maintenance** for **Article Subject**, check the **Mark for Review** checkbox, and click **Next Stage**.
 
-    ![](../images/nextstage.png)
+    ![](../images/Knowledge-management-2.png)
 
 ### Task 2 – Approve and Publish Knowledge Article
 
@@ -75,23 +75,25 @@ In this task, you will assume the role of the Knowledge Article Approver and App
 
 1.  Go to the **Business process flow** and click on the **Review** stage.
 
-2.  Select **Approved** for **Review**.
+1.  Select **Approved** for **Review**.
 
-3.  Click **OK**.
+1.  Click **OK**.
 
-4.  Go to the **Business process flow** and click on the **Review** stage.
+1.  Go to the **Business process flow** and click on the **Review** stage.
 
-5.  Click **Next Stage**.
+1.  Click **Next Stage**.
 
-6.  Click on the **Publish** stage.
+1.  Click on the **Publish** stage.
 
-7.  Check the **Set Product Associations** checkbox and click **Finish**.
+1.  Check the **Set Product Associations** checkbox and click **Finish**.
 
-8.  Go to the command bar and click **Publish**. You may need to click the ellipsis to see it.
+    ![](../images/Knowledge-management-3.png)
 
-9.  Select **Now** for **Publish**, **Published** for **Published Status**, and click **Publish**. Do NOT navigate away from this page.
+1.  Go to the command bar and click **Publish**. You may need to click the ellipsis to see it.
 
-    ![](../images/public.png)
+1.  Select **Now** for **Publish**, **Published** for **Published Status**, and click **Publish**. Do NOT navigate away from this page.
+
+    ![](../images/Knowledge-management-4.png)
 
 ### Task 3 – Revise Knowledge Article
 
@@ -100,28 +102,36 @@ Article.
 
 1.  Make sure you still have the Knowledge Article you created opened.
 
-2.  Click **Create minor version** from the command bar. You may need to click the ellipsis to see this
+1.  Click **Create minor version** from the command bar. You may need to click the ellipsis to see this
 
-3.  Click **OK**.
+    ![](../images/Knowledge-management-5.png)
 
-4.  Go to the **Content** section.
+1.  Click **OK**.
 
-5.  Replace step **6** of the **Procedure** from **If no, escalate case** to **If no, assign to manager**.
+1.  Go to the **Content** section.
 
-6.  Click **Save**.
+1.  Replace step **6** of the **Procedure** from **If no, escalate case** to **If no, assign to manager**.
 
-    ![](../images/step6.png)
+1.  Click **Save**.
 
-7.  Click **Approve**. You may need to click the ellipsis to see this. Click **OK**.
+    ![](../images/Knowledge-management-6.png)
 
-8.  Click **Publish**.
+1.  Click **Approve**. You may need to click the ellipsis to see this. Click **OK**.
+
+    ![](../images/Knowledge-management-7.png)
+
+1.  Click **Publish**.
 
     ![](../images/publish.png)
 
-9. Select **Now** and click **Publish** again.
+1. Select **Now** and click **Publish** again.
 
-10. Click on **Knowledge Articles** in the **Knowledge** section.
+1. Click on **Knowledge Articles** in the **Knowledge** section.
 
-11. You should find the new version of the **Missing Parts** article in the **My Active Articles** view but not the old version.
+1. You should find the new version of the **Missing Parts** article in the **My Active Articles** view but not the old version.
 
-12. Change the view to **Archived Articles**. You should find the old version of the **Missing Parts** article in this view.
+    ![](../images/Knowledge-management-8.png)
+
+1. Change the view to **Archived Articles**. You should find the old version of the **Missing Parts** article in this view.
+
+    ![](../images/Knowledge-management-9.png)
