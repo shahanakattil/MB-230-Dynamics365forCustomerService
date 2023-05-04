@@ -2,7 +2,7 @@
 
 ## Scenario
 
-In this Module 0 lab, you will validate that your classroom tenant is working as expected. You will access your individual credentials, record your "alias", and open the Dynamics 365 model-driven application that we will be using throughout the course.
+In this Module 0 lab, you will validate and set up your tenant. You will have access to your individual credentials, and record your DeploymentID from the environment details tab. We will be using that throughout the course.
 
 **Important notice for instructors:** Please do not make any changes, including adding licenses or changing tenant password. Tenants are fully provisioned with all necessary licenses, environments, and applications to complete the required tenants. Instructors and students should not add any additional functionality outside of the published lab steps. Adding additional functionality will cause the tenant to break and become inactive, and changing tenant password will inhibit the recycling of the tenant for the next class. Thank you for your cooperation.
 
@@ -14,23 +14,31 @@ In this Module 0 lab, you will validate that your classroom tenant is working as
 
 1. Access <https://admin.powerplatform.microsoft.com> 
 
-2. Enter your username and password, which can be found under the environment details tab.
+1. Enter your username and password, which can be found under the environment details tab.
 
     ![](../images/azure-login.png)
-    
+
     ![](../images/azure-login-password.png)
 
-3. Feel free to explore the Power Platform admin center but **do not make any changes.**
+1. On the **Action Required** page, select **Ask Later**. and select **No** on the **Stay Signed in** page.
+
+    ![](../images/az-login-ask-later.png)
+
+    ![](../images/stay-signed-in.png)
+
+1. Feel free to explore the Power Platform admin center but **do not make any changes.**
 
 ### Task 2 – Create Environment into the Power Platform admin center
 
-1. Sign in to the Power Platform admin center at <https://admin.powerplatform.microsoft.com/environments>.
+1. On the Power Platform admin center, On the navigation pane, select **Environments**. Now on the environments page, you will see a **default environment present**. Do not **use**, **modify** or **delete** the **default** environment.
 
-2. In the navigation pane, select Environments, and then select New.
+    ![](../images/power-platform-environment.png)
 
-    ![](../images/new-environment.png)
+1. Now to create a new environment, select **+ New**.
 
-3. On the **New environment** page, specify the following settings and click on **Save**:
+    ![](../images/power-platform-environment-new.png)
+
+1. On the **New environment** page, specify the following settings and click on **Save**:
 
    |Setting|Value|
    |---|---|
@@ -45,16 +53,18 @@ In this Module 0 lab, you will validate that your classroom tenant is working as
    
    >**Note**: Wait for the Environment to get ready before you continue with this lab.
 
-   ![](../images/prod-name.png)
+   ![](../images/power-platform-environment-new-add-01.png)
    
    ![](../images/dataverse.png)
 
-2. Select the **Prod-Env-[DeploymentID]** environment. This is the shared Dynamics 365 environment where you will be performing all labs.
+### Task 3 – Access the Dynamics 365 application
 
-3. Click **Open** located on the command bar.
+1. On the Power Platform admin center, select the **Prod-Env-[DeploymentID]** environment.
 
-4. From the list of available Dynamics 365 apps, select the **Customer Service Hub** app.
+1. Select the **Open** located on the command bar.
+
+1. From the list of available Dynamics 365 apps, select the **Customer Service Hub** app.
 
    ![](../images/service-hub-app.png)
 
-5. Spend a few minutes exploring the application.
+1. Spend a few minutes exploring the application.
