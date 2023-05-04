@@ -35,10 +35,14 @@ features in your environment.
 ### Task 1: Enable collaboration features**
 
 1.  Open the **Customer Service admin center** application.
+    
+    ![](../images/admin-center.png)
 
-2.  Using the navigation on the left, select **Collaboration**.
+2.  Using the navigation on the left, select **Collaboration (1)**.
 
-3.  Select **Manage** next to **Embedded chat using Teams**.
+3.  Select **Manage (2)** next to **Embedded chat using Teams**.
+
+    ![](../images/collaboration-01.png)
 
 4.  Set the following Items to **On**
 
@@ -48,6 +52,8 @@ features in your environment.
 
 5.  Select the **Save** button
 
+    ![](../images/collaboration-02.png)
+
 6.  Using the navigation on the left, select Collaboration again.
 
 7.  Select **Manage** next to **Customer support swarming**.
@@ -55,8 +61,12 @@ features in your environment.
 8.  On the **Customer support swarming** screen, ensure that Swarming is set to
     **On**.
 
+    ![](../images/collaboration-03.png)
+
 9.  Under the **Case details** section, select **Activate case form for
     swarming**.
+
+    ![](../images/collaboration-04.png)
 
 10. From the list of available case forms, locate the **Case form for
     swarming**.
@@ -69,6 +79,8 @@ features in your environment.
         **Turn On**. Once turned on, you can close the browser tab to return to
         the Customer support swarming screen.
 
+    ![](../images/collaboration-05.png)
+
 ### Task 2: Create bookable resource records that can be used as experts.
 
 1.  In the **Customer Service Admin Center** application, use the navigation on
@@ -76,26 +88,23 @@ features in your environment.
 
 2.  Locate **Resources**, and select **Manage**.
 
-3.  From the **Active Bookable Resources** screen, select the **New Button**
-    from the command bar.
+    ![](../images/collaboration-06.png)
+
+3.  From the **Active Bookable Resources** screen, select the **New Button** from the command bar.
 
 4.  Configure the new Bookable resource as follows:
 
-    1.  **Resource Type:** User
+    1.  **Resource Type:** Contact
 
-    2.  **Contact:** Alan Steiner.
+    2.  **Contact:** ODL_User_DID.
+
+    3.  **Contact:** Alan Steiner
 
 5.  Leave everything else as is and select the **Save and Close** button.
 
-6.  Select the **New** button from the command bar again.
 
-7.  Configure the new Bookable resource as follows:
+    ![](../images/collaboration-08.png)
 
-    1.  **Resource Type:** User
-
-    2.  **Contact:** Allie Bellew
-
-8.  Leave everything else as is and select the **Save and Close** button.
 
 ## Exercise 2: Configure Case Swarming
 
@@ -113,14 +122,18 @@ tasks:
 
 1.  If necessary, open the **Customer Service Admin** center.
 
-2.  Using the navigation on the left, select the **Collaboration**.
+2.  Using the navigation on the left, Uner the **Customer support**, select **User management**
 
-3.  Next to **Customer support swarming**, select the **Manage** button.
+3.  Next to **Skills**, select the **Manage** button.
 
-4.  Under the **Skills** section. Select **Go to Skills**.
+    ![](../images/collaboration-09.png)
 
-5.  On the **Active Characteristics** screen, select the **New** button from the
-    command bar.
+4. On the **Active Characteristics** screen, select the **New** button from the command bar.
+
+
+5.  On the **Skills** screen, select the **Create** button from the command bar.
+
+    ![](../images/collaboration-10.png)
 
 6.  Configure the Characteristic as follows:
 
