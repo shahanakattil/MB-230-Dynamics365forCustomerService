@@ -5,6 +5,10 @@
     "BaseURL": "https://github.com/MicrosoftLearning/MB-230-Dynamics365forCustomerService",
     "Files": [
       {
+        "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/MB-230-Dynamics365forCustomerService/stage/Instructions/Labs/masterdoc/lab-intro.md",
+        "Order": 1
+      },      
+      {
         "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/MB-230-Dynamics365forCustomerService/stage/Instructions/Labs/LAB%5BMB-230%5D_M00Lab00_Dynamics_365_Labs.md",
         "Order": 1
       },
