@@ -141,13 +141,13 @@ In this task you will create new contact records.
 
 6.  Repeat the previous two steps and create the **Contact** records listed in the table below.
 
-| **First Name** | **Last Name** |
-|----------------|---------------|
-| Jennifer       | Leary         |
-| Judy           | Anderson      |
-| Allan          | Jackson       |
-| Sven           | Locarte       |
-| Alex           | Nelson        |
+    | **First Name** | **Last Name** |
+    |----------------|---------------|
+    | Jennifer       | Leary         |
+    | Judy           | Anderson      |
+    | Allan          | Jackson       |
+    | Sven           | Locarte       |
+    | Alex           | Nelson        |
 
 7.  You should now have six contact records.
 
@@ -220,13 +220,13 @@ In this task you will create resources using the contacts you created.
 
 11. Repeat the previous 9 steps and create the resources listed in the table below.
 
-| **Resource Type** | **Contact**    | **Start and End Locations** | **Organizational unit** | **Work Hours**                                               | **Resource Category Assn** |
-|-------------------|----------------|-----------------------------|-------------------------|--------------------------------------------------------------|----------------------------|
-| Contact           | Judy Anderson  | Organizational Unit Address | 19th Ave Location       | Mo – Fr 08:00AM to 04:30 PM + Break Observe Business Closure | Senior Technician          |
-| Contact           | Sven Locarte   | Organizational Unit Address | 35th St Location        | Mo – Fr 08:00AM to 04:30 PM + Break Observe Business Closure | Senior Technician          |
-| Contact           | Jennifer Leary | Organizational Unit Address | Main Avenue Location    | Mo – Fr 08:00AM to 04:30 PM + Break Observe Business Closure | Technician                 |
-| Contact           | Allan Jackson  | Organizational Unit Address | 19th Ave Location       | Mo – Fr 08:00AM to 04:30 PM + Break Observe Business Closure | Technician                 |
-| Contact           | Alex Nelson    | Organizational Unit Address | 35th St Location        | Mo – Fr 08:00AM to 04:30 PM + Break Observe Business Closure | Technician                 |
+    | **Resource Type** | **Contact**    | **Start and End Locations** | **Organizational unit** | **Work Hours**                                               | **Resource Category Assn** |
+    |-------------------|----------------|-----------------------------|-------------------------|--------------------------------------------------------------|----------------------------|
+    | Contact           | Judy Anderson  | Organizational Unit Address | 19th Ave Location       | Mo – Fr 08:00AM to 04:30 PM + Break Observe Business Closure | Senior Technician          |
+    | Contact           | Sven Locarte   | Organizational Unit Address | 35th St Location        | Mo – Fr 08:00AM to 04:30 PM + Break Observe Business Closure | Senior Technician          |
+    | Contact           | Jennifer Leary | Organizational Unit Address | Main Avenue Location    | Mo – Fr 08:00AM to 04:30 PM + Break Observe Business Closure | Technician                 |
+    | Contact           | Allan Jackson  | Organizational Unit Address | 19th Ave Location       | Mo – Fr 08:00AM to 04:30 PM + Break Observe Business Closure | Technician                 |
+    | Contact           | Alex Nelson    | Organizational Unit Address | 35th St Location        | Mo – Fr 08:00AM to 04:30 PM + Break Observe Business Closure | Technician                 |
 
 12. You should now have 6 resources. Click **+ New**.
 
