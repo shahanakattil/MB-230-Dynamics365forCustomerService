@@ -148,34 +148,31 @@ tasks:
 8.  Select the **Related** tab.
 
 9.  From the menu that appears, select **Bookable Resource Characteristics**.
+
+    ![](../images/collaboration-11.png)
+
+
     This will open the **Bookable Resource Characteri**stics tab.
 
-10. Select the **New Bookable Resource Characteristic** button.
+10. Select the **New Bookable Resource Characteristic** button. 
 
-11. Configure the **Bookable Resource Characteristic** as follows:
+11. Configure the **Bookable Resource Characteristic**. From the dropdown (1) select the **Information (2)** and add the following:
 
     -   **Skill Name:** Billing
 
     -   **User (Agent):** Alan Steiner
 
-12. Select **Save and Close**
+12. Select **Save and Close (4)**
 
-13. Select the **New Bookable Resource Characteristic** button again.
+    ![](../images/collaboration-12.png)
 
-14. Configure the **Bookable Resource Characteristic** as follows:
 
-    1.  **Skill Name:** Billing
+13. Select **Save and Close** to close the **Billing** skill.
 
-    2.  **User (Agent):** Allie Bellew
-
-15. Select **Save and Close**
-
-16. Select **Save and Close** to close the **Billing** skill.
-
-17. Back on the **Active Characteristics** screen, select the **New** button
+14. Back on the **Active Characteristics** screen, select the **New** button
     from the command bar.
 
-18. Configure the Characteristic as follows:
+15. Configure the Characteristic as follows:
 
     1.  **Name:** Circuit Board Expert
 
@@ -183,34 +180,26 @@ tasks:
 
     3.  **Description:** Expert in repairing Circuit boards
 
-19. Select the **Save** button to save the record and leave it open.
+16. Select the **Save** button to save the record and leave it open.
 
-20. Select the **Related** tab.
+17. Select the **Related** tab.
 
-21. From the menu that appears, select **Bookable Resource Characteristics**.
+18. From the menu that appears, select **Bookable Resource Characteristics**.
     This will open the **Bookable Resource Characteristics** tab.
 
-22. Select the **New Bookable Resource Characteristic** button.
+19. Select the **New Bookable Resource Characteristic** button.
 
-23. Configure the Bookable Resource Characteristic as follows:
+20. Configure the Bookable Resource Characteristic as follows:
 
     1.  **Skill Name:** Circuit Board Expert
 
     2.  **User (Agent):** Alan Steiner
 
-24. Select **Save and Close**
+21. Select **Save and Close**
 
-25. Select the **New Bookable Resource Characteristic** button again.
+22. Select **Save and Close** to close the Circuit Board Expert skill
 
-26. Configure the Bookable Resource Characteristic as follows:
-
-    1.  **Skill Name:** Circuit Board Expert
-
-    2.  **User (Agent):** Allie Bellew
-
-27. Select **Save and Close**
-
-28. Select **Save and Close** to close the Circuit Board Expert skill
+    ![](../images/collaboration-13.png)
 
 ### Task 2: Create Condition rules to assign necessary skills**
 
