@@ -83,6 +83,7 @@ In this exercise, you will create an Account, a Contact, and a Case record. You 
     
     a. Title: Type **Maintenance** for the subject.
     b. Set the toggle for Visibility to **Yes** if you want the subject to be available for the agent.
+    
     ![](../images/Customer-service-admin-10.png)
     
 1.  Select Save and close.
