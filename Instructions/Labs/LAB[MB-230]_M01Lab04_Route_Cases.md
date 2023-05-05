@@ -10,45 +10,71 @@ You are a customer service manager at City Power & Light who has been tasked wit
 
 ### Task 1 – Enable a case to be created from an email in a queue
 
-1.  Open the **Customer Service Hub** app.
+1.  Click on the **Customer Service Hub** app from the top and select **Customer service admin**.
 
-2.  Click on **Settings** from the top right corner and select **Advanced settings**.
-
-    ![](../images/Advanced-settings.png)
+    ![](../images/Customer-service-admin-1.png)
     
-3.  On the new page, select the Settings drop down and select **Service Management**.
+1.  Using the navigation on the left, select **Case settings**.
 
-    ![](../images/service-management..png)
+1.  Select **Manage** next to **Automatic record creation and update rules**.
 
-4.  Click on **Automatic record creation and update rules** in the **Case Settings** section.
+    ![](../images/creation-rules-1.png)
 
 5.  Click **+ New** located on the command bar.
 
-6.  Enter **odl_user_DID_Create case for support email** for **Rule name**, and select **Email** for **Activity type to monitor**.
+6.  Enter **odl_user_DID_Create_case_for_support_email** for **Rule name**, and select **Email** for **Activity type to monitor**.
 
-7.  Under the Queue list select **Look up more records** and select the check box of **show only my records** and select the **odl_user_DID_support** from the list .
+7.  Enter **odl_user_DID_Create_case_for_support_email_for_Rule_name**, select the **odl_user_DID_Support** queue you created for Queue to monitor, and select **Email** for Activity type to monitor.
     
-    ![](../images/support-select-1.png)
-
 8.  Click **Save**.
 
-    ![](../images/support-select-2.png)
+    ![](../images/creation-rules-2.png)
 
-9.  Under the **SPECIFY CONDITIONS FOR RECORD CREATION**, select the check box for **Create records for email from unknown senders**.
+7.  In **Step two: conditions to evaluate and actions to take**, click **+ New**.
 
-10. Under the **SPECIFY AUTORESPONSE SETTINGS**, select the check box for **Send automatic email response to customer on record creation**.
+8.  Enter **High priority emails** for **Condition name**.
 
-11. In *Select email template to resopond to customer*, search for and select **Case Auto Response**.
+9.  Click on **Add** and **Add row** .
 
-12. Click **Save**.
+10. In the left-hand side of the condition, select **Priority (Email)**
 
-13. Click **Activate**.
+11. Select **Equals** for the operator.
 
-14. Click **Activate**.
+12. In the right-hand side of the condition, select **High**.
 
-    ![](../images/support-select-3.png)
+13. Click **Save and open Power Automate**.
 
-15. Due to the lack of administrative access to email mailboxes, you will not be able to test this rule.
+    ![](../images/creation-rules-3.png)
+
+14. If prompted to connect to Dataverse, click **Continue**.
+
+15. Expand the **Create a record (don't rename this step)** step.
+
+    ![](../images/creation-rules-4.png)
+
+16. Set the **Case Type** to **Request**.
+
+17. Set the **Priority field** to **High**.
+
+18. Click **Save** and close the Power Automate browser tab.
+
+    ![](../images/creation-rules-5.png)
+
+19. Click **Close** in the *Record Creation and Update Rule Item* dialog.
+
+20. In **Step three: additional actions to take after matching with a condition**, set *Automatically reply to email*  to **Yes**.
+
+21. In *Select email template*, search for and select **Case Auto Response**.
+
+22. Click **Save**.
+
+    ![](../images/creation-rules-6.png)
+
+23. Click **Activate**.
+
+24. Click **Activate**.
+
+25. Due to the lack of administrative access to email mailboxes, you will not be able to test this rule.
 
 ## Exercise 2 – Basic routing
 
