@@ -32,7 +32,7 @@ Before your agents can begin collaborating subject matter experts at your
 organization, you will need to ensure that you have enabled the necessary
 features in your environment.
 
-### Task 1: Enable collaboration features**
+### Task 1: Enable collaboration features
 
 1.  Open the **Customer Service admin center** application.
     
@@ -198,33 +198,45 @@ tasks:
 
 ### Task 2: Create Condition rules to assign necessary skills
 
-1.  Using the navigation on the left, select the **Collaboration**.
+1.  Using the navigation on the left, select the **Collaboration** and select **Manage** on the **Customer support swarming**
+
+    ![](../images/collaboration-14.png)
 
 2.  Under the **Condition Rules** section, select the **Create Rule** button
 
-3.  In the **Rule Name** field, enter **Billing rule.**
+    ![](../images/collaboration-15.png)
+
+3.  In the **Rule Name** field, enter **Billing rule. (1)**
 
 4.  Configure the conditions section as follows:
 
     1.  **Swarm request** – **Contains** – **Billing**
 
-    2.  Delete the Swarm related record condition.
+    2.  Delete the Swarm related record condition (3).
 
-5.  In the **Skills** section, select the **Lookup** Icon.
+    ![](../images/collaboration-16.png)
+
+5.  In the **Skills** section, select the **Lookup (1)** Icon.
 
 6.  In the **Lookup Records** box, select the **Look for Characteristic** field.
 
 7.  Enter the text **Billing**.
 
-8.  Select the **Billing** skill.
+8.  Select the **Billing (2)** skill.
 
-9.  Select the **Add** button.
+9.  Select the **Add (3)** button.
+
+    ![](../images/collaboration-17.png)
 
 10. Back on the **Create swarm rule** screen, select the **Create** button.
 
 11. In the **Condition rules** section select the **See more** icon.
 
+    ![](../images/collaboration-18.png)
+
 12. In the **Decision List** screen, select the **Create Rule** button.
+
+    ![](../images/collaboration-19.png)
 
 13. In the **Rule Name** field, enter **Circuit Board Rule**.
 
@@ -246,19 +258,25 @@ tasks:
 
 20. Back on the **Create swarm rule** screen, select the **Create button**.
 
+    ![](../images/collaboration-20.png)
+
 ## Exercise 3: Leverage the different collaboration features 
 
 ### Task 1: Initiate an embedded Teams Chat
 
 1.  Open the **Customer Service Workspace** application.
 
+    ![](../images/collaboration-21.png)
+
 2.  One the **Customer Service Agent Dashboard**, select the **New Case** button
-    on the **My Active Case**s sub-grid.
+    on the **My Active Cases** sub-grid.
+
+    ![](../images/collaboration-22.png)
 
 3.  In the **Quick Create Case** screen, configure the new case record as
     follows.
 
-    -   **Customer:** Adventure Works
+    -   **Customer:** 
 
     -   **Case Title:** Circuit Board Damaged
 
@@ -269,6 +287,8 @@ tasks:
     -   **Priority:** Normal
 
 4.  Select the **Save and Close** button.
+
+    ![](../images/collaboration-23.png)
 
 5.  In the **My Active Cases** sub-grid, select the **Search** this view field.
 
