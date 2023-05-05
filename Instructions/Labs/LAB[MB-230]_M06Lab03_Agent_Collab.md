@@ -102,7 +102,6 @@ features in your environment.
 
 5.  Leave everything else as is and select the **Save and Close** button.
 
-
     ![](../images/collaboration-08.png)
 
 
@@ -117,7 +116,6 @@ tasks:
 
 -   Defining Condition rules to assign Skills to swarming requests
 
-
 ### Task 1: Configure skills
 
 1.  If necessary, open the **Customer Service Admin** center.
@@ -129,7 +127,6 @@ tasks:
     ![](../images/collaboration-09.png)
 
 4. On the **Active Characteristics** screen, select the **New** button from the command bar.
-
 
 5.  On the **Skills** screen, select the **Create** button from the command bar.
 
@@ -151,7 +148,6 @@ tasks:
 
     ![](../images/collaboration-11.png)
 
-
     This will open the **Bookable Resource Characteri**stics tab.
 
 10. Select the **New Bookable Resource Characteristic** button. 
@@ -165,7 +161,6 @@ tasks:
 12. Select **Save and Close (4)**
 
     ![](../images/collaboration-12.png)
-
 
 13. Select **Save and Close** to close the **Billing** skill.
 
@@ -201,7 +196,7 @@ tasks:
 
     ![](../images/collaboration-13.png)
 
-### Task 2: Create Condition rules to assign necessary skills**
+### Task 2: Create Condition rules to assign necessary skills
 
 1.  Using the navigation on the left, select the **Collaboration**.
 
