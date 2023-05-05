@@ -20,19 +20,19 @@ In this exercise, you will create an entitlement for your user, this entitlement
 
 1.  Select **Manage** next to **Entitlements**.
 
-    ![](../images/Entitlement-1.png)
+    ![](../images/manage-1.png)
 
-5.  Click **+ New** located on the command bar.
+1.  Click **+ New** located on the command bar.
 
-6.  Enter **odl_user_DID_Entitlement_1** for **Name**, select the account you created for **odl_user_DID_Relecloud** in the earlier lab for **Primary Customer**, select today's date for **Start Date**, and select a month from today for **End Date**.
+1.  Enter **odl_user_DID_Entitlement_1** for **Name**, select the account you created for **odl_user_DID_Relecloud** in the earlier lab for **Primary Customer**, select today's date for **Start Date**, and select a month from today for **End Date**.
 
-7.  Select **Yes** for **Restrict based on entitlement terms**.
+1.  Select **Yes** for **Restrict based on entitlement terms**.
 
     ![](../images/Entitlement-2.png)
 
-8.  Select **Number of Cases** for **Allocation Type**, select **Case Creation** for **Decrease Remaining On**, and enter **100** for **Total Terms**.
+1.  Select **Number of Cases** for **Allocation Type**, select **Case Creation** for **Decrease Remaining On**, and enter **100** for **Total Terms**.
 
-9.  Click **Save**. DO NOT navigate away from the Entitlement form.
+1.  Click **Save**. DO NOT navigate away from the Entitlement form.
 
 ### Task 2 – Add Channels to the entitlement
 
