@@ -53,16 +53,12 @@
         "Order": 12
       },
       {
-        "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/MB-230-Dynamics365forCustomerService/stage/Instructions/Labs/LAB%5BMB-230%5D_M06Lab02_App_Profile.md",
+        "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/MB-230-Dynamics365forCustomerService/stage/Instructions/Labs/LAB%5BMB-230%5D_M06Lab03_Agent_Collab.md",
         "Order": 13
       },
       {
-        "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/MB-230-Dynamics365forCustomerService/stage/Instructions/Labs/LAB%5BMB-230%5D_M06Lab03_Agent_Collab.md",
-        "Order": 14
-      },
-      {
         "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/MB-230-Dynamics365forCustomerService/stage/Instructions/Labs/LAB%5BMB-230%5D_M08Lab01_Customer_Service_Insights.md",
-        "Order": 15
+        "Order": 14
       }
     ]
   }
