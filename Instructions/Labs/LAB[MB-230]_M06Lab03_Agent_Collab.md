@@ -270,7 +270,7 @@ tasks:
 3.  In the **Quick Create Case** screen, configure the new case record as
     follows.
 
-    -   **Customer:** 
+    -   **Customer:** odl_user_DID_Relecloud
 
     -   **Case Title:** Circuit Board Damaged
 
@@ -284,20 +284,21 @@ tasks:
 
     ![](../images/collaboration-23.png)
 
-5.  In the **My Active Cases** sub-grid, select the **Search** this view field.
+5.  In the **My Active Cases** sub-grid, Open the **Circuit Board Damaged** case.
 
-6.  Enter the text Circuit and press the enter key.
-
-7.  Open the **Circuit Board Damaged** case.
-
-8.  On the right side of the screen, in the **Productivity Pane**, select the
-    **Microsoft Teams** icon.
+6.  On the right side of the screen, in the **Productivity Pane**, select the **Microsoft Teams** icon.
 
 9.  Select the **Start a New Chat** button.
 
+    ![](../images/collaboration-32.png)
+
 10. In the **Name** field, select **Molly Clarke**.
 
+    ![](../images/collaboration-33.png)
+
 11. Enter the Message you want to send to Molly.
+
+    ![](../images/collaboration-34.png)
 
 ### Task 2: Create a Case Swarm
 
