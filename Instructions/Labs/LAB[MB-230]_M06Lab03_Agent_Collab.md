@@ -1,9 +1,3 @@
----
-lab:
-    title: 'Lab: Agent collaboration'
-    module: 'Module 6: Customer Service workspace'
----
-
 # Practice Lab - Agent collaboration
 
 ## Scenario 
@@ -314,18 +308,22 @@ assist you in resolving your issue.
 1.  On the **Case** record select the **Create Swarm** button. (*You may need to
     select the vertical Ellipsis to display more options*.)
 
-2.  In the **Swarm Request**, enter the text **Having a Billing Issue**.
+    ![](../images/collaboration-24.png)
 
-3.  In the **Steps already tried** field, enter **Tried issuing a credit.**
+2.  In the **Swarm Request (1)**, enter the text **Having a Billing Issue**.
 
-4.  Notice that the **Billing** skill has already been added to the skills.
+3.  In the **Steps already tried (2)** field, enter **Tried issuing a credit.**
 
-5.  Click in the **Enter more skills** field, and select **Circuit Board
-    Expert**.
+4.  Notice that the **Billing (3)** skill has already been added to the skills.
 
-6.  Select the **Save and Send** invitation button.
+5.  Click in the **Enter more skills (3)** field, and select **Circuit Board Expert**.
 
-7.  After a short period of time, a new **Swarm** will appear. You can enter
-    text into the message section.
+    ![](../images/collaboration-25.png)
+
+6.  Select the **Save and Send (4)** invitation button.
+
+7.  After a short period of time, a new **Swarm** will appear. You can enter text into the message section.
+
+    ![](../images/collaboration-26.png)
 
 
