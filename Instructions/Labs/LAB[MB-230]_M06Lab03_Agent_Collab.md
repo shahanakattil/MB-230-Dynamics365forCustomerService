@@ -1,4 +1,4 @@
-# Practice Lab - Agent collaboration
+# Practice Lab 11 – Agent collaboration
 
 ## Scenario 
 
