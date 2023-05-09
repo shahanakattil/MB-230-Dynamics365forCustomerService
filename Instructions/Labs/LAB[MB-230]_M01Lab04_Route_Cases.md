@@ -1,30 +1,34 @@
----
-lab:
-    title: 'Lab: Routing cases'
-    module: 'Module 1: Case Management'
----
-
 # Practice Lab 4 – Routing cases
 
 ## Scenario
 
 You are a customer service manager at City Power & Light who has been tasked with trying the new case routing functionality before rolling it out to your users. In this lab, you will create record creation rules, and case routing rules and test how they work.
 
+> `Important`: The **[DeploymentId]/[DID] can be found under the environment details tab in the user name (example: `odl_user_xxxxxx.onmicrosoft.com`) **xxxxxx** is the [DeploymentID]**.
+
 ## Exercise 1 – Configure record creation rules
 
 ### Task 1 – Enable a case to be created from an email in a queue
 
-1.  Open the **Customer Service Hub** app.
+1.  Click on the **Customer Service Hub** app from the top and select **Customer service admin**.
 
-2.  Click on **Service** at the bottom of the **Site Map** in the left-hand navigation and select **Service Management**.
+    ![](../images/Customer-service-admin-1.png)
+    
+1.  Using the navigation on the left, select **Case settings**.
 
-2.  Click on **Automatic record creation and update rules** in the **Case Settings** section.
+1.  Select **Manage** next to **Automatic record creation and update rules**.
 
-4.  Click **+ New** located on the command bar.
+    ![](../images/creation-rules-1.png)
 
-5.  Enter **[your prefix ex. mollyc]** + **Create case for support email** for **Rule name**, select the **Support** queue you created for **Queue to monitor**, and select **Email** for **Activity type to monitor**.
+5.  Click **+ New** located on the command bar.
 
-6.  Click **Save**.
+6.  Enter **odl_user_DID_Create_case_for_support_email** for **Rule name**, and select **Email** for **Activity type to monitor**.
+
+7.  Enter **odl_user_DID_Create_case_for_support_email_for_Rule_name**, select the **odl_user_DID_Support** queue you created for Queue to monitor, and select **Email** for Activity type to monitor.
+    
+8.  Click **Save**.
+
+    ![](../images/creation-rules-2.png)
 
 7.  In **Step two: conditions to evaluate and actions to take**, click **+ New**.
 
@@ -40,15 +44,21 @@ You are a customer service manager at City Power & Light who has been tasked wit
 
 13. Click **Save and open Power Automate**.
 
+    ![](../images/creation-rules-3.png)
+
 14. If prompted to connect to Dataverse, click **Continue**.
 
 15. Expand the **Create a record (don't rename this step)** step.
+
+    ![](../images/creation-rules-4.png)
 
 16. Set the **Case Type** to **Request**.
 
 17. Set the **Priority field** to **High**.
 
 18. Click **Save** and close the Power Automate browser tab.
+
+    ![](../images/creation-rules-5.png)
 
 19. Click **Close** in the *Record Creation and Update Rule Item* dialog.
 
@@ -57,6 +67,8 @@ You are a customer service manager at City Power & Light who has been tasked wit
 21. In *Select email template*, search for and select **Case Auto Response**.
 
 22. Click **Save**.
+
+    ![](../images/creation-rules-6.png)
 
 23. Click **Activate**.
 
@@ -68,25 +80,31 @@ You are a customer service manager at City Power & Light who has been tasked wit
 
 ### Task 1 – Configure basic routing rule set
 
-1.  Open the **Customer Service Hub** app.
+1.  Click on the **Customer Service Hub** app from the top and select **Customer service admin**.
 
-2.  Click on **Home** at the top of the left-hand side navigation.
+    ![](../images/Customer-service-admin-1.png)
+    
+1.  Click on **Routing** in the **Customer support** section and then click on **Manage** from right side of the **Basic routing rile sets**.
 
-3.  Click on **Service** at the bottom of the **Site Map** in the left-hand navigation and select **Service Management**.
-
-4.  Click on **Routing Rule Sets** in the **Case Settings** section.
+    ![](../images/Basic-routing-1.png)
 
 5.  Click **+ New** located on the command bar.
 
-6.  Enter **[your prefix ex. mollyc]** + **basic case routing rules** for **Name**.
+6.  Enter **odl_user_DID_basic case routing rules** for **Name**.
 
 7.  Click **Save**.
 
+    ![](../images/Basic-routing-2.png)
+
 8.  Click **+ New Rule Item**.
+
+    ![](../images/Basic-routing-3.png)
 
 9.  Enter **Problem** for **Name**.
 
 10. Click on **Add** and **Add row**.
+
+    ![](../images/Basic-routing-4.png)
 
 11. In the left-hand side of the condition, select **Case Type (Case)**.
 
@@ -99,6 +117,8 @@ You are a customer service manager at City Power & Light who has been tasked wit
 15. Search for and select the **Gold** queue you created in the earlier lab.
 
 16. Click **Save & Close**.
+
+    ![](../images/Basic-routing-5.png)
 
 17. Click **+ New Rule Item**.
 
@@ -118,6 +138,8 @@ You are a customer service manager at City Power & Light who has been tasked wit
 
 25. Click **Save & Close**.
 
+    ![](../images/Basic-routing-9.png)
+
 26. Click **+ New Rule Item**.
 
 27. Enter **Questions and Requests** for **Name**.
@@ -135,6 +157,8 @@ You are a customer service manager at City Power & Light who has been tasked wit
 33. Search for and select the **Bronze** queue you created in the earlier lab.
 
 34. Click **Save & Close**.
+
+    ![](../images/Basic-routing-7.png)
 
 35. Click **Save**.
 
@@ -168,6 +192,8 @@ You are a customer service manager at City Power & Light who has been tasked wit
 
 12. The case will be have been routed to the *Gold* queue.
 
+    ![](../images/Basic-routing-8.png)
+
 13. In the case view, click to the left of the **Service Required** case to select it.
 
 14. Click **Apply Routing Rule** and click **Route**.
@@ -176,3 +202,4 @@ You are a customer service manager at City Power & Light who has been tasked wit
 
 16. The case will be have been routed to the *Silver* queue.
 
+    ![](../images/Basic-routing-10.png)

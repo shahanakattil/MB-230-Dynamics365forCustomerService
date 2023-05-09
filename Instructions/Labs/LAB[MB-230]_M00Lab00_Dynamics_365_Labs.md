@@ -2,7 +2,7 @@
 
 ## Scenario
 
-In this Module 0 lab, you will validate that your classroom tenant is working as expected. You will access your individual credentials, record your "alias", and open the Dynamics 365 model-driven application that we will be using throughout the course.
+In this Module 0 lab, you will validate and set up your tenant. You will have access to your individual credentials, and record your DeploymentID from the environment details tab. We will be using that throughout the course.
 
 **Important notice for instructors:** Please do not make any changes, including adding licenses or changing tenant password. Tenants are fully provisioned with all necessary licenses, environments, and applications to complete the required tenants. Instructors and students should not add any additional functionality outside of the published lab steps. Adding additional functionality will cause the tenant to break and become inactive, and changing tenant password will inhibit the recycling of the tenant for the next class. Thank you for your cooperation.
 
@@ -12,22 +12,59 @@ In this Module 0 lab, you will validate that your classroom tenant is working as
 
 ### Task 1 – Log into the Power Platform admin center
 
-1. Access <https://admin.powerplatform.microsoft.com> and log in with your Dynamics 365 tenant credentials.
+1. Access <https://admin.powerplatform.microsoft.com> 
 
-2. Record your user credential up to the **@** symbol on a scratch piece of paper or in Notepad. This will be your lab alias that you will use to differentiate the data you create within the shared Dynamics 365 organization.
+1. Enter your username and password, which can be found under the environment details tab.
 
-**Important:** Please be aware that this tenant and the Dynamics 365 organization will be shared with the other students in your classroom, like employees would share a tenant when using the Dynamics 365 instance belonging to their organization. Do not use any PII (personally identifiable information) when creating records. It is also good practice to use your user's prefix (ex., **mollyc**) in front of all records, data, apps, flows, etc. that you create.
+    ![](../images/azure-login.png)
 
-3. Feel free to explore the Power Platform admin center but **do not make any changes.**
+    ![](../images/azure-login-password.png)
 
-### Task 2 – Access the Dynamics 365 application
+1. On the **Action Required** page, select **Ask Later**. and select **No** on the **Stay Signed in** page.
 
-1. Access <https://admin.powerplatform.microsoft.com/environments>.
+    ![](../images/az-login-ask-later.png)
 
-2. Select the **WWLLABnnn** environment, where nnn is a number. This is the shared Dynamics 365 environment where you will be performing all labs.
+    ![](../images/stay-signed-in.png)
 
-3. Click **Open**.
+1. Feel free to explore the Power Platform admin center but **do not make any changes.**
 
-4. From the list of available Dynamics 365 apps, select the **Customer Service Hub** app.
+### Task 2 – Create Environment into the Power Platform admin center
 
-5. Spend a few minutes exploring the application.
+1. On the Power Platform admin center, On the navigation pane, select **Environments**. Now on the environments page, you will see a **default environment present**. Do not **use**, **modify** or **delete** the **default** environment.
+
+    ![](../images/power-platform-environment.png)
+
+1. Now to create a new environment, select **+ New**.
+
+    ![](../images/power-platform-environment-new.png)
+
+1. On the **New environment** page, specify the following settings and click on **Save**:
+
+   |Setting|Value|
+   |---|---|
+   |Name|**Prod-Env-[DeploymentID]**|
+   |Region|**United States**|
+   |Type|**Production**|
+   |Add a Dataverse data store?|**Enabled** and select Next|
+   |Enable Dynamics 365 apps?|**Enabled**|
+   |Security group|click on **+ Select** and select the **None** option from the list and click on Done|
+   
+   >Note: The **[DeploymentId]/[DID] can be found under the environment details tab in the user name (example: `odl_user_xxxxxx.onmicrosoft.com`) **xxxxxx** is the [DeploymentID]**.
+   
+   >**Note**: Wait for the Environment to get ready before you continue with this lab.
+
+   ![](../images/power-platform-environment-new-add-01.png)
+   
+   ![](../images/dataverse.png)
+
+### Task 3 – Access the Dynamics 365 application
+
+1. On the Power Platform admin center, select the **Prod-Env-[DeploymentID]** environment.
+
+1. Select the **Open** located on the command bar.
+
+1. From the list of available Dynamics 365 apps, select the **Customer Service Hub** app.
+
+   ![](../images/service-hub-app.png)
+
+1. Spend a few minutes exploring the application.
