@@ -56,6 +56,8 @@ In this Module 0 lab, you will validate and set up your tenant. You will have ac
    
 1. Now scorll-down and specify the following settings and click on **Save**:
 
+   |Setting|Value|
+   |---|---|
    |Enable Dynamics 365 apps?|**Enabled(1)**|
    |Security group|click on **+ Select(2)** and on the the **Edit security group page** select **None(3)** option from the list and click on **Done(4)**|
    
