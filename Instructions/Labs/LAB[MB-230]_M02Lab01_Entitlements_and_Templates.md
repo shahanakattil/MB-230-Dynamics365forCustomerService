@@ -16,7 +16,7 @@ In this exercise, you will create an entitlement for your user, this entitlement
 
     ![](../images/Customer-service-admin-1.png)
     
-1.  Using the navigation on the left, select **Service Team**.
+1.  Using the navigation on the left, select **Service Team** under **Operations**.
 
 1.  Select **Manage** next to **Entitlements**.
 
@@ -30,7 +30,7 @@ In this exercise, you will create an entitlement for your user, this entitlement
 
     ![](../images/Entitlement-2.png)
 
-1.  Select **Number of Cases** for **Allocation Type**, select **Case Creation** for **Decrease Remaining On**, and enter **100** for **Total Terms**.
+1.Under **ENTITLEMENT TERMS** select **Number of Cases** for **Allocation Type**, select **Case Creation** for **Decrease Remaining On**, and enter **100** for **Total Terms**.
 
 1.  Click **Save**. DO NOT navigate away from the Entitlement form.
 
@@ -112,7 +112,7 @@ In this task, you will test the default entitlement for Relecloud.
 
 11. Scroll to the **Entitlement** field and click on the **odl_user_DID_Entitlement_1**. Click **Discard changes**.
 
-12. Switch back to the **Customer service admin** page opened in the browser and click on the **odl_user_DID_Entitlement _1** createdand refresh the page.
+12. Switch back to the **Customer service admin** page opened in the browser and click on the **odl_user_DID_Entitlement _1** created and refresh the page.
 
 12. Go to the **Entitlement Terms** section and make sure you have **98 Remaining Terms**.
 
@@ -140,7 +140,7 @@ In this task, you will create an entitlement template with 20 terms.
 
 5.  Click **+ New**.
 
-6.  Enter **odl_user_DID_20_Free_Terms** for **Entitlement Template Name**, select **Yes** for **Restrict on Entitlement Terms**, select **Number of Cases** for **Allocation Type**, select **Case Creation** for **Decrease Remaining On**, enter **20** for **Total Terms**.
+1.  Enter **odl_user_DID_20_Free_Terms** for **Entitlement Template Name**,select the account you created for **odl_user_DID_Relecloud** in the earlier lab for **Primary Customer**, select today's date for **Start Date**, and select a month from today for **End Date**.select **Yes** for **Restrict on Entitlement Terms**, select **Number of Cases** for **Allocation Type**, select **Case Creation** for **Decrease Remaining On**, enter **20** for **Total Terms**.
 
 7.  Click **Save**. DO NOT navigate away from this page.
 
@@ -182,7 +182,7 @@ In this task, you will create 20 phone call only entitlement from the entitlemen
 
 2.  Click on the **V** chevron button next to the **+ New** button and select **From Template**.
 
-    ![](../images/Entitlement-3.png)
+    ![](../images/Entitlement-5.png)
 
 3.  Select **20 Free Terms** template you created for **Entitlement Template** and click **Select**.
 
@@ -190,7 +190,7 @@ In this task, you will create 20 phone call only entitlement from the entitlemen
 
 5.  Enter **odl_user_DID_Phone_Call _Only_Terms** for **Name**, select the **odl_user_DID_Relecloud** account for **Primary Customer**, select today's date for **Start Date**, select a year from today for **End Date**, and click **Save**.
 
-6.  Click **Activate**.
+1. Click **Activate**.
 
 7.  Confirm activation. DO NOT navigate away from this page.
 
@@ -442,7 +442,7 @@ In this task, you will configure the settings for service level agreements.
 
     ![](../images/Entitlement-18.png)
 
-1.  In the Administrator page, select **System Settings**
+1.  In the Administrator page, select **System Settings**.
 
 2.  Verify that the **Disable SLAs** option is set to **No**.
 
