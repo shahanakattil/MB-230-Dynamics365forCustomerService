@@ -14,13 +14,13 @@ In this exercise, you will navigate to the Dynamics 365 Customer Service Applica
 
 1.  Navigate to Access <https://admin.powerplatform.microsoft.com/environments>.
 
-2.  Select the **Prod-Env-[DeploymentID]** environment.
+1.  Select the **Prod-Env-[DeploymentID]** environment.
 
-3.  Click **Open** located on the command bar.
+1.  Click **Open** located on the command bar.
 
-4.  You should be in the **Customer Service Hub** app. If you are in a different app, click on the name of the app in the top left of the application next to Dynamics 365 and from the list of published apps, select the **Customer Service Hub** app
+1.  You should be in the **Customer Service Hub** app. If you are in a different app, click on the name of the app in the top left of the application next to Dynamics 365 and from the list of published apps, select the **Customer Service Hub** app
 
-5.  You should now be showing the **Dashboard** view.
+1.  You should now be showing the **Dashboard** view.
 
 ## Exercise 2 – Create case
 
@@ -79,68 +79,65 @@ In this exercise, you will create an Account, a Contact, and a Case record. You 
 
 1.  On the Subject tree page, in the Subject tree management area, select Add.
 
-1.  In the Create a subject dialog, enter the following information and remaining leave default:
+1.  In the Create a subject dialog, enter the following information and remaining leave default then Select **Save and close**.:
     
-    a. Title: Type **Maintenance** for the subject.
-    b. Set the toggle for Visibility to **Yes** if you want the subject to be available for the agent.
+  - Title: Type **Maintenance** for the subject.
+    
+  - Set the toggle for Visibility to **Yes** if you want the subject to be available for the agent.
     
     ![](../images/Customer-service-admin-10.png)
     
-1.  Select Save and close.
+1. Again Click on **Customer service admin**  the app from the top and select  **Customer Service Hub** .
+    
+1.  Click on **Cases(1)** in the **Service** section of the sitemap.
 
-1.  Click on **Cases** in the **Service** section of the sitemap.
+1.  Click **+ New Case** located on the command bar.
 
-2.  Click **+ New Case** located on the command bar.
+1.  Enter **odl_user_DID_Defective Screen(2)** for **Case Title**.
 
-3.  Enter **odl_user_DID_Defective Screen** for **Case Title**.
+1.  Click on the **Subject** field and type **Maintenance(3)** into the box and press enter.
 
-4.  Click on the **Subject** field and type **Maintenance** into the box and press enter.
+1.  Enter *your prefix ex. odl_user_DID* in the **Customer** field, click on the lookup icon and select the account **odl_user_DID_Relecloud(4)**.
 
-5.  Enter *your prefix ex. odl_user_DID* in the **Customer** field, click on the lookup icon and select the account **odl_user_DID_Relecloud**.
+1.  Select **Phone(5)** from the **Origin** drop-down field.
 
-6.  Select **Phone** from the **Origin** drop-down field.
+1.  Enter **Laptop display is too bright(5)** in the **Description** field.
 
-7.  Enter **Laptop display is too bright** in the **Description** field.
-
-8.  Click on the **Identify** stage in the business process flow.
+1.  Click on the **Identify** stage in the business process flow.
 
     ![](../images/identify-1.png)
 
-9. Enter *your prefix ex. odl_user_DID* in the **Find Contact** field, click on the lookup icon and select the **Jane Doe** contact you created in Task 2.
+1. Enter *your prefix ex. odl_user_DID* in the **Find Contact** field, click on the lookup icon and select the **Jane Doe** contact you created in Task 2.
 
     ![](../images/identify-2.png)
 
-10. Select the **Details** tab.
-
-11. Select **Problem** from the **Type** drop-down field.
-
-12. Click **Save**.
+1. Select the **Details(1)** tab then Select **Problem** from the **Type(2)** drop-down field and Click on **Save(3)**.
 
     ![](../images/deatils.png)
 
-13. Click on the **Identify** stage in the business process flow, and select **Next Stage**.
+1. Click on the **Identify** stage in the business process flow, and select **Next Stage**.
 
     ![](../images/next-stage-1.png)
 
-14. Select the **Summary Tab**. In the Timeline, click on **+**, and select **Phone Call**.
+1. Select the **Summary Tab(1)**. In the Timeline, click on **+(2)**, and select **Phone Call(3)**.
 
     ![](../images/Timeline-1.png)
 
-15. Enter **odl_user_DID_further details** for **Subject**.
+1. Enter **odl_user_DID_further details** for **Subject**.
 
-16. Select **Outgoing** from the **Direction** drop-down field.
+1. Select **Outgoing** from the **Direction** drop-down field.
 
-17. Ensure that your user record is set for **Call From**.
+1. Ensure that your user record is set for **Call From**.
 
-18. Ensure that the Jane Doe contact is set for **Call To**.
+1. Ensure that the Jane Doe contact is set for **Call To**.
 
-19. Select **15 minutes** from the **Duration** drop-down field.
+1. Select **15 minutes** from the **Duration** drop-down field.
 
-20. Select tomorrow's date and 9:00AM for **Due**.
+1. Select tomorrow's date and 9:00AM for **Due**.
 
-21. Select **High** from the **Priority** drop-down field.
+1. Select **High** from the **Priority** drop-down field.
 
-22. Select **Save & Close**
+1. Select **Save & Close**
 
     ![](../images/phone-call-1.png)
 
