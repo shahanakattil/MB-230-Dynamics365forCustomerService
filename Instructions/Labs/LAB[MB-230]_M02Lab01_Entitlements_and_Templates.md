@@ -24,7 +24,7 @@ In this exercise, you will create an entitlement for your user, this entitlement
 
 1.  Click **+ New** located on the command bar.
 
-1.  Enter **odl_user_DID_Entitlement_1** for **Name**, select the account you created for **odl_user_DID_Relecloud** in the earlier lab for **Primary Customer**, select today's date for **Start Date**, and select a month from today for **End Date**.
+1.  Enter **odl_user_DID_Entitlement 1** for **Name**, select the account you created for **odl_user_DID_Relecloud** in the earlier lab for **Primary Customer**, select today's date for **Start Date**, and select a month from today for **End Date**.
 
 1.  Select **Yes** for **Restrict based on entitlement terms**.
 
@@ -94,7 +94,7 @@ In this task, you will test the default entitlement for Relecloud.
 
 5.  Click **+ New Case**.
 
-6. Enter **odl_user_DID_Defective_Speaker** for **Case Title**, select the **odl_user_DID_Relecloud** account you created in the earlier lab for **Customer**, select **Facebook** for **Origin**, select the **odl_user_DID_Entitlement 1** record you created for **Entitlement** and click **Save & Close**.
+6. Enter **odl_user_DID_Defective Speaker** for **Case Title**, select the **odl_user_DID_Relecloud** account you created in the earlier lab for **Customer**, select **Facebook** for **Origin**, select the **odl_user_DID_Entitlement 1** record you created for **Entitlement** and click **Save & Close**.
 
     ![](../images/newcase2.png)
 
@@ -140,7 +140,7 @@ In this task, you will create an entitlement template with 20 terms.
 
 5.  Click **+ New**.
 
-1.  Enter **odl_user_DID_20_Free_Terms** for **Entitlement Template Name**,select the account you created for **odl_user_DID_Relecloud** in the earlier lab for **Primary Customer**, select today's date for **Start Date**, and select a month from today for **End Date**.select **Yes** for **Restrict on Entitlement Terms**, select **Number of Cases** for **Allocation Type**, select **Case Creation** for **Decrease Remaining On**, enter **20** for **Total Terms**.
+1.  Enter **odl_user_DID_20_Free Terms** for **Entitlement Template Name**,select the account you created for **odl_user_DID_Relecloud** in the earlier lab for **Primary Customer**, select today's date for **Start Date**, and select a month from today for **End Date**.select **Yes** for **Restrict on Entitlement Terms**, select **Number of Cases** for **Allocation Type**, select **Case Creation** for **Decrease Remaining On**, enter **20** for **Total Terms**.
 
 7.  Click **Save**. DO NOT navigate away from this page.
 
@@ -206,7 +206,7 @@ In this task, you will test the entitlement you created from the entitlement tem
 
 3.  Click **+ New Case**.
 
-4.  Enter **odl_user_DID_Missing_Parts** for **Case Title** and select the **odl_user_DID_Relecloud** account for **Customer**.
+4.  Enter **odl_user_DID_Missing Parts** for **Case Title** and select the **odl_user_DID_Relecloud** account for **Customer**.
 
 5.  Select **Phone** for **Origin**, select **Phone Call Only Terms** for **Entitlement** and click **Save**.
 
@@ -459,14 +459,14 @@ In this task, you will configure the settings for service level agreements.
 In this task, you will test that the SLA is applied to cases.
 
 1.  Switch back to the **Customer service Hub** tab.
-
+f
 1.  Click on **Home** at the top of the left-hand side navigation.
 
 2.  Click on **Cases** in the **Service** section of the sitemap.
 
 3.  Click **+ New Case**.
 
-4.  Enter **odl_user_DID_SLA_Test_#1** for **Case Title** and select the **odl_user_DID_Relecloud** account for **Customer**.
+4.  Enter **odl_user_DID_SLA_Test #1** for **Case Title** and select the **odl_user_DID_Relecloud** account for **Customer**.
 
 5.  Select **Web** for **Origin** and click **Save**.
 
@@ -482,7 +482,7 @@ In this task, you will test that the SLA is applied to cases.
 
 9.  Click **Go back**, click **+ New Case**.
 
-10. Enter **odl_user_DID_SLA_Test_#2** for **Case Title** and select the **odl_user_DID_Relecloud** account for **Customer**.
+10. Enter **odl_user_DID_SLA_Test #2** for **Case Title** and select the **odl_user_DID_Relecloud** account for **Customer**.
 
 11. Select **Email** for **Origin** and click **Save**.
 
