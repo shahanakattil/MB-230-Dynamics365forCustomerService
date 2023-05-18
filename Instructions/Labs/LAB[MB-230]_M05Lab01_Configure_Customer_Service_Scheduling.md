@@ -57,7 +57,7 @@ In this task, you will define a new business closure.
 
 2.  Click **+ New**.
 
-3.  Enter **odl_user_DID_Worldwide_Rest_Day** for **Name**, select a date one week from now for **Start Date**, and click **OK**.
+3.  Enter **odl_user_DID_Worldwide_Rest_Day** for **Name**, Select **All Day Event** as **No**, select a date one week from now for **Start Date**, and click **OK**.
 
     ![](../images/Personalization-Settings-5.png)
 
@@ -71,7 +71,7 @@ In this task, you will create facilities/equipment records for the organizationa
 
 2.  Click **+ New**.
 
-3.  Enter **odl_user_DID_Main_Ave-Service_Bay_1** - **Service Bay 1** for **Name**, select **odl_user_DID_Main_Ave_Location** for **Organizational Unit**, select a *Time Zone**, select the root **Business Unit**, and click **Save**.
+3.  Enter **odl_user_DID_Main_Ave-Service_Bay_1** for **Name**, select **odl_user_DID_Main_Ave_Location** for **Organizational Unit**, select a *Time Zone*, select the root **Business Unit**, and click **Save **.
 
     ![](../images/Personalization-Settings-6.png)
 
