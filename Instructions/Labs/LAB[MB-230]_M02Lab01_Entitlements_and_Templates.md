@@ -330,7 +330,7 @@ In this task, you will create a SLA that sets a 1 hour response time on a proble
 
 2.  Click **+ New**.
 
-3.  Enter **odl_user_DID_Case_Response_By** for **Name**.
+3.  Enter **odl_user_DID_Case Response By** for **Name**.
 
 4.  Select **Case** for **Entity Name**.
 
