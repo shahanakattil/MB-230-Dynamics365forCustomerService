@@ -84,15 +84,15 @@ features in your environment.
 
     ![](../images/collaboration-06.png)
 
-3.  From the **Active Bookable Resources** screen, select the **New Button** from the command bar.
+3.  From the **Active Bookable Resources** screen, Click on **New** from the command bar.
 
 4.  Configure the new Bookable resource as follows:
 
-    1.  **Resource Type:** Contact
+    1.  **Resource Type:** User
 
-    2.  **Contact:** ODL_User_DID.
+    2.  **User:** ODL_User_DID.
 
-    3.  **Contact:** Alan Steiner
+    3.  **Name:** Alan Steiner
 
 5.  Leave everything else as is and select the **Save and Close** button.
 
@@ -122,10 +122,6 @@ tasks:
 
 4. On the **Active Characteristics** screen, select the **New** button from the command bar.
 
-5.  On the **Skills** screen, select the **Create** button from the command bar.
-
-    ![](../images/collaboration-10.png)
-
 6.  Configure the Characteristic as follows:
 
     -   **Name:** Billing
@@ -135,6 +131,8 @@ tasks:
     -   **Description:** Expert for Billing questions
 
 7.  Select the **Save** button to save the record and leave it open.
+
+    ![](../images/collaboration-10.png)
 
 8.  Select the **Related** tab.
 
