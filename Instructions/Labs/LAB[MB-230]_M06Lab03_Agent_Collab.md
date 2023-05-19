@@ -74,6 +74,22 @@ features in your environment.
         the Customer support swarming screen.
 
     ![](../images/collaboration-05.png)
+    
+ 11. From the left navigation menu of the **Power Apps** screen, Click on **Solutions (1)** then click on **Publish all customizations (2)**.
+ 
+      ![](../images/teams-swarm-tables-form-publish.png)
+      
+ 12. Go back to the **Customer support swarming** screen, you can see that **Case details** is now **Activated**.
+        
+      ![](../images/caseactivated.png)
+        
+ 13. Under the **Experts** section, click on **Add a new expert**.
+ 
+       ![](../images/expert2.png)
+       
+ 12. On **Add Swarm Expert** page Select ODL_User_DID (1) then click on **ADD (2)**.
+
+       ![](../images/expert3.png)
 
 ### Task 2: Create bookable resource records that can be used as experts.
 
