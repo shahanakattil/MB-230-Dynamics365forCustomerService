@@ -28,40 +28,40 @@ In this exercise, you will create an Account, a Contact, and a Case record. You 
 
 ### Task 1 – Create Account
 
-1.  Click on **Accounts** in the **Customers** section of the sitemap.
+1.  Click on **Accounts (1)** in the **Customers** section of the sitemap.
 
 2.  Click **+ New** located on the command bar.
 
-3.  Enter **odl_user_DID_Relecloud** for **Account Name**.
+3.  Enter **odl_user_DID_Relecloud (2)** for **Account Name**.
 
-4.  Click **Save & Close**.
+4.  Click **Save & Close (3)**.
 
     ![](../images/Account.png)
 
 ### Task 2 – Create Contacts
 
-1.  Click on **Contacts** in the **Customers** section of the sitemap.
+1.  Click on **Contacts (1)** in the **Customers** section of the sitemap.
 
 2.  Click **+ New** located on the command bar.
 
-3.  Enter **odl_user_DID_Jane** for **First Name**.
+3.  Enter **odl_user_DID_Jane (2)** for **First Name**.
 
-4.  Enter **Doe** for **Last Name**.
+4.  Enter **Doe (3)** for **Last Name**.
 
-5.  Enter *your prefix ex. odl_user_DID* in the **Account Name** field, click on the lookup icon and select the account **odl_user_DID_Relecloud**.
+5.  Enter *your prefix ex. odl_user_DID* in the **Account Name** field, click on the lookup icon and select the account **odl_user_DID_Relecloud (4)**.
 
-6.  Click **Save & Close**.
+6.  Click **Save & Close (5)**.
 
     ![](../images/jane.png)
 
 7.  Click **+ New** located on the command bar.
 
-8.  Enter **odl_user_DID_Jon** for **First Name**.
+8.  Enter **odl_user_DID_Jon (2)** for **First Name**.
 
-9.  Enter **Doe** for **Last Name**.
-10.  Enter *your prefix ex. odl_user_DID* in the **Account Name** field, click on the lookup icon and select the account **odl_user_DID_Relecloud**.
+9.  Enter **Doe (3)** for **Last Name**.
+10.  Enter *your prefix ex. odl_user_DID* in the **Account Name** field, click on the lookup icon and select the account **odl_user_DID_Relecloud (4)**.
 
-11.  Click **Save & Close**.
+11.  Click **Save & Close (5)**.
 
      ![](../images/jon.png)
 
@@ -79,13 +79,13 @@ In this exercise, you will create an Account, a Contact, and a Case record. You 
 
 1.  On the Subject tree page, in the Subject tree management area, select Add.
 
-1.  In the Create a subject dialog, enter the following information and remaining leave default then Select **Save and close**.:
+1.  In the Create a subject dialog, enter the following information and remaining leave default then Select **Save and close (3)**.:
     
-  - Title: Type **Maintenance** for the subject.
+  - Title: Type **Maintenance (1)** for the subject.
     
-  - Set the toggle for Visibility to **Yes** if you want the subject to be available for the agent.
+  - Set the toggle for Visibility to **Yes (2)** if you want the subject to be available for the agent.
     
-    ![](../images/Customer-service-admin-10.png)
+    ![](../images/maintenance.png)
     
 1. Again Click on **Customer service admin**  the app from the top and select  **Customer Service Hub** .
     
@@ -123,21 +123,21 @@ In this exercise, you will create an Account, a Contact, and a Case record. You 
 
     ![](../images/Timeline-1.png)
 
-1. Enter **odl_user_DID_further details** for **Subject**.
+1. Enter **odl_user_DID_further details(1) ** for **Subject**.
 
-1. Select **Outgoing** from the **Direction** drop-down field.
+1. Select **Outgoing (2)** from the **Direction** drop-down field.
 
 1. Ensure that your user record is set for **Call From**.
 
 1. Ensure that the Jane Doe contact is set for **Call To**.
 
-1. Select **15 minutes** from the **Duration** drop-down field.
+1. Select **15 minutes (3)** from the **Duration** drop-down field.
 
-1. Select tomorrow's date and 9:00AM for **Due**.
+1. Select tomorrow's date and 9:00AM (4) for **Due**.
 
-1. Select **High** from the **Priority** drop-down field.
+1. Select **High (5)** from the **Priority** drop-down field.
 
-1. Select **Save & Close**
+1. Select **Save & Close (6)**
 
     ![](../images/phone-call-1.png)
 
@@ -147,29 +147,29 @@ In this exercise, you will create a Phone Call activity and then convert the act
 
 ### Task 1 – Create Phone Call activity
 
-1.  Click on **Contacts** in the **Customers** section of the sitemap.
+1.  Click on **Contacts (1)** in the **Customers** section of the sitemap.
 
-2.  select the **Jon Doe** contact you created in Task 2 from the list.
+2.  select the **Jon Doe (2)** contact you created in Task 2 from the list.
 
-3.  In the Timeline, click on **+**, and select **Phone Call**.
+3.  In the Timeline, click on **+ (3)**, and select **Phone Call (4)**.
 
     ![](../images/phone-call-2.png)
 
-4.  Enter **odl_user_DID_Service required** for **Subject**.
+4.  Enter **odl_user_DID_Service required (1)** for **Subject**.
 
-5.  Select **Incoming** from the **Direction** drop-down field.
+5.  Select **Incoming (2)** from the **Direction** drop-down field.
 
 6.  Ensure that the Jon Doe contact is set for **Call From**.
 
 7.  Ensure that your user record is set for **Call To**.
 
-8.  In the Description field, enter **Annual service needs to be scheduled for Jon**
+8.  In the Description field, enter **Annual service needs to be scheduled for Jon (3)**.
 
-9.  Click into the **Duration field** and type **10 minutes**.
+9.  Click into the **Duration field** and type **10 minutes (4)**.
 
-10. Select today's date for **Due**.
+10. Select today's date and duration 8 AM (5) for **Due**.
 
-11. Select **Save and Close**
+11. Select **Save and Close (6)**
 
     ![](../images/jon-phone-call-1.png)
 
