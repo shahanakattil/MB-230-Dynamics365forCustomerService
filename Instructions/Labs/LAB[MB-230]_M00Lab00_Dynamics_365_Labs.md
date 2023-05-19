@@ -68,8 +68,35 @@ In this Module 0 lab, you will validate and set up your tenant. You will have ac
    ![](../images/power-platform-environment-new-add-01.png)
    
    ![](../images/dataverse.png)
+   
+### Task 3 - Intalling Dynamic 365 Service Scheduling.
 
-### Task 3 – Access the Dynamics 365 application
+1. On the Power Platform admin center, select the **Prod-Env-[DeploymentID]** environment.
+
+   ![](../images/prodenv.png)
+    
+1. Select **V** besides **Resources** located on the command bar, then from the drop-down select **Dynamic 365 apps**.
+
+    ![](../images/365select.png)
+    
+1. Click on **Install app** located on the command bar.
+
+    ![](../images/installapp.png)
+    
+1. Search and Select **Dynamic 365 Service Scheduling(1)** then click on **Next(2)**.
+
+    ![](../images/scheduleselect.png)
+    
+1. On the **Install Dynamic 365 Service Scheduling** page, check the **I agree to terms of service(1)** box then click on **Install(2)**.
+
+    ![](../images/clickinstall.png)
+  
+     >**Note:** It will take 25-30 minutes to get install. Once it got installed you can see that the status got changed from **Installing** to **Installed**.
+ 
+      ![](../images/install.png)
+
+
+### Task 4 – Access the Dynamics 365 application
 
 1. On the Power Platform admin center, select the **Prod-Env-[DeploymentID]** environment.
 
