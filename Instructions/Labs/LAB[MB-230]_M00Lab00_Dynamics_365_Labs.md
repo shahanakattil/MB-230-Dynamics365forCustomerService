@@ -12,52 +12,91 @@ In this Module 0 lab, you will validate and set up your tenant. You will have ac
 
 ### Task 1 – Log into the Power Platform admin center
 
-1. Access <https://admin.powerplatform.microsoft.com> 
+1. Nevigate to access <https://admin.powerplatform.microsoft.com> 
 
-1. Enter your username and password, which can be found under the environment details tab.
-
+1. If not Sign-in, then on the **Sign into Microsoft Azure** tab you will see the login screen, in that enter following **Email/Username** and then click on **Next**. 
+   * Email/Username: <inject key="AzureAdUserEmail"></inject>
+   
     ![](../images/azure-login.png)
+    
+1. Now enter the following **Password** and click on **Sign in**.
+   * Password: <inject key="AzureAdUserPassword"></inject>
 
     ![](../images/azure-login-password.png)
 
-1. On the **Action Required** page, select **Ask Later**. and select **No** on the **Stay Signed in** page.
+1. If you see the pop-up **Action Required** page, select **Ask Later**.
 
     ![](../images/az-login-ask-later.png)
 
+1. If you see the pop-up **Stay Signed in?**, click No.
+
     ![](../images/stay-signed-in.png)
 
+1. If you see the pop-up  **Welcome to the Power Platform admin center!** click on **X** at the top right corner,
 1. Feel free to explore the Power Platform admin center but **do not make any changes.**
 
 ### Task 2 – Create Environment into the Power Platform admin center
 
-1. On the Power Platform admin center, On the navigation pane, select **Environments**. Now on the environments page, you will see a **default environment present**. Do not **use**, **modify** or **delete** the **default** environment.
+1. On the Power Platform admin center, On the navigation pane, select **Environments(1)**. Now on the environments page, you will see a **default environment present(2)**. Do not **use**, **modify** or **delete** the **default** environment.
 
     ![](../images/power-platform-environment.png)
 
-1. Now to create a new environment, select **+ New**.
+1. Now On the Power Platform admin center, On the **Environments(1)** pane, select **+ New*(2)** to create a new  environment.
 
     ![](../images/power-platform-environment-new.png)
 
-1. On the **New environment** page, specify the following settings and click on **Save**:
+1. On the **New environment** page, specify the following settings:
 
    |Setting|Value|
    |---|---|
-   |Name|**Prod-Env-[DeploymentID]**|
-   |Region|**United States**|
-   |Type|**Production**|
-   |Add a Dataverse data store?|**Enabled** and select Next|
-   |Enable Dynamics 365 apps?|**Enabled**|
-   |Security group|click on **+ Select** and select the **None** option from the list and click on Done|
+   |Name|**Prod-Env-[DeploymentID](1)**|
+   |Region|**United States(2)**|
+   |Type|**Production(3)**|
+   |Add a Dataverse data store?|**Enabled(4)** and select **Next(5)**|
+   
+1. Now scorll-down and specify the following settings and click on **Save**:
+
+   |Setting|Value|
+   |---|---|
+   |Enable Dynamics 365 apps?|**Enabled(1)**|
+   |Security group|click on **+ Select(2)** and on the the **Edit security group page** select **None(3)** option from the list and click on **Done(4)**|
    
    >Note: The **[DeploymentId]/[DID] can be found under the environment details tab in the user name (example: `odl_user_xxxxxx.onmicrosoft.com`) **xxxxxx** is the [DeploymentID]**.
    
-   >**Note**: Wait for the Environment to get ready before you continue with this lab.
+   >**Note**: Wait for the Environment to get **ready** before you continue with this lab.
 
    ![](../images/power-platform-environment-new-add-01.png)
    
    ![](../images/dataverse.png)
+   
+### Task 3 - Intalling Dynamic 365 Service Scheduling.
 
-### Task 3 – Access the Dynamics 365 application
+1. On the Power Platform admin center, select the **Prod-Env-[DeploymentID]** environment.
+
+   ![](../images/prodenv.png)
+    
+1. Select **V** besides **Resources** located on the command bar, then from the drop-down select **Dynamic 365 apps**.
+
+    ![](../images/365select.png)
+    
+1. Click on **Install app** located on the command bar.
+
+    ![](../images/installapp.png)
+    
+1. Search and Select **Dynamic 365 Service Scheduling(1)** then click on **Next(2)**.
+
+    ![](../images/scheduleselect.png)
+    
+1. On the **Install Dynamic 365 Service Scheduling** page, check the **I agree to terms of service(1)** box then click on **Install(2)**.
+
+    ![](../images/clickinstall.png)
+  
+     >**Note:** It will take 25-30 minutes to get install. Once it got installed you can see that the status got changed from **Installing** to **Installed**.
+ 
+      ![](../images/install.png)
+
+
+### Task 4 – Access the Dynamics 365 application
 
 1. On the Power Platform admin center, select the **Prod-Env-[DeploymentID]** environment.
 

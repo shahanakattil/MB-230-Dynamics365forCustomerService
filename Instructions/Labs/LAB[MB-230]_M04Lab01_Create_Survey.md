@@ -14,7 +14,13 @@ In this exercise, you will create a project and use a template to create a surve
 
 1.  Navigate to <https://customervoice.microsoft.com>
 
-2.  Sign in with your Dynamics 365 tenant credentials.
+1. If not Sign-in, then on the **Sign into Microsoft Azure** tab you will see the login screen, in that enter following **Email/Username** and then click on **Next**. 
+   * Email/Username: <inject key="AzureAdUserEmail"></inject>
+   
+    ![](../images/azure-login.png)
+    
+1. Now enter the following **Password** and click on **Sign in**.
+   * Password: <inject key="AzureAdUserPassword"></inject>
 
 3.  Click **+ New project**.
 
@@ -44,7 +50,7 @@ In this exercise, you will create a project and use a template to create a surve
 
 2.  Click in the **Header** and change **Customer Service feedback** to **How did we do?**.
 
-3.  Hover the mouse over the header and click on the **Theme color** icon and change from 2266e3 to **ffdd66**.
+3.  Hover the mouse over the header and click on the **Theme color** icon and change name inside HEX# box to **ffdd66**.
 
     ![](../images/colour.png)
 

@@ -20,61 +20,67 @@ You are a customer service manager at City Power & Light who has been tasked wit
 
     ![](../images/creation-rules-1.png)
 
-5.  Click **+ New** located on the command bar.
+1.  Click **+ New** located on the command bar.
 
-6.  Enter **odl_user_DID_Create_case_for_support_email** for **Rule name**, and select **Email** for **Activity type to monitor**.
+1.  Enter **odl_user_DID_Create_case_for_support_email** for **Rule name**, and select **Email** for **Activity type to monitor**.
 
-7.  Enter **odl_user_DID_Create_case_for_support_email_for_Rule_name**, select the **odl_user_DID_Support** queue you created for Queue to monitor, and select **Email** for Activity type to monitor.
+1. Select the **odl_user_DID_Support** queue you created for Queue to monitor, and select **Email** for Activity type to monitor.
     
-8.  Click **Save**.
+1.  Click **Save**.
 
     ![](../images/creation-rules-2.png)
 
-7.  In **Step two: conditions to evaluate and actions to take**, click **+ New**.
+1.  In **Step two: conditions to evaluate and actions to take**, click **+ New**.
 
-8.  Enter **High priority emails** for **Condition name**.
+1.  Enter **High priority emails** for **Condition name**.
 
-9.  Click on **Add** and **Add row** .
+1.  Click on **Add** and then select **Add row** from the drop-down.
 
-10. In the left-hand side of the condition, select **Priority (Email)**
+1. In the left-hand side of the condition, select **Priority (Email)** from the drop-down.
 
-11. Select **Equals** for the operator.
+1. Select **Equals** from the drop-down for the operator.
 
-12. In the right-hand side of the condition, select **High**.
+1. In the right-hand side of the condition, select **High** from the drop-down.
 
-13. Click **Save and open Power Automate**.
+1. Click **Save and open Power Automate**.
 
     ![](../images/creation-rules-3.png)
 
-14. If prompted to connect to Dataverse, click **Continue**.
+1. If prompted to connect to Dataverse, click **Continue**.
 
-15. Expand the **Create a record (don't rename this step)** step.
+1. If not Sign-in, then enter following **Email/Username** and then click on **Next**. 
+   * Email/Username: <inject key="AzureAdUserEmail"></inject>
+   
+1. Now enter the following **Password** and click on **Sign in**.
+   * Password: <inject key="AzureAdUserPassword"></inject>
+
+1. Expand the **Create a record (don't rename this step)** step.
 
     ![](../images/creation-rules-4.png)
 
-16. Set the **Case Type** to **Request**.
+1. Set the **Case Type** to **Request**.
 
-17. Set the **Priority field** to **High**.
+1. Set the **Priority field** to **High**.
 
-18. Click **Save** and close the Power Automate browser tab.
+1. Click **Save** and close the Power Automate browser tab.
 
     ![](../images/creation-rules-5.png)
 
-19. Click **Close** in the *Record Creation and Update Rule Item* dialog.
+1. Click **Close** in the *Record Creation and Update Rule Item* dialog.
 
-20. In **Step three: additional actions to take after matching with a condition**, set *Automatically reply to email*  to **Yes**.
+2. In **Step three: additional actions to take after matching with a condition**, set *Automatically reply to email*  to **Yes**.
 
-21. In *Select email template*, search for and select **Case Auto Response**.
+1. In *Select email template*, search for and select **Case Auto Response**.
 
-22. Click **Save**.
+1. Click **Save**.
 
     ![](../images/creation-rules-6.png)
 
-23. Click **Activate**.
+1. Click **Activate**.
 
-24. Click **Activate**.
+1. Click **Activate**.
 
-25. Due to the lack of administrative access to email mailboxes, you will not be able to test this rule.
+1. Due to the lack of administrative access to email mailboxes, you will not be able to test this rule.
 
 ## Exercise 2 – Basic routing
 

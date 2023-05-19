@@ -30,7 +30,7 @@ In this task, you will create an internal Knowledge Article for missing parts.
 
 1.  Type **Purpose & Scope**.
 
-1. Click on the **Paragraph Format** selector and select **H2**. This option will only appear if your screen is fully expanded.
+1. Click on the **Paragraph Format** selector and select **Heading 2**. This option will only appear if your screen is fully expanded.
 
     ![](../images/Knowledge-management-1.png)
 
@@ -61,7 +61,7 @@ In this task, you will create an internal Knowledge Article for missing parts.
 
     ![](../images/h2.png)
 
-1. Click Save.
+1. Click **Save**.
 
 1. Go to the **Business Process Flow** and click on the **Author** stage.
 
