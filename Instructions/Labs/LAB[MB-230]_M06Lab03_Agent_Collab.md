@@ -75,7 +75,7 @@ features in your environment.
 
     ![](../images/collaboration-05.png)
     
- 11. From the left navigation menu of the **Power Apps** page, Click on **Solutions (1)** then click on **Publish all customizations (2)**.
+ 11. From the left navigation menu of the **Power Apps** screen, Click on **Solutions (1)** then click on **Publish all customizations (2)**.
  
       ![](../images/teams-swarm-tables-form-publish.png)
       
@@ -87,7 +87,7 @@ features in your environment.
  
        ![](../images/expert2.png)
        
- 12. On **Add Swarm Expert page** Select ODL_User_DID (1) then click on **ADD (2)**.
+ 12. On **Add Swarm Expert** page Select ODL_User_DID (1) then click on **ADD (2)**.
 
        ![](../images/expert3.png)
 
