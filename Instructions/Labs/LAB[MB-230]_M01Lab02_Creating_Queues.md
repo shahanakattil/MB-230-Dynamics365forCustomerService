@@ -12,47 +12,47 @@ In this exercise, you will create four queues.
 
 ### Task 1 – Create Queues
 
-1.  Click on the **Customer Service Hub** app from the top and select **Customer service admin**.
+1.  Click on the **Customer Service Hub (1)** app from the top and select **Customer service admin (2)**.
 
     ![](../images/Customer-service-admin-1.png)
 
-1. Click on **Queues** in the **Customer support** section and then click on **Manage** from right side.
+1. Click on **Queues (1)** in the **Customer support** section and then click on **Manage (2)** from right side.
 
     ![](../images/Customer-service-admin-2.png)
 
 1.  Click **+ New** located on the command bar.
 
-1.  Enter **odl_user_DID_Support** for **Name** and select **Public** for **Type**, and enter the user name from the environment details pages of the lab guide ex. `odl_user_926235@azureholxxxx.onmicrosoft.com`  for **Incomming Email**.
+1.  Enter **odl_user_DID_Support (1)** for **Name** and select **Public (2)** for **Type**, and enter the user name from the environment details pages of the lab guide ex. `odl_user_926235@azureholxxxx.onmicrosoft.com`(3)  for **Incomming Email**.
 
-1.  Click **Save**.
+1.  Click **Save (4)**.
 
     ![](../images/Customer-service-admin-3.png)
 
 1.  Click **+ New**.
 
-1.  Enter **odl_user_DID_Bronze** for **Name** and select **Private** for **Type**.
+1.  Enter **odl_user_DID_Bronze (1)** for **Name** and select **Private (2)** for **Type**.
 
-1.  Click **Save**.
+1.  Click **Save (3)**.
 
      ![](../images/Customer-service-admin-4.png)
 
-1. Click **+ New**.
+1. Click **+ New (1)**.
 
-1. Enter **odl_user_DID_Silver** for **Name** and select **Private** for **Type**.
+1. Enter **odl_user_DID_Silver (2)** for **Name** and select **Private (3)** for **Type**.
 
-1. Click **Save**.
+1. Click **Save (4)**.
 
     ![](../images/Customer-service-admin-5.png)
 
-1. Click **+ New**.
+1. Click **+ New (1)**.
 
-1. Enter **odl_user_DID_Gold** for **Name** and select **Private** for **Type**.
+1. Enter **odl_user_DID_Gold (2)** for **Name** and select **Private (3)** for **Type**.
 
-1. Click **Save**.
+1. Click **Save (4)**.
 
     ![](../images/Customer-service-admin-6.png)
 
-1. Click on **Queues** in the **Customer support** section and then click on **Manage** from right side.
+1. Click on **Queues (1)** in the **Customer support** section and then click on **Manage (2)** from right side.
 
     ![](../images/Customer-service-admin-2.png)
 
@@ -78,11 +78,11 @@ In this exercise, you will create four queues.
 
 1.  Open the **Customer Service Hub** app.
 
-1.  Click on **Cases** in the **Service** section of the sitemap.
+1.  Click on **Cases (1)** in the **Service** section of the sitemap.
 
-1.  Select the **odl_user_DID_Service Required** case you created in the earlier lab.
+1.  Select the **odl_user_DID_Service Required (2)** case you created in the earlier lab.
 
-1.  Click **Add to Queue** located on the command bar.
+1.  Click **Add to Queue (3)** located on the command bar.
 
     ![](../images/add-1.png)
 
