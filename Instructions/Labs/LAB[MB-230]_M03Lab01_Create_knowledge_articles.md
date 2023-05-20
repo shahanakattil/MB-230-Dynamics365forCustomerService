@@ -8,7 +8,7 @@ As a customer care coordinator at City Power & Light, you are responsible for in
 
 In this exercise, you will create, approve, publish, and revise an internal Knowledge Article for missing parts.
 
-### Task 1 – Create Internal Article
+### Task 1 – Create an Internal Article
 
 In this task, you will create an internal Knowledge Article for missing parts.
 
@@ -36,7 +36,7 @@ In this task, you will create an internal Knowledge Article for missing parts.
 
 1. Type the paragraph below.
 
-    Use procedure below to resolve Phone call cases that are related to missing parts.
+    Use the procedure below to resolve Phone call cases that are related to missing parts.
 
 1. Hit the **Enter** key to start a new line.
 
