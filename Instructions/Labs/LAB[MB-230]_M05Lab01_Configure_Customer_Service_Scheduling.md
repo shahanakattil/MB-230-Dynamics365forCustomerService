@@ -79,7 +79,7 @@ In this task, you will create facilities/equipment records for the organizationa
 
 3.  Enter **Main Ave - Service Bay 1** for **Name**, select **Main Ave Location** for **Organizational Unit**, select a *Time Zone*, select the root **Business Unit**, and click **Save **.
 
-    ![](../images/Personalization-Settings-007.png)
+    ![](../images/Personalization-Settings-029.png)
 
 4.  Select the **Work Hours** tab, click on one of the events listed on the calendar, click **Edit**, and select **All events in the series**.
 
@@ -89,7 +89,7 @@ In this task, you will create facilities/equipment records for the organizationa
 
 6.  Toggle **Observe Business Closure** to **On**.
 
-    ![](../images/Personalization-Settings-010.png)
+    ![](../images/Personalization-Settings-030.png)
 
 7.  Click **Save** to save the working hours.
 
@@ -239,8 +239,6 @@ In this task you will create resources using the contacts you created.
     ![](../images/Personalization-Settings-026.png)
 
 10. Select **Senior Technician** and click **Save and Close**.
-
-    ![](../images/Personalization-Settings-20.png)
 
 11. Repeat the previous 9 steps and create the resources listed in the table below.
 
