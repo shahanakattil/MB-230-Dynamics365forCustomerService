@@ -14,7 +14,7 @@ In this exercise, you will create an entitlement for your user, this entitlement
 
     ![](../images/Customer-service-admin-1.png)
     
-1.  Using the navigation on the left, select **Service Team** under **Operations**.
+1.  Using the navigation on the left, select **Service Term** under **Operations**.
 
 1.  Select **Manage** next to **Entitlements**.
 
