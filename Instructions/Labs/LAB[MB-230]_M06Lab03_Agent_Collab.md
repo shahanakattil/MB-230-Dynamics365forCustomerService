@@ -1,4 +1,4 @@
-# Practice Lab 11 – Agent collaboration
+# Practice Lab 11 – Agent Collaboration
 
 ## Scenario 
 
@@ -6,7 +6,7 @@ Your organization provides billing and customer support on the Circuit Boards
 and other electronic products that it manufactures. With more and more new
 agents coming on board, your organization is looking for more ways to help newer
 agents solve customer problems faster. One way that they have identified how to
-do this is by providing more collaboration options for their agents. Since they
+do this by providing more collaboration options for their agents. Since they
 use Microsoft Teams, they have decided to leverage the collaboration
 capabilities available between Microsoft Teams and Dynamics 365.
 
@@ -22,7 +22,7 @@ following:
 
 ## Exercise 1: Enable the necessary collaboration features in your environment 
 
-Before your agents can begin collaborating subject matter experts at your
+Before your agents can begin collaborating with subject matter experts at your
 organization, you will need to ensure that you have enabled the necessary
 features in your environment.
 
