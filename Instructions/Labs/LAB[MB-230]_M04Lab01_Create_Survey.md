@@ -4,8 +4,6 @@
 
 You are a customer service manager at City Power & Light who has been tasked with trying the new Customer Voice functionality to capture feedback on cases before rolling it out to your customers.
 
-> `Important`: The **[DeploymentId]/[DID] can be found under the environment details tab in the user name (example: `odl_user_xxxxxx.onmicrosoft.com`) **xxxxxx** is the [DeploymentID]**.
-
 ## Exercise 1: Create survey
 
 In this exercise, you will create a project and use a template to create a survey.
@@ -22,25 +20,25 @@ In this exercise, you will create a project and use a template to create a surve
 1. Now enter the following **Password** and click on **Sign in**.
    * Password: <inject key="AzureAdUserPassword"></inject>
 
-3.  Click **+ New project**.
+1.  Click **+ New project**.
 
-4.  Select the **Support** template
+1.  Select the **Support** template
 
     ![](../images/template.png)
 
-5.  Click **Next**.
+1.  Click **Next**.
 
-6. Select **See all environments** from the recent locations.
+1. Select **See all environments** from the recent locations.
 
-6.  Select the **Prod-Env-[DeploymentID]** Dynamics 365 environment and click on select and close..
+1.  Select the **Prod-Env-[DeploymentID]** Dynamics 365 environment and click on select and close..
 
-7.  Click **Create**.
+1.  Click **Create**.
 
-8.  Click on **All Projects**
+1.  Click on **All Projects**
 
-9.  Click on the ellipsis next your project and select **Rename**.
+1.  Click on the ellipsis next your project and select **Rename**.
 
-10.  Enter **odl_user_DID_Case Feedback** and click on **Rename**.
+1.  Enter **odl_user_DID_Case Feedback** and click on **Rename**.
 
      ![](../images/rename.png)
 
@@ -215,3 +213,5 @@ In this exercise, you will use Power Automate to send a survey when a case is re
     ![](../images/case2.png)
 
 17. Click **Save**.
+
+**Result:** You have successfully created the survey and Sent survey when a case is resolved. 
