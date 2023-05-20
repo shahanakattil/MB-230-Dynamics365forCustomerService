@@ -1,4 +1,4 @@
-# Module 00 - Setup Dynamics 365 for Customer Service
+# Practice Lab - Setup Dynamics 365 for Customer Service
 
 ## Scenario
 
