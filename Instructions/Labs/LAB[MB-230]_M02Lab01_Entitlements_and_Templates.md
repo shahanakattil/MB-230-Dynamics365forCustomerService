@@ -6,7 +6,7 @@ As a customer service manager at City Power & Light, you need to create entitlem
 
 ## Exercise 1 – Entitlements
 
-In this exercise, you will create an entitlement for your user, this entitlement will allow you to create 50 case through Email channel, 30 Cases through Web channel, 10 Cases each for Twitter and Facebook channels.
+In this exercise, you will create an entitlement for your user, this entitlement will allow you to create 50 cases through the Email channel, 30 Cases through the Web channel, and 10 Cases each for Twitter and Facebook channels.
 
 ### Task 1 – Create Entitlement
 
@@ -280,7 +280,7 @@ In this task, you will create A holiday schedule to be used with Customer Servic
 
     ![](../images/Customer-service-admin-1.png)
     
-1.  In the site map, select **Calender** in Operations. The Calender page appears.
+1.  In the site map, select **Calendar** in Operations. The Calendar page appears.
 
 1.  In the **Holiday calendar** section, select **Manage**.
 
@@ -314,7 +314,7 @@ In this task, you will create a Customer Service Schedule to use with SLAs.
 
     ![](../images/Customer-service-admin-1.png)
     
-1.  In the site map, select **Calender** in Operations. The Calender page appears.
+1.  In the site map, select **Calendar** in Operations. The Calendar page appears.
 
 1.  In the **Customer service calendar** section, select **Manage**.
 
@@ -362,7 +362,7 @@ In this task, you will create a SLA that sets a 1 hour response time on a proble
 
 1.  Select **Case** for **Entity Name**.
 
-1.  Select **First Response By KPI** for **KPI FIeld**
+1.  Select **First Response By KPI** for **KPI Field**
 
 1.  Select **Created On** for **Applicable From**
 
@@ -528,4 +528,4 @@ In this task, you will test that the SLA is applied to cases.
 > - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
 > - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
 
-**Result:** You have successfully Created the Entitlements,Entitlement Templates and Service Level Agreements in this lab. 
+**Result:** You have successfully created the Entitlements, Entitlement Templates, and Service Level Agreements in this lab. 
