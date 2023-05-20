@@ -235,24 +235,28 @@ In this task, you will create an entitlement template with 20 terms.
 
 In this task, you will create 20 phone call only entitlement from the entitlement template you created.
     
-1.  In the site map, select **Service terms** in Operations. The Service Terms page appears.
-
-1.  In the **Entitlement** section, select **Manage**.
+1.  In the site map, select **Service terms** in Operations and click on **Manage** next to **Entitlement**
 
     ![](../images/Entitlement-6.png)
 
-2.  Click on the **V** chevron button next to the **+ New** button and select **From Template**.
+2.  Click on the drop-down button **(1)** next to the **+ New** button and select **From Template (2)**.
 
-    ![](../images/Entitlement-5.png)
+    ![](../images/fromtemplate.png)
 
 3.  Select **20 Free Terms** template you created for **Entitlement Template** and click **Select**.
 
+     ![](../images/20free.png)
+     
 4.  Some of the fields will be auto-filled from the template.
 
-5.  Enter **odl_user_DID_Phone_Call _Only_Terms** for **Name**, select the **odl_user_DID_Relecloud** account for **Primary Customer**, select today's date for **Start Date**, select a year from today for **End Date**, and click **Save**.
+5.  Enter **Phone_Call _Only_Terms (1)** for **Name**, select the **Relecloud (2)** account for **Primary Customer**, select today's date for **Start Date (3)**, select a year from today for **End Date (4)**, and click **Save (5)**.
 
+    ![](../images/phonecall1.png)
+    
 1. Click **Activate**.
 
+    ![](../images/activate.png)
+    
 7.  Confirm activation. DO NOT navigate away from this page.
 
 ### Task 3 – Test the Entitlement
