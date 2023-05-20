@@ -26,7 +26,7 @@ You are a customer service manager at City Power & Light who has been tasked wit
 
 1.  Click on the **Resolve Case** button located in the command bar. Note: You may need to click the ellipsis (...) to see the button.
 
-1. A dialog will be displayed with the message *There are open activities associated with this case. The open activities will be cancelled if you resolve this case. Do you want to resolve the case?*.
+1. A dialog will be displayed with the message *There are open activities associated with this case. The open activities will be canceled if you resolve this case. Do you want to resolve the case?*.
 
 1. Click **Confirm**.
 
