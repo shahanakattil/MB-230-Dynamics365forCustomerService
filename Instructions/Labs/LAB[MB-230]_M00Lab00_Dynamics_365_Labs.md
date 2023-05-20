@@ -114,4 +114,6 @@ In this practice lab, you will validate and set up your tenant.
 
 1. Spend a few minutes exploring the application.
 
-1. You should now be showing the **Dashboard** view
+1. You should now be showing the **Dashboard** view.
+
+> **Result:** You have successfully created your Dynamics 365 environment. 
