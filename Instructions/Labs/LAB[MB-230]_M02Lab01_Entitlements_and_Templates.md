@@ -273,12 +273,13 @@ In this task, you will test the entitlement you created from the entitlement tem
 
 4.  Enter **Missing Parts (1)** for **Case Title** and select the **Relecloud (2)** account for **Customer**, Select **Phone (3)** for **Origin**, select **Phone Call Only Terms (4)** for **Entitlement** and click **Save (5)**.
 
-    ![](../images/wrongcables.png)
+    ![](../images/missingparts.png)
 
 6.  Click **Go back**, click **+ New Case**.
 
 7.  Enter **Wrong cables (1)** for **Case Title** and select the **Relecloud (2)** account for **Customer**, Select **Web (3)** for **Origin**, scroll down to the **Entitlement** field and select **Phone Call Only Terms (4)**, click **Save (5)**. 
 
+     ![](../images/wrongcables.png)
 8. You will get an error telling you that there are no available terms.
 
 11. Click **OK**.
