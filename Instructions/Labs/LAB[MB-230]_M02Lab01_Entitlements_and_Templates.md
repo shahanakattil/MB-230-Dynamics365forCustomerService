@@ -129,9 +129,9 @@ In this task, you will test the default entitlement for Relecloud.
 
 7.  Click **+ New Case**.
 
-8.  Enter **odl_user_DID_Product_Query** for **Case Title**, select the **odl_user_DID_Relecloud** account you created in the earlier lab for **Customer**, select **Phone** for **Origin**, select the **odl_user_DID_Entitlement 1** record you created for **Entitlement** and click **Save**.
+8.  Enter **Product_Query (1)** for **Case Title**, select the **Relecloud (2)** account you created in the earlier lab for **Customer**, select **Phone (3)** for **Origin**, select the **Entitlement 1 (4)** record you created for **Entitlement** and click **Save (5)**.
 
-    ![](../images/newcase3.png)
+    ![](../images/productquery.png)
 
 9. The following message will be displayed, *You can't create a case for this entitlement because there are no available terms.*
 
@@ -139,7 +139,7 @@ In this task, you will test the default entitlement for Relecloud.
 
 10. Click **OK**.
 
-11. Scroll to the **Entitlement** field and click on the **odl_user_DID_Entitlement_1**. Click **Discard changes**.
+11. Scroll to the **Entitlement** field and click on the **Entitlement_1**. Click **Discard changes**.
 
 12. Switch back to the **Customer service admin** page opened in the browser and click on the **odl_user_DID_Entitlement _1** created and refresh the page.
 
