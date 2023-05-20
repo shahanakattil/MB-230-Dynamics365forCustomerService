@@ -4,8 +4,6 @@
 
 You are a customer service manager at City Power & Light who has been tasked with configuring the Customer Service workspace before rolling it out to your users. In this lab, you will explore how the the Customer Service workspace works.
 
-> `Important`: The **[DeploymentId]/[DID] can be found under the environment details tab in the user name (example: `odl_user_xxxxxx.onmicrosoft.com`) **xxxxxx** is the [DeploymentID]**.
-
 ## Exercise 1 – Navigate Customer Service workspace
 
 In this exercise you will learn how to navigate the Customer Service workspace and use shortcut keys.
@@ -45,3 +43,5 @@ In this exercise you will learn how to navigate the Customer Service workspace a
 14. Select the remaining session for the **Defective Speaker** case and click on **Close the session** and confirm with **Close**.
 
 15. The Customer Service Agent Dashboard is displayed.
+
+**Result:** You have successfully created customer Service workspace and displayed on the Customer Service Agent Dashboard. 
