@@ -32,9 +32,11 @@ In this task, you will define three organizational units to act as service locat
 
     ![](../images/Personalization-Settings-2.png)
 
-8. Enter **Main Ave Location** for **Name**. Click on the **Scheduling** tab and enter a valid number for both Latitude and Longitude(Example: Latitude- 40, Longitude- 40).
+8. Enter **Main Ave Location** for **Name**. Click on the **Scheduling** tab.
 
     ![](../images/Personalization-Settings-002.png)
+    
+1.  In the **Scheduling** tab enter a valid number for both Latitude and Longitude(Example: Latitude- 40, Longitude- 40).
 
 9. Click **Save and Close**.
 
