@@ -24,11 +24,11 @@ In this practice lab, you will validate and set up your tenant.
 
 1. If you see the pop-up **Action Required** page, select **Ask Later**.
 
-    ![](../images/az-login-ask-later.png)
+    ![](../images/asklater.png)
 
 1. If you see the pop-up **Stay Signed in?**, click No.
 
-    ![](../images/stay-signed-in.png)
+    ![](../images/staysignedinNO.png)
 
 1. If you see the pop-up  **Welcome to the Power Platform admin center!** click on **X** at the top right corner,
 1. Feel free to explore the Power Platform admin center but **do not make any changes.**
