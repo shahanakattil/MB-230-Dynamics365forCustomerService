@@ -16,43 +16,43 @@ You are a customer service manager at City Power & Light who has been tasked wit
 
 1.  Open the **Defective Screen** case you created.
 
-1.  Click on the **Research** stage of the **Business Process Flow**.
+1.  Click on the **Research (1)** stage of the **Business Process Flow**.
 
-1.  Click **Next Stage**.
+1.  Click **Next Stage (2)**.
 
-    ![](../images/stage-2.png)
+    ![](../images/stage-20.png)
 
 1.  The **Business process Flow** will advance to the **Resolve** stage. Click on the **Resolve** stage and click **Finish**.
 
-1.  Click on the **Resolve Case** button located in the command bar. Note: You may need to click the ellipsis (...) to see the button.
+1.  Click on the **Resolve Case (1)** button located in the command bar. Note: You may need to click the ellipsis (...) to see the button.
 
 1. A dialog will be displayed with the message *There are open activities associated with this case. The open activities will be canceled if you resolve this case. Do you want to resolve the case?*.
 
-1. Click **Confirm**.
+1. Click **Confirm (2)**.
 
-    ![](../images/resolved-case-1.png)
+    ![](../images/resolved-case-10.png)
 
-1. Select **Problem Solved** for **Resolution Type** and enter **Sent Replacement** for **Resolution** and click **Resolve**.
+1. Select **Problem Solved** for **Resolution Type** and enter **Sent Replacement (1)** for **Resolution** and click **Resolve (2)**.
 
-    ![](../images/resolve-1.png)
+    ![](../images/resolve-10.png)
 
 ### Task 2 – Reactivate Resolved Case
 
-1.  Click **Cases** under the **Service** section.
+1.  Click **Cases (1)** under the **Service** section.
 
 1.  Change the **View** from **My active Cases** to **Resolved Cases**.
 
-1.  Open the case you resolved in task 1.
+1.  Open the case you resolved **Defective Screen** in task 1.
 
-1.  Click on the **Reactivate Case** button located in the command bar. A dialog will be displayed with the message to confirm, Select **Reactivate**.
+1.  Click on the **Reactivate Case (3)** button located in the command bar. A dialog will be displayed with the message to confirm, Select **Reactivate (4)**.
 
-    ![](../images/re-activecase-1.png)
+    ![](../images/re-activecase-10.png)
 
-1.  Change the **Case Title** to **odl_user_DID_Defective Screen Not Received** in the **Details** tab.
+1.  Change the **Case Title** to **odl_user_DID_Defective Screen Not Received (2)** in the **Details (1)** tab.
 
-1.  Click **Save & Close**.
+1.  Click **Save & Close (3)**.
 
-    ![](../images/re-activecase-2.png)
+    ![](../images/re-activecase-20.png)
     
 > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
 > - Select the **Lab Validation** tab located at the upper right corner of the lab guide section.
