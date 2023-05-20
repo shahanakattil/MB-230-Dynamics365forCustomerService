@@ -96,39 +96,43 @@ In this exercise, you will create an Account, a Contact, and a Case record. You 
     
 1. Again Click on **Customer service admin**  the app from the top and select  **Customer Service Hub** .
     
-1.  Click on **Cases(1)** in the **Service** section of the sitemap.
+1. Click on **Cases(1)** in the **Service** section of the sitemap and click on **+ New Case** located on the command bar.
 
-1.  Click **+ New Case** located on the command bar.
+    ![](../images/cases.png)
 
-1.  Enter **odl_user_DID_Defective Screen(2)** for **Case Title**.
+1. Follow the below instructions on **New Case** page:
 
-1.  Click on the **Subject** field and type **Maintenance(3)** into the box and press enter.
+   - Case Title : Enter **Defective Screen(1)**
 
-1.  Enter *your prefix ex. odl_user_DID* in the **Customer** field, click on the lookup icon and select the account **odl_user_DID_Relecloud(4)**.
+   - Subject: **Maintenance(2)**.
 
-1.  Select **Phone(5)** from the **Origin** drop-down field.
+   - Customer :  Click on **Relecloud(3)**.
 
-1.  Enter **Laptop display is too bright(5)** in the **Description** field.
+   - Origin : Choose **Phone (4)**
+ 
+   - Description : Enter **Laptop display is too bright(5)**
 
-1.  Click on the **Identify** stage in the business process flow.
+   - Click on **Identify (6)**
 
-    ![](../images/identify-1.png)
+     ![](../images/casedetails.png)
 
-1. Enter *your prefix ex. odl_user_DID* in the **Find Contact** field, click on the lookup icon and select the **Jane Doe** contact you created in Task 2.
 
-    ![](../images/identify-2.png)
 
-1. Select the **Details(1)** tab then Select **Problem** from the **Type(2)** drop-down field and Click on **Save(3)**.
+1. In the **Find Contact (1)** field, click on the **lookup icon (2)** and select the **Jane Doe (3)** contact you created in Task 2.
+
+    ![](../images/janedoe1.png)
+
+1. Select the **Details(1)** tab then select **Problem** from the **Type(2)** drop-down field and Click on **Save(3)**.
 
     ![](../images/deatils.png)
 
-1. Click on the **Identify** stage in the business process flow, and select **Next Stage**.
+1. Click on the **Identify (1)** stage in the business process flow, and select **Next Stage (2)**.
 
-    ![](../images/next-stage-1.png)
+    ![](../images/nextstag.png)
 
 1. Select the **Summary Tab(1)**. In the Timeline, click on **+(2)**, and select **Phone Call(3)**.
 
-    ![](../images/Timeline-1.png)
+    ![](../images/summary.png)
 
 1. Enter **odl_user_DID_further details(1) ** for **Subject**.
 
