@@ -36,7 +36,7 @@ In this task, you will define three organizational units to act as service locat
 
 9. Click **Save and Close**.
 
-10. Create two more **Sites** by following the steps 7 to 9 with the name listed in the table below.
+10. Create two more **Sites** by following steps 7 to 9 with the name listed in the table below.
 
  odl_user_DID-19th_Ave_Location
  odl_user_DID-35th_St_Location
