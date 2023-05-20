@@ -94,6 +94,14 @@ In this exercise, you will create an Account, a Contact, and a Case record. You 
     
     ![](../images/maintenance.png)
     
+1.  1.  On the **Subject tree** page, select **Add** next to **Subject tree management**.
+     
+1.  In the Create a subject dialog, enter the following information and remaining leave default then Select **Save and close (3)**.:
+    
+     - Title: Type **Service (1)** for the subject.
+    
+     - Click on **Save and Close (2)**
+    
 1. Again Click on **Customer service admin**  the app from the top and select  **Customer Service Hub** .
     
 1. Click on **Cases(1)** in the **Service** section of the sitemap and click on **+ New Case** located on the command bar.
