@@ -173,36 +173,58 @@ In this task, you will create an entitlement template with 20 terms.
 
 5.  Click **+ New**.
 
-1.  Enter **odl_user_DID_20_Free Terms** for **Entitlement Template Name**,select the account you created for **odl_user_DID_Relecloud** in the earlier lab for **Primary Customer**, select today's date for **Start Date**, and select a month from today for **End Date**.select **Yes** for **Restrict on Entitlement Terms**, select **Number of Cases** for **Allocation Type**, select **Case Creation** for **Decrease Remaining On**, enter **20** for **Total Terms**.
+1. On **New Entitlement** page, follow the below instructions:
 
-7.  Click **Save**. DO NOT navigate away from this page.
+    - Entitlement Template Name : Enter **20_Free Terms (1)**
+    - Restrict on Entitlement Terms : Choose **Yes (2)**
+    - Allocation Type : Select **Number of Cases (3)**
+    - Decrease Remaining On : Select **Case Creation (4)**
+    - Total Terms : Enter **20 (5)**
+    - Click on **Save (6)**.
 
-    ![](../images/templates-2.png)
+     ![](../images/entitlementtemplate.png)
+     
+   > **Note:** DO NOT navigate away from this page.
+
 
 8.  Go to the **Entitlement Channel** sub-grid, click on the ellipsis and select **+ New Entitlement Template Channel**.
 
-9.  Select **Phone** for **Name**, enter **20** for **Total Terms** and click **Save & Close**.
+     ![](../images/newentitlement.png)
+     
+9.  Select **Phone (1)** for **Name**, enter **20 (2)** for **Total Terms** and click **Save & Close (3)**.
 
+     ![](../images/phone20.png)
+     
 10. Click on the ellipsis and select **+ New Entitlement Template Channel**.
 
-11. Select **Email** for **Name**, enter **0** for **Total Terms** and click **Save & Close**.
+11. Select **Email (1)** for **Name**, enter **0 (2)** for **Total Terms** and click **Save & Close (3)**.
 
+     ![](../images/email0.png)
+     
 12. Click on the ellipsis and select **+ New Entitlement Template Channel**.
 
-13. Select **Web** for **Name**, enter **0** for **Total Terms** and click **Save & Close**.
+13. Select **Web (1)** for **Name**, enter **0 (2)** for **Total Terms** and click **Save & Close (3)**.
 
+     ![](../images/web0.png)
+     
 14. Click on the ellipsis and select **+ New Entitlement Template Channel**.
 
-15. Select **Facebook** for **Name**, enter **0** for **Total Terms** and click **Save & Close**.
+15. Select **Facebook (1)** for **Name**, enter **0 (2)** for **Total Terms** and click **Save & Close (3)**.
 
+    ![](../images/facebook0.png)
+    
 16. Click on the ellipsis and select **+ New Entitlement Template Channel**.
 
 17. Select **Twitter** for **Name**, enter **0** for **Total Terms** and click **Save & Close**.
 
+     ![](../images/twitter0.png)
+     
 18. Click on the ellipsis and select **+ New Entitlement Template Channel**.
 
-19. Select **IoT** for **Name**, enter **0** for **Total Terms** and click **Save and Close**.
+19. Select **IoT (1)** for **Name**, enter **0 (2)** for **Total Terms** and click **Save and Close (3)**.
 
+     ![](../images/iot0.png)
+     
 > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
 > - Select the **Lab Validation** tab located at the upper right corner of the lab guide section.
 > - Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task. 
