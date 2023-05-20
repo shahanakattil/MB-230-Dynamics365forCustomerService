@@ -20,7 +20,7 @@ In this task, you will define three organizational units to act as service locat
 
 3.  Select your **Time Zone** and click **OK**.
 
-    ![](../images/Personalization-Settings-001.png)
+    ![](../images/Personalization-Settings-1.png)
 
 4.  Click on **Home** at the top of the left-hand side navigation.
 
