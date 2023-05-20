@@ -271,19 +271,15 @@ In this task, you will test the entitlement you created from the entitlement tem
 
      ![](../images/newcases.png)
 
-4.  Enter **Missing Parts (1)** for **Case Title** and select the **Relecloud (2)** account for **Customer**, Select **Phone** for **Origin**, select **Phone Call Only Terms** for **Entitlement** and click **Save**.
+4.  Enter **Missing Parts (1)** for **Case Title** and select the **Relecloud (2)** account for **Customer**, Select **Phone (3)** for **Origin**, select **Phone Call Only Terms (4)** for **Entitlement** and click **Save (5)**.
 
-    ![](../images/Entitlement-7.png)
+    ![](../images/wrongcables.png)
 
 6.  Click **Go back**, click **+ New Case**.
 
-7.  Enter **odl_user_DID_Wrong cables** for **Case Title** and select the **odl_user_DID_Relecloud** account for **Customer**.
+7.  Enter **Wrong cables (1)** for **Case Title** and select the **Relecloud (2)** account for **Customer**, Select **Web (3)** for **Origin**, scroll down to the **Entitlement** field and select **Phone Call Only Terms (4)**, click **Save (5)**. 
 
-8.  Select **Web** for **Origin**.
-
-9.  Scroll down to the **Entitlement** field and select **Phone Call Only Terms**.
-
-10. Click **Save**. You will get an error telling you that there are no available terms.
+8. You will get an error telling you that there are no available terms.
 
 11. Click **OK**.
 
