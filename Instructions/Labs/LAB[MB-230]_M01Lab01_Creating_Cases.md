@@ -182,7 +182,12 @@ In this exercise, you will create a Phone Call activity and then convert the act
 
     ![](../images/record-1.png)
 
-2.  Click **Convert To** located on the command bar [Note: you may need to click on the ellipsis (...)] and select **To Case**.
+2.  Click **Convert To** located on the command bar and click on **To Case**
+   > **Note:** you may need to click on the ellipsis (...).
+
+     ![](../images/convertto.png)
+     
+     ![](../images/tocase.png)
 
 3.  Click on **Customer** field in the **Convert to Case** window.
 
