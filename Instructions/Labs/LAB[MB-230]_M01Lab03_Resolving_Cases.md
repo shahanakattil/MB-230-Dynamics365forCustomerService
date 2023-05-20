@@ -4,8 +4,6 @@
 
 You are a customer service manager at City Power & Light who has been tasked with trying the new case resolution and reactivation functionality before rolling it out to your users. In this lab, you will resolve a case and reactive that case.
 
-> `Important`: The **[DeploymentId]/[DID] can be found under the environment details tab in the user name (example: `odl_user_xxxxxx.onmicrosoft.com`) **xxxxxx** is the [DeploymentID]**.
-
 ## Exercise 1 – Resolve Cases
 
 ### Task 1 – Resolve Case
@@ -55,3 +53,11 @@ You are a customer service manager at City Power & Light who has been tasked wit
 1.  Click **Save & Close**.
 
     ![](../images/re-activecase-2.png)
+    
+> **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
+> - Select the **Lab Validation** tab located at the upper right corner of the lab guide section.
+> - Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task. 
+> - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
+> - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
+
+**Result:** You have successfully resolved the cases in this lab.  
