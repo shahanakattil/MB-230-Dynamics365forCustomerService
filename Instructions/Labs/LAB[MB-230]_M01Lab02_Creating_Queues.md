@@ -20,7 +20,7 @@ In this exercise, you will create four queues.
 
 1.  Click **+ New** located on the command bar.
 
-1.  Enter **odl_user_DID_Support (1)** for **Name** and select **Public (2)** for **Type**, and enter the user name from the environment details pages of the lab guide ex. `odl_user_926235@azureholxxxx.onmicrosoft.com`(3)  for **Incomming Email**.
+1.  Enter **odl_user_DID_Support (1)** for **Name** and select **Public (2)** for **Type**, and enter the user name from the environment details pages of the lab guide ex. `odl_user_926235@azureholxxxx.onmicrosoft.com`(3)  for **Incoming Email**.
 
 1.  Click **Save (4)**.
 
