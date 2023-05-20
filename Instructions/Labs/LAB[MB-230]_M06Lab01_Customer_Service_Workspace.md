@@ -36,7 +36,7 @@ In this exercise you will learn how to navigate the Customer Service workspace a
 
 11. Hold the Shift key down and select the **Defective Speaker** case. A new session starts in the left-hand pane for the case. 
 
-12. You should now how have two sessions.
+12. You should now have two sessions.
 
 13. Select the first session for the **Defective Screen** case and click on **Close the session** and confirm with **Close**.
 
