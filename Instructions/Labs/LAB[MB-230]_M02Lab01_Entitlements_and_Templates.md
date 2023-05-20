@@ -59,27 +59,39 @@ In this task, you will add entitlement channels to the default entitlement and t
 
     ![](../images/email.png)
 
-3.  Click on the ellipsis button and select **+ New Entitlement Channel**.
+1. Navigate back to the **Entitlement Channel** section of the Entitlement form, click on the ellipsis (...) and select **+ New Entitlement Channel**.
 
-4.  Select **Web** for **Name**, enter **30** for **Total Terms** and click **Save and Close**.
+    ![](../images/new-1.png)
+    
+4.  Select **Web (1)** for **Name**, enter **30 (2)** for **Total Terms** and click **Save and Close (3)**.
 
-5.  Click on the ellipsis button and select **+ New Entitlement Channel**.
+     ![](../images/webentitelment.png)
+     
+1. Navigate back to the **Entitlement Channel** section of the Entitlement form, click on the ellipsis (...) and select **+ New Entitlement Channel**.
 
-6.  Select **Facebook** for **Name**, enter **10** for **Total Terms** and click **Save and Close**.
+    ![](../images/new-1.png)
 
+6.  Select **Facebook (1)** for **Name**, enter **10 (2)** for **Total Terms** and click **Save and Close (3)**.
+
+     ![](../images/facebook.png)
+     
 7.  Click on the ellipsis button and select **+ New Entitlement Channel**.
 
-8.  Select **Twitter** for **Name**, enter **10** for **Total Terms** and click **Save and Close**.
+8.  Select **Twitter (1)** for **Name**, enter **10 (2)** for **Total Terms** and click **Save and Close (3)**.
 
+     ![](../images/twittwe.png)
+     
 9.  Click on the ellipsis button and select **+ New Entitlement Channel**.
 
-10. Select **Phone** for **Name**, enter **0** for **Total Terms** and click **Save and Close**.
+10. Select **Phone (1)** for **Name**, enter **0 (2)** for **Total Terms** and click **Save and Close (3)**.
 
+    ![](../images/phone.png)
+    
 11. Click on the ellipsis button and select **+ New Entitlement Channel**.
 
-12. Select **IoT** for **Name**, enter **0** for **Total Terms** and click **Save and Close**.
+12. Select **IoT (1)** for **Name**, enter **0 (2)** for **Total Terms** and click **Save and Close (3)**.
 
-    ![](../images/activate.png)
+    ![](../images/IOT.png)
 
 13. Click **Activate**.
 
