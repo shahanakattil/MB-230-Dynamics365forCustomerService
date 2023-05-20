@@ -113,3 +113,5 @@ In this practice lab, you will validate and set up your tenant.
    ![](../images/service-hub-app.png)
 
 1. Spend a few minutes exploring the application.
+
+1. You should now be showing the **Dashboard** view
