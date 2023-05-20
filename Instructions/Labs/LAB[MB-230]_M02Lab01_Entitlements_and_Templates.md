@@ -167,9 +167,7 @@ In this task, you will create an entitlement template with 20 terms.
 
     ![](../images/Customer-service-admin-1.png)
     
-1.  Using the navigation on the left, select **Service Team**.
-
-1.  Select **Manage** next to **Entitlements Templates**.
+1.  Using the navigation on the left, select **Service Terms** and click on **Manage** next to **Entitlements Templates**.
 
     ![](../images/Entitlement-3.png)
 
