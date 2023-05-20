@@ -8,8 +8,6 @@
 
     ![](../images/envdetails.png)
 
-
-
-1. The **Lab Guide** tab contains the instructions for the lab. You will be using it throughout the workshop to perform the lab. Click on Next from the bottom right and follow the instructions to perform the lab.
+2. The **Lab Guide** tab contains the instructions for the lab. You will be using it throughout the workshop to perform the lab. Click on Next from the bottom right and follow the instructions to perform the lab.
 
     ![](../images/labguide.png)
