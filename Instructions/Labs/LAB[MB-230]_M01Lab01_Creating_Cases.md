@@ -134,23 +134,20 @@ In this exercise, you will create an Account, a Contact, and a Case record. You 
 
     ![](../images/summary.png)
 
-1. Enter **odl_user_DID_further details(1) ** for **Subject**.
+1. On **Quick Create : Phone call** page, follow the below instructions:
 
-1. Select **Outgoing (2)** from the **Direction** drop-down field.
+    - Subject : Enter **further details (1)**
+    - Ensure that your user record is set for **Call From (2)**.
+    - Ensure that the Jane Doe contact is set for **Call To (3)**.
+    - Direction : Choose **Outgoing (4)**
+    - Duration : Choose **15 minutes (5)**
+    - Due : Select tomorrow's date **(6)** and **9:00AM (7)**.
+    - Priority : Choose **High (8)**
+    - Select **Save & Close (9)**.
 
-1. Ensure that your user record is set for **Call From**.
+      ![](../images/phonecall.png)
+      
 
-1. Ensure that the Jane Doe contact is set for **Call To**.
-
-1. Select **15 minutes (3)** from the **Duration** drop-down field.
-
-1. Select tomorrow's date and 9:00AM (4) for **Due**.
-
-1. Select **High (5)** from the **Priority** drop-down field.
-
-1. Select **Save & Close (6)**
-
-    ![](../images/phone-call-1.png)
 
 ## Exercise 2 – Create case from an activity
 
