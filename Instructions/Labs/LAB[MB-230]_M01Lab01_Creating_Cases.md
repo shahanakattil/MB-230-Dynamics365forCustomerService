@@ -12,9 +12,11 @@ In this exercise, you will create an Account, a Contact, and a Case record. You 
 
 ### Task 1 – Create Account
 
-1.  Click on **Accounts (1)** in the **Customers** section of the sitemap.
+1.  On **Customer Service Hub** page, click on **Accounts (1)** from the **Customers** section of the sitemap and click on **+ New (2)
 
-2.  Click **+ New** located on the command bar.
+     ![](../images/newaccount.png)
+     
+
 
 3.  Enter **odl_user_DID_Relecloud (2)** for **Account Name**.
 
