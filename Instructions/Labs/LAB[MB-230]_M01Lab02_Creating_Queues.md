@@ -4,8 +4,6 @@
 
 You are a customer service manager at City Power & Light. You need to create queues for the customer service representatives to use for processing cases. In this lab, you will create a create multiple queues and add cases to activities to queues.
 
-> `Important`: The **[DeploymentId]/[DID] can be found under the environment details tab in the user name (example: `odl_user_xxxxxx.onmicrosoft.com`) **xxxxxx** is the [DeploymentID]**.
-
 ## Exercise 1 – Create Queues
 
 In this exercise, you will create four queues.
@@ -73,6 +71,12 @@ In this exercise, you will create four queues.
 1. Review the options in the list for **Queues I'm a member of**. You should be able to see the four queues you created.
 
     ![](../images/all-item-1.png)
+    
+> **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
+> - Select the **Lab Validation** tab located at the upper right corner of the lab guide section.
+> - Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task. 
+> - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
+> - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
 
 ### Task 2 – Add cases to queues
 
@@ -119,6 +123,12 @@ In this exercise, you will create four queues.
 1. Change the queue selector to **All Queues**.
 
     ![](../images/all-queues-1.png)
+    
+> **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
+> - Select the **Lab Validation** tab located at the upper right corner of the lab guide section.
+> - Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task. 
+> - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
+> - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
 
 ### Task 3 – Perform actions on queue items
 
@@ -165,3 +175,5 @@ In this exercise, you will create four queues.
 1. Click **Release** located on the command bar and click **Release**.
 
     ![](../images/release-1.png)
+    
+**Result:** You have accomplished the creation of queues, inclusion of cases in the queues, and execution of actions on queue items.
