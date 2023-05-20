@@ -155,31 +155,26 @@ In this exercise, you will create a Phone Call activity and then convert the act
 
 ### Task 1 – Create Phone Call activity
 
-1.  Click on **Contacts (1)** in the **Customers** section of the sitemap.
+1.  Click on **Contacts (1)** in the **Customers** section of the sitemap and select **Jon Doe (2)** contact you created in Task 2 from the list.
 
-2.  select the **Jon Doe (2)** contact you created in Task 2 from the list.
-
+      ![](../images/contactjon.png)
+      
 3.  In the Timeline, click on **+ (3)**, and select **Phone Call (4)**.
 
-    ![](../images/phone-call-2.png)
+    ![](../images/jonphonecall.png)
 
-4.  Enter **odl_user_DID_Service required (1)** for **Subject**.
+1. On **Quick Create : Phone call** page, follow the below instructions:
 
-5.  Select **Incoming (2)** from the **Direction** drop-down field.
+    - Subject : Enter **Service required (1)**
+    - Ensure that the **Jon Doe** contact is set for **Call From (2)**.
+    - Ensure that your user record is set for **Call To (3)**.
+    - Direction : Choose **Incoming (4)**
+    - Description : Enter **Annual service needs to be scheduled for Jon (5)**
+    - Duration : Choose **10 minutes (6)**
+    - Due : Select today's date  and **8:00AM (7)**.
+    - Select **Save & Close (8)**.
 
-6.  Ensure that the Jon Doe contact is set for **Call From**.
-
-7.  Ensure that your user record is set for **Call To**.
-
-8.  In the Description field, enter **Annual service needs to be scheduled for Jon (3)**.
-
-9.  Click into the **Duration field** and type **10 minutes (4)**.
-
-10. Select today's date and duration 8 AM (5) for **Due**.
-
-11. Select **Save and Close (6)**
-
-    ![](../images/jon-phone-call-1.png)
+     ![](../images/jonphonecall1.png)
 
 ### Task 2 – Covert Phone Call activity
 
