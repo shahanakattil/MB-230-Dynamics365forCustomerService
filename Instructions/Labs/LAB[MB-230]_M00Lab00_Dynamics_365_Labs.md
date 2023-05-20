@@ -52,6 +52,8 @@ In this practice lab, you will validate and set up your tenant.
    |Type|**Production(3)**|
    |Add a Dataverse data store?|**Enabled(4)** and select **Next(5)**|
    
+   ![](../images/power-platform-environment-new-add-01.png)
+   
 1. Now scorll-down and specify the following settings and click on **Save**:
 
    |Setting|Value|
@@ -62,8 +64,6 @@ In this practice lab, you will validate and set up your tenant.
    >Note: The **[DeploymentId]/[DID] can be found under the environment details tab in the user name (example: `odl_user_xxxxxx.onmicrosoft.com`) **xxxxxx** is the [DeploymentID]**.
    
    >**Note**: Wait for the Environment to get **ready** before you continue with this lab.
-
-   ![](../images/power-platform-environment-new-add-01.png)
    
    ![](../images/dataverse.png)
    
