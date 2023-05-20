@@ -1,4 +1,4 @@
-# Practice Lab - Setup Dynamics 365 for Customer Service
+# Module 00 - Setup Dynamics 365 for Customer Service
 
 ## Scenario
 
@@ -35,43 +35,43 @@ In this practice lab, you will validate and set up your tenant.
 
 ### Task 2 – Create Environment into the Power Platform admin center
 
-1. On the Power Platform admin center, from the navigation pane, select **Environments(1)**. Now on the environments page, you will see a **default environment present(2)**. Do not **use**, **modify** or **delete** the **default** environment.
+1. On the Power Platform admin center, from the navigation pane, select **Environments(1)** and observe the **default environment present(2)**. Do not **use**, **modify** or **delete** the **default** environment.
 
-    ![](../images/power-platform-environment.png)
+    ![](../images/environments.png)
 
-1. Now On the Power Platform admin center, On the **Environments(1)** pane, select **+ New*(2)** to create a new  environment.
+1. On the **Environments(1)** pane, select **+ New(2)** to create a new  environment.
 
-    ![](../images/power-platform-environment-new.png)
+    ![](../images/newenv.png)
 
 1. On the **New environment** page, specify the following settings:
 
-   |Setting|Value|
-   |---|---|
-   |Name|**Prod-Env-[DeploymentID](1)**|
-   |Region|**United States(2)**|
-   |Type|**Production(3)**|
-   |Add a Dataverse data store?|**Enabled(4)** and select **Next(5)**|
+  
+   - Name : Enter **Prod-Env(1)**|
+   - Region : Choose **United States(2)**
+   - Type : Choose **Production(3)**
+   - Add a Dataverse data store? **Enabled(4)**
+   - Select **Next(5)**
    
-   ![](../images/power-platform-environment-new-add-01.png)
-   
+    ![](../images/newenvnext.png)
+    
 1. Now scorll-down and specify the following settings and click on **Save**:
 
-   |Setting|Value|
-   |---|---|
-   |Enable Dynamics 365 apps?|**Enabled(1)**|
-   |Security group|click on **+ Select(2)** and on the the **Edit security group page** select **None(3)** option from the list and click on **Done(4)**|
+   - Enable Dynamics 365 apps? : **Enabled(1)**
+   - Security group : Click on **+ Select(2)**
+   
+    ![](../images/adddataverse.png)
+   
+   - On the the **Edit security group page** select **None(3)** option from the list and click on **Done(4)**
+
+    ![](../images/nonesecuritygroup.png)
    
    >Note: The **[DeploymentId]/[DID] can be found under the environment details tab in the user name (example: `odl_user_xxxxxx.onmicrosoft.com`) **xxxxxx** is the [DeploymentID]**.
    
    >**Note**: Wait for the Environment to get **ready** before you continue with this lab.
+
+   ![](../images/power-platform-environment-new-add-01.png)
    
    ![](../images/dataverse.png)
-   
-> **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
-> - Select the **Lab Validation** tab located at the upper right corner of the lab guide section.
-> - Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task. 
-> - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
-> - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
    
 ### Task 3 - Intalling Dynamic 365 Service Scheduling.
 
@@ -111,5 +111,3 @@ In this practice lab, you will validate and set up your tenant.
    ![](../images/service-hub-app.png)
 
 1. Spend a few minutes exploring the application.
-
-> **Result:** You have successfully created your Dynamics 365 environment. 
