@@ -4,8 +4,6 @@
 
 You are the scheduling manager at City Power & Light who has been tasked with setting up the new Service Scheduling functionality to perform services for customers at three of your locations.
 
-> `Important`: The **[DeploymentId]/[DID] can be found under the environment details tab in the user name (example: `odl_user_xxxxxx.onmicrosoft.com`) **xxxxxx** is the [DeploymentID]**.
-
 ## Exercise 1: Configure Customer Service Scheduling
 
 In this exercise, you will create organizational units, define a business closure, and create facility/equipment records for organization units.
@@ -116,6 +114,12 @@ In this task, you will create facilities/equipment records for the organizationa
 16. You should now have total of 9 Facilities/Equipment records.
 
     ![](../images/Personalization-Settings-9.png)
+    
+> **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
+> - Select the **Lab Validation** tab located at the upper right corner of the lab guide section.
+> - Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task. 
+> - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
+> - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
 
 ## Exercise 2: Resource Configuration
 
@@ -180,6 +184,12 @@ In this task you will create new resource categories.
     ![](../images/Personalization-Settings-14.png)
 
 9.  Do NOT navigate away from this application.
+
+> **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
+> - Select the **Lab Validation** tab located at the upper right corner of the lab guide section.
+> - Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task. 
+> - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
+> - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
 
 ## Task 3: Create Resources
 
@@ -262,3 +272,11 @@ In this task you will create resources using the contacts you created.
 19. You should now have 15 Resources.
 
     ![](../images/Personalization-Settings-25.png)
+    
+> **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
+> - Select the **Lab Validation** tab located at the upper right corner of the lab guide section.
+> - Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task. 
+> - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
+> - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
+
+**Result:** You have successfully Configured Customer Service Scheduling and Resource Configuration in this lab. 
