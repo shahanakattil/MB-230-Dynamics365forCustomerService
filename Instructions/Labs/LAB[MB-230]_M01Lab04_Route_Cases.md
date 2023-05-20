@@ -220,4 +220,4 @@ You are a customer service manager at City Power & Light who has been tasked wit
 
     ![](../images/Basic-routing-10.png)
     
-**Result:** You have successfully Configure basic routing rule set and created the route cases. 
+**Result:** You have successfully Configured the basic routing rule set and created the route cases. 
