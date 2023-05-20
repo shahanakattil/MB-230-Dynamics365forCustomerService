@@ -76,14 +76,15 @@ In this exercise, you will create an Account, a Contact, and a Case record. You 
 
     ![](../images/Customer-service-admin-1.png)
     
-1.  In the site map, select **Case Settings** in Customer Support. The Case Settings page appears.
+1.  In the site map, select **Case Settings (1)** from Customer Support and click on **Manage (2)** next to **Subjects**.
 
-1.  In the Subjects section, select **Manage**.
+     ![](../images/managesubject.png)
+     
 
-    ![](../images/Customer-service-admin-9.png)
+1.  On the **Subject tree** page, select **Add** next to **Subject tree management**.
 
-1.  On the Subject tree page, in the Subject tree management area, select Add.
-
+     ![](../images/addsubjecttree.png)
+     
 1.  In the Create a subject dialog, enter the following information and remaining leave default then Select **Save and close (3)**.:
     
   - Title: Type **Maintenance (1)** for the subject.
