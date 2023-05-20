@@ -113,13 +113,13 @@ In this task, you will test the default entitlement for Relecloud.
 
 1.  Click on **Home** at the top of the left-hand side navigation.
 
-2.  Click on **Cases** in the **Service** section of the sitemap.
+2.  Click on **Cases** in the **Service** section of the sitemap and click on **+ New Case**.
 
-3.  Click **+ New Case**.
+     ![](../images/cases1.png)
 
-4.  Enter **odl_user_DID_Audio_System_Setup_Issues** for **Case Title**, select the **odl_user_DID_Relecloud** account you created in the earlier lab for **Customer**, select **Email** for **Origin** and click **Save & Close**. The entitlement should be applied automatically.
+4.  Enter **Audio_System_Setup_Issues (1)** for **Case Title**, select the **Relecloud (2)** account you created in the earlier lab for **Customer**, select **Email (3)** for **Origin** and click **Save & Close (4)**. The entitlement should be applied automatically.
 
-    ![](../images/newcase1.png)
+    ![](../images/newcase.png)
 
 5.  Click **+ New Case**.
 
