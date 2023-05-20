@@ -78,7 +78,7 @@ You are a customer service manager at City Power & Light who has been tasked wit
 
 1. Click **Activate**.
 
-    ![](../images/creation-rules-6.png)
+    ![](../images/creation-rules-60.png)
 
 1. Due to the lack of administrative access to email mailboxes, you will not be able to test this rule.
 
