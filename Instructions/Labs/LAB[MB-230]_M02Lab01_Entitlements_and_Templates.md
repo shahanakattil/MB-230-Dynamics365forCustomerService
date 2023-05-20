@@ -368,10 +368,10 @@ In this task, you will create a Customer Service Schedule to use with SLAs.
 
 2.  Click **+ New**.
 
-3.  Enter **odl_user_DID_Customer Service Schedule** for **Name**.
+3.  Enter **Customer Service Schedule** for **Name** and click on **Create**.
 
-4.  Click **Create**.
-
+     ![](../images/customerservice.png)
+     
 5.  Uncheck **Saturday** and **Sunday**.
 
 6.  Click **Set Work Hours**.
