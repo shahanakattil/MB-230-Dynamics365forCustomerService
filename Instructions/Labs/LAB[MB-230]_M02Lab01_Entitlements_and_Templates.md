@@ -123,9 +123,9 @@ In this task, you will test the default entitlement for Relecloud.
 
 5.  Click **+ New Case**.
 
-6. Enter **odl_user_DID_Defective Speaker** for **Case Title**, select the **odl_user_DID_Relecloud** account you created in the earlier lab for **Customer**, select **Facebook** for **Origin**, select the **odl_user_DID_Entitlement 1** record you created for **Entitlement** and click **Save & Close**.
+6. Enter **Defective Speaker (1)** for **Case Title**, select the **Relecloud (2)** account you created in the earlier lab for **Customer**, select **Facebook (3)** for **Origin**, select the **Entitlement 1 (4)** record you created for **Entitlement** and click **Save & Close (5)**.
 
-    ![](../images/newcase2.png)
+    ![](../images/defectivespeaker.png)
 
 7.  Click **+ New Case**.
 
