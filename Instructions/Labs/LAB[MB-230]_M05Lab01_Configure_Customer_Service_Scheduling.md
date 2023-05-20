@@ -16,9 +16,11 @@ In this task, you will define three organizational units to act as service locat
 
 2.  Click **Settings** and select **Personalization Settings**.
 
+    ![](../images/Personalization-Settings-0.png)
+
 3.  Select your **Time Zone** and click **OK**.
 
-    ![](../images/Personalization-Settings-1.png)
+    ![](../images/Personalization-Settings-001.png)
 
 4.  Click on **Home** at the top of the left-hand side navigation.
 
@@ -30,20 +32,20 @@ In this task, you will define three organizational units to act as service locat
 
     ![](../images/Personalization-Settings-2.png)
 
-8. Enter **odl_user_DID_Main_Ave_Location** for **Name**. Click on the **Scheduling** tab and enter a valid number for both Latitude and Longitude(Example: Latitude- 40, Longitude- 40).
+8. Enter **Main Ave Location** for **Name**. Click on the **Scheduling** tab and enter a valid number for both Latitude and Longitude(Example: Latitude- 40, Longitude- 40).
 
-    ![](../images/Personalization-Settings-3.png)
+    ![](../images/Personalization-Settings-002.png)
 
 9. Click **Save and Close**.
 
 10. Create two more **Sites** by following steps 7 to 9 with the name listed in the table below.
 
- odl_user_DID-19th_Ave_Location
- odl_user_DID-35th_St_Location
+- 19th Ave Location
+- 35th St Location
 
 11. You should now have three Sites.
 
-    ![](../images/Personalization-Settings-4.png)
+    ![](../images/Personalization-Settings-003.png)
 
 12. Do not navigate away from this application.
 
@@ -55,9 +57,11 @@ In this task, you will define a new business closure.
 
 2.  Click **+ New**.
 
-3.  Enter **odl_user_DID_Worldwide_Rest_Day** for **Name**, Select **All Day Event** as **No**, select a date one week from now for **Start Date**, and click **OK**.
+    ![](../images/Personalization-Settings-004.png)
 
-    ![](../images/Personalization-Settings-5.png)
+3.  Enter **Worldwide Rest Day** for **Name**, Select **All Day Event** as **No**, select a date one week from now for **Start Date**, and click **OK**.
+
+    ![](../images/Personalization-Settings-005.png)
 
 4.  Do not navigate away from this application.
 
@@ -69,19 +73,21 @@ In this task, you will create facilities/equipment records for the organizationa
 
 2.  Click **+ New**.
 
-3.  Enter **odl_user_DID_Main_Ave-Service_Bay_1** for **Name**, select **odl_user_DID_Main_Ave_Location** for **Organizational Unit**, select a *Time Zone*, select the root **Business Unit**, and click **Save **.
+    ![](../images/Personalization-Settings-006.png)
 
-    ![](../images/Personalization-Settings-6.png)
+3.  Enter **Main Ave - Service Bay 1** for **Name**, select **Main Ave Location** for **Organizational Unit**, select a *Time Zone*, select the root **Business Unit**, and click **Save **.
+
+    ![](../images/Personalization-Settings-007.png)
 
 4.  Select the **Work Hours** tab, click on one of the events listed on the calendar, click **Edit**, and select **All events in the series**.
 
-    ![](../images/Personalization-Settings-7.png)
+    ![](../images/Personalization-Settings-008.png)
 
 5.  Select **08:00 AM to 08:00 PM**, remove **Saturday** and **Sunday**, and click **Remove end date**, if there is an end date selected.
 
 6.  Toggle **Observe Business Closure** to **On**.
 
-    ![](../images/Personalization-Settings-8.png)
+    ![](../images/Personalization-Settings-010.png)
 
 7.  Click **Save** to save the working hours.
 
@@ -89,7 +95,7 @@ In this task, you will create facilities/equipment records for the organizationa
 
 9.  Click **+ New**.
 
-10. Enter **odl_user_DID_Main Ave-Service_Bay_2** for **Name**, select **odl_user_DID_Main_Ave_Location** for **Organizational Unit**, select your **Time Zone**, select the root **Business Unit**, and click **Save**.
+10. Enter **Main Ave - Service Bay 2** for **Name**, select **Main Ave Location** for **Organizational Unit**, select your **Time Zone**, select the root **Business Unit**, and click **Save**.
 
 11. Select the **Work Hours** tab, click on one of the events listed on the calendar, click **Edit**, and select **All events in the series**.
 
@@ -113,7 +119,7 @@ In this task, you will create facilities/equipment records for the organizationa
 
 16. You should now have total of 9 Facilities/Equipment records.
 
-    ![](../images/Personalization-Settings-9.png)
+    ![](../images/Personalization-Settings-011.png)
     
 > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
 > - Select the **Lab Validation** tab located at the upper right corner of the lab guide section.
@@ -137,11 +143,11 @@ In this task you will create new contact records.
 
 4.  Click **+ New**.
 
-    ![](../images/Personalization-Settings-10.png)
+    ![](../images/Personalization-Settings-012.png)
 
-5.  Enter **odl_user_DID_Mike** for **First Name**, **Smith** for **Last Name**, and click **Save and Close**.
+5.  Enter **Mike** for **First Name**, **Smith** for **Last Name**, and click **Save and Close**.
 
-    ![](../images/Personalization-Settings-11.png)
+    ![](../images/Personalization-Settings-013.png)
 
 6.  Repeat the previous two steps and create the **Contact** records listed in the table below.
 
@@ -155,7 +161,7 @@ In this task you will create new contact records.
 
 7.  You should now have six contact records.
 
-    ![](../images/Personalization-Settings-12.png)
+    ![](../images/Personalization-Settings-014.png)
 
 8.  Do NOT navigate away from this application.
 
@@ -169,19 +175,21 @@ In this task you will create new resource categories.
 
 3.  Click **+ New**.
 
-    ![](../images/Personalization-Settings-13.png)
+    ![](../images/Personalization-Settings-015.png)
 
-4.  Enter **odl_user_DID_Senior_Technician** for **Name** and click **Save and Close**.
+4.  Enter **Senior Technician** for **Name** and click **Save and Close**.
+
+    ![](../images/Personalization-Settings-021.png)
 
 5.  Click **+ New**.
 
-6.  Enter **odl_user_DID_Technician** for **Name** and click **Save and Close**.
+6.  Enter **Technician** for **Name** and click **Save and Close**.
 
-7.  Create two more **Resource Categories** and name them **odl_user_DID_Service_Bay_Facility** and **odl_user_DID_Tire_Jack_Equipment**.
+7.  Create two more **Resource Categories** and name them **Service Bay Facility** and **Tire Jack Equipment**.
 
 8.  You should now have 4 **Resource Categories**.
 
-    ![](../images/Personalization-Settings-14.png)
+    ![](../images/Personalization-Settings-016.png)
 
 9.  Do NOT navigate away from this application.
 
@@ -199,30 +207,34 @@ In this task you will create resources using the contacts you created.
 
 2.  Click **+ New**.
 
-    ![](../images/Personalization-Settings-15.png)
+    ![](../images/Personalization-Settings-017.png)
 
-3.  Select **Contact** for **Resource Type**, select **odl_user_DID_Mike_Smith** for **Contact**, and select the **Scheduling** tab.
+3.  Select **Contact** for **Resource Type**, select **Mike Smith** for **Contact**, and select the **Scheduling** tab.
 
-    ![](../images/Personalization-Settings-16.png)
+    ![](../images/Personalization-Settings-022.png)
 
-4.  Select **Organizational Unit Address** for **Start** and **End Locations**, select **Main_Ave_Location** for **Organizational Unit**, and click
+4.  Select **Organizational Unit Address** for **Start** and **End Locations**, select **Main Ave Location** for **Organizational Unit**, and click
     **Save**.
     
-    ![](../images/Personalization-Settings-17.png)
+    ![](../images/Personalization-Settings-019.png)
 
 5.  Select the **Work Hours** tab, click on one of the events on the calendar, click **Edit**, and select **All events in the series**.
 
+    ![](../images/Personalization-Settings-024.png)
+
 6.  Select **08:00 AM** to **04:30 PM** and click **Add Break**.
+
+    ![](../images/Personalization-Settings-023.png)
 
 7.  Remove **Saturday** and **Sunday**, select **Observe Business Closure** to **On**, then click **Save**.
 
-    ![](../images/Personalization-Settings-18.png)
+    ![](../images/Personalization-Settings-025.png)
 
 8.  Select the **General** tab.
 
 9.  Select the **Related** tab and select **Resource Category Assns**  and click **+ New Bookable Resource Category Assn**.
 
-    ![](../images/Personalization-Settings-19.png)
+    ![](../images/Personalization-Settings-026.png)
 
 10. Select **Senior Technician** and click **Save and Close**.
 
@@ -240,7 +252,7 @@ In this task you will create resources using the contacts you created.
 
 12. You should now have 6 resources. Click **+ New**.
 
-    ![](../images/Personalization-Settings-21.png)
+    ![](../images/Personalization-Settings-027.png)
 
 13. Select **Facility** for **Resource Type**, select **19th Ave – Service Bay 1** for **Facility Equipment**, and select the **Scheduling** tab.
 
@@ -263,15 +275,15 @@ In this task you will create resources using the contacts you created.
 | Facility          | 19th Ave – Service Bay 2 | Organizational Unit Address | Service Bay Facility       |
 | Facility          | 35th St – Service Bay 1  | Organizational Unit Address | Service Bay Facility       |
 | Facility          | 35th St – Service Bay 2  | Organizational Unit Address | Service Bay Facility       |
-| Facility          | odl_user_DID_Main_Ave–Service_Bay_1 | Organizational Unit Address | Service Bay Facility       |
-| Facility          | odl_user_DID_Main_Ave–Service_Bay_2 | Organizational Unit Address | Service Bay Facility       |
+| Facility          | Main Ave – Service Bay 1 | Organizational Unit Address | Service Bay Facility       |
+| Facility          | Main Ave – Service Bay 2 | Organizational Unit Address | Service Bay Facility       |
 | Equipment         | 19th Ave – Tire Jack     | Organizational Unit Address | Tire Jack Equipment        |
 | Equipment         | 35th St – Tire Jack      | Organizational Unit Address | Tire Jack Equipment        |
 | Equipment         | Main Ave – Tire Jack     | Organizational Unit Address | Tire Jack Equipment        |
 
 19. You should now have 15 Resources.
 
-    ![](../images/Personalization-Settings-25.png)
+    ![](../images/Personalization-Settings-028.png)
     
 > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
 > - Select the **Lab Validation** tab located at the upper right corner of the lab guide section.
