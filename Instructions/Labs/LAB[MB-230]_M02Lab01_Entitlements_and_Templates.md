@@ -95,7 +95,11 @@ In this task, you will add entitlement channels to the default entitlement and t
 
 13. Click **Activate**.
 
-14. Click **Activate**.
+    ![](../images/activat.png)
+    
+14. On **Confirm Entitlement Activation** tab, click on **Activate**.
+
+     ![](../images/confirmentitemnet.png)
 
 15. Click **Set as Default**.
 
