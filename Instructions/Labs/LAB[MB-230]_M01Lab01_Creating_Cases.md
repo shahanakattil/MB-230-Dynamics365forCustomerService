@@ -18,7 +18,7 @@ In this exercise, you will create an Account, a Contact, and a Case record. You 
      
 
 
-3.  Enter **odl_user_DID_Relecloud (2)** for **Account Name**.
+3.  Enter **<inject key="AzureAdUserEmail"></inject>** for **Account Name**.
 
 4.  Click **Save & Close (3)**.
 
