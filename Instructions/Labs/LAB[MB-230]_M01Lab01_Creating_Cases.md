@@ -31,30 +31,38 @@ In this exercise, you will create an Account, a Contact, and a Case record. You 
 
 ### Task 2 – Create Contacts
 
-1.  Click on **Contacts (1)** in the **Customers** section of the sitemap.
+1.  Click on **Contacts (1)** in the **Customers** section of the sitemap and click on **+ New (2)** located on the command bar.
 
-2.  Click **+ New** located on the command bar.
+     ![](../images/contacts1.png)
+     
+1. Follow the below instructions on **New Contact** page:
+ 
+   - First Name: Enter **Jane (1)**.
 
-3.  Enter **odl_user_DID_Jane (2)** for **First Name**.
+   - Last Name: Enter **Doe (2)** for **Last Name**.
 
-4.  Enter **Doe (3)** for **Last Name**.
+   - Account Name: Enter **Relecloud (3)**.
 
-5.  Enter *your prefix ex. odl_user_DID* in the **Account Name** field, click on the lookup icon and select the account **odl_user_DID_Relecloud (4)**.
+   - Click **Save & Close (5)**.
 
-6.  Click **Save & Close (5)**.
+    ![](../images/newcontact.png)
 
-    ![](../images/jane.png)
+7.  Click **+ New** located on the command bar on **Contacts** page
 
-7.  Click **+ New** located on the command bar.
+     ![](../images/newcontact1.png)
+     
+1. Follow the below instructions on **New Contact** page:
+ 
+   - First Name: Enter **Jon (1)**.
 
-8.  Enter **odl_user_DID_Jon (2)** for **First Name**.
+   - Last Name: Enter **Doe (2)** for **Last Name**.
 
-9.  Enter **Doe (3)** for **Last Name**.
-10.  Enter *your prefix ex. odl_user_DID* in the **Account Name** field, click on the lookup icon and select the account **odl_user_DID_Relecloud (4)**.
+   - Account Name: Enter **Relecloud (3)**.
 
-11.  Click **Save & Close (5)**.
+   - Click **Save & Close (5)**.
 
-     ![](../images/jon.png)
+    ![](../images/jon.png)
+
      
 > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
 > - Select the **Lab Validation** tab located at the upper right corner of the lab guide section.
