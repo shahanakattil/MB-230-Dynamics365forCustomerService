@@ -4,8 +4,6 @@
 
 As a customer care coordinator at City Power & Light, you are responsible for instructing the customer service team and providing them with troubleshooting articles to support case resolution. You need to create a knowledge article within Dynamics 365 for Customer Service. In this lab, you will create a knowledge article, walk through the publishing process and then revise that article.
 
-> `Important`: The **[DeploymentId]/[DID] can be found under the environment details tab in the user name (example: `odl_user_xxxxxx.onmicrosoft.com`) **xxxxxx** is the [DeploymentID]**.
-
 ## Exercise 1 – Knowledge Management
 
 In this exercise, you will create, approve, publish, and revise an internal Knowledge Article for missing parts.
@@ -68,6 +66,12 @@ In this task, you will create an internal Knowledge Article for missing parts.
 1. Select **Maintenance** for **Article Subject**, check the **Mark for Review** checkbox, and click **Next Stage**.
 
     ![](../images/Knowledge-management-2.png)
+    
+> **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
+> - Select the **Lab Validation** tab located at the upper right corner of the lab guide section.
+> - Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task. 
+> - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
+> - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
 
 ### Task 2 – Approve and Publish Knowledge Article
 
@@ -135,3 +139,11 @@ Article.
 1. Change the view to **Archived Articles**. You should find the old version of the **Missing Parts** article in this view.
 
     ![](../images/Knowledge-management-9.png)
+    
+> **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
+> - Select the **Lab Validation** tab located at the upper right corner of the lab guide section.
+> - Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task. 
+> - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
+> - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
+
+**Result:** You have successfully created the Knowledge Management and approved and publish knowledge article in Dyamic 365 customer services. 
