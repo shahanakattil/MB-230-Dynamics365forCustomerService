@@ -73,13 +73,13 @@ In this practice lab, you will validate and set up your tenant.
    
 ### Task 3 - Intalling Dynamic 365 Service Scheduling.
 
-1. On the Power Platform admin center, select the **Prod-Env-[DeploymentID]** environment.
+1. On the Power Platform admin center, select the **Prod-Env** environment.
 
    ![](../images/prodenv.png)
     
-1. Select **V** besides **Resources** located on the command bar, then from the drop-down select **Dynamic 365 apps**.
+1. Click on the drop-down next to **Resources** and select **Dynamic 365 apps**.
 
-    ![](../images/365select.png)
+    ![](../images/dynamic365.png)
     
 1. Click on **Install app** located on the command bar.
 
