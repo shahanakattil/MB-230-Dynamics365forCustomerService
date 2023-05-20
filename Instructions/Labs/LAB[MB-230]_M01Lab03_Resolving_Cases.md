@@ -48,7 +48,7 @@ You are a customer service manager at City Power & Light who has been tasked wit
 
     ![](../images/re-activecase-10.png)
 
-1.  Change the **Case Title** to **odl_user_DID_Defective Screen Not Received (2)** in the **Details (1)** tab.
+1.  Change the **Case Title** to **Defective Screen Not Received (2)** in the **Details (1)** tab.
 
 1.  Click **Save & Close (3)**.
 
