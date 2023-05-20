@@ -54,7 +54,7 @@ In this practice lab, you will validate and set up your tenant.
    
     ![](../images/newenvnext.png)
     
-1. Now scorll-down and specify the following settings and click on **Save**:
+1. Now scroll-down and specify the following settings and click on **Save**:
 
    - Enable Dynamics 365 apps? : **Enabled(1)**
    - Security group : Click on **+ Select(2)**
@@ -71,7 +71,7 @@ In this practice lab, you will validate and set up your tenant.
 
    
    
-### Task 3 - Intalling Dynamic 365 Service Scheduling.
+### Task 3 - Installing Dynamic 365 Service Scheduling.
 
 1. On the Power Platform admin center, select the **Prod-Env** environment.
 
