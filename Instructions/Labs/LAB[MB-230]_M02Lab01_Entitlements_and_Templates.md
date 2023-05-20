@@ -14,23 +14,32 @@ In this exercise, you will create an entitlement for your user, this entitlement
 
     ![](../images/Customer-service-admin-1.png)
     
-1.  Using the navigation on the left, select **Service Term** under **Operations**.
+1.  Using the navigation on the left, select **Service Term** under **Operations** and Select **Manage** next to **Entitlements**.
 
-1.  Select **Manage** next to **Entitlements**.
-
-    ![](../images/manage-1.png)
-
+     ![](../images/serviceterms.png)
+     
 1.  Click **+ New** located on the command bar.
 
-1.  Enter **odl_user_DID_Entitlement 1** for **Name**, select the account you created for **odl_user_DID_Relecloud** in the earlier lab for **Primary Customer**, select today's date for **Start Date**, and select a month from today for **End Date**.
+1. On **New Entitlement** page, follow the below instructions:
 
-1.  Select **Yes** for **Restrict based on entitlement terms**.
+     - Name : Enter **Entitlement 1 (1)**
+     - Primary Customer : Select **Relecloud (2)**
+     - Start Date : Select today's date **(3)**
+     - End Date : Select a month from today **(4)**
+     - Restrict based on entitlement terms : Choose **Yes (5)**
+  
+      ![](../images/entitlement.png)
 
-    ![](../images/Entitlement-2.png)
+1.Under **ENTITLEMENT TERMS** follow the below instructions:
 
-1.Under **ENTITLEMENT TERMS** select **Number of Cases** for **Allocation Type**, select **Case Creation** for **Decrease Remaining On**, and enter **100** for **Total Terms**.
+  - Allocation Type : Select **Number of Cases (1)** 
+  - Decrease Remaining On : Select **Case Creation (2)** 
+  - Total Terms : Enter **100 (3)** 
+  - Click on **Save (4)**
 
-1.  Click **Save**. DO NOT navigate away from the Entitlement form.
+   ![](../images/entitlementterms.png)
+
+  > **Note:** DO NOT navigate away from the Entitlement form.
 
 > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
 > - Select the **Lab Validation** tab located at the upper right corner of the lab guide section.
