@@ -267,13 +267,11 @@ In this task, you will test the entitlement you created from the entitlement tem
 
 1.  Click on **Home** at the top of the left-hand side navigation.
 
-2.  Click on **Cases** in the **Service** section of the sitemap.
+2.  Click on **Cases** in the **Service** section of the sitemap and click on **+ New Case**.
 
-3.  Click **+ New Case**.
+     ![](../images/newcases.png)
 
-4.  Enter **odl_user_DID_Missing Parts** for **Case Title** and select the **odl_user_DID_Relecloud** account for **Customer**.
-
-5.  Select **Phone** for **Origin**, select **Phone Call Only Terms** for **Entitlement** and click **Save**.
+4.  Enter **Missing Parts (1)** for **Case Title** and select the **Relecloud (2)** account for **Customer**, Select **Phone** for **Origin**, select **Phone Call Only Terms** for **Entitlement** and click **Save**.
 
     ![](../images/Entitlement-7.png)
 
