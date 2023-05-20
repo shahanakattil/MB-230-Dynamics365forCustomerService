@@ -10,7 +10,7 @@ In this exercise, you will define oil change and tire rotation services.
 
 ### Task 1: Create Oil Change Service
 
-In this task you will create an oil change service.
+In this task, you will create an oil change service.
 
 1.  Open the **Customer Service Hub** app.
 
