@@ -20,45 +20,41 @@ In this exercise, you will create four queues.
 
 1.  Click **+ New** located on the command bar.
 
-1.  Enter **odl_user_DID_Support (1)** for **Name** and select **Public (2)** for **Type**, and enter the user name from the environment details pages of the lab guide ex. `odl_user_926235@azureholxxxx.onmicrosoft.com`(3)  for **Incoming Email**.
+1.  Enter **Support (1)** for **Name** and select **Public (2)** for **Type**, and enter the user name from the environment details pages of the lab guide ex. `odl_user_926235@azureholxxxx.onmicrosoft.com` for **Incoming Email (3)**.
 
 1.  Click **Save (4)**.
 
-    ![](../images/Customer-service-admin-3.png)
+    ![](../images/Customer-service-admin-3.1.png)
 
-1.  Click **+ New**.
+1.  Again click **+ New** located on the command bar.
 
-1.  Enter **odl_user_DID_Bronze (1)** for **Name** and select **Private (2)** for **Type**.
+1.  Enter **Bronze (1)** for **Name** and select **Private (2)** for **Type**.
 
 1.  Click **Save (3)**.
 
-     ![](../images/Customer-service-admin-4.png)
+     ![](../images/Customer-service-admin-4.1.png)
 
-1. Click **+ New (1)**.
+1. Click **+ New**.
 
-1. Enter **odl_user_DID_Silver (2)** for **Name** and select **Private (3)** for **Type**.
+1. Enter **Silver** for **Name** and select **Private** for **Type**.
 
-1. Click **Save (4)**.
+1. Click **Save**.
 
-    ![](../images/Customer-service-admin-5.png)
+1. Click **+ New**.
 
-1. Click **+ New (1)**.
+1. Enter **Gold** for **Name** and select **Private** for **Type**.
 
-1. Enter **odl_user_DID_Gold (2)** for **Name** and select **Private (3)** for **Type**.
-
-1. Click **Save (4)**.
-
-    ![](../images/Customer-service-admin-6.png)
+1. Click **Save**.
 
 1. Click on **Queues (1)** in the **Customer support** section and then click on **Manage (2)** from right side.
 
     ![](../images/Customer-service-admin-2.png)
 
-1. Select the **My Active Queues** view.
+1. Select the **My Active Queues (1)** view.
 
 1. You should now see a private queue that was created for your user automatically, the public queue, and three private queues that you created in this lab.
 
-    ![](../images/Customer-service-admin-7.png)
+    ![](../images/Customer-service-admin-7.1.png)
 
 1. Navigate back to the previous **services** tab of **Customer Services Hub**.
 
@@ -70,7 +66,7 @@ In this exercise, you will create four queues.
 
 1. Review the options in the list for **Queues I'm a member of**. You should be able to see the four queues you created.
 
-    ![](../images/all-item-1.png)
+    ![](../images/all-item-1.1.png)
     
 > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
 > - Select the **Lab Validation** tab located at the upper right corner of the lab guide section.
@@ -84,45 +80,53 @@ In this exercise, you will create four queues.
 
 1.  Click on **Cases (1)** in the **Service** section of the sitemap.
 
-1.  Select the **odl_user_DID_Service Required (2)** case you created in the earlier lab.
+1.  Select the **My Active cases** from the drop down and you will be able to see **Service Required**.
+
+    ![](../images/adds-1.png)
+
+1.  Select the **Service Required (2)** case you created in the earlier lab.
 
 1.  Click **Add to Queue (3)** located on the command bar.
 
-    ![](../images/add-1.png)
+    ![](../images/add-1.1.png)
 
-1.  Enter *your prefix ex. odl_user_DID* in the **Queue** field, click on the lookup icon and select the **Bronze** queue you created in the task
+1.  In the **Queue** field, click on the lookup icon and select the **Bronze (1)** queue you created in the task.
 
-1.  Click **Add**
+1.  Click **Add (2)**
 
-    ![](../images/add-2.png)
+    ![](../images/add-2.1.png)
 
-1.  Click on **Cases** in the **Service** section of the sitemap.
+1.  Click on **Cases (1)** in the **Service** section of the sitemap.
 
-1.  Select the **odl_user_DID_Defective Screen** case you created in the earlier lab.
+1.  Select the **Defective Screen (2)** case you created in the earlier lab.
 
-1.  Click **Add to Queue** located on the command bar.
+1.  Click **Add to Queue (3)** located on the command bar.
 
-1. Enter *your prefix ex. odl_user_DID* in the **Queue** field, click on the lookup icon and select the **Support** queue you created in the task
+    ![](../images/support-add-1.1.png)
 
-1. Click **Add**
+1. In the **Queue** field, click on the lookup icon and select the **Support (1)** queue you created in the task
 
-    ![](../images/support-add-1.png)
+1. Click **Add (2)**
 
-1. Click **Queues** under the **Service** section.
+    ![](../images/support-add-1.2.png)
 
-1. Change the view from **Items I am working on** to **All items**
+1. Click **Queues (1)** under the **Service** section.
+
+1. Change the view from **Items I am working on (2)** to **All items**
 
 1. You should see the Service Required case listed for the Bronze queue.
 
-1. Change the queue selector from **Queues I'm a member of** to **All Public Queues**.
+    ![](../images/bronze.png)
 
-    ![](../images/Customer-service-admin-8.png)
+1. Change the queue selector from **Queues I'm a member of (1)** to **All Public Queues (2)**.
+
+    ![](../images/Customer-service-admin-8.1.png)
 
 1. You should see the Defective Screen case listed for the Support queue.
 
-1. Change the queue selector to **All Queues**.
+    ![](../images/public.1.png)
 
-    ![](../images/all-queues-1.png)
+1. Change the queue selector to **All Queues**.
     
 > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
 > - Select the **Lab Validation** tab located at the upper right corner of the lab guide section.
@@ -134,29 +138,35 @@ In this exercise, you will create four queues.
 
 1.  Click **Queues** under the **Service** section.
 
-1.  Change the view from **Items I am working on** to **Items available to work on**.
+1.  Change the view from **Items I am working on (1)** to **Items available to work on**.
 
-1.  Change the queue selector to **Queues I'm a member of**.
+1.  Change the queue selector to **Queues I'm a member of (2)**.
 
 1.  You should see the Service Required case listed for the Bronze queue.
 
-1.  Click to the left of the case in the queue to select it.
+    ![](../images/details-1.1.png)
 
-1.  Click **Queue Item Details** located on the command bar.
+1.  Click to the left of the case in the queue to **select it (1)**.
+
+1.  Click **Queue Item Details (2)** located on the command bar.
+
+    ![](../images/details-1.2.png)
 
 1.  Note that **Worked By** is blank.
 
-    ![](../images/details-1.png)
+    ![](../images/details-1.3.png)
 
 1.  Click **Close** from the three dots.
 
-1.  Click to the left of the case in the queue to select it.
+1.  Click to the left of the case in the queue to **select it (1)**.
 
-1. Click **Pick** located on the command bar.
+1. Click **Pick (2)** located on the command bar.
 
-    ![](../images/pick-1.png)
+    ![](../images/pick-1.1.png)
 
-1. Leave the *Also remove the item(s) from the Queue* option set to **No**, and click **Pick**.
+1. Leave the *Also remove the item(s) from the Queue* option set to **No (1)**, and click **Pick (2)**.
+
+    ![](../images/details-1.5.png)
 
 1. Change the view from **Items available to work on** to **Items I am working on**.
 
@@ -166,14 +176,14 @@ In this exercise, you will create four queues.
 
 1. Note that **Worked By** is set to your user.
 
-    ![](../images/worked-by-1.png)
+    ![](../images/worked-by-1.1.png)
 
 1. Click **Close**
 
-1. Click to the left of the case in the queue to select it.
+1. Click to the left of the case in the queue to **select it (1)**.
 
-1. Click **Release** located on the command bar and click **Release**.
+1. Click **Release (2)** located on the command bar and click **Release (2)**.
 
-    ![](../images/release-1.png)
+    ![](../images/release-1.1.png)
     
 **Result:** You have accomplished the creation of queues, inclusion of cases in the queues, and execution of actions on queue items.
