@@ -4,23 +4,9 @@
 
 You are a customer service manager at City Power & Light who has been tasked with trying the new case functionality before rolling it out to your users. In this lab, you will create new customer cases and create a phone calls associated with the cases.
 
-## Exercise 1 – Navigate to Dynamics 365 Customer Service Hub
 
-In this exercise, you will navigate to the Dynamics 365 Customer Service Application.
 
-### Task 1 – Navigate to Customer Service Hub app
-
-1.  Navigate to Access <https://admin.powerplatform.microsoft.com/environments>.
-
-1.  Select the **Prod-Env-[DeploymentID]** environment.
-
-1.  Click **Open** located on the command bar.
-
-1.  You should be in the **Customer Service Hub** app. If you are in a different app, click on the name of the app in the top left of the application next to Dynamics 365 and from the list of published apps, select the **Customer Service Hub** app
-
-1.  You should now be showing the **Dashboard** view.
-
-## Exercise 2 – Create case
+## Exercise 1 – Create case
 
 In this exercise, you will create an Account, a Contact, and a Case record. You will also add a Phone Call activity to the case.
 
@@ -151,7 +137,7 @@ In this exercise, you will create an Account, a Contact, and a Case record. You 
 
     ![](../images/phone-call-1.png)
 
-## Exercise 3 – Create case from an activity
+## Exercise 2 – Create case from an activity
 
 In this exercise, you will create a Phone Call activity and then convert the activity to a Case.
 
