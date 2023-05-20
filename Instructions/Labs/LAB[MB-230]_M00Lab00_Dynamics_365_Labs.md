@@ -100,9 +100,13 @@ In this practice lab, you will validate and set up your tenant.
 
 ### Task 4 – Access the Dynamics 365 application
 
-1. On the Power Platform admin center, select the **Prod-Env-[DeploymentID]** environment.
+1. On the Power Platform admin center, select the **Prod-Env** environment.
 
+   ![](../images/prodenv1.png)
+   
 1. Select the **Open** located on the command bar.
+
+   ![](../images/open.png)
 
 1. From the list of available Dynamics 365 apps, select the **Customer Service Hub** app.
 
