@@ -30,7 +30,7 @@ In this exercise, you will create an entitlement for your user, this entitlement
   
       ![](../images/entitlement.png)
 
-1.Under **ENTITLEMENT TERMS** follow the below instructions:
+5.Under **ENTITLEMENT TERMS** follow the below instructions:
 
   - Allocation Type : Select **Number of Cases (1)** 
   - Decrease Remaining On : Select **Case Creation (2)** 
