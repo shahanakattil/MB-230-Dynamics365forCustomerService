@@ -46,7 +46,7 @@ In this practice lab, you will validate and set up your tenant.
 1. On the **New environment** page, specify the following settings:
 
   
-   - Name : Enter **Prod-Env(1)**|
+   - Name : Enter **Prod-Env(1)**
    - Region : Choose **United States(2)**
    - Type : Choose **Production(3)**
    - Add a Dataverse data store? **Enabled(4)**
@@ -65,13 +65,11 @@ In this practice lab, you will validate and set up your tenant.
 
     ![](../images/nonesecuritygroup.png)
    
-   >Note: The **[DeploymentId]/[DID] can be found under the environment details tab in the user name (example: `odl_user_xxxxxx.onmicrosoft.com`) **xxxxxx** is the [DeploymentID]**.
+  
    
    >**Note**: Wait for the Environment to get **ready** before you continue with this lab.
 
-   ![](../images/power-platform-environment-new-add-01.png)
    
-   ![](../images/dataverse.png)
    
 ### Task 3 - Intalling Dynamic 365 Service Scheduling.
 
