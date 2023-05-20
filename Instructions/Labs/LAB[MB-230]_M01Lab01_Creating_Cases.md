@@ -183,19 +183,17 @@ In this exercise, you will create a Phone Call activity and then convert the act
     ![](../images/record-1.png)
 
 2.  Click **Convert To** located on the command bar and click on **To Case**
-   > **Note:** you may need to click on the ellipsis (...).
+  
+     > **Note:** you may need to click on the ellipsis (...).
 
      ![](../images/convertto.png)
      
      ![](../images/tocase.png)
 
-3.  Click on **Customer** field in the **Convert to Case** window.
 
-4.  Enter *your prefix ex. odl_user_DID* and select the **Jon Doe** contact you created in Task 2.
+5.  Leave the options as default and click **Convert**.
 
-5.  Click **Convert**.
-
-    ![](../images/convert-1.png)
+    ![](../images/convert.png)
 
 6.  Review the case that was created. Note that the customer is linked to the contact and the origin is set to Phone.
 
