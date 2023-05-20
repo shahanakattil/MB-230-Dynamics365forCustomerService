@@ -87,9 +87,10 @@ In this exercise, you will create an Account, a Contact, and a Case record. You 
      
 1.  In the Create a subject dialog, enter the following information and remaining leave default then Select **Save and close (3)**.:
     
-  - Title: Type **Maintenance (1)** for the subject.
+     - Title: Type **Maintenance (1)** for the subject.
     
-  - Set the toggle for Visibility to **Yes (2)** if you want the subject to be available for the agent.
+     - Click on **Save and Close (2)**
+     
     
     ![](../images/maintenance.png)
     
