@@ -1,4 +1,4 @@
-# Module 01 – Creating cases
+# Practice Lab 1 – Creating cases
 
 ## Scenario
 
