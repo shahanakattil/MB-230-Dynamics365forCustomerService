@@ -35,7 +35,7 @@ In this practice lab, you will validate and set up your tenant.
 
 ### Task 2 – Create Environment into the Power Platform admin center
 
-1. On the Power Platform admin center, On the navigation pane, select **Environments(1)**. Now on the environments page, you will see a **default environment present(2)**. Do not **use**, **modify** or **delete** the **default** environment.
+1. On the Power Platform admin center, from the navigation pane, select **Environments(1)**. Now on the environments page, you will see a **default environment present(2)**. Do not **use**, **modify** or **delete** the **default** environment.
 
     ![](../images/power-platform-environment.png)
 
