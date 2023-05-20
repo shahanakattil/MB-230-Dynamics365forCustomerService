@@ -331,16 +331,18 @@ In this task, you will create A holiday schedule to be used with Customer Servic
 
 1.  Click **+ New**.
 
-1.  Enter **odl_user_DID_Holidays** for **Name**.
+1.  Enter **Holidays (1)** for **Name** and click on **Create (2)**.
 
-1.  Click **Create**. If a pop-up appears stating "service-level agreements (SLAs) are deprecated in the web client" Click **I acknowledge**.
+     ![](../images/holiday.png)
+
+    > **Note :** If a pop-up appears stating "service-level agreements (SLAs) are deprecated in the web client" Click **I acknowledge**.
 
 1.  In the Holidays section, click **+ New**.
 
-1.  Enter **Local festival** for **Name**, set the **Start Date** and **End Date** to be in two days time.
+1.  Enter **Local festival** for **Name**, set the **Start Date** and **End Date** to be in two days time, click **OK**.
 
-1. Click **OK**.
-
+    ![](../images/localfestival.png)
+    
 1. Click **Save & Close**.
 
 > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
