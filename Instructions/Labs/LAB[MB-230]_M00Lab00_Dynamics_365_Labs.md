@@ -105,3 +105,5 @@ In this practice lab, you will validate and set up your tenant.
    ![](../images/service-hub-app.png)
 
 1. Spend a few minutes exploring the application.
+
+> **Result:** You have successfully created your Dynamics 365 environment. 
