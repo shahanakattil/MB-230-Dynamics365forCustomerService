@@ -4,8 +4,6 @@
 
 As a customer service manager at City Power & Light, you need to create entitlements and entitlement templates to manage complex service offerings and guide your team in processing cases from various channels. In this lab, you will create an entitlement with entitlement channels. You will also create an entitlement template and create an entitlement from the template.
 
-> `Important`: The **[DeploymentId]/[DID] can be found under the environment details tab in the user name (example: `odl_user_xxxxxx.onmicrosoft.com`) **xxxxxx** is the [DeploymentID]**.
-
 ## Exercise 1 – Entitlements
 
 In this exercise, you will create an entitlement for your user, this entitlement will allow you to create 50 case through Email channel, 30 Cases through Web channel, 10 Cases each for Twitter and Facebook channels.
@@ -33,6 +31,12 @@ In this exercise, you will create an entitlement for your user, this entitlement
 1.Under **ENTITLEMENT TERMS** select **Number of Cases** for **Allocation Type**, select **Case Creation** for **Decrease Remaining On**, and enter **100** for **Total Terms**.
 
 1.  Click **Save**. DO NOT navigate away from the Entitlement form.
+
+> **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
+> - Select the **Lab Validation** tab located at the upper right corner of the lab guide section.
+> - Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task. 
+> - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
+> - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
 
 ### Task 2 – Add Channels to the entitlement
 
@@ -119,6 +123,12 @@ In this task, you will test the default entitlement for Relecloud.
 13. Go to the **Entitlement Channel** sub-grid and make sure you have **49 Remaining Terms** for **Email**, **9 Remaining Terms** for **Facebook**, **10 Remaining Terms** for **Twitter**, and **30 Remaining Terms** for **Web**.
 
     ![](../images/Entitlement-4.png)
+    
+> **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
+> - Select the **Lab Validation** tab located at the upper right corner of the lab guide section.
+> - Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task. 
+> - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
+> - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
 
 ## Exercise 2 – Entitlement Templates
 
@@ -169,6 +179,12 @@ In this task, you will create an entitlement template with 20 terms.
 18. Click on the ellipsis and select **+ New Entitlement Template Channel**.
 
 19. Select **IoT** for **Name**, enter **0** for **Total Terms** and click **Save and Close**.
+
+> **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
+> - Select the **Lab Validation** tab located at the upper right corner of the lab guide section.
+> - Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task. 
+> - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
+> - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
 
 ### Task 2 – Create Entitlement from Template
 
@@ -234,17 +250,23 @@ In this task, you will test the entitlement you created from the entitlement tem
 
 15. Since you didn’t select the **Phone Call Only Terms** entitlement, the case will now be created.
 
-1.  Click on the **Customer Service Hub** app from the top and select **Customer service admin**.
+16.  Click on the **Customer Service Hub** app from the top and select **Customer service admin**.
 
     ![](../images/Customer-service-admin-1.png)
     
-1.  In the site map, select **Service terms** in Operations. The Service Terms page appears.
+7.  In the site map, select **Service terms** in Operations. The Service Terms page appears.
 
-17. Click on **Manage** in the **Entitlement** section.
+18. Click on **Manage** in the **Entitlement** section.
 
-18. Click to open the **Phone Call Only Terms** entitlement.
+19. Click to open the **Phone Call Only Terms** entitlement.
 
-19. Make sure you have **19 Remaining Terms** and **19 Phone** channel **Remaining Terms**.
+20. Make sure you have **19 Remaining Terms** and **19 Phone** channel **Remaining Terms**.
+
+> **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
+> - Select the **Lab Validation** tab located at the upper right corner of the lab guide section.
+> - Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task. 
+> - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
+> - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
 
 ## Exercise 3 – Service Level Agreements
 
@@ -264,19 +286,25 @@ In this task, you will create A holiday schedule to be used with Customer Servic
 
     ![](../images/Entitlement-8.png)
 
-5.  Click **+ New**.
+1.  Click **+ New**.
 
-6.  Enter **odl_user_DID_Holidays** for **Name**.
+1.  Enter **odl_user_DID_Holidays** for **Name**.
 
-7.  Click **Create**. If a pop-up appears stating "service-level agreements (SLAs) are deprecated in the web client" Click **I acknowledge**.
+1.  Click **Create**. If a pop-up appears stating "service-level agreements (SLAs) are deprecated in the web client" Click **I acknowledge**.
 
-8.  In the Holidays section, click **+ New**.
+1.  In the Holidays section, click **+ New**.
 
-9.  Enter **Local festival** for **Name**, set the **Start Date** and **End Date** to be in two days time.
+1.  Enter **Local festival** for **Name**, set the **Start Date** and **End Date** to be in two days time.
 
-10. Click **OK**.
+1. Click **OK**.
 
-11. Click **Save & Close**.
+1. Click **Save & Close**.
+
+> **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
+> - Select the **Lab Validation** tab located at the upper right corner of the lab guide section.
+> - Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task. 
+> - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
+> - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
 
 ### Task 2 – Customer Service Schedule
 
@@ -328,23 +356,23 @@ In this task, you will create a SLA that sets a 1 hour response time on a proble
 
     ![](../images/Entitlement-11.png)
 
-2.  Click **+ New**.
+1.  Click **+ New**.
 
-3.  Enter **odl_user_DID_Case Response By** for **Name**.
+1.  Enter **odl_user_DID_Case Response By** for **Name**.
 
-4.  Select **Case** for **Entity Name**.
+1.  Select **Case** for **Entity Name**.
 
-5.  Select **First Response By KPI** for **KPI FIeld**
+1.  Select **First Response By KPI** for **KPI FIeld**
 
-6.  Select **Created On** for **Applicable From**
+1.  Select **Created On** for **Applicable From**
 
-7. Click **Save**. DO NOT navigate away from this form.
+1. Click **Save**. DO NOT navigate away from this form.
 
     ![](../images/Entitlement-12.png)
 
-8. Click **Activate** in the command bar.
+1. Click **Activate** in the command bar.
 
-9. Click **Activate**.
+1. Click **Activate**.
 
 1.  In the site map, select **Service Teams** in Operations.
 
@@ -352,81 +380,87 @@ In this task, you will create a SLA that sets a 1 hour response time on a proble
 
     ![](../images/Entitlement-13.png)
 
-11. Click **+ New**.
+1. Click **+ New**.
 
-12. Enter **odl_user_DID_SLA** for **Name**.
+1. Enter **odl_user_DID_SLA** for **Name**.
 
-13. Select **Case** for **Primary Entity**.
+1. Select **Case** for **Primary Entity**.
 
-14. Click **Save**.
+1. Click **Save**.
 
-15. Click **+ New SLA Item**
+1. Click **+ New SLA Item**
 
-16. Enter **Problems** for **Name**.
+1. Enter **Problems** for **Name**.
 
-17. Select the **SLA KPI** you created for **KPI**.
+1. Select the **SLA KPI** you created for **KPI**.
 
-18. Select the **Customer Service Schedule** you created for **Business Hours**.
+1. Select the **Customer Service Schedule** you created for **Business Hours**.
 
-19. Under **Applicable When**, click on **Add** and **Add row**.
+1. Under **Applicable When**, click on **Add** and **Add row**.
 
-20. In the left-hand side of the condition, select **Case Type (Case)**.
+1. In the left-hand side of the condition, select **Case Type (Case)**.
 
-21. Select **Equals** for the operator.
+1. Select **Equals** for the operator.
 
-22. In the right-hand side of the condition, select **Problem**.
+1. In the right-hand side of the condition, select **Problem**.
 
-23. Under **Success Conditions**, click on **Add** and **Add row**.
+1. Under **Success Conditions**, click on **Add** and **Add row**.
 
-24. In the left-hand side of the condition, select **First Response Sent (Case)**.
+1. In the left-hand side of the condition, select **First Response Sent (Case)**.
 
-25. Select **Equals** for the operator.
+1. Select **Equals** for the operator.
 
-26. In the right-hand side of the condition, select **Yes**.
+1. In the right-hand side of the condition, select **Yes**.
 
-27. Set **Warn After** to **45 minutes**.
+1. Set **Warn After** to **45 minutes**.
 
-28. Set **Failure After** to **1 hour**.
+1. Set **Failure After** to **1 hour**.
 
-29. Click **Save**.
+1. Click **Save**.
 
     ![](../images/Entitlement-15.png)
 
-30. Click **Configure Actions**.
+1. Click **Configure Actions**.
 
     ![](../images/Entitlement-16.png)
 
-31. If prompted to connect to Dataverse, click **Continue**.
+1. If prompted to connect to Dataverse, click **Continue**.
 
-32. Expand the **Switch** step.
+1. Expand the **Switch** step.
 
-33. In the **Non-compliant** path, click on **Add an action**.
+1. In the **Non-compliant** path, click on **Add an action**.
 
-34. Search for an select **Microsoft Dataverse**.
+1. Search for an select **Microsoft Dataverse**.
 
-35. Select the **Update a row** action.
+1. Select the **Update a row** action.
 
-36. Select **Cases** for **Table name**.
+1. Select **Cases** for **Table name**.
 
-37. Select **Regarding ID** for **Row ID**.
+1. Select **Regarding ID** for **Row ID**.
 
-38. Click **Show Advanced options**.
+1. Click **Show Advanced options**.
 
-39. Set **Is Escalated** to **Yes**.
+1. Set **Is Escalated** to **Yes**.
 
-40. Click **Save** and close the Power Automate browser tab.
+1. Click **Save** and close the Power Automate browser tab.
 
     ![](../images/Entitlement-17.png)
 
-41. Click **Close** in the *SLA Item* dialog.
+1. Click **Close** in the *SLA Item* dialog.
 
-42. Click **Save**.
+1. Click **Save**.
 
-43. Click **Activate**.
+1. Click **Activate**.
 
-44. Click **Activate**.
+1. Click **Activate**.
 
-45. Click **Set As Default**. Click **OK** in the **Change default SLA** pop-up.
+1. Click **Set As Default**. Click **OK** in the **Change default SLA** pop-up.
+
+> **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
+> - Select the **Lab Validation** tab located at the upper right corner of the lab guide section.
+> - Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task. 
+> - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
+> - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
 
 ### Task 4 – Service Level Agreement settings
 
@@ -434,23 +468,23 @@ In this task, you will configure the settings for service level agreements.
 
 1.  Open the **Customer Service Hub** app.
 
-2.  Click on **Settings** from the top right corner and select **Advanced settings**.
+1.  Click on **Settings** from the top right corner and select **Advanced settings**.
 
     ![](../images/Advanced-settings.png)
     
-3.  On the new page, select the Settings drop down and select **Administration**.
+1.  On the new page, select the Settings drop down and select **Administration**.
 
     ![](../images/Entitlement-18.png)
 
 1.  In the Administrator page, select **System Settings**.
 
-2.  Verify that the **Disable SLAs** option is set to **No**.
+1.  Verify that the **Disable SLAs** option is set to **No**.
 
-3.  Set the **Apply SLA after manual override** to **Yes**.
+1.  Set the **Apply SLA after manual override** to **Yes**.
 
-4.  In **Select SLA Pause Status**, move **On Hold** and **Waiting for Details** from **Available** to **Selected**.
+1.  In **Select SLA Pause Status**, move **On Hold** and **Waiting for Details** from **Available** to **Selected**.
 
-5.  Click **OK**.
+1.  Click **OK**.
 
     ![](../images/Entitlement-19.png)
 
@@ -459,31 +493,39 @@ In this task, you will configure the settings for service level agreements.
 In this task, you will test that the SLA is applied to cases.
 
 1.  Switch back to the **Customer service Hub** tab.
-f
+
 1.  Click on **Home** at the top of the left-hand side navigation.
 
-2.  Click on **Cases** in the **Service** section of the sitemap.
+1.  Click on **Cases** in the **Service** section of the sitemap.
 
-3.  Click **+ New Case**.
+1.  Click **+ New Case**.
 
-4.  Enter **odl_user_DID_SLA_Test #1** for **Case Title** and select the **odl_user_DID_Relecloud** account for **Customer**.
+1.  Enter **odl_user_DID_SLA_Test #1** for **Case Title** and select the **odl_user_DID_Relecloud** account for **Customer**.
 
-5.  Select **Web** for **Origin** and click **Save**.
+1.  Select **Web** for **Origin** and click **Save**.
 
-6.  Select **Details tab** and in **Type section** select **Problem** from the drop down click **Save**.
+1.  Select **Details tab** and in **Type section** select **Problem** from the drop down click **Save**.
 
     ![](../images/Entitlement-20.png)
 
-6.  Select the **SLA** tab. You should see the Case Response By SLA KPI in progress with failure time set to 1 hour's time.
+1.  Select the **SLA** tab. You should see the Case Response By SLA KPI in progress with failure time set to 1 hour's time.
 
-7.  Select the **Details** tab and set **First Response Sent** to **Yes** and click **Save**.
+1.  Select the **Details** tab and set **First Response Sent** to **Yes** and click **Save**.
 
-8.  Select the **SLA** tab. You should see the Case Response By SLA KPI with status on **Succeeded**.
+1.  Select the **SLA** tab. You should see the Case Response By SLA KPI with status on **Succeeded**.
 
-9.  Click **Go back**, click **+ New Case**.
+1.  Click **Go back**, click **+ New Case**.
 
-10. Enter **odl_user_DID_SLA_Test #2** for **Case Title** and select the **odl_user_DID_Relecloud** account for **Customer**.
+1. Enter **odl_user_DID_SLA_Test #2** for **Case Title** and select the **odl_user_DID_Relecloud** account for **Customer**.
 
-11. Select **Email** for **Origin** and click **Save**.
+1. Select **Email** for **Origin** and click **Save**.
 
-12. Select the **SLA** tab. There should be no SLA KPI items.
+1. Select the **SLA** tab. There should be no SLA KPI items.
+
+> **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
+> - Select the **Lab Validation** tab located at the upper right corner of the lab guide section.
+> - Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task. 
+> - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
+> - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
+
+**Result:** You have successfully Created the Entitlements,Entitlement Templates and Service Level Agreements in this lab. 
