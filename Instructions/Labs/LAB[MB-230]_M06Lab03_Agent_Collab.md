@@ -40,13 +40,13 @@ features in your environment.
 
 4.  Set the following Items to **On**
 
-    -   Turn on the linking of Dynamics 365 records to Microsoft Teams channels
+    -   Turn on the linking of Dynamics 365 records to Microsoft Teams channels (1)
 
-    -   Turn on Microsoft Teams chats inside Dynamics 365
+    -   Turn on Microsoft Teams chats inside Dynamics 365 (2)
 
-5.  Select the **Save** button
+5.  Select the **Save (3)** button
 
-    ![](../images/collaboration-02.png)
+    ![](../images/collaboration-02.1.png)
 
 6.  Using the navigation on the left, select Collaboration again.
 
@@ -73,7 +73,7 @@ features in your environment.
         **Turn On**. Once turned on, you can close the browser tab to return to
         the Customer support swarming screen.
 
-    ![](../images/collaboration-05.png)
+    ![](../images/collaboration-5.png)
     
  11. From the left navigation menu of the **Power Apps** screen, Click on **Solutions (1)** then click on **Publish all customizations (2)**.
  
@@ -106,13 +106,13 @@ features in your environment.
 
     1.  **Resource Type:** User
 
-    2.  **User:** ODL_User_DID.
+    2.  **User (1):** ODL_User_DID.
 
-    3.  **Name:** Alan Steiner
+    3.  **Name: (2)** Alan Steiner
 
-5.  Leave everything else as is and select the **Save and Close** button.
+5.  Leave everything else as is and select the **Save and Close (3)** button.
 
-    ![](../images/collaboration-08.png)
+    ![](../images/collaboration-08.1.png)
 
 > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
 > - Select the **Lab Validation** tab located at the upper right corner of the lab guide section.
@@ -145,15 +145,15 @@ tasks:
 
 6.  Configure the Characteristic as follows:
 
-    -   **Name:** Billing
+    -   **Name: (1)** Billing
 
-    -   **Type:** Skill
+    -   **Type: (2)** Skill
 
-    -   **Description:** Expert for Billing questions
+    -   **Description: (3)** Expert for Billing questions
 
-7.  Select the **Save** button to save the record and leave it open.
+7.  Select the **Save (4)** button to save the record and leave it open.
 
-    ![](../images/collaboration-10.png)
+    ![](../images/collaboration-100.png)
 
 8.  Select the **Related** tab.
 
@@ -290,12 +290,12 @@ tasks:
 2.  One the **Customer Service Agent Dashboard**, select the **New Case** button
     on the **My Active Cases** sub-grid.
 
-    ![](../images/collaboration-22.png)
+    ![](../images/collaboration-022.png)
 
 3.  In the **Quick Create Case** screen, configure the new case record as
     follows.
 
-    -   **Customer:** odl_user_DID_Relecloud
+    -   **Customer:** Relecloud
 
     -   **Case Title:** Circuit Board Damaged
 
@@ -307,7 +307,7 @@ tasks:
 
 4.  Select the **Save and Close** button.
 
-    ![](../images/collaboration-23.png)
+    ![](../images/collaboration30.png)
 
 5.  In the **My Active Cases** sub-grid, Open the **Circuit Board Damaged** case.
 
