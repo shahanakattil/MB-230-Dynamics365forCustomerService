@@ -10,7 +10,7 @@ In this practice lab, you will validate and set up your tenant.
 
 ### Task 1 – Log into the Power Platform admin center
 
-1. Nevigate to access <https://admin.powerplatform.microsoft.com> 
+1. Navigate to access <https://admin.powerplatform.microsoft.com> 
 
 1. If not Sign-in, then on the **Sign into Microsoft Azure** tab you will see the login screen, in that enter following **Email/Username** and then click on **Next**. 
    * Email/Username: <inject key="AzureAdUserEmail"></inject>
