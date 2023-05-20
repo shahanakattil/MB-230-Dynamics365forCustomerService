@@ -1,10 +1,8 @@
-# Practice Lab 1 – Creating cases
+# Module 01 – Creating cases
 
 ## Scenario
 
 You are a customer service manager at City Power & Light who has been tasked with trying the new case functionality before rolling it out to your users. In this lab, you will create new customer cases and create a phone calls associated with the cases.
-
-> `Important`: The **[DeploymentId]/[DID] can be found under the environment details tab in the user name (example: `odl_user_xxxxxx.onmicrosoft.com`) **xxxxxx** is the [DeploymentID]**.
 
 ## Exercise 1 – Navigate to Dynamics 365 Customer Service Hub
 
@@ -37,6 +35,12 @@ In this exercise, you will create an Account, a Contact, and a Case record. You 
 4.  Click **Save & Close (3)**.
 
     ![](../images/Account.png)
+    
+> **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
+> - Select the **Lab Validation** tab located at the upper right corner of the lab guide section.
+> - Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task. 
+> - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
+> - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
 
 ### Task 2 – Create Contacts
 
@@ -64,6 +68,12 @@ In this exercise, you will create an Account, a Contact, and a Case record. You 
 11.  Click **Save & Close (5)**.
 
      ![](../images/jon.png)
+     
+> **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
+> - Select the **Lab Validation** tab located at the upper right corner of the lab guide section.
+> - Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task. 
+> - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
+> - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
 
 ### Task 3 – Create Case
 
@@ -192,3 +202,5 @@ In this exercise, you will create a Phone Call activity and then convert the act
 6.  Review the case that was created. Note that the customer is linked to the contact and the origin is set to Phone.
 
     ![](../images/CovertPhoneCallactivity-1.png)
+    
+**Result:** You have successfully Created the cases in dynamic 365 customer service hub app. 
