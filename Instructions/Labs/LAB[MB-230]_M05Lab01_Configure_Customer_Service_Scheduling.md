@@ -252,7 +252,7 @@ In this task you will create resources using the contacts you created.
 
 12. You should now have 6 resources. Click **+ New**.
 
-    ![](../images/Personalization-Settings-027.png)
+    ![](../images/Personalization-Setting101.png)
 
 13. Select **Facility** for **Resource Type**, select **19th Ave – Service Bay 1** for **Facility Equipment**, and select the **Scheduling** tab.
 
@@ -283,7 +283,7 @@ In this task you will create resources using the contacts you created.
 
 19. You should now have 15 Resources.
 
-    ![](../images/Personalization-Settings-028.png)
+    ![](../images/Personalization-Settings102.png)
     
 > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
 > - Select the **Lab Validation** tab located at the upper right corner of the lab guide section.
