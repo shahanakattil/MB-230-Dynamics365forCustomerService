@@ -14,6 +14,8 @@ You are a customer service manager at City Power & Light who has been tasked wit
 
 1.  Click on **Cases** in the **Service** section of the sitemap.
 
+    ![](../images/cases-1.png)
+
 1.  Open the **Defective Screen** case you created.
 
 1.  Click on the **Research (1)** stage of the **Business Process Flow**.
