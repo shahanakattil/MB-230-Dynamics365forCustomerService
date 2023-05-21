@@ -283,7 +283,7 @@ In this task you will create resources using the contacts you created.
 
 19. You should now have 15 Resources.
 
-    ![](../images/Personalization-Settings102.png)
+    ![](../images/PersonalizationSetting.png)
     
 > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
 > - Select the **Lab Validation** tab located at the upper right corner of the lab guide section.
