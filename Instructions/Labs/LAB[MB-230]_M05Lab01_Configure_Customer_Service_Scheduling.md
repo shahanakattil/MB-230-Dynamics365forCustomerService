@@ -145,7 +145,7 @@ In this task you will create new contact records.
 
 4.  Click **+ New**.
 
-    ![](../images/Personalization-Settings-012.png)
+    ![](../images/cases-2.png)
 
 5.  Enter **Mike** for **First Name**, **Smith** for **Last Name**, and click **Save and Close**.
 
