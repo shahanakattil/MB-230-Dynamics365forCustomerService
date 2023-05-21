@@ -21,7 +21,7 @@ In this exercise, you will create an Account, a Contact, and a Case record. You 
 3.  Enter **Relecloud** for **Account Name** and click **Save & Close (3)**.
 
 
-    ![](../images/relecloud.png)
+     ![](../images/relecloud.png)
     
 > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
 > - Select the **Lab Validation** tab located at the upper right corner of the lab guide section.
