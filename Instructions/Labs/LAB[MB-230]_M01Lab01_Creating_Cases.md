@@ -202,7 +202,7 @@ In this exercise, you will create a Phone Call activity and then convert the act
 
     ![](../images/convert.png)
 
-6.  Review the case that was created. Note that the customer is linked to the contact and the origin is set to Phone.
+6.  Review the case that was created is closed now. Note that the customer is linked to the contact and the origin is set to Phone.
 
     ![](../images/CovertPhoneCallactivity-1.png)
     
