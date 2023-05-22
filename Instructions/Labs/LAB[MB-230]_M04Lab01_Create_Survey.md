@@ -50,7 +50,7 @@ In this exercise, you will create a project and use a template to create a surve
 
 1.  Select your project.
 
-2.  Click in the **Header** and change **Customer Service feedback** to **How did we do?**.
+2.  Click in the **Header** and change **Customer Service feedback** to **How did we do?**
 
 3.  Hover the mouse over the header and click on the **Theme color** icon and change name inside HEX# box to **ffdd66**.
 
@@ -70,7 +70,7 @@ In this exercise, you will create a project and use a template to create a surve
 
     ![](../images/resolution-24.png)
 
-8.  Click on **Post-survey message** and change the Heading from *Thanks!* to **Thank you for your feedback (1)** and change the Message to **We look at all feedback to improve our service. (2)**
+8.  Click on **Post-survey message** and change the Heading from *Thanks!* to **Thank you for your feedback (1)** and change the Message to **We look at all feedback to improve our service (2)**. 
 
     ![](../images/resolution-23.png)
 
@@ -78,7 +78,7 @@ In this exercise, you will create a project and use a template to create a surve
 
     ![](../images/resolution-22.png)
 
-10. Expand **Customization** and select **Personalization**
+10. Expand **Customization** and select **Personalization**.
 
 11. Click + **Add variable (1)** and enter **casereference (2)** with default value **Your support case (3)**.
 
@@ -110,39 +110,39 @@ In this exercise, you will create a project and use a template to create a surve
 
 ### Task 3: Satisfaction metrics
 
-1.  Select your **project (1)** from the left panel.
+1. Select your **project (1)** from the left panel.
 
-1.  Expand **Customization** and select **Satisfaction metrics (2)**
+1. Expand **Customization** and select **Satisfaction metrics (2)**.
 
-    ![](../images/resolution-18.png)
+   ![](../images/resolution-18.png)
 
-1.  Click **+ Add metric (1)**
+1. Click **+ Add metric (1)**
 
-1.  Select **CSAT (2)** from the list.
+1. Select **CSAT (2)** from the list.
 
-    ![](../images/resolution-17.png)
+   ![](../images/resolution-17.png)
 
-1.  select the **first question (1)**.
+1. Select the **first question (1)**.
 
-1.  Click **Save (2)**.
+1. Click **Save (2)**.
 
-    ![](../images/resolution-16.png)
+   ![](../images/resolution-16.png)
 
-1.  Click **+ Add metric**
+1. Click **+ Add metric**.
 
-1.  Select **Net Promoter Score** and select the **last question (1)**.
+1. Select **Net Promoter Score** and select the **last question (1)**.
 
-1.  Click **Save (2)**.
+1. Click **Save (2)**.
 
-    ![](../images/resolution-15.png)
+   ![](../images/resolution-15.png)
 
-1.  Click **+ Add metric**
+1. Click **+ Add metric**
 
-1.  Select **Sentiment** and select the **text question (1)**.
+1. Select **Sentiment** and select the **text question (1)**.
 
-1.  Click **Save (2)**.
+1. Click **Save (2)**.
 
-     ![](../images/resolution-14.png)
+   ![](../images/resolution-14.png)
 
 ## Exercise 2: Send survey
 
@@ -150,49 +150,49 @@ In this exercise, you will create an email template and send the survey by email
 
 ### Task 1: Configure email template
 
-1.  Navigate to <https://customervoice.microsoft.com>
+1. Navigate to <https://customervoice.microsoft.com>
 
-2.  Select your **project (1)** from the left panel.
+2. Select your **project (1)** from the left panel.
 
-3.  Click on the **Send (2)** tab.
+3. Click on the **Send (2)** tab.
 
-4.  Click on the **Email (3)** tile.
+4. Click on the **Email (3)** tile.
 
-    ![](../images/resolution-13.png)
+   ![](../images/resolution-13.png)
 
-5.  Click on the **Template** drop-down and select **Create new**.
+5. Click on the **Template (1)** drop-down and select **Create new (2)**.
 
-     ![](../images/resolution-12.png)
+   ![](../images/resolution-12.png)
 
-6.  Enter **Case Resolution** and click **Add**.
+6. Enter **Case Resolution (1)** and click **Add (2)**.
 
-     ![](../images/resolution-10.png)
+   ![](../images/resolution-10.png)
 
-7.  Click on the **Insert **(1)** drop-down and select **First question in survey (2)**.
+7. Click on the **Insert (1)** drop-down and select **First question in survey (2)**.
 
-     ![](../images/resolution-11.png)
+   ![](../images/resolution-11.png)
 
-8.  Replace the subject line with **Please provide feedback on (1)**, click on the **Insert (2)** drop-down and select **Personalized variables (3)** and then select **casereference (4)**.
+8. Replace the subject line with **Please provide feedback on (1)**, click on the **Insert (2)** drop-down and select **Personalized variables (3)** and then select **casereference (4)**.
 
-     ![](../images/resolution-8.png)
+   ![](../images/resolution-8.png)
 
-9.  Click **Save**
+9. Click **Save**.
 
-10. Click **Cancel**
+10. Click **Cancel**.
 
-     ![](../images/resolution-9.png)
+    ![](../images/resolution-9.png)
 
 ### Task 2: Send the survey
 
-1.  Click on the **Send** tab.
+1. Click on the **Send** tab.
 
-2.  Click on the **Email** tile.
+2. Click on the **Email** tile.
 
-3.  Click on the **Template** drop-down and select the **Case Resolution** template you created.
+3. Click on the **Template** drop-down and select the **Case Resolution** template you created.
 
-4.  Click in the **Recipients field (1)** and enter your email address.
+4. Click in the **Recipients field (1)** and enter your email address.
 
-5.  Click **Send (2)**
+5. Click **Send (2)**
 
      ![](../images/resolution-7.png)
 
@@ -202,34 +202,34 @@ In this exercise, you will use Power Automate to send a survey when a case is re
 
 ### Task 1: Configure automation
 
-1.  Navigate to <https://customervoice.microsoft.com>
+1. Navigate to <https://customervoice.microsoft.com>
 
-2.  Select your project from the left panel.
+2. Select your project from the left panel.
 
-3.  Click on the **Send** tab.
+3. Click on the **Send** tab.
 
-4.  Click on **Resend** and select **Automate**.
+4. Click on **Resend (1)** and select **Automate (2)**.
 
-     ![](../images/resolution-6.png)
+   ![](../images/resolution-6.png)
 
-5.  Select the **Send a survey when a case is resolved in Dynamics 365** template. You may need to click on **See more templates**.
+5. Select the **Send a survey when a case is resolved in Dynamics 365** template. You may need to click on **See more templates**.
 
-    ![](../images/newtemplate.png)
+   ![](../images/newtemplate.png)
 
-6.  If the connections require action, click **Fix connection** and sign in when prompted.
+6. If the connections require action, click **Fix connection** and sign in when prompted.
 
-7.  Click **Continue**.
+7. Click **Continue**.
 
-    ![](../images/continue.png)
+   ![](../images/continue.png)
 
-8.  On **Case resolution survey** page, follow the below instructions:
+8. On **Case resolution survey** page, follow the below instructions:
 
-     - Microsoft Dataverse (legacy) Environment : Enter **Prod-Env**
-     - Dynamics 365 Customer Voice Project : Select **Case Feedback (2)**
+     - Microsoft Dataverse (legacy) Environment: Enter **Prod-Env**
+     - Dynamics 365 Customer Voice Project: Select **Case Feedback (2)**
      - Dynamics 365 Customer Voice Survey **How did we do?**
      - Dynamics 365 Customer Voice Email template **Support Feedback**
 
-     ![](../images/resolution-4.png)
+      ![](../images/resolution-4.png)
 
 9.  Click **Create**.
 
@@ -243,20 +243,20 @@ In this exercise, you will use Power Automate to send a survey when a case is re
 
 13. Click on **My flows (2)**
 
-     ![](../images/resolution-3.png)
+    ![](../images/resolution-3.png)
 
 14. Select the **Send a survey when a case is resolved in Dynamics 365** flow and click **Edit**.
 
-     ![](../images/myflow.png)
+    ![](../images/myflow.png)
 
 15. Expand the steps in the flow and select the **This action sends a survey to a specified list of recipients**.
 
-     ![](../images/resolution-2.png)
+    ![](../images/resolution-2.png)
 
 16. Clear the **Email template (1)** field and select the **Case Resolution** template you created.
 
 17. Click **Save (2)**.
 
-     ![](../images/resolution-1.png)
+    ![](../images/resolution-1.png)
 
 **Result:** You have successfully created the survey and Sent survey when a case is resolved. 
