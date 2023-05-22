@@ -558,7 +558,7 @@ In this task, you will test that the SLA is applied to cases.
 
 1.  Select **Details tab** and in **Type section** select **Problem** from the drop down click **Save**.
 
-    ![](../images/Entitlement-20.png)
+    ![](../images/slatest%231.png)
 
 1.  Select the **SLA** tab. You should see the Case Response By SLA KPI in progress with failure time set to 1 hour's time.
 
@@ -566,12 +566,16 @@ In this task, you will test that the SLA is applied to cases.
 
 1.  Select the **SLA** tab. You should see the Case Response By SLA KPI with status on **Succeeded**.
 
+     ![](../images/caseresponsesucceded.png)
+     
 1.  Click **Go back**, click **+ New Case**.
 
 1. Enter **SLA_Test #2** for **Case Title** and select the **Relecloud** account for **Customer**.
 
 1. Select **Email** for **Origin** and click **Save**.
 
+    ![](../images/slatest%232.png)
+    
 1. Select the **SLA** tab. There should be no SLA KPI items.
 
 > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
