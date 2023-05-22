@@ -12,31 +12,31 @@ In this exercise, you will define oil change and tire rotation services.
 
 In this task, you will create an oil change service.
 
-1.  Open the **Customer Service Hub (1)** app.
+1. Open the **Customer Service Hub (1)** app.
 
-2.  Click on **Home** at the top of the left-hand side navigation.
+2. Click on **Home** at the top of the left-hand side navigation.
 
-3.  Click on **Service** at the bottom of the **Site Map** in the left-hand navigation and select **Scheduling (2)**.
+3. Click on **Service** at the bottom of the **Site Map** in the left-hand navigation and select **Scheduling (2)**.
 
-4.  Click on **Services (3)** in the **Scheduling** section.
+4. Click on **Services (3)** in the **Scheduling** section.
 
-5.  Click **+ New (4)**.
+5. Click **+ New (4)**.
 
-    ![](../images/Change-Service-1.png)
+   ![](../images/Change-Service-1.png)
 
-6.  Enter **Oil Change** for **Name** and click **Save**.
+6. Enter **Oil Change** for **Name** and click **Save**.
 
-    ![](../images/oil-1.png)
+   ![](../images/oil-1.png)
 
-7.  Select the **Resource Requirements** tab, change the **Name** to **Oil Change (1)**, select **All** for **Select**, and select **Organizational Unit (2)** for **Part of Same**.
+7. Select the **Resource Requirements** tab, change the **Name** to **Oil Change (1)**, select **All** for **Select**, and select **Organizational Unit (2)** for **Part of Same**.
 
-    ![](../images/oil-2.png)
+   ![](../images/oil-2.png)
 
-8.  Click **+ Requirement** from the command bar.
+8. Click **+ Requirement** from the command bar.
 
 9. Enter **30 minutes** for **Duration (1)**.
 
-10.  Enter **Service Technician** for **Name** and select **Technician (3)** for **Resource Category**.
+10. Enter **Service Technician** for **Name** and select **Technician (3)** for **Resource Category**.
 
 11. Select the **Oil Change** row.
 
@@ -44,33 +44,33 @@ In this task, you will create an oil change service.
 
 13. Select oil change and click **+ Requirement** from command bar.
 
-12. Enter **Service Bay** for **Name (1)**, select **Service Bay Facility** for **Resource Category (2)**
+14. Enter **Service Bay** for **Name (1)**, select **Service Bay Facility** for **Resource Category (2)**
 
     ![](../images/oil-4.png)
 
-13. Click **Save**
+15. Click **Save**
 
 ### Task 2: Create Tire Service
 
-1.  Click + **New** in the command bar.
+1. Click + **New** in the command bar.
 
-2.  Enter **Tire Rotation** for **Name** and click **Save**.
+2. Enter **Tire Rotation (1)** for **Name** and click **Save (2)**.
 
-    ![](../images/oil-5.png)
+   ![](../images/oil-5.png)
 
-3.  Select the **Resource Requirements** tab, change the **Name** to **Tire Rotation**, select **All** for **Select**, and select **Organizational Unit** for **Part of Same**.
+3. Select the **Resource Requirements** tab, change the **Name** to **Tire Rotation**, select **All** for **Select**, and select **Organizational Unit** for **Part of Same**.
 
-4.  Click **+ Requirement**.
+4. Click **+ Requirement**.
 
-5.  Enter **1 hour** for **Duration**.
+5. Enter **1 hour** for **Duration**.
 
-6.  Enter **Senior Technician** for **Name** and select **Senior Technician** for **Resource Category**.
+6. Enter **Senior Technician** for **Name** and select **Senior Technician** for **Resource Category**.
 
-7.  Select the **Tire Rotation** row and click **+ Requirement**.
+7. Select the **Tire Rotation** row and click **+ Requirement**.
 
 8. Enter **Service Bay** for **Name** and select **Service Bay Facility** for **Resource Category**.
 
-9.  Select the **Tire Rotation** row and click **+ Requirement**.
+9. Select the **Tire Rotation** row and click **+ Requirement**.
 
 10. Enter **Service Technician** for **Name** and select **Technician** for **Resource Category**.
 
@@ -96,66 +96,65 @@ In this exercise, you create and schedule service activities for an oil change a
 
 In this task you will create and schedule an oil change service activity.
 
-1.  Open the **Customer Service Hub** app.
+1. Open the **Customer Service Hub** app.
 
-2.  Click on **Home** at the top of the left-hand side navigation.
+2. Click on **Home** at the top of the left-hand side navigation.
 
-3.  Click on **Service** at the bottom of the **Site Map** in the left-hand navigation and select **Scheduling (1)**.
+3. Click on **Service** at the bottom of the **Site Map** in the left-hand navigation and select **Scheduling (1)**.
 
-4.  Click on **Service Activities (2)** in the **Scheduling** section.
+4. Click on **Service Activities (2)** in the **Scheduling** section.
 
-5.  Click **Service Activity (3)** from the command bar.
+5. Click **Service Activity (3)** from the command bar.
 
-    ![](../images/oil-7.png)
+   ![](../images/oil-7.png)
 
-6.  Enter **Oil Change Service** for **Subject**, select **Oil Change** for **Service**, select **Main Ave Location** for **Organizational Unit**, and
-    click **Save**.
+6. Enter **Oil Change Service (1)** for **Subject**, select **Oil Change (2)** for **Service**, select **Main Ave Location (3)** for **Organizational Unit**, and click **Save**.
     
-    ![](../images/oil-8.png)
+   ![](../images/oil-8.png)
 
-7.  Click **Book**.
+7. Click **Book**.
 
-8.  Go to the **Filter View (1)**, select **Main Ave Location** for **Organizational Unit (2)**, and click **Search (3)**.
+8. Go to the **Filter View (1)**, select **Main Ave Location** for **Organizational Unit (2)**, and click **Search (3)**.
 
-    ![](../images/oil-9.png)
+   ![](../images/oil-9.png)
 
-9.  Expand one of the available slots and see what resources are included in it.
+9. Expand one of the available slots and see what resources are included in it.
 
-    ![](../images/oil-10.png)
+   ![](../images/oil-10.png)
 
-1.  In our case Service Bay 1 and **Jennifer Leary (1)** will be included.
+10. In our case Service Bay 1 and **Jennifer Leary (1)** will be included.
 
-10. Click on the Team date from the list.
+11 Click on the Team date from the list.
 
-11. Select a **date one week from today(Do not select weekend date) (2)**. The rest of the dates will change to reflect the change you made.
+12. Select a **date one week from today(Do not select weekend date) (2)**. The rest of the dates will change to reflect the change you made.
 
-12. Click **Book & Exit (3)**.
+13. Click **Book & Exit (3)**.
 
     ![](../images/oil-11.png)
 
-13. Refresh the service activity record.
+14. Refresh the service activity record.
 
-14. The status should now change form **Requested** to **Scheduled**.
+15. The status should now change form **Requested** to **Scheduled**.
 
-15. Select the **Bookings** tab. You should see the booked resources for this service activity.
+16. Select the **Bookings** tab. You should see the booked resources for this service activity.
 
     ![](../images/oil-12.png)
 
-16. Click **Scheduling** in the **Tools** section.
+17. Click **Scheduling** in the **Tools** section.
 
-17. Select **Main Ave Location** for **Organizational Units (1)** and click **Apply (2)**.
+18. Select **Main Ave Location** for **Organizational Units (1)** and click **Apply (2)**.
 
     ![](../images/oil-13.png)
 
-18. Select **Horizontal View** and click on the date picker.
+19. Select **Horizontal View** and click on the date picker.
 
-19. Select the date you booked the **Oil Change** service activity.
+20. Select the date you booked the **Oil Change** service activity.
 
-20. **Jennifer Leary** and **Service Bay 1** should show as booked for **30** minutes. Click on the **Jennifer Leary’s** booking to get the deatils of booking.
+21. **Jennifer Leary** and **Service Bay 1** should show as booked for **30** minutes. Click on the **Jennifer Leary’s** booking to get the details of booking.
 
     ![](../images/oil-14.png)
 
-21. Go to the Details pane. You should see more information about the booking.
+22. Go to the Details pane. You should see more information about the booking.
 
 > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
 > - Select the **Lab Validation** tab located at the upper right corner of the lab guide section.
