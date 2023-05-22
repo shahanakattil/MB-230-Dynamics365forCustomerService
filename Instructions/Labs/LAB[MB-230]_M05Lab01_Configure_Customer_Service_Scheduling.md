@@ -12,38 +12,36 @@ In this exercise, you will create organizational units, define a business closur
 
 In this task, you will define three organizational units to act as service locations for scheduling.
 
-1.  Open the **Customer Service Hub** app.
+1. Open the **Customer Service Hub** app.
 
-2.  Click **Settings** and select **Personalization Settings**.
+2. Click **Settings (1)** and select **Personalization Settings (2)**.
 
-    ![](../images/Personalization-Settings-0.png)
+   ![](../images/Personalization-Settings-0.png)
 
-3.  Select your **Time Zone** and click **OK**.
+3. Select your **Time Zone** and click **OK**.
 
-    ![](../images/Personalization-Settings-1.png)
+   ![](../images/Personalization-Settings-1.png)
 
-4.  Click on **Home** at the top of the left-hand side navigation.
+4. Click on **Home** at the top of the left-hand side navigation.
 
-5.  Click on **Service** at the bottom of the **Site Map** in the left-hand navigation and select **Scheduling**.
+5. Click on **Service** at the bottom of the **Site Map** in the left-hand navigation and select **Scheduling**.
 
 6. Click on (hierarchy icon) **Organization Units** in the **Settings** section.
 
-7.  Click **+ New**.
+7. Click **+ New**.
 
-    ![](../images/Personalization-Settings-2.png)
+   ![](../images/Personalization-Settings-2.png)
 
-8. Enter **Main Ave Location** for **Name**. Click on the **Scheduling** tab.
+8. Enter **Main Ave Location (1)** for **Name**. Click on the **Scheduling (2)** tab.
 
-    ![](../images/Personalization-Settings-002.png)
+   ![](../images/Personalization-Settings-002.png)
     
-1.  In the **Scheduling** tab enter a valid number for both Latitude and Longitude(Example: Latitude- 40, Longitude- 40).
-
-9. Click **Save and Close**.
+9. In the **Scheduling** tab enter a valid number for both Latitude and Longitude (Example: Latitude- 40, Longitude- 40). Click **Save and Close**.
 
 10. Create two more **Sites** by following steps 7 to 9 with the name listed in the table below.
 
-- 19th Ave Location
-- 35th St Location
+    - 19th Ave Location
+    - 35th St Location
 
 11. You should now have three Sites.
 
@@ -55,47 +53,47 @@ In this task, you will define three organizational units to act as service locat
 
 In this task, you will define a new business closure.
 
-1.  Click on **Business Closures** in the **Settings** section.
+1. Click on **Business Closures** in the **Settings** section.
 
-2.  Click **+ New**.
+2. Click **+ New**.
 
     ![](../images/Personalization-Settings-004.png)
 
-3.  Enter **Worldwide Rest Day** for **Name**, Select **All Day Event** as **No**, select a date one week from now for **Start Date**, and click **OK**.
+3. Enter **Worldwide Rest Day (1)** for **Name**, Select **All Day Event** as **No (2)**, select a date one week from now for **Start Date (3)**, and click **OK (4)**.
 
     ![](../images/Personalization-Settings-005.png)
 
-4.  Do not navigate away from this application.
+4. Do not navigate away from this application.
 
 ## Task 3: Create Facilities/Equipment Records
 
 In this task, you will create facilities/equipment records for the organizational units you created and set their working hours.
 
-1.  Click on **Facilities/Equipment** in the **Scheduling** section.
+1. Click on **Facilities/Equipment (1)** in the **Scheduling** section.
 
-2.  Click **+ New**.
+2. Click **+ New (2)**.
 
-    ![](../images/Personalization-Settings-006.png)
+   ![](../images/Personalization-Settings-006.png)
 
-3.  Enter **Main Ave - Service Bay 1** for **Name**, select **Main Ave Location** for **Organizational Unit**, select a *Time Zone*, select the root **Business Unit**, and click **Save **.
+3. Enter **Main Ave - Service Bay 1 (1)** for **Name**, select **Main Ave Location (2)** for **Organizational Unit**, select a *Time Zone*, select the root **Business Unit (4)**, and click **Save**.
 
-    ![](../images/Personalization-Settings-029.png)
+   ![](../images/Personalization-Settings-029.png)
 
-4.  Select the **Work Hours** tab, click on one of the events listed on the calendar, click **Edit**, and select **All events in the series**.
+4. Select the **Work Hours** tab, click on one of the events listed on the calendar, click **Edit (1)**, and select **All events in the series (2)**.
 
-    ![](../images/Personalization-Settings-008.png)
+   ![](../images/Personalization-Settings-008.png)
 
-5.  Select **08:00 AM to 08:00 PM**, remove **Saturday** and **Sunday**, and click **Remove end date**, if there is an end date selected.
+5. Select **08:00 AM to 08:00 PM**, remove **Saturday** and **Sunday**, and click **Remove end date**, if there is an end date selected.
 
-6.  Toggle **Observe Business Closure** to **On**.
+6. Toggle **Observe Business Closure** to **On**.
 
-    ![](../images/Personalization-Settings-030.png)
+   ![](../images/Personalization-Settings-030.png)
 
-7.  Click **Save** to save the working hours.
+7. Click **Save** to save the working hours.
 
-8.  Click **Save and Close**.
+8. Click **Save and Close**.
 
-9.  Click **+ New**.
+9. Click **+ New**.
 
 10. Enter **Main Ave - Service Bay 2** for **Name**, select **Main Ave Location** for **Organizational Unit**, select your **Time Zone**, select the root **Business Unit**, and click **Save**.
 
@@ -109,15 +107,15 @@ In this task, you will create facilities/equipment records for the organizationa
 
 15. Repeat the previous 5 steps and create the **Facilities/Equipment** listed in the table below.
 
-| **Name**                 | **Organizational Unit** | **Time Zone**  | **Business Unit**  | **Working Hours**        |
-|--------------------------|-------------------------|----------------|--------------------|--------------------------|
-| Main Ave - Tire Jack     | Main Ave Location       | Your time zone | Root business unit | Mon-Fri 8:00AM to 8:00PM |
-| 19th Ave - Service Bay 1 | 19th Ave Location       | Your time zone | Root business unit | Mon-Fri 8:00AM to 8:00PM |
-| 19th Ave - Service Bay 2 | 19th Ave Location       | Your time zone | Root business unit | Mon-Fri 8:00AM to 8:00PM |
-| 19th Ave - Tire Jack     | 19th Ave Location       | Your time zone | Root business unit | Mon-Fri 8:00AM to 8:00PM |
-| 35th St - Service Bay 1  | 35th St Location        | Your time zone | Root business unit | Mon-Fri 8:00AM to 8:00PM |
-| 35th St - Service Bay 2  | 35th St Location        | Your time zone | Root business unit | Mon-Fri 8:00AM to 8:00PM |
-| 35th St - Tire Jack      | 35th St Location        | Your time zone | Root business unit | Mon-Fri 8:00AM to 8:00PM |
+    | **Name**                 | **Organizational Unit** | **Time Zone**  | **Business Unit**  | **Working Hours**        |
+    |--------------------------|-------------------------|----------------|--------------------|--------------------------|
+    | Main Ave - Tire Jack     | Main Ave Location       | Your time zone | Root business unit | Mon-Fri 8:00AM to 8:00PM |
+    | 19th Ave - Service Bay 1 | 19th Ave Location       | Your time zone | Root business unit | Mon-Fri 8:00AM to 8:00PM |
+    | 19th Ave - Service Bay 2 | 19th Ave Location       | Your time zone | Root business unit | Mon-Fri 8:00AM to 8:00PM |
+    | 19th Ave - Tire Jack     | 19th Ave Location       | Your time zone | Root business unit | Mon-Fri 8:00AM to 8:00PM |
+    | 35th St - Service Bay 1  | 35th St Location        | Your time zone | Root business unit | Mon-Fri 8:00AM to 8:00PM |
+    | 35th St - Service Bay 2  | 35th St Location        | Your time zone | Root business unit | Mon-Fri 8:00AM to 8:00PM |
+    | 35th St - Tire Jack      | 35th St Location        | Your time zone | Root business unit | Mon-Fri 8:00AM to 8:00PM |
 
 16. You should now have total of 9 Facilities/Equipment records.
 
@@ -137,21 +135,21 @@ In this exercise, you will create contact records, create resource categories, a
 
 In this task you will create new contact records.
 
-1.  Open the **Customer Service Hub** app.
+1. Open the **Customer Service Hub** app.
 
-2.  Click on **Home** at the top of the left-hand side navigation.
+2. Click on **Home** at the top of the left-hand side navigation.
 
-3.  Click on **Contacts** in the **Customers** section.
+3. Click on **Contacts (1)** in the **Customers** section.
 
-4.  Click **+ New**.
+4. Click **+ New (2)**.
 
-    ![](../images/cases-2.png)
+   ![](../images/cases-2.png)
 
-5.  Enter **Mike** for **First Name**, **Smith** for **Last Name**, and click **Save and Close**.
+5. Enter **Mike** for **First Name**, **Smith** for **Last Name**, and click **Save and Close**.
 
-    ![](../images/Personalization-Settings-013.png)
+   ![](../images/Personalization-Settings-013.png)
 
-6.  Repeat the previous two steps and create the **Contact** records listed in the table below.
+6. Repeat the previous two steps and create the **Contact** records listed in the table below.
 
     | **First Name** | **Last Name** |
     |----------------|---------------|
@@ -161,39 +159,39 @@ In this task you will create new contact records.
     | Sven           | Locarte       |
     | Alex           | Nelson        |
 
-7.  You should now have six contact records.
+7. You should now have six contact records.
 
-    ![](../images/Personalization-Settings-014.png)
+   ![](../images/Personalization-Settings-014.png)
 
-8.  Do NOT navigate away from this application.
+8. Do NOT navigate away from this application.
 
 ## Task 2: Create Resource Categories
 
 In this task you will create new resource categories.
 
-1.  Click on **Service** at the bottom of the **Site Map** in the left-hand navigation and select **Scheduling**.
+1. Click on **Service** at the bottom of the **Site Map** in the left-hand navigation and select **Scheduling**.
 
-2.  Click on **Resource Categories** in the **Scheduling** section.
+2. Click on **Resource Categories (1)** in the **Scheduling** section.
 
-3.  Click **+ New**.
+3. Click **+ New (2)**.
 
-    ![](../images/Personalization-Settings-015.png)
+   ![](../images/Personalization-Settings-015.png)
 
-4.  Enter **Senior Technician** for **Name** and click **Save and Close**.
+4. Enter **Senior Technician (1)** for **Name** and click **Save and Close (2)**.
 
-    ![](../images/Personalization-Settings-021.png)
+   ![](../images/Personalization-Settings-021.png)
 
-5.  Click **+ New**.
+5. Click **+ New**.
 
-6.  Enter **Technician** for **Name** and click **Save and Close**.
+6. Enter **Technician** for **Name** and click **Save and Close**.
 
-7.  Create two more **Resource Categories** and name them **Service Bay Facility** and **Tire Jack Equipment**.
+7. Create two more **Resource Categories** and name them **Service Bay Facility** and **Tire Jack Equipment**.
 
-8.  You should now have 4 **Resource Categories**.
+8. You should now have 4 **Resource Categories**.
 
-    ![](../images/Personalization-Settings-016.png)
+   ![](../images/Personalization-Settings-016.png)
 
-9.  Do NOT navigate away from this application.
+9. Do NOT navigate away from this application.
 
 > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
 > - Select the **Lab Validation** tab located at the upper right corner of the lab guide section.
@@ -205,38 +203,38 @@ In this task you will create new resource categories.
 
 In this task you will create resources using the contacts you created.
 
-1.  Click on **Resources** in the **Scheduling** section.
+1. Click on **Resources (1)** in the **Scheduling** section.
 
-2.  Click **+ New**.
+2. Click **+ New (2)**.
 
-    ![](../images/Personalization-Settings-017.png)
+   ![](../images/Personalization-Settings-017.png)
 
-3.  Select **Contact** for **Resource Type**, select **Mike Smith** for **Contact**, and select the **Scheduling** tab.
+3. Select **Contact (1)** for **Resource Type**, select **Mike Smith (2)** for **Contact**, and select the **Scheduling (3)** tab.
 
-    ![](../images/Personalization-Settings-022.png)
+   ![](../images/Personalization-Settings-022.png)
 
-4.  Select **Organizational Unit Address** for **Start** and **End Locations**, select **Main Ave Location** for **Organizational Unit**, and click
+4. Select **Organizational Unit Address (1)** for **Start** and **End Locations**, select **Main Ave Location (2)** for **Organizational Unit**, and click
     **Save**.
     
-    ![](../images/Personalization-Settings-019.png)
+   ![](../images/Personalization-Settings-019.png)
 
-5.  Select the **Work Hours** tab, click on one of the events on the calendar, click **Edit**, and select **All events in the series**.
+5. Select the **Work Hours** tab, click on one of the events on the calendar, click **Edit**, and select **All events in the series**.
 
-    ![](../images/Personalization-Settings-024.png)
+   ![](../images/Personalization-Settings-024.png)
 
-6.  Select **08:00 AM** to **04:30 PM** and click **Add Break**.
+6. Select **08:00 AM** to **04:30 PM** and click **Add Break**.
 
-    ![](../images/Personalization-Settings-023.png)
+   ![](../images/Personalization-Settings-023.png)
 
-7.  Remove **Saturday** and **Sunday**, select **Observe Business Closure** to **On**, then click **Save**.
+7. Remove **Saturday** and **Sunday**, select **Observe Business Closure** to **On**, then click **Save**.
 
-    ![](../images/Personalization-Settings-025.png)
+   ![](../images/Personalization-Settings-025.png)
 
-8.  Select the **General** tab.
+8. Select the **General** tab.
 
-9.  Select the **Related** tab and select **Resource Category Assns**  and click **+ New Bookable Resource Category Assn**.
+9. Select the **Related** tab and select **Resource Category Assns**  and click **+ New Bookable Resource Category Assn**.
 
-    ![](../images/Personalization-Settings-026.png)
+   ![](../images/Personalization-Settings-026.png)
 
 10. Select **Senior Technician** and click **Save and Close**.
 
@@ -270,16 +268,16 @@ In this task you will create resources using the contacts you created.
 
 18. Repeat the previous steps from 12 to 17 and create the resources listed in the table below.
 
-| **Resource Type** | **Facility Equipment**   | **Start and End Locations** | **Resource Category Assn** |
-|-------------------|--------------------------|-----------------------------|----------------------------|
-| Facility          | 19th Ave – Service Bay 2 | Organizational Unit Address | Service Bay Facility       |
-| Facility          | 35th St – Service Bay 1  | Organizational Unit Address | Service Bay Facility       |
-| Facility          | 35th St – Service Bay 2  | Organizational Unit Address | Service Bay Facility       |
-| Facility          | Main Ave – Service Bay 1 | Organizational Unit Address | Service Bay Facility       |
-| Facility          | Main Ave – Service Bay 2 | Organizational Unit Address | Service Bay Facility       |
-| Equipment         | 19th Ave – Tire Jack     | Organizational Unit Address | Tire Jack Equipment        |
-| Equipment         | 35th St – Tire Jack      | Organizational Unit Address | Tire Jack Equipment        |
-| Equipment         | Main Ave – Tire Jack     | Organizational Unit Address | Tire Jack Equipment        |
+    | **Resource Type** | **Facility Equipment**   | **Start and End Locations** | **Resource Category Assn** |
+    |-------------------|--------------------------|-----------------------------|----------------------------|
+    | Facility          | 19th Ave – Service Bay 2 | Organizational Unit Address | Service Bay Facility       |
+    | Facility          | 35th St – Service Bay 1  | Organizational Unit Address | Service Bay Facility       |
+    | Facility          | 35th St – Service Bay 2  | Organizational Unit Address | Service Bay Facility       |
+    | Facility          | Main Ave – Service Bay 1 | Organizational Unit Address | Service Bay Facility       |
+    | Facility          | Main Ave – Service Bay 2 | Organizational Unit Address | Service Bay Facility       |
+    | Equipment         | 19th Ave – Tire Jack     | Organizational Unit Address | Tire Jack Equipment        |
+    | Equipment         | 35th St – Tire Jack      | Organizational Unit Address | Tire Jack Equipment        |
+    | Equipment         | Main Ave – Tire Jack     | Organizational Unit Address | Tire Jack Equipment        |
 
 19. You should now have 15 Resources.
 
