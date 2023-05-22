@@ -404,7 +404,7 @@ In this task, you will create a SLA that sets a 1 hour response time on a proble
 
 1.  Click **+ New**.
 
-1.  Enter **odl_user_DID_Case Response By** for **Name**.
+1.  Enter **Case Response By** for **Name**.
 
 1.  Select **Case** for **Entity Name**.
 
@@ -420,7 +420,7 @@ In this task, you will create a SLA that sets a 1 hour response time on a proble
 
 1. Click **Activate**.
 
-1.  In the site map, select **Service Teams** in Operations.
+1.  In the site map, select **Service Terms** in Operations.
 
 1.  In the **Service Level Agreements** section, select **Manage**.
 
@@ -428,7 +428,7 @@ In this task, you will create a SLA that sets a 1 hour response time on a proble
 
 1. Click **+ New**.
 
-1. Enter **odl_user_DID_SLA** for **Name**.
+1. Enter **SLA** for **Name**.
 
 1. Select **Case** for **Primary Entity**.
 
