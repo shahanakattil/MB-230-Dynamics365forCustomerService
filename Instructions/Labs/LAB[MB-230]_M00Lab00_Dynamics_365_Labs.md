@@ -46,9 +46,9 @@ In this practice lab, you will validate and set up your tenant.
 1. On the **New environment** page, specify the following settings:
 
   
-   - Name : Enter **Prod-Env(1)**
-   - Region : Choose **United States(2)**
-   - Type : Choose **Production(3)**
+   - Name: Enter **Prod-Env(1)**
+   - Region: Choose **United States(2)**
+   - Type: Choose **Production(3)**
    - Add a Dataverse data store? **Enabled(4)**
    - Select **Next(5)**
    
@@ -56,20 +56,16 @@ In this practice lab, you will validate and set up your tenant.
     
 1. Now scroll-down and specify the following settings and click on **Save**:
 
-   - Enable Dynamics 365 apps? : **Enabled(1)**
-   - Security group : Click on **+ Select(2)**
+   - Enable Dynamics 365 apps?: **Enabled(1)**
+   - Security group: Click on **+ Select(2)**
    
     ![](../images/adddataverse.png)
    
    - On the the **Edit security group page** select **None(3)** option from the list and click on **Done(4)**
 
-    ![](../images/nonesecuritygroup.png)
+    ![](../images/nonesecuritygroup.png) 
    
-  
-   
-   >**Note**: Wait for the Environment to get **ready** before you continue with this lab.
-
-   
+   >**Note**: Wait for the Environment to get **ready** before you continue with this lab.   
    
 ### Task 3 - Installing Dynamic 365 Service Scheduling.
 
@@ -85,7 +81,7 @@ In this practice lab, you will validate and set up your tenant.
 
     ![](../images/installapp.png)
     
-1. Search and Select **Dynamic 365 Service Scheduling(1)** then click on **Next(2)**.
+1. Search and select **Dynamic 365 Service Scheduling(1)** then click on **Next(2)**.
 
     ![](../images/scheduleselect.png)
     
@@ -96,7 +92,6 @@ In this practice lab, you will validate and set up your tenant.
      >**Note:** It will take 25-30 minutes to get install. Once it got installed you can see that the status got changed from **Installing** to **Installed**. You can move on to the next task.
  
       ![](../images/install.png)
-
 
 ### Task 4 – Access the Dynamics 365 application
 
