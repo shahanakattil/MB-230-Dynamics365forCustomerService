@@ -564,7 +564,7 @@ In this task, you will test that the SLA is applied to cases.
 
 1.  Select the **Details** tab and set **First Response Sent** to **Yes** and click **Save**.
 
-1.  Select the **SLA** tab. You should see the Case Response By SLA KPI with status on **Succeeded**.
+1.  Select the **SLA** tab. You should see the Case Response by SLA KPI with status on **Succeeded**.
 
      ![](../images/caseresponsesucceded.png)
      
