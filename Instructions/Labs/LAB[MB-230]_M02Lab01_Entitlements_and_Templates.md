@@ -546,7 +546,7 @@ In this task, you will test that the SLA is applied to cases.
 
 1.  Click **+ New Case**.
 
-1.  Enter **odl_user_DID_SLA_Test #1** for **Case Title** and select the **odl_user_DID_Relecloud** account for **Customer**.
+1.  Enter **SLA_Test #1** for **Case Title** and select the **Relecloud** account for **Customer**.
 
 1.  Select **Web** for **Origin** and click **Save**.
 
@@ -562,7 +562,7 @@ In this task, you will test that the SLA is applied to cases.
 
 1.  Click **Go back**, click **+ New Case**.
 
-1. Enter **odl_user_DID_SLA_Test #2** for **Case Title** and select the **odl_user_DID_Relecloud** account for **Customer**.
+1. Enter **SLA_Test #2** for **Case Title** and select the **Relecloud** account for **Customer**.
 
 1. Select **Email** for **Origin** and click **Save**.
 
