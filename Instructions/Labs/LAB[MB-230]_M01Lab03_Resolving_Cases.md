@@ -18,9 +18,7 @@ You are a customer service manager at City Power & Light who has been tasked wit
 
 1.  Open the **Defective Screen** case you created.
 
-1.  Click on the **Research (1)** stage of the **Business Process Flow**.
-
-1.  Click **Next Stage (2)**.
+1.  Click on the **Research (1)** stage of the **Business Process Flow**, then click on **Next Stage (2)**.
 
     ![](../images/stage-20.png)
 
@@ -28,7 +26,7 @@ You are a customer service manager at City Power & Light who has been tasked wit
 
 1.  Click on the **Resolve Case (1)** button located in the command bar. Note: You may need to click the ellipsis (...) to see the button.
 
-1. A dialog will be displayed with the message *There are open activities associated with this case. The open activities will be canceled if you resolve this case. Do you want to resolve the case?*.
+1. A dialog will be displayed with the message *There are open activities associated with this case. The open activities will be cancelled if you resolve this case. Do you want to resolve the case?*
 
 1. Click **Confirm (2)**.
 
@@ -46,13 +44,11 @@ You are a customer service manager at City Power & Light who has been tasked wit
 
 1.  Open the case you resolved **Defective Screen** in task 1.
 
-1.  Click on the **Reactivate Case (3)** button located in the command bar. A dialog will be displayed with the message to confirm, Select **Reactivate (4)**.
+1.  Click on the **Reactivate Case (3)** button located in the command bar. A dialog will be displayed with the message to confirm, select **Reactivate (4)**.
 
     ![](../images/re-activecase-10.png)
 
-1.  Change the **Case Title** to **Defective Screen Not Received (2)** in the **Details (1)** tab.
-
-1.  Click **Save & Close (3)**.
+1.  Change the **Case Title** to **Defective Screen Not Received (2)** in the **Details (1)** tab and then click on **Save & Close (3)**.
 
     ![](../images/re-activecase-20.png)
     
