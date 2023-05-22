@@ -8,31 +8,31 @@ You are a customer service manager at City Power & Light who has been tasked wit
 
 ### Task 1 – Enable a case to be created from an email in a queue
 
-1.  Click on the **Customer Service Hub (1)** app from the top and select **Customer service admin (2)**.
+1. Click on the **Customer Service Hub (1)** app from the top and select **Customer service admin (2)**.
 
-    ![](../images/Customer-service-admin-1.png)
+   ![](../images/Customer-service-admin-1.png)
     
-1.  Using the navigation on the left, select **Case settings (1)**.
+1. Using the navigation on the left, select **Case settings (1)**.
 
-1.  Select **Manage (2)** next to **Automatic record creation and update rules**.
+1. Select **Manage (2)** next to **Automatic record creation and update rules**.
 
-    ![](../images/creation-rules-10.png)
+   ![](../images/creation-rules-10.png)
 
-1.  Click **+ New** located on the command bar.
+1. Click **+ New** located on the command bar.
 
-1.  Enter **Support email (1)** for **Rule name**.
+1. Enter **Support email (1)** for **Rule name**.
 
-1. Select the **Support (2)** queue you created for Queue to monitor, and select **Email (2)** for Activity type to monitor.
+1. Select the **Support (2)** queue you created for Queue to monitor and select **Email (2)** for Activity type to monitor.
 
-    ![](../images/creation-rules-20.png)
+   ![](../images/creation-rules-20.png)
     
-1.  Click **Save**.
+1. Click **Save**.
 
-1.  In **Step two: conditions to evaluate and actions to take**, click **+ New**.
+1. In **Step two: conditions to evaluate and actions to take**, click **+ New**.
 
-1.  Enter **High priority emails (1)** for **Condition name**.
+1. Enter **High priority emails (1)** for **Condition name**.
 
-1.  Click on **Add** and then select **Add row** from the drop-down.
+1. Click on **Add** and then select **Add row** from the drop-down.
 
 1. In the left-hand side of the condition, select **Priority (Email) (2)** from the drop-down.
 
@@ -42,19 +42,19 @@ You are a customer service manager at City Power & Light who has been tasked wit
 
 1. Click **Save and open Power Automate (3)**.
 
-    ![](../images/creation-rules-3.png)
+   ![](../images/creation-rules-3.png)
 
 1. If prompted to connect to Dataverse, click **Continue**.
 
 1. If not Sign-in, then enter following **Email/Username** and then click on **Next**. 
    * Email/Username: <inject key="AzureAdUserEmail"></inject>
    
-1. Now enter the following **Password** and click on **Sign in**.
+1. Now, enter the following **Password** and click on **Sign in**.
    * Password: <inject key="AzureAdUserPassword"></inject>
 
 1. Expand the **Create a record (don't rename this step)** step.
 
-    ![](../images/creation-rules-4.png)
+   ![](../images/creation-rules-4.png)
 
 1. Set the **Case Type** to **Request (1)**.
 
@@ -62,7 +62,7 @@ You are a customer service manager at City Power & Light who has been tasked wit
 
 1. Click **Save (3)** and close the Power Automate browser tab.
 
-    ![](../images/creation-rules-50.png)
+   ![](../images/creation-rules-50.png)
 
 1. Click **Close** in the *Record Creation and Update Rule Item* dialog.
 
@@ -72,13 +72,11 @@ You are a customer service manager at City Power & Light who has been tasked wit
 
 1. Click **Save (3)**.
 
-    ![](../images/creation-rules-61.png)
+   ![](../images/creation-rules-61.png)
 
-1. Click **Activate**.
+1. Click **Activate (1)** and then **Activate (1)** from popup.
 
-1. Click **Activate**.
-
-    ![](../images/creation-rules-60.png)
+   ![](../images/creation-rules-60.png)
 
 1. Due to the lack of administrative access to email mailboxes, you will not be able to test this rule.
 
@@ -92,89 +90,64 @@ You are a customer service manager at City Power & Light who has been tasked wit
 
 ### Task 1 – Configure basic routing rule set
 
-1.  Click on the **Customer Service Hub** app from the top and select **Customer service admin**.
+1. Click on the **Customer Service Hub (1)** app from the top and select **Customer service admin (2)**.
 
     ![](../images/Customer-service-admin-1.png)
     
-1.  Click on **Routing** in the **Customer support** section and then click on **Manage** from right side of the **Basic routing rile sets**.
+1. Click on **Routing (1)** in the **Customer support** section and then click on **Manage (2)** for **Basic routing rile sets**.
 
     ![](../images/Basic-routing-10.png)
 
-1.  Click **+ New** located on the command bar.
+1. Click **+ New** located on the command bar.
 
-1.  Enter **Basic case routing rules (1)** for **Name**.
-
-1.  Click **Save (2)**.
+1. Enter **Basic case routing rules (1)** for **Name** and then click on **Save (2)**.
 
     ![](../images/Basic-routing-20.png)
 
-1.  Click **+ New Rule Item**.
+1. Click **+ New Rule Item**.
 
     ![](../images/Basic-routing-21.png)
-
-1.  Enter **Problem (1)** for **Name**.
 
 1. Click on **Add** and **Add row**.
 
     ![](../images/Basic-routing-22.png)
+    
+1. Enter **Problem (1)** for **Name**. 
+    * In the left-hand side of the condition, select **Case Type (Case) (2)**. 
+    * Select **Equals (3)** for the operator. for the condition, select **Problem (4)**.
+    * Select **Queue (5)** for **Route To**.
+    * Search for and select the **Gold (6)** queue you created in the earlier lab.
+    * Click **Save & Close (7)**.
 
-1. In the left-hand side of the condition, select **Case Type (Case) (2)**.
-
-1. Select **Equals (3)** for the operator.
-
-1. In the right-hand side of the condition, select **Problem (4)**.
-
-1. Select **Queue (5)** for **Route To**.
-
-1. Search for and select the **Gold (6)** queue you created in the earlier lab.
-
-1. Click **Save & Close (7)**.
-
-    ![](../images/Basic-routing-50.png)
+      ![](../images/Basic-routing-50.png)
 
 1. Click **+ New Rule Item**.
+    * Enter **Maintenance (1)** for **Name**.
+    * Click on **Add** and **Add row**.
+    * In the left-hand side of the condition, select **Subject (Case) (2)**.
+    * Select **Equals (3)** for the operator.
+    * In the right-hand side of the condition, select **Service (4)**.
+    * Select **Queue (5)** for **Route To**.
+    * Search for and select the **Silver (6)** queue you created in the earlier lab.
+    * Click **Save & Close (7)**.
 
-1. Enter **Maintenance (1)** for **Name**.
-
-1. Click on **Add** and **Add row**.
-
-1. In the left-hand side of the condition, select **Subject (Case) (2)**.
-
-1. Select **Equals (3)** for the operator.
-
-1. In the right-hand side of the condition, select **Service (4)**.
-
-1. Select **Queue (5)** for **Route To**.
-
-1. Search for and select the **Silver (6)** queue you created in the earlier lab.
-
-1. Click **Save & Close (7)**.
-
-    ![](../images/Basic-routing-90.png)
+      ![](../images/Basic-routing-90.png)
 
 1. Click **+ New Rule Item**.
+    * Enter **Questions and Requests (1)** for **Name**.
+    * Click on **Add** and **Add row**.
+    * In the left-hand side of the condition, select **Case Type (Case) (2)**.
+    * Select **Equals (3)** for the operator.
+    * For condition, select **Question (4)** and select **Request**.
+    * Select **Queue (5)** for **Route To**.
+    * Search for and select the **Bronze (6)** queue you created in the earlier lab.
+    * Click **Save & Close (7)**.
 
-1. Enter **Questions and Requests (1)** for **Name**.
-
-1. Click on **Add** and **Add row**.
-
-1. In the left-hand side of the condition, select **Case Type (Case) (2)**.
-
-1. Select **Equals (3)** for the operator.
-
-1. In the right-hand side of the condition, select **Question (4)** and select **Request**.
-
-1. Select **Queue (5)** for **Route To**.
-
-1. Search for and select the **Bronze (6)** queue you created in the earlier lab.
-
-1. Click **Save & Close (7)**.
-
-    ![](../images/Basic-routing-70.png)
+      ![](../images/Basic-routing-70.png)
 
 1. Click **Save**.
 
-36. Click **Activate** and click **Yes**.
+36. Click **Activate (1)** and click **Yes (2)**.
 
     ![](../images/Basic-routing-71.png)
 
