@@ -2,7 +2,7 @@
 
 ## Scenario
 
-Dynamics 365 for Customer Service is the backbone of their customer support operations. With hundreds of inquiries pouring in daily, the system effortlessly manages the entire customer service lifecycle. When a customer contacts the company with a product issue, a support agent swiftly creates a case in Dynamics 365, capturing all relevant details. The system inteligently assigns the case to the most suitable agent based on their expertise, workload, and availability. Armed with a comprehensive view of the customer's history, the agent promptly reaches out to the customer, providing personalized assistance and resolving the issue. Collaborating with colleagues within the system, they share knowledge articles and seek assistance when needed. The system ensures adherence to service level agreements, automatically escalating cases that require immediate attention. Managers leverage the system's analytics capabilities to monitor team performance, identify bottlenecks, and make data-driven decisions. After successful resolution, customer feedback surveys are automatically triggered, enabling the company to gauge customer satisfaction and continuously improve their support services. With Dynamics 365 for Customer Service at the helm, the company delivers exceptional customer experiences, solidifying their position as a leader in the industry.
+Dynamics 365 for Customer Service is the backbone of their customer support operations. With hundreds of inquiries pouring in daily, the system effortlessly manages the entire customer service lifecycle. When a customer contacts the company with a product issue, a support agent swiftly creates a case in Dynamics 365, capturing all relevant details. The system intelligently assigns the case to the most suitable agent based on their expertise, workload, and availability. Armed with a comprehensive view of the customer's history, the agent promptly reaches out to the customer, providing personalized assistance and resolving the issue. Collaborating with colleagues within the system, they share knowledge articles and seek assistance when needed. The system ensures adherence to service level agreements, automatically escalating cases that require immediate attention. Managers leverage the system's analytics capabilities to monitor team performance, identify bottlenecks, and make data-driven decisions. After successful resolution, customer feedback surveys are automatically triggered, enabling the company to gauge customer satisfaction and continuously improve their support services. With Dynamics 365 for Customer Service at the helm, the company delivers exceptional customer experiences, solidifying their position as a leader in the industry.
 
 In this practice lab, you will validate and set up your tenant.
 
@@ -30,12 +30,12 @@ In this practice lab, you will validate and set up your tenant.
 
     ![](../images/staysignedinNO.png)
 
-1. If you see the pop-up  **Welcome to the Power Platform admin center!** click on **X** at the top right corner,
+1. If you see the pop-up  **Welcome to the Power Platform admin center!** click on **X** at the top right corner.
 1. Feel free to explore the Power Platform admin center but **do not make any changes.**
 
 ### Task 2 – Create Environment into the Power Platform admin center
 
-1. On the Power Platform admin center, from the navigation pane, select **Environments(1)** and observe the **default environment present(2)**. Do not **use**, **modify** or **delete** the **default** environment.
+1. On the Power Platform admin center, from the navigation pane, select **Environments(1)** and observe the **default environment present(2)**. Do not **use**, **modify**, or **delete** the **default** environment.
 
     ![](../images/environments.png)
 
@@ -61,7 +61,7 @@ In this practice lab, you will validate and set up your tenant.
    
     ![](../images/adddataverse.png)
    
-   - On the the **Edit security group page** select **None(3)** option from the list and click on **Done(4)**
+   - On the **Edit security group page** select **None(3)** option from the list and click on **Done(4)**
 
     ![](../images/nonesecuritygroup.png) 
    
