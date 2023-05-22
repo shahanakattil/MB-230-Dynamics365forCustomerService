@@ -12,33 +12,31 @@ In this exercise, you will create, approve, publish, and revise an internal Know
 
 In this task, you will create an internal Knowledge Article for missing parts.
 
-1.  Open the **Customer Service Hub** app.
+1. Open the **Customer Service Hub** app.
 
-1.  Click on **Home** at the top of the left-hand side navigation.
+1. Click on **Home** at the top of the left-hand side navigation.
 
-1.  Click on **Knowledge Articles (1)** in the **Knowledge** section.
+1. Click on **Knowledge Articles (1)** in the **Knowledge** section.
 
-1.  Click **+ New (2)**.
+1. Click **+ New (2)**.
 
-    ![](../images/knowledge-01.png)
+   ![](../images/knowledge-01.png)
 
-1.  Enter **Missing_Parts (1)** for **Title**, enter **missing, parts (2)** for **Keywords** and click **Save (3)**.
+1. Enter **Missing Parts (1)** for **Title**, enter **missing, parts (2)** for **Keywords** and click **Save (3)**.
 
-    ![](../images/knowledge-02.png)
+   ![](../images/knowledge-02.png)
 
-1.  Go to the **Content (1)** area and make sure you have the **Designer (2)** tab selected.
+1. Go to the **Content (1)** area and make sure you have the **Designer (2)** tab selected.
 
-1.  Type **Purpose & Scope (3)**.
+1. Type **Purpose & Scope (3)**.
 
 1. Click on the **Paragraph Format** selector and select **Heading 2 (4)**. This option will only appear if your screen is fully expanded.
 
-    ![](../images/knowledge-03.png)
+   ![](../images/knowledge-03.png)
 
 1. Hit the **Enter** key to start a new line. The **Format Selector** should change back to **Normal**.
 
-1. Type the paragraph below.
-
-    Use the procedure below to resolve Phone call cases that are related to missing parts.  (1)
+1. Type the paragraph below. Use the procedure below to resolve Phone call cases that are related to missing parts.  (1)
 
 1. Hit the **Enter** key to start a new line.
 
@@ -148,4 +146,4 @@ Article.
 > - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
 > - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
 
-**Result:** You have successfully created the Knowledge Management and approved and publish knowledge article in Dyamic 365 customer services. 
+**Result:** You have successfully created the Knowledge Management and approved and publish knowledge article in Dynamic 365 customer services. 
