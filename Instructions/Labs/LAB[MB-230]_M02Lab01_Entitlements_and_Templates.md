@@ -396,7 +396,7 @@ In this task, you will create a SLA that sets a 1 hour response time on a proble
 
     ![](../images/Customer-service-admin-1.png)
     
-1.  In the site map, select **Service Teams** in Operations.
+1.  In the site map, select **Service Terms** in Operations.
 
 1.  In the **SLA KPIs** section, select **Manage**.
 
