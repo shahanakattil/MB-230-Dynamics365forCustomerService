@@ -2,29 +2,17 @@
 
 ## Scenario 
 
-Your organization provides billing and customer support on the Circuit Boards
-and other electronic products that it manufactures. With more and more new
-agents coming on board, your organization is looking for more ways to help newer
-agents solve customer problems faster. One way that they have identified how to
-do this by providing more collaboration options for their agents. Since they
-use Microsoft Teams, they have decided to leverage the collaboration
-capabilities available between Microsoft Teams and Dynamics 365.
+Your organization provides billing and customer support on the Circuit Boards and other electronic products that it manufactures. With more and more new agents coming on board, your organization is looking for more ways to help newer agents solve customer problems faster. One way that they have identified how to do this by providing more collaboration options for their agents. Since they use Microsoft Teams, they have decided to leverage the collaboration capabilities available between Microsoft Teams and Dynamics 365.
 
-Throughout this lab, you will configure the different collaboration features
-available. Upon successful completion of the lab, you will have performed the
-following:
+Throughout this lab, you will configure the different collaboration features available. Upon successful completion of the lab, you will have performed the following:
 
--   Enabled the Embedded Teams Collaboration features
-
--   Enabled the Case Swarming Feature
-
+-   Enabled the Embedded Teams Collaboration features.
+-   Enabled the Case Swarming Feature.
 -   Configured the Case Swarming Capabilities.
 
 ## Exercise 1: Enable the necessary collaboration features in your environment 
 
-Before your agents can begin collaborating with subject matter experts at your
-organization, you will need to ensure that you have enabled the necessary
-features in your environment.
+Before your agents can begin collaborating with subject matter experts at your organization, you will need to ensure that you have enabled the necessary features in your environment.
 
 ### Task 1: Enable collaboration features
 
@@ -44,7 +32,7 @@ features in your environment.
 
     -   Turn on Microsoft Teams chats inside Dynamics 365 (2)
 
-5.  Select the **Save (3)** button
+5.  Select the **Save (3)** button.
 
     ![](../images/collaboration-02.1.png)
 
@@ -65,15 +53,10 @@ features in your environment.
 10. From the list of available case forms, locate the **Case form for
     swarming**.
 
-    -   If the status of the form is set to **On**, you can close the browser
-        tab to return to the Customer support swarming screen.
+    -   If the status of the form is set to **On**, you can close the browser tab to return to the Customer support swarming screen.
+    -   If the status of the form is set to **Off,** select the **vertical ellipsis** next to the from name, and from the menu that appears, select **Turn On**. Once turned on, you can close the browser tab to return to the Customer support swarming screen.
 
-    -   If the status of the form is set to **Off,** select the **vertical
-        ellipsis** next to the from name, and from the menu that appears, select
-        **Turn On**. Once turned on, you can close the browser tab to return to
-        the Customer support swarming screen.
-
-    ![](../images/collaboration-5.png)
+     ![](../images/collaboration-5.png)
     
  11. From the left navigation menu of the **Power Apps** screen, Click on **Solutions (1)** then click on **Publish all customizations (2)**.
  
@@ -85,18 +68,17 @@ features in your environment.
         
  13. Under the **Experts** section, click on **Add a new expert**.
  
-       ![](../images/expert2.png)
+      ![](../images/expert2.png)
        
- 12. On **Add Swarm Expert** page Select ODL_User_DID (1) then click on **ADD (2)**.
+ 12. On **Add Swarm Expert** page, select ODL_User (1) then click on **ADD (2)**.
 
-       ![](../images/expert3.png)
+      ![](../images/expert3.png)
 
 ### Task 2: Create bookable resource records that can be used as experts.
 
-1.  In the **Customer Service Admin Center** application, use the navigation on
-    the left to select **Service scheduling**.
+1.  In the **Customer Service Admin Center** application, use the navigation on the left to select **Service scheduling**.
 
-2.  Locate **Resources**, and select **Manage**.
+2.  Locate **Resources** and select **Manage**.
 
     ![](../images/collaboration-06.png)
 
@@ -106,7 +88,7 @@ features in your environment.
 
     1.  **Resource Type:** User
 
-    2.  **User (1):** ODL_User_DID.
+    2.  **User (1):** ODL_User_<unique_value>.
 
     3.  **Name: (2)** Alan Steiner
 
@@ -122,20 +104,15 @@ features in your environment.
 
 ## Exercise 2: Configure Case Swarming
 
-Now that we have enabled the necessary features and have defined the resources
-that will be used as part of our solution, we are now going to configure the
-Case Swarming capabilities in the application. This will consist of two primary
-tasks:
-
--   Defining Skills & assigning those Skills to Experts
-
--   Defining Condition rules to assign Skills to swarming requests
+Now that we have enabled the necessary features and have defined the resources that will be used as part of our solution, we are now going to configure the Case Swarming capabilities in the application. This will consist of two primary tasks:
+ - Defining Skills & assigning those Skills to Experts
+ - Defining Condition rules to assign Skills to swarming requests
 
 ### Task 1: Configure skills
 
 1.  If necessary, open the **Customer Service Admin** center.
 
-2.  Using the navigation on the left, Uner the **Customer support**, select **User management**
+2.  Using the navigation on the left, Udner the **Customer support**, select **User management**
 
 3.  Next to **Skills**, select the **Manage** button.
 
@@ -146,9 +123,7 @@ tasks:
 6.  Configure the Characteristic as follows:
 
     -   **Name: (1)** Billing
-
     -   **Type: (2)** Skill
-
     -   **Description: (3)** Expert for Billing questions
 
 7.  Select the **Save (4)** button to save the record and leave it open.
@@ -183,9 +158,7 @@ tasks:
 15. Configure the Characteristic as follows:
 
     1.  **Name:** Circuit Board Expert
-
     2.  **Type:** Skill
-
     3.  **Description:** Expert in repairing Circuit boards
 
 16. Select the **Save** button to save the record and leave it open.
@@ -200,12 +173,11 @@ tasks:
 20. Configure the Bookable Resource Characteristic as follows:
 
     1.  **Skill Name:** Circuit Board Expert
-
     2.  **User (Agent):** Alan Steiner
 
-21. Select **Save and Close**
+21. Select **Save and Close**.
 
-22. Select **Save and Close** to close the Circuit Board Expert skill
+22. Select **Save and Close** to close the Circuit Board Expert skill.
 
     ![](../images/collaboration-13.png)
 
@@ -217,15 +189,15 @@ tasks:
 
 ### Task 2: Create Condition rules to assign necessary skills
 
-1.  Using the navigation on the left, select the **Collaboration** and select **Manage** on the **Customer support swarming**
+1.  Using the navigation on the left, select the **Collaboration** and select **Manage** on the **Customer support swarming**.
 
     ![](../images/collaboration-14.png)
 
-2.  Under the **Condition Rules** section, select the **Create Rule** button
+2.  Under the **Condition Rules** section, select the **Create Rule** button.
 
     ![](../images/collaboration-15.png)
 
-3.  In the **Rule Name** field, enter **Billing rule. (1)**
+3.  In the **Rule Name** field, enter **Billing rule. (1)**.
 
 4.  Configure the conditions section as follows:
 
@@ -295,17 +267,17 @@ tasks:
 3.  In the **Quick Create Case** screen, configure the new case record as
     follows.
 
-    -   **Customer:** Relecloud
+    -   **Customer:** Relecloud **(1)**
 
-    -   **Case Title:** Circuit Board Damaged
+    -   **Case Title:** Circuit Board Damaged )**(2))**
 
-    -   **Case Type:** Problem
+    -   **Case Type:** Problem  **(3)**
 
     -   **Case Status:** In Progress
 
     -   **Priority:** Normal
 
-4.  Select the **Save and Close** button.
+4.  Select the **Save and Close (4)** button.
 
     ![](../images/collaboration30.png)
 
@@ -337,8 +309,7 @@ Another way you can locate help is to initiate a swarm request. When initiating
 a case swarm the system will identify multiple Experts you could potentially
 assist you in resolving your issue.
 
-1.  On the **Case** record select the **Create Swarm** button. (*You may need to
-    select the vertical Ellipsis to display more options*.)
+1.  On the **Case** record select the **Create Swarm** button. (*You may need to select the vertical Ellipsis to display more options*.)
 
     ![](../images/collaboration-24.png)
 
