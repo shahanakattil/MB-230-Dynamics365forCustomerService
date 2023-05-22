@@ -404,17 +404,19 @@ In this task, you will create a SLA that sets a 1 hour response time on a proble
 
 1.  Click **+ New**.
 
-1.  Enter **Case Response By** for **Name**.
+1. On **New SLA KPI** page, follow the below instuctions:
 
-1.  Select **Case** for **Entity Name**.
+    - Enter **Case Response By** for **Name**.
 
-1.  Select **First Response By KPI** for **KPI Field**
+    - Select **Case** for **Entity Name**.
 
-1.  Select **Created On** for **Applicable From**
+    - Select **First Response By KPI** for **KPI Field**
 
-1. Click **Save**. DO NOT navigate away from this form.
+    - Select **Created On** for **Applicable From**
 
-    ![](../images/Entitlement-12.png)
+    - Click **Save**. DO NOT navigate away from this form.
+
+      ![](../images/caseresponseby.png)
 
 1. Click **Activate** in the command bar.
 
@@ -428,12 +430,16 @@ In this task, you will create a SLA that sets a 1 hour response time on a proble
 
 1. Click **+ New**.
 
-1. Enter **SLA** for **Name**.
+1. On **New SLA** page, follow the below instructions:
 
-1. Select **Case** for **Primary Entity**.
+    - Enter **SLA** for **Name**.
 
-1. Click **Save**.
+    - Select **Case** for **Primary Entity**.
 
+    - Click **Save**.
+
+      ![](../images/sla.png)
+      
 1. Click **+ New SLA Item**
 
 1. Enter **Problems** for **Name**.
@@ -468,7 +474,7 @@ In this task, you will create a SLA that sets a 1 hour response time on a proble
 
 1. Click **Configure Actions**.
 
-    ![](../images/Entitlement-16.png)
+    ![](../images/configureactions.png)
 
 1. If prompted to connect to Dataverse, click **Continue**.
 
