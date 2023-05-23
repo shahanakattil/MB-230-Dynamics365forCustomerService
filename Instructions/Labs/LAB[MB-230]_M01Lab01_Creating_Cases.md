@@ -81,7 +81,7 @@ In this exercise, you will create an Account, a Contact, and a Case record. You 
 
      ![](../images/addsubjecttree.png)
      
-1.  In the Create a subject dialog, enter the following information and remaining leave default then Select **Save and close (3)**:
+1.  In the Create a subject dialog, enter the following information and remaining leave default then Select **Save and close**:
     
      - Title: type **Maintenance (1)** for the subject.
     
@@ -91,11 +91,13 @@ In this exercise, you will create an Account, a Contact, and a Case record. You 
     
 1.  On the **Subject tree** page, select **Add** next to **Subject tree management**.
      
-1.  In the Create a subject dialog, enter the following information and remaining leave default then Select **Save and close (3)**.:
+1.  In the Create a subject dialog, enter the following information and remaining leave default then Select **Save and close**.:
     
-     - Title: Type **Service** for the subject.
+     - Title: Type **Service (1)** for the subject.
     
-     - Click on **Save and Close**
+     - Click on **Save and Close (2)**
+     
+     ![](../images/sevicetree.png)
     
 1. Again Click on **Customer service admin**  the app from the top and select  **Customer Service Hub**.
     
