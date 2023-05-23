@@ -34,7 +34,7 @@ Before your agents can begin collaborating with subject matter experts at your o
 
 5.  Select the **Save (3)** button.
 
-    ![](../images/collaboration-02.1.png)
+    ![](../images/colab.png)
 
 6.  Using the navigation on the left, select Collaboration again.
 
