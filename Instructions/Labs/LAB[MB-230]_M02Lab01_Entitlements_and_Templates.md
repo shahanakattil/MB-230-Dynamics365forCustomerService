@@ -14,7 +14,7 @@ In this exercise, you will create an entitlement for your user, this entitlement
 
     ![](../images/Customer-service-admin-1.png)
     
-1.  Using the navigation on the left, select **Service Term** under **Operations** and Select **Manage** next to **Entitlements**.
+1.  Using the navigation on the left, select **Service Term (1)** under **Operations** and Select **Manage (2)** next to **Entitlements**.
 
      ![](../images/serviceterms.png)
      
@@ -59,7 +59,7 @@ In this task, you will add entitlement channels to the default entitlement and t
 
     ![](../images/email.png)
 
-1. Navigate back to the **Entitlement Channel** section of the Entitlement form, click on the ellipsis (...) and select **+ New Entitlement Channel**.
+3. Navigate back to the **Entitlement Channel** section of the Entitlement form, click on the ellipsis (...) and select **+ New Entitlement Channel**.
 
     ![](../images/new-1.png)
     
@@ -67,16 +67,14 @@ In this task, you will add entitlement channels to the default entitlement and t
 
      ![](../images/webentitelment.png)
      
-1. Navigate back to the **Entitlement Channel** section of the Entitlement form, click on the ellipsis (...) and select **+ New Entitlement Channel**.
-
-    ![](../images/new-1.png)
+5. Navigate back to the **Entitlement Channel** section of the Entitlement form, click on the ellipsis (...) and select **+ New Entitlement Channel**.
 
 6.  Select **Facebook (1)** for **Name**, enter **10 (2)** for **Total Terms** and click **Save and Close (3)**.
 
      ![](../images/facebook.png)
      
 7.  Click on the ellipsis button and select **+ New Entitlement Channel**.
-
+     
 8.  Select **Twitter (1)** for **Name**, enter **10 (2)** for **Total Terms** and click **Save and Close (3)**.
 
      ![](../images/twittwe.png)
@@ -113,7 +111,7 @@ In this task, you will test the default entitlement for Relecloud.
 
 1.  Click on **Home** at the top of the left-hand side navigation.
 
-2.  Click on **Cases** in the **Service** section of the sitemap and click on **+ New Case**.
+2.  Click on **Cases (1)** in the **Service** section of the sitemap and click on **+ New Case (2)**.
 
      ![](../images/cases1.png)
 
@@ -368,25 +366,25 @@ In this task, you will create a Customer Service Schedule to use with SLAs.
 
 2.  Click **+ New**.
 
-3.  Enter **Customer Service Schedule** for **Name** and click on **Create**.
+3.  Enter **Customer Service Schedule (1)** for **Name** and click on **Create (2)**.
 
      ![](../images/customerservice.png)
      
-5.  Uncheck **Saturday** and **Sunday**.
+5.  Uncheck **Saturday (2)** and **Sunday (3)**. 
 
 6.  Click **Set Work Hours**.
 
-7. Set Start to **9:00AM** and End to **5:00PM**.
+7. Set Start to **9:00AM** and End to **5:00PM**. **(4)**
 
 8. Click **OK**.
 
-9. Set **Holiday Schedule** to **Observe** and select the Holiday Schedule you created.
+9. Set **Holiday Schedule** to **Observe (5)** and select the **Holiday Schedule (6)** you created.
 
-10. Select your local **Time Zone**
+10. Select your local **Time Zone (7)**
 
-11. Click **Save & Close**.
+11. Click **Save & Close (8)**.
 
-    ![](../images/Entitlement-10.png)
+    ![](../images/css.png)
 
 ### Task 3 – Create Service Level Agreement
 
@@ -470,7 +468,7 @@ In this task, you will create a SLA that sets a 1 hour response time on a proble
 
 1. Click **Save**.
 
-    ![](../images/Entitlement-15.png)
+    ![](../images/slasetting.png)
 
 1. Click **Configure Actions**.
 
