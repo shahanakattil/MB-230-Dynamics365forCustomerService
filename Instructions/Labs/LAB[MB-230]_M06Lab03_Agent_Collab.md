@@ -68,6 +68,10 @@ Before your agents can begin collaborating with subject matter experts at your o
         
  13. Under the **Experts** section, click on **Add a new expert**.
  
+      ![](../images/newexpert.png)
+
+14. On **Swarm experts** page, click on **Add a new expert**.
+ 
       ![](../images/expert2.png)
        
  12. On **Add Swarm Expert** page, select ODL_User (1) then click on **ADD (2)**.
