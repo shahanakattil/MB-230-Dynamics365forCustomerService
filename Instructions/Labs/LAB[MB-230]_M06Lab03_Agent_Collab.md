@@ -132,7 +132,7 @@ Now that we have enabled the necessary features and have defined the resources t
 
 6.  Click on **Related** tab, and select the **Bookable Resource Characteristics** from the drop down. 
     
-     ![](../images/PL11E2T1S6.png)
+     ![](../images/Billingre.png)
      
      This will open the **Bookable Resource Characteristics** tab.
 
