@@ -20,7 +20,7 @@ In this exercise, you will create an entitlement for your user, this entitlement
      
 1.  Click **+ New** located on the command bar.
 
-1. On **New Entitlement** page, follow the below instructions:
+1.  On **New Entitlement** page, follow the below instructions:
 
      - Name : Enter **Entitlement 1 (1)**
      - Primary Customer : Select **Relecloud (2)**
@@ -28,16 +28,16 @@ In this exercise, you will create an entitlement for your user, this entitlement
      - End Date : Select a month from today **(4)**
      - Restrict based on entitlement terms : Choose **Yes (5)**
   
-      ![](../images/entitlement.png)
+        ![](../images/entitlement.png)
 
-5.Under **ENTITLEMENT TERMS** follow the below instructions:
+1. Under **ENTITLEMENT TERMS** follow the below instructions:
 
   - Allocation Type : Select **Number of Cases (1)** 
   - Decrease Remaining On : Select **Case Creation (2)** 
   - Total Terms : Enter **100 (3)** 
   - Click on **Save (4)**
 
-   ![](../images/entitlementterms.png)
+     ![](../images/entitlementterms.png)
 
   > **Note:** DO NOT navigate away from the Entitlement form.
 
@@ -65,7 +65,7 @@ In this task, you will add entitlement channels to the default entitlement and t
     
 4.  Select **Web (1)** for **Name**, enter **30 (2)** for **Total Terms** and click **Save and Close (3)**.
 
-     ![](../images/webentitelment.png)
+    ![](../images/webentitelment.png)
      
 5. Navigate back to the **Entitlement Channel** section of the Entitlement form, click on the ellipsis (...) and select **+ New Entitlement Channel**.
 
@@ -97,7 +97,7 @@ In this task, you will add entitlement channels to the default entitlement and t
     
 14. On **Confirm Entitlement Activation** tab, click on **Activate**.
 
-     ![](../images/confirmentitemnet.png)
+    ![](../images/confirmentitemnet.png)
 
 15. Click **Set as Default**.
 
@@ -111,39 +111,39 @@ In this task, you will test the default entitlement for Relecloud.
 
 1.  Click on **Home** at the top of the left-hand side navigation.
 
-2.  Click on **Cases (1)** in the **Service** section of the sitemap and click on **+ New Case (2)**.
+1.  Click on **Cases (1)** in the **Service** section of the sitemap and click on **+ New Case (2)**.
 
      ![](../images/cases1.png)
 
-4.  Enter **Audio_System_Setup_Issues (1)** for **Case Title**, select the **Relecloud (2)** account you created in the earlier lab for **Customer**, select **Email (3)** for **Origin** and click **Save & Close (4)**. The entitlement should be applied automatically.
+1.  Enter **Audio_System_Setup_Issues (1)** for **Case Title**, select the **Relecloud (2)** account you created in the earlier lab for **Customer**, select **Email (3)** for **Origin** and click **Save & Close (4)**. The entitlement should be applied automatically.
 
     ![](../images/newcase.png)
 
-5.  Click **+ New Case**.
+1.  Click **+ New Case**.
 
-6. Enter **Defective Speaker (1)** for **Case Title**, select the **Relecloud (2)** account you created in the earlier lab for **Customer**, select **Facebook (3)** for **Origin**, select the **Entitlement 1 (4)** record you created for **Entitlement** and click **Save & Close (5)**.
+1.  Enter **Defective Speaker (1)** for **Case Title**, select the **Relecloud (2)** account you created in the earlier lab for **Customer**, select **Facebook (3)** for **Origin**, select the **Entitlement 1 (4)** record you created for **Entitlement** and click **Save & Close (5)**.
 
-    ![](../images/defectivespeaker.png)
+     ![](../images/defectivespeaker.png)
 
-7.  Click **+ New Case**.
+1.  Click **+ New Case**.
 
-8.  Enter **Product_Query (1)** for **Case Title**, select the **Relecloud (2)** account you created in the earlier lab for **Customer**, select **Phone (3)** for **Origin**, select the **Entitlement 1 (4)** record you created for **Entitlement** and click **Save (5)**.
+1.  Enter **Product_Query (1)** for **Case Title**, select the **Relecloud (2)** account you created in the earlier lab for **Customer**, select **Phone (3)** for **Origin**, select the **Entitlement 1 (4)** record you created for **Entitlement** and click **Save (5)**.
 
     ![](../images/productquery.png)
 
-9. The following message will be displayed, *You can't create a case for this entitlement because there are no available terms.*
+1. The following message will be displayed, *You can't create a case for this entitlement because there are no available terms.*
 
     ![](../images/error.png)
 
-10. Click **OK**.
+1. Click **OK**.
 
-11. Scroll to the **Entitlement** field and click on the **Entitlement 1**. Click **Discard changes**.
+1. Scroll to the **Entitlement** field and click on the **Entitlement 1**. Click **Discard changes**.
 
-12. Switch back to the **Customer service admin** page opened in the browser and click on the **Entitlement 1** created and refresh the page.
+1. Switch back to the **Customer service admin** page opened in the browser and click on the **Entitlement 1** created and refresh the page.
 
-12. Go to the **Entitlement Terms** section and make sure you have **98 Remaining Terms**.
+1. Go to the **Entitlement Terms** section and make sure you have **98 Remaining Terms**.
 
-13. Go to the **Entitlement Channel** sub-grid and make sure you have **49 Remaining Terms** for **Email**, **9 Remaining Terms** for **Facebook**, **10 Remaining Terms** for **Twitter**, and **30 Remaining Terms** for **Web**.
+1. Go to the **Entitlement Channel** sub-grid and make sure you have **49 Remaining Terms** for **Email**, **9 Remaining Terms** for **Facebook**, **10 Remaining Terms** for **Twitter**, and **30 Remaining Terms** for **Web**.
 
     ![](../images/en1.png)
     
@@ -163,13 +163,13 @@ In this task, you will create an entitlement template with 20 terms.
 
 1.  Click on the **Customer Service Hub** app from the top and select **Customer service admin**.
 
-    ![](../images/Customer-service-admin-1.png)
+     ![](../images/Customer-service-admin-1.png)
     
 1.  Using the navigation on the left, select **Service Terms** and click on **Manage** next to **Entitlements Templates**.
 
-    ![](../images/Entitlement-3.png)
+     ![](../images/Entitlement-3.png)
 
-5.  Click **+ New**.
+1.  Click **+ New**.
 
 1. On **New Entitlement** page, follow the below instructions:
 
@@ -185,41 +185,41 @@ In this task, you will create an entitlement template with 20 terms.
    > **Note:** DO NOT navigate away from this page.
 
 
-8.  Go to the **Entitlement Channel** sub-grid, click on the ellipsis and select **+ New Entitlement Template Channel**.
+1.  Go to the **Entitlement Channel** sub-grid, click on the ellipsis and select **+ New Entitlement Template Channel**.
 
      ![](../images/newentitlement.png)
      
-9.  Select **Phone (1)** for **Name**, enter **20 (2)** for **Total Terms** and click **Save & Close (3)**.
+1.  Select **Phone (1)** for **Name**, enter **20 (2)** for **Total Terms** and click **Save & Close (3)**.
 
      ![](../images/phone20.png)
      
-10. Click on the ellipsis and select **+ New Entitlement Template Channel**.
+1.  Click on the ellipsis and select **+ New Entitlement Template Channel**.
 
-11. Select **Email (1)** for **Name**, enter **0 (2)** for **Total Terms** and click **Save & Close (3)**.
+1. Select **Email (1)** for **Name**, enter **0 (2)** for **Total Terms** and click **Save & Close (3)**.
 
      ![](../images/email0.png)
      
-12. Click on the ellipsis and select **+ New Entitlement Template Channel**.
+1. Click on the ellipsis and select **+ New Entitlement Template Channel**.
 
-13. Select **Web (1)** for **Name**, enter **0 (2)** for **Total Terms** and click **Save & Close (3)**.
+1. Select **Web (1)** for **Name**, enter **0 (2)** for **Total Terms** and click **Save & Close (3)**.
 
      ![](../images/web0.png)
      
-14. Click on the ellipsis and select **+ New Entitlement Template Channel**.
+1. Click on the ellipsis and select **+ New Entitlement Template Channel**.
 
-15. Select **Facebook (1)** for **Name**, enter **0 (2)** for **Total Terms** and click **Save & Close (3)**.
+1. Select **Facebook (1)** for **Name**, enter **0 (2)** for **Total Terms** and click **Save & Close (3)**.
 
     ![](../images/facebook0.png)
     
-16. Click on the ellipsis and select **+ New Entitlement Template Channel**.
+1. Click on the ellipsis and select **+ New Entitlement Template Channel**.
 
-17. Select **Twitter** for **Name**, enter **0** for **Total Terms** and click **Save & Close**.
+1. Select **Twitter** for **Name**, enter **0** for **Total Terms** and click **Save & Close**.
 
      ![](../images/twitter0.png)
      
-18. Click on the ellipsis and select **+ New Entitlement Template Channel**.
+1. Click on the ellipsis and select **+ New Entitlement Template Channel**.
 
-19. Select **IoT (1)** for **Name**, enter **0 (2)** for **Total Terms** and click **Save and Close (3)**.
+1. Select **IoT (1)** for **Name**, enter **0 (2)** for **Total Terms** and click **Save and Close (3)**.
 
      ![](../images/iot0.png)
      
