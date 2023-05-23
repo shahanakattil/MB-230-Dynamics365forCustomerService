@@ -147,7 +147,7 @@ In this task, you will test the default entitlement for Relecloud.
 
 13. Go to the **Entitlement Channel** sub-grid and make sure you have **49 Remaining Terms** for **Email**, **9 Remaining Terms** for **Facebook**, **10 Remaining Terms** for **Twitter**, and **30 Remaining Terms** for **Web**.
 
-    ![](../images/Entitlement-4.png)
+    ![](../images/en1.png)
     
 > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
 > - Select the **Lab Validation** tab located at the upper right corner of the lab guide section.
