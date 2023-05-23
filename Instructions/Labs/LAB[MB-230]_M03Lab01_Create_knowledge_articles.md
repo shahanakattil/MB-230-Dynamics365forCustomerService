@@ -132,7 +132,7 @@ Article.
 
 1. Click on **Knowledge Articles** in the **Knowledge** section.
 
-1. You should find the new version of the **Missing Parts** article in the **My Active Articles** view but not the old version.
+1. You should find the new version of the **Missing Parts (2)** article in the **My Active Articles (1)** view but not the old version.
 
     ![](../images/Knowledge-management-80.png)
 
