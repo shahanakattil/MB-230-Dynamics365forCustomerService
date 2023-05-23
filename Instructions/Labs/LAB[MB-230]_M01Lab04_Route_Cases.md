@@ -44,13 +44,17 @@ You are a customer service manager at City Power & Light who has been tasked wit
 
    ![](../images/creation-rules-3.png)
 
-1. If prompted to connect to Dataverse, click **Continue**.
-
 1. If not Sign-in, then enter following **Email/Username** and then click on **Next**. 
    * Email/Username: <inject key="AzureAdUserEmail"></inject>
    
 1. Now, enter the following **Password** and click on **Sign in**.
    * Password: <inject key="AzureAdUserPassword"></inject>
+
+1. If you see the pop-up **Action Required** page, select **Ask Later**.
+
+    ![](../images/asklater.png)
+    
+1. If prompted to connect to Dataverse, click **Continue**.
 
 1. Expand the **Create a record (don't rename this step)** step.
 
@@ -74,7 +78,7 @@ You are a customer service manager at City Power & Light who has been tasked wit
 
    ![](../images/creation-rules-61.png)
 
-1. Click **Activate (1)** and then **Activate (1)** from popup.
+1. Click **Activate (1)** and then **Activate (2)** from popup.
 
    ![](../images/creation-rules-60.png)
 
