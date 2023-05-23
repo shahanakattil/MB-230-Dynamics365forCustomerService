@@ -54,7 +54,7 @@ You are a customer service manager at City Power & Light who has been tasked wit
 
 1. Expand the **Create a record (don't rename this step)** step.
 
-   ![](../images/creation-rules-4.png)
+   ![](../images/creationrules4.png)
 
 1. Set the **Case Type** to **Request (1)**.
 
