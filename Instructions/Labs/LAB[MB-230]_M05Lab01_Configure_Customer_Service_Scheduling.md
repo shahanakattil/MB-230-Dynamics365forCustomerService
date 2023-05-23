@@ -12,7 +12,7 @@ In this exercise, you will create organizational units, define a business closur
 
 In this task, you will define three organizational units to act as service locations for scheduling.
 
-1. Open the **Customer Service Hub** app.
+1. Open the **Dynamics 365 - Customer Service Hub** app.
 
 2. Click **Settings (1)** and select **Personalization Settings (2)**.
 
@@ -135,7 +135,7 @@ In this exercise, you will create contact records, create resource categories, a
 
 In this task you will create new contact records.
 
-1. Open the **Customer Service Hub** app.
+1. Open the **Dynamics 365 - Customer Service Hub** app.
 
 2. Click on **Home** at the top of the left-hand side navigation.
 
@@ -232,7 +232,7 @@ In this task you will create resources using the contacts you created.
 
 8. Select the **General** tab.
 
-9. Select the **Related** tab and select **Resource Category Assns**  and click **+ New Bookable Resource Category Assn**.
+9. Select the **Related** tab and select **Resource Category Associations**  and click **+ New Bookable Resource Category Assn**.
 
    ![](../images/Personalization-Settings-026.png)
 
@@ -260,7 +260,7 @@ In this task you will create resources using the contacts you created.
 
 15. Select the **General** tab.
 
-16. Select the **Related** tab and select **Resource Category Assns**  and click **+ New Bookable Resource Category Assn**.
+16. Select the **Related** tab and select **Resource Category Associations**  and click **+ New Bookable Resource Category Assn**.
 
     ![](../images/Personalization-Settings-23.png)
 

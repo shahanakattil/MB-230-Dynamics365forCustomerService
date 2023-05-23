@@ -12,7 +12,7 @@ In this exercise, you will define oil change and tire rotation services.
 
 In this task, you will create an oil change service.
 
-1. Open the **Customer Service Hub (1)** app.
+1. Open the **Dynamics 365 - Customer Service Hub (1)** app.
 
 2. Click on **Home** at the top of the left-hand side navigation.
 
@@ -96,7 +96,7 @@ In this exercise, you create and schedule service activities for an oil change a
 
 In this task you will create and schedule an oil change service activity.
 
-1. Open the **Customer Service Hub** app.
+1. Open the **Dynamics 365 - Customer Service Hub** app.
 
 2. Click on **Home** at the top of the left-hand side navigation.
 
@@ -112,7 +112,7 @@ In this task you will create and schedule an oil change service activity.
     
    ![](../images/oil-8.png)
 
-7. Click **Book**.
+7. Click on **Book** from the command bar.
 
 8. Go to the **Filter View (1)**, select **Main Ave Location** for **Organizational Unit (2)**, and click **Search (3)**.
 
