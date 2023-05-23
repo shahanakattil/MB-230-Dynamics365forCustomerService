@@ -127,7 +127,7 @@ In this exercise, you will create an Account, a Contact, and a Case record. You 
 
 1. Select the **Details (1)** tab then select **Problem (2)** from the **Type** drop-down field and Click on **Save (3)**.
 
-    ![](../images/deatils.png)
+    ![](../images/prblmdefective.png)
 
 1. Click on the **Identify (1)** stage in the business process flow and select **Next Stage (2)**.
 
