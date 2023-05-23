@@ -20,6 +20,8 @@ In this exercise, you will create a project and use a template to create a surve
 1. Now enter the following **Password** and click on **Sign in**.
    * Password: <inject key="AzureAdUserPassword"></inject>
 
+1. If you see the pop-up **Action Required** page, select **Ask Later**.
+
 1.  Click **+ New project**.
 
 1.  Select the **Support** template from the list.
@@ -32,7 +34,7 @@ In this exercise, you will create a project and use a template to create a surve
 
     ![](../images/resolution-31.png)
 
-1.  Select the **Prod-Env (1)** Dynamics 365 environment and click on select and **close (2)**.
+1.  Select the **Prod-Env (1)** Dynamics 365 environment and click on **select and close (2)**.
 
     ![](../images/resolution-30.png)
 
@@ -40,7 +42,7 @@ In this exercise, you will create a project and use a template to create a surve
 
 1.  Click on **All Projects (1)**
 
-1.  Click on the **ellipsis (2)** next your project and select **Rename**.
+1.  Click on the **ellipsis (2)** next your project and select **Rename (3)**.
 
     ![](../images/resolution-29.png)
 
