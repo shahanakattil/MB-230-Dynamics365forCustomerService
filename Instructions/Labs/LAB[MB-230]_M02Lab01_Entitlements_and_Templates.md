@@ -137,9 +137,9 @@ In this task, you will test the default entitlement for Relecloud.
 
 10. Click **OK**.
 
-11. Scroll to the **Entitlement** field and click on the **Entitlement_1**. Click **Discard changes**.
+11. Scroll to the **Entitlement** field and click on the **Entitlement 1**. Click **Discard changes**.
 
-12. Switch back to the **Customer service admin** page opened in the browser and click on the **odl_user_DID_Entitlement _1** created and refresh the page.
+12. Switch back to the **Customer service admin** page opened in the browser and click on the **Entitlement 1** created and refresh the page.
 
 12. Go to the **Entitlement Terms** section and make sure you have **98 Remaining Terms**.
 
