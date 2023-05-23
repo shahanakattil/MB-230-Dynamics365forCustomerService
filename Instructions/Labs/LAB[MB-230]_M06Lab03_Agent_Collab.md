@@ -16,7 +16,7 @@ Before your agents can begin collaborating with subject matter experts at your o
 
 ### Task 1: Enable collaboration features
 
-1.  Open the **Customer Service admin center** application.
+1.  Open the **Dynamics 365 - Customer Service admin center** application.
     
     ![](../images/admin-center.png)
 
@@ -26,7 +26,7 @@ Before your agents can begin collaborating with subject matter experts at your o
 
     ![](../images/collaboration-01.png)
 
-4.  Set the following Items to **On**
+4.  Set the following Items to **Yes**
 
     -   Turn on the linking of Dynamics 365 records to Microsoft Teams channels (1)
 
@@ -46,15 +46,15 @@ Before your agents can begin collaborating with subject matter experts at your o
     ![](../images/collaboration-03.png)
 
 9.  Under the **Case details** section, select **Activate case form for
-    swarming**.
+    swarming**. This should open the Power Apps portal in a new tab.
 
     ![](../images/collaboration-04.png)
 
 10. From the list of available case forms, locate the **Case form for
     swarming**.
 
-    -   If the status of the form is set to **On**, you can close the browser tab to return to the Customer support swarming screen.
-    -   If the status of the form is set to **Off,** select the **vertical ellipsis** next to the from name, and from the menu that appears, select **Turn On**. Once turned on, you can close the browser tab to return to the Customer support swarming screen.
+    -   Check if the status of the form is set to **On**. 
+    -   If the status of the form is set to **Off,** select the **vertical ellipsis** next to the from name, and from the menu that appears, select **Turn On**.
 
      ![](../images/collaboration-5.png)
     
@@ -66,7 +66,7 @@ Before your agents can begin collaborating with subject matter experts at your o
         
       ![](../images/caseactivated.png)
         
- 13. Under the **Experts** section, click on **Add a new expert**.
+ 13. Under the **Experts** section, click on **Add a new expert**; then click on **Add Swarm experts**
  
       ![](../images/newexpert.png)
 
@@ -80,11 +80,9 @@ Before your agents can begin collaborating with subject matter experts at your o
 
 ### Task 2: Create bookable resource records that can be used as experts.
 
-1.  In the **Customer Service Admin Center** application, use the navigation on the left to select **Service scheduling**.
+1.  In the **Dynamics 365 - Customer Service Admin Center** application, use the navigation on the left to select **Service scheduling**, and locate **Resources** and select **Manage**.
 
-2.  Locate **Resources** and select **Manage**.
-
-    ![](../images/collaboration-06.png)
+    ![](../images/PL11E1T2S1.png)
 
 3.  From the **Active Bookable Resources** screen, Click on **New** from the command bar.
 
@@ -114,74 +112,71 @@ Now that we have enabled the necessary features and have defined the resources t
 
 ### Task 1: Configure skills
 
-1.  If necessary, open the **Customer Service Admin** center.
+1.  In the **Dynamics 365 - Customer Service Admin** center, using the navigation on the left under the **Customer support**, select **User management**
 
-2.  Using the navigation on the left, Udner the **Customer support**, select **User management**
-
-3.  Next to **Skills**, select the **Manage** button.
+2.  Next to **Skills**, select the **Manage** button.
 
     ![](../images/collaboration-09.png)
 
-4. On the **Active Characteristics** screen, select the **New** button from the command bar.
+3. On the **Active Characteristics** screen, select the **New** button from the command bar.
 
-6.  Configure the Characteristic as follows:
+4.  Configure the Characteristic as follows:
 
     -   **Name: (1)** Billing
     -   **Type: (2)** Skill
     -   **Description: (3)** Expert for Billing questions
 
-7.  Select the **Save (4)** button to save the record and leave it open.
+5.  Select the **Save (4)** button to save the record and leave it open.
 
     ![](../images/collaboration-100.png)
 
-8.  Select the **Related** tab.
+6.  Click on **Related** tab, and select the **Bookable Resource Characteristics** from the drop down. 
+    
+     ![](../images/PL11E2T1S6.png)
+     
+     This will open the **Bookable Resource Characteristics** tab.
 
-9.  From the menu that appears, select **Bookable Resource Characteristics**.
+7.  Select the **New Bookable Resource Characteristic** button. .
 
     ![](../images/collaboration-11.png)
 
-    This will open the **Bookable Resource Characteri**stics tab.
 
-10. Select the **New Bookable Resource Characteristic** button. 
-
-11. Configure the **Bookable Resource Characteristic**. From the dropdown (1) select the **Information (2)** and add the following:
+8. Configure the **Bookable Resource Characteristic**. From the dropdown (1) select the **Information (2)** and add the following:
 
     -   **Skill Name:** Billing
 
     -   **User (Agent):** Alan Steiner
 
-12. Select **Save and Close (4)**
+9. Select **Save and Close (4)**
 
     ![](../images/collaboration-12.png)
 
-13. Select **Save and Close** to close the **Billing** skill.
+10. Select **Save and Close** to close the **Billing** skill.
 
-14. Back on the **Active Characteristics** screen, select the **New** button
+11. Back on the **Active Characteristics** screen, select the **New** button
     from the command bar.
 
-15. Configure the Characteristic as follows:
+12. Configure the Characteristic as follows:
 
     1.  **Name:** Circuit Board Expert
     2.  **Type:** Skill
     3.  **Description:** Expert in repairing Circuit boards
 
-16. Select the **Save** button to save the record and leave it open.
+13. Select the **Save** button to save the record and leave it open.
 
-17. Select the **Related** tab.
-
-18. From the menu that appears, select **Bookable Resource Characteristics**.
+14. Click on the **Related** tab, and from the menu that appears, select **Bookable Resource Characteristics**.
     This will open the **Bookable Resource Characteristics** tab.
 
-19. Select the **New Bookable Resource Characteristic** button.
+15. Select the **New Bookable Resource Characteristic** button.
 
-20. Configure the Bookable Resource Characteristic as follows:
+16. Configure the Bookable Resource Characteristic as follows:
 
     1.  **Skill Name:** Circuit Board Expert
     2.  **User (Agent):** Alan Steiner
 
-21. Select **Save and Close**.
+17. Select **Save and Close**.
 
-22. Select **Save and Close** to close the Circuit Board Expert skill.
+18. Select **Save and Close** to close the Circuit Board Expert skill.
 
     ![](../images/collaboration-13.png)
 
@@ -259,7 +254,7 @@ Now that we have enabled the necessary features and have defined the resources t
 
 ### Task 1: Initiate an embedded Teams Chat
 
-1.  Open the **Customer Service Workspace** application.
+1.  Open the **Dynamics 365 - Customer Service Workspace** application.
 
     ![](../images/collaboration-21.png)
 
