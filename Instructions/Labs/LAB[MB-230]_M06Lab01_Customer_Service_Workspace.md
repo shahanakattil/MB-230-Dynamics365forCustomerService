@@ -10,9 +10,9 @@ In this exercise you will learn how to navigate the Customer Service workspace a
 
 ### Task 1 – Open the Customer Service workspace and open sessions
 
-1.  Open the **Customer Service Hub** app.
+1.  Open the **Customer Service Hub (1)** app.
 
-2.  Click on the name of the app in the top left of the application next to Dynamics 365 and from the list of published apps, select the **Customer Service workspace** app.
+2.  Click on the name of the app in the top left of the application next to Dynamics 365 and from the list of published apps, select the **Customer Service workspace (2)** app.
 
     ![](../images/CSH.png)
 
