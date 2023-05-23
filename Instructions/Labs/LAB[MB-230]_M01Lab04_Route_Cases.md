@@ -22,7 +22,7 @@ You are a customer service manager at City Power & Light who has been tasked wit
 
 1. Enter **Support email (1)** for **Rule name**.
 
-1. Select the **Support (2)** queue you created for Queue to monitor and select **Email (2)** for Activity type to monitor.
+1. Select the **Support (2)** queue you created for Queue to monitor and select **Email (3)** for Activity type to monitor.
 
    ![](../images/creation-rules-20.png)
     

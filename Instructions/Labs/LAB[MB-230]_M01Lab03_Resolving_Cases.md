@@ -42,7 +42,7 @@ You are a customer service manager at City Power & Light who has been tasked wit
 
 1.  Change the **View** from **My active Cases** to **Resolved Cases**.
 
-1.  Open the case you resolved **Defective Screen** in task 1.
+1.  Open the case you resolved **Defective Screen (2)** in task 1.
 
 1.  Click on the **Reactivate Case (3)** button located in the command bar. A dialog will be displayed with the message to confirm, select **Reactivate (4)**.
 
