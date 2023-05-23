@@ -44,7 +44,7 @@ In this task, you will create an oil change service.
 
 13. Select oil change and click **+ Requirement** from command bar.
 
-14. Enter **Service Bay** for **Name (1)**, select **Service Bay Facility** for **Resource Category (2)**
+14. Enter **Service Bay (1)** for **Name**, select **Service Bay Facility (2)** for **Resource Category**
 
     ![](../images/oil-4.png)
 

@@ -34,7 +34,7 @@ Before your agents can begin collaborating with subject matter experts at your o
 
 5.  Select the **Save (3)** button.
 
-    ![](../images/collaboration-02.1.png)
+    ![](../images/colab.png)
 
 6.  Using the navigation on the left, select Collaboration again.
 
@@ -67,6 +67,10 @@ Before your agents can begin collaborating with subject matter experts at your o
       ![](../images/caseactivated.png)
         
  13. Under the **Experts** section, click on **Add a new expert**; then click on **Add Swarm experts**
+ 
+      ![](../images/newexpert.png)
+
+14. On **Swarm experts** page, click on **Add a new expert**.
  
       ![](../images/expert2.png)
        

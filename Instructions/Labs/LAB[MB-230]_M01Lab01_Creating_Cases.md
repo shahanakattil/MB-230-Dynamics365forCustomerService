@@ -81,7 +81,7 @@ In this exercise, you will create an Account, a Contact, and a Case record. You 
 
      ![](../images/addsubjecttree.png)
      
-1.  In the Create a subject dialog, enter the following information and remaining leave default then Select **Save and close (3)**:
+1.  In the Create a subject dialog, enter the following information and remaining leave default then Select **Save and close**:
     
      - Title: type **Maintenance (1)** for the subject.
     
@@ -91,11 +91,13 @@ In this exercise, you will create an Account, a Contact, and a Case record. You 
     
 1.  On the **Subject tree** page, select **Add** next to **Subject tree management**.
      
-1.  In the Create a subject dialog, enter the following information and remaining leave default then Select **Save and close (3)**.:
+1.  In the Create a subject dialog, enter the following information and remaining leave default then Select **Save and close**.:
     
-     - Title: Type **Service** for the subject.
+     - Title: Type **Service (1)** for the subject.
     
-     - Click on **Save and Close**
+     - Click on **Save and Close (2)**
+     
+     ![](../images/sevicetree.png)
     
 1. Again Click on **Customer service admin**  the app from the top and select  **Customer Service Hub**.
     
@@ -125,7 +127,7 @@ In this exercise, you will create an Account, a Contact, and a Case record. You 
 
 1. Select the **Details (1)** tab then select **Problem (2)** from the **Type** drop-down field and Click on **Save (3)**.
 
-    ![](../images/deatils.png)
+    ![](../images/prblmdefective.png)
 
 1. Click on the **Identify (1)** stage in the business process flow and select **Next Stage (2)**.
 
@@ -174,6 +176,13 @@ In this exercise, you will create a Phone Call activity and then convert the act
     - Select **Save & Close (8)**.
 
      ![](../images/jonphonecall1.png)
+     
+     > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
+     > - Select the **Lab Validation** tab located at the upper right corner of the lab guide section.
+     > - Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task. 
+     > - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
+     > - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
+
 
 ### Task 2 – Covert Phone Call activity
 
