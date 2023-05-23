@@ -147,7 +147,7 @@ In this task, you will test the default entitlement for Relecloud.
 
 13. Go to the **Entitlement Channel** sub-grid and make sure you have **49 Remaining Terms** for **Email**, **9 Remaining Terms** for **Facebook**, **10 Remaining Terms** for **Twitter**, and **30 Remaining Terms** for **Web**.
 
-    ![](../images/Entitlement-4.png)
+    ![](../images/en1.png)
     
 > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
 > - Select the **Lab Validation** tab located at the upper right corner of the lab guide section.
@@ -284,7 +284,7 @@ In this task, you will test the entitlement you created from the entitlement tem
 
 11. Click **OK**.
 
-    ![](../images/error2.png)
+    ![](../images/wrngcable.png)
 
 12. You should get the same error if you select Email, Facebook or Twitter for Origin.
 
@@ -296,7 +296,7 @@ In this task, you will test the entitlement you created from the entitlement tem
 
 16.  Click on the **Customer Service Hub** app from the top and select **Customer service admin**.
 
-    ![](../images/Customer-service-admin-1.png)
+   ![](../images/Customer-service-admin-1.png)
     
 7.  In the site map, select **Service terms** in Operations. The Service Terms page appears.
 
@@ -438,7 +438,7 @@ In this task, you will create a SLA that sets a 1 hour response time on a proble
 
     - Click **Save**.
 
-      ![](../images/sla.png)
+      ![](../images/sla01.png)
       
 1. Click **+ New SLA Item**
 

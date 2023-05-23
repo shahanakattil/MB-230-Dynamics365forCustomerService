@@ -71,7 +71,7 @@ In this practice lab, you will validate and set up your tenant.
 
 1. On the Power Platform admin center, select the **Prod-Env** environment.
 
-   ![](../images/prodenv1.png)
+   ![](../images/prodready.png)
     
 1. Click on the drop-down next to **Resources** and select **Dynamic 365 apps**.
 
@@ -97,7 +97,7 @@ In this practice lab, you will validate and set up your tenant.
 
 1. On the Power Platform admin center, select the **Prod-Env** environment.
 
-   ![](../images/prodenv1.png)
+   ![](../images/prodready.png)
    
 1. Select the **Open** located on the command bar.
 
