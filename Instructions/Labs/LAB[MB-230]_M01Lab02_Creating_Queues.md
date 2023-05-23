@@ -158,7 +158,7 @@ In this exercise, you will create four queues.
 
 1. Click to the left of the case in the queue to **select it (1)**.
 
-1. Click **Release (2)** located on the command bar and click **Release (2)**.
+1. Click **Release (2)** located on the command bar and click **Release (3)**.
 
     ![](../images/release-1.1.png)
     
