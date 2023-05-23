@@ -284,7 +284,7 @@ In this task, you will test the entitlement you created from the entitlement tem
 
 11. Click **OK**.
 
-    ![](../images/error2.png)
+    ![](../images/wrngcable.png)
 
 12. You should get the same error if you select Email, Facebook or Twitter for Origin.
 
@@ -296,7 +296,7 @@ In this task, you will test the entitlement you created from the entitlement tem
 
 16.  Click on the **Customer Service Hub** app from the top and select **Customer service admin**.
 
-    ![](../images/Customer-service-admin-1.png)
+   ![](../images/Customer-service-admin-1.png)
     
 7.  In the site map, select **Service terms** in Operations. The Service Terms page appears.
 
@@ -438,7 +438,7 @@ In this task, you will create a SLA that sets a 1 hour response time on a proble
 
     - Click **Save**.
 
-      ![](../images/sla.png)
+      ![](../images/sla01.png)
       
 1. Click **+ New SLA Item**
 
