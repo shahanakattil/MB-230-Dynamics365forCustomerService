@@ -192,11 +192,11 @@ In this exercise, you will create an email template and send the survey by email
 
 3. Click on the **Template** drop-down and select the **Case Resolution** template you created.
 
-4. Click in the **Recipients field (1)** and enter your email address.
+4. Click in the **Recipients field (1)** and enter **customer@contosot.com**.
 
 5. Click **Send (2)**
 
-     ![](../images/resolution-7.png)
+     ![](../images/sendmail.png)
 
 ## Exercise 3: Send survey when a case is resolved
 
