@@ -196,7 +196,7 @@ In this exercise, you will create an email template and send the survey by email
 
 5. Click **Send (2)**
 
-     ![](../images/sendemail.png)
+     ![](../images/sendmail.png)
 
 ## Exercise 3: Send survey when a case is resolved
 
