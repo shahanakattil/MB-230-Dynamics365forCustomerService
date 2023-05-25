@@ -402,7 +402,7 @@ In this task, you will create a SLA that sets a 1 hour response time on a proble
 
 1.  Click **+ New**.
 
-1. On **New SLA KPI** page, follow the below instuctions:
+1. On **New SLA KPI** page, follow the below instructions:
 
     - Enter **Case Response By** for **Name**.
 
