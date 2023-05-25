@@ -121,7 +121,7 @@ In this exercise, you will create an Account, a Contact, and a Case record. You 
 
      ![](../images/casedetails.png)
 
-1. In the **Find Contact (1)** field, click on the **look for Conta (2)** and select the **Jane Doe (3)** contact you created in Task 2.
+1. In the **Find Contact (1)** field, click on the **look for Contact (2)** and select the **Jane Doe (3)** contact you created in Task 2.
 
     ![](../images/janedoe1.png)
 
