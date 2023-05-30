@@ -1,4 +1,4 @@
-# Practice Lab 5 – Entitlements and SLAs
+# Practice Lab 5 – Entitlements and templates
 
 ## Scenario
 
