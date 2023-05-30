@@ -126,16 +126,14 @@ You are a customer service manager at City Power & Light who has been tasked wit
       ![](../images/Basic-routing-50.png)
 
 1. Click **+ New Rule Item**.
-    * Enter **Maintenance (1)** for **Name**.
+    * Enter **Maintenance** for **Name**.
     * Click on **Add** and **Add row**.
-    * In the left-hand side of the condition, select **Subject (Case) (2)**.
+    * In the left-hand side of the condition, select **Subject (Case)**.
     * Select **Equals (3)** for the operator.
-    * In the right-hand side of the condition, select **Maintenance (4)**.
-    * Select **Queue (5)** for **Route To**.
-    * Search for and select the **Silver (6)** queue you created in the earlier lab.
-    * Click **Save & Close (7)**.
-
-      ![](../images/Basic-routing-90.png)
+    * In the right-hand side of the condition, select **Maintenance**.
+    * Select **Queue** for **Route To**.
+    * Search for and select the **Silver** queue you created in the earlier lab.
+    * Click **Save & Close**.
 
 1. Click **+ New Rule Item**.
     * Enter **Questions and Requests (1)** for **Name**.
