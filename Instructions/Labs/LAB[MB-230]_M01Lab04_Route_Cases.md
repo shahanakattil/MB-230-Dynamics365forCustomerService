@@ -130,7 +130,7 @@ You are a customer service manager at City Power & Light who has been tasked wit
     * Click on **Add** and **Add row**.
     * In the left-hand side of the condition, select **Subject (Case) (2)**.
     * Select **Equals (3)** for the operator.
-    * In the right-hand side of the condition, select **Service (4)**.
+    * In the right-hand side of the condition, select **Maintenance (4)**.
     * Select **Queue (5)** for **Route To**.
     * Search for and select the **Silver (6)** queue you created in the earlier lab.
     * Click **Save & Close (7)**.
@@ -193,7 +193,7 @@ You are a customer service manager at City Power & Light who has been tasked wit
 
 11. Click **Queue Item Details** located on the command bar.
 
-12. The case will have been routed to the *Gold* queue.
+12. The case will have been routed to the *Gold* queue because its **Case Type** is set to Problem.
 
     ![](../images/Basic-routing-76.png)
 
@@ -203,6 +203,6 @@ You are a customer service manager at City Power & Light who has been tasked wit
 
 15. Open the **Service Required** case.
 
-16. The case will have been routed to the *Silver* queue.
+16. The case will have been routed to the *Silver* queue because its **Case Subject** is set to Maintenance.
     
 **Result:** You have successfully Configured the basic routing rule set and created the route cases in this lab. 
