@@ -163,3 +163,5 @@ In this exercise, you will create four queues.
     ![](../images/release-1.1.png)
     
 **Result:** You have accomplished the creation of queues, inclusion of cases in the queues, and execution of actions on queue items.
+
+### **Proceed with the next Lab.**
