@@ -204,3 +204,5 @@ You are a customer service manager at City Power & Light who has been tasked wit
 16. The case will have been routed to the *Silver* queue because its **Case Subject** is set to Maintenance.
     
 **Result:** You have successfully Configured the basic routing rule set and created the route cases in this lab. 
+
+### **Proceed with the next Lab.**
