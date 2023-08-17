@@ -163,3 +163,5 @@ In this task you will create and schedule an oil change service activity.
 > - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
 
 **Result:** You have successfully created Customer Service Scheduling Services in this lab.
+
+### **Proceed with the next Lab.**
