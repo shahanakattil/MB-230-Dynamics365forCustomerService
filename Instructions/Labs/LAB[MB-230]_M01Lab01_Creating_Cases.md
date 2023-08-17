@@ -208,3 +208,5 @@ In this exercise, you will create a Phone Call activity and then convert the act
     ![](../images/CovertPhoneCallactivity-1.png)
     
 **Result:** You have successfully created the cases in dynamic 365 customer service hub app. 
+
+### **Proceed with the next Lab.**
