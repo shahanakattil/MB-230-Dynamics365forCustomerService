@@ -59,3 +59,5 @@ You are a customer service manager at City Power & Light who has been tasked wit
 > - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
 
 **Result:** You have successfully resolved the cases in this lab.  
+
+### **Proceed with the next Lab.**
