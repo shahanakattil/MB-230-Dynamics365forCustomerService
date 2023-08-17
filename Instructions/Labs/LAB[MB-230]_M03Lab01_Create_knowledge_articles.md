@@ -146,4 +146,6 @@ Article.
 > - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
 > - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
 
-**Result:** You have successfully created the Knowledge Management and approved and publish knowledge article in Dynamic 365 customer services. 
+**Result:** You have successfully created the Knowledge Management and approved and publish knowledge articles in Dynamic 365 customer services. 
+
+### **Proceed with the next Lab.**
