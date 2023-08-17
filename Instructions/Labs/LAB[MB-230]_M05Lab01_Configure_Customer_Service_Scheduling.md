@@ -290,3 +290,5 @@ In this task you will create resources using the contacts you created.
 > - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
 
 **Result:** You have successfully Configured Customer Service Scheduling and Resource Configuration in this lab. 
+
+### **Proceed with the next Lab.**
