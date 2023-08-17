@@ -119,4 +119,4 @@ In this practice lab, you will validate and set up your tenant.
 
 > **Result:** You have successfully created your Dynamics 365 environment.
 
-# Proceed with next Lab.
+### **Proceed with the next Lab.**
