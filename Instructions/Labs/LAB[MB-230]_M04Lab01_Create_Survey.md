@@ -262,3 +262,5 @@ In this exercise, you will use Power Automate to send a survey when a case is re
     ![](../images/resolution-1.png)
 
 **Result:** You have successfully created the survey and Sent survey when a case is resolved. 
+
+### **Proceed with the next Lab.**
