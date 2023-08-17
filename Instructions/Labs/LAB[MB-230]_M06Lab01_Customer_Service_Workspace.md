@@ -53,3 +53,5 @@ In this exercise you will learn how to navigate the Customer Service workspace a
 14. The Customer Service Agent Dashboard is displayed.
 
 **Result:** You have successfully created customer Service workspace and displayed on the Customer Service Agent Dashboard. 
+
+### **Proceed with the next Lab.**
