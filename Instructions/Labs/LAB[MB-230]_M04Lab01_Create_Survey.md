@@ -8,7 +8,7 @@ You are a customer service manager at City Power & Light who has been tasked wit
 + Exercise 1: Create survey
 + Exercise 2: Send survey
 
-## Estimated time: 20 minutes
+## Estimated time: 30 minutes
   
 ## Exercise 1: Create survey
 
