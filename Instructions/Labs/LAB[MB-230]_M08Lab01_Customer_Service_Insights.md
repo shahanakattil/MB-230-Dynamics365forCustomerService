@@ -5,6 +5,7 @@
 You are a customer service manager at City Power & Light who has been tasked with improving performance with the Customer Service Insights functionality.
 
 ## Lab objectives
+In this lab, you will perform:
 + Exercise 1: Configure Topic clustering for case settings
 + Exercise 2: Review Customer Service Insights reports
 
