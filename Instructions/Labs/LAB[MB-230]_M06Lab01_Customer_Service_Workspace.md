@@ -63,6 +63,6 @@ In this exercise you will learn how to navigate the Customer Service workspace a
 ### Review
 In this lab, you have completed:
 - Navigate to Customer Service workspace and use shortcut keys
-- Created the Customer Service workspace and open sessions
+- Create the Customer Service workspace and open sessions
 
 ### **Proceed with the next Lab.**
