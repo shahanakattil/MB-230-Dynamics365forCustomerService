@@ -272,8 +272,8 @@ In this exercise, you will use Power Automate to send a survey when a case is re
 
 ### Review
 In this lab, you have completed:
-- Creating a project and use a template to create a survey
-- Created an email template and send the survey by email.
-- Used Power Automate to send a survey when a case is resolved.
+- Create a project and use a template to create a survey
+- Create an email template and send the survey by email.
+- Use Power Automate to send a survey when a case is resolved.
 
 ### Proceed with the next Lab.
