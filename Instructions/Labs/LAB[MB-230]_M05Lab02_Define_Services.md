@@ -8,6 +8,8 @@ You are the scheduling manager at City Power & Light who has been tasked with te
 + Exercise 1: Define Services
 + Exercise 2: Create and schedule Service activities 
 
+## Estimated time: 30 minutes
+
 ## Exercise 1: Define Services
 
 In this exercise, you will define oil change and tire rotation services.
