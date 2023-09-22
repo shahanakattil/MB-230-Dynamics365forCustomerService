@@ -594,10 +594,10 @@ In this task, you will test that the SLA is applied to cases.
 
 ### Review
 In this lab, you have completed:
-- Creating an entitlement for your user
-- Adding Channels to the entitlement and Tested the Entitlement
-- Creating Entitlement Templates and Tested the Entitlement
+- Create an entitlement for your user
+- Add Channels to the entitlement and Tested the Entitlement
+- Create Entitlement Templates and Tested the Entitlement
 - Holiday Schedule and Customer Service Schedule
-- Creating and testing Service Level Agreement and settings
+- Create and testing Service Level Agreement and settings
 
 ### **Proceed with the next Lab.**
