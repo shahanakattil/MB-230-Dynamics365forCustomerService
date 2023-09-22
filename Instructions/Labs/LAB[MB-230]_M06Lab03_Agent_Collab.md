@@ -1,6 +1,6 @@
 # Practice Lab 11 – Agent Collaboration
 
-## Scenario 
+## Lab scenario
 
 Your organization provides billing and customer support on the Circuit Boards and other electronic products that it manufactures. With more and more new agents coming on board, your organization is looking for more ways to help newer agents solve customer problems faster. One way that they have identified how to do this by providing more collaboration options for their agents. Since they use Microsoft Teams, they have decided to leverage the collaboration capabilities available between Microsoft Teams and Dynamics 365.
 
@@ -9,6 +9,14 @@ Throughout this lab, you will configure the different collaboration features ava
 -   Enabled the Embedded Teams Collaboration features.
 -   Enabled the Case Swarming Feature.
 -   Configured the Case Swarming Capabilities.
+
+## Lab objectives
+In this lab, you will perform:
++ Exercise 1: Enable the necessary collaboration features in your environment
++ Exercise 2: Configure Case Swarming
++ Exercise 3: Leverage the different collaboration features 
+
+## Estimated time: 30 minutes
 
 ## Exercise 1: Enable the necessary collaboration features in your environment 
 
@@ -20,37 +28,37 @@ Before your agents can begin collaborating with subject matter experts at your o
     
     ![](../images/admin-center.png)
 
-2.  Using the navigation on the left, select **Collaboration (1)**.
+1.  Using the navigation on the left, select **Collaboration (1)**.
 
-3.  Select **Manage (2)** next to **Embedded chat using Teams**.
+1.  Select **Manage (2)** next to **Embedded chat using Teams**.
 
     ![](../images/collaboration-01.png)
 
-4.  Set the following Items to **Yes**
+1.  Set the following Items to **Yes**
 
     -   Turn on the linking of Dynamics 365 records to Microsoft Teams channels (1)
 
     -   Turn on Microsoft Teams chats inside Dynamics 365 (2)
 
-5.  Select the **Save (3)** button.
+1.  Select the **Save (3)** button.
 
     ![](../images/colab.png)
 
-6.  Using the navigation on the left, select Collaboration again.
+1.  Using the navigation on the left, select Collaboration again.
 
-7.  Select **Manage** next to **Customer support swarming**.
+1.  Select **Manage** next to **Customer support swarming**.
 
-8.  On the **Customer support swarming** screen, ensure that Swarming is set to
+1.  On the **Customer support swarming** screen, ensure that Swarming is set to
     **On**.
 
     ![](../images/collaboration-03.png)
 
-9.  Under the **Case details** section, select **Activate case form for
+1.  Under the **Case details** section, select **Activate case form for
     swarming**. This should open the Power Apps portal in a new tab.
 
     ![](../images/collaboration-04.png)
 
-10. From the list of available case forms, locate the **Case form for
+1. From the list of available case forms, locate the **Case form for
     swarming**.
 
     -   Check if the status of the form is set to **On**. 
@@ -58,35 +66,35 @@ Before your agents can begin collaborating with subject matter experts at your o
 
      ![](../images/collaboration-5.png)
     
- 11. From the left navigation menu of the **Power Apps** screen, Click on **Solutions (1)** then click on **Publish all customizations (2)**.
+ 1. From the left navigation menu of the **Power Apps** screen, Click on **Solutions (1)** then click on **Publish all customizations (2)**.
  
       ![](../images/teams-swarm-tables-form-publish.png)
       
- 12. Go back to the **Customer support swarming** screen, you can see that **Case details** is now **Activated**.
+ 1. Go back to the **Customer support swarming** screen, you can see that **Case details** is now **Activated**.
         
       ![](../images/caseactivated.png)
         
- 13. Under the **Experts** section, click on **Add a new expert**; then click on **Add Swarm experts**
+ 1. Under the **Experts** section, click on **Add a new expert**; then click on **Add Swarm experts**
  
       ![](../images/newexpert.png)
 
-14. On **Swarm experts** page, click on **Add a new expert**.
+ 1. On **Swarm experts** page, click on **Add a new expert**.
  
       ![](../images/expert2.png)
        
- 12. On **Add Swarm Expert** page, select ODL_User (1) then click on **ADD (2)**.
+ 1. On **Add Swarm Expert** page, select ODL_User (1) then click on **ADD (2)**.
 
       ![](../images/expert3.png)
 
-### Task 2: Create bookable resource records that can be used as experts.
+### Task 2: Create bookable resource records that can be used as experts
 
 1.  In the **Dynamics 365 - Customer Service Admin Center** application, use the navigation on the left to select **Service scheduling**, and locate **Resources** and select **Manage**.
 
     ![](../images/PL11E1T2S1.png)
 
-3.  From the **Active Bookable Resources** screen, Click on **New** from the command bar.
+2.  From the **Active Bookable Resources** screen, Click on **New** from the command bar.
 
-4.  Configure the new Bookable resource as follows:
+3.  Configure the new Bookable resource as follows:
 
     1.  **Resource Type:** User
 
@@ -94,7 +102,7 @@ Before your agents can begin collaborating with subject matter experts at your o
 
     3.  **Name: (2)** Alan Steiner
 
-5.  Leave everything else as is and select the **Save and Close (3)** button.
+4.  Leave everything else as is and select the **Save and Close (3)** button.
 
     ![](../images/collaboration-08.1.png)
 
@@ -284,15 +292,15 @@ Now that we have enabled the necessary features and have defined the resources t
 
 6.  On the right side of the screen, in the **Productivity Pane**, select the **Microsoft Teams** icon.
 
-9.  Select the **Start a New Chat** button.
+7.  Select the **Start a New Chat** button.
 
     ![](../images/collaboration-32.png)
 
-10. In the **Name** field, select **Molly Clarke**.
+8. In the **Name** field, select **Molly Clarke**.
 
     ![](../images/collaboration-33.png)
 
-11. Enter the Message you want to send to Molly.
+9. Enter the Message you want to send to Molly.
 
     ![](../images/collaboration-34.png)
 
@@ -336,4 +344,12 @@ assist you in resolving your issue.
 
 **Result:** You have successfully Enabled the necessary collaboration features in your environment and Configured Case Swarming in this lab.
 
-### **Proceed with the next Lab.**
+### Review
+In this lab, you have completed:
+- Enable collaboration features
+- Create bookable resource records that can be used as experts
+- Configure skills and Create Condition rules to assign necessary skills
+- Initiate an embedded Teams Chat
+- Create a Case Swarm
+
+### Proceed with the next Lab.

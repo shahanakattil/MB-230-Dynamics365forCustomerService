@@ -1,8 +1,14 @@
 # Practice Lab 3 – Resolving cases
 
-## Scenario
+## Lab scenario
 
 You are a customer service manager at City Power & Light who has been tasked with trying the new case resolution and reactivation functionality before rolling it out to your users. In this lab, you will resolve a case and reactive that case.
+
+## Lab objective
+In this lab, you will perform:
++ Exercise 1 – Resolve Cases
+
+## Estimated time: 20 minutes
 
 ## Exercise 1 – Resolve Cases
 
@@ -60,4 +66,9 @@ You are a customer service manager at City Power & Light who has been tasked wit
 
 **Result:** You have successfully resolved the cases in this lab.  
 
-### **Proceed with the next Lab.**
+### Review
+In this lab, you have completed:
+- Resolve cases 
+- How to reactivate the resolved case
+  
+### Proceed with the next Lab.

@@ -1,9 +1,16 @@
 # Practice Lab 7 – Customer Voice
 
-## Scenario
+## Lab scenario
 
 You are a customer service manager at City Power & Light who has been tasked with trying the new Customer Voice functionality to capture feedback on cases before rolling it out to your customers.
 
+## Lab objectives
+In this lab, you will perform:
++ Exercise 1: Create survey
++ Exercise 2: Send survey
+
+## Estimated time: 30 minutes
+  
 ## Exercise 1: Create survey
 
 In this exercise, you will create a project and use a template to create a survey.
@@ -263,4 +270,10 @@ In this exercise, you will use Power Automate to send a survey when a case is re
 
 **Result:** You have successfully created the survey and Sent survey when a case is resolved. 
 
-### **Proceed with the next Lab.**
+### Review
+In this lab, you have completed:
+- Create a project and use a template to create a survey
+- Create an email template and send the survey by email.
+- Use Power Automate to send a survey when a case is resolved.
+
+### Proceed with the next Lab.

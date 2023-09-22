@@ -1,10 +1,18 @@
 # Practice Lab 1 – Creating cases
 
-## Scenario
+## Lab scenario
 
 You are a customer service manager at City Power & Light who has been tasked with trying the new case functionality before rolling it out to your users. In this lab, you will create new customer cases and create a phone call associated with the cases.
 
+## Lab objectives
+In this lab, you will perform:
++ Exercise 1 – Create case
++ Exercise 1 - Create case from an activity
 
+## Estimated time: 30 minutes
+
+## Architecture Diagram
+ ![](../images/mb-230-arch-diagram.png)
 
 ## Exercise 1 – Create case
 
@@ -16,7 +24,7 @@ In this exercise, you will create an Account, a Contact, and a Case record. You 
 
      ![](../images/newaccount.png)
 
-3.  Enter **Relecloud (1)** for **Account Name** and click **Save & Close (2)**.
+1.  Enter **Relecloud (1)** for **Account Name** and click **Save & Close (2)**.
 
      ![](../images/relecloud.png)
     
@@ -44,7 +52,7 @@ In this exercise, you will create an Account, a Contact, and a Case record. You 
 
     ![](../images/newcontact.png)
 
-7.  Click **+ New** located on the command bar on **Contacts** page
+1.  Click **+ New** located on the command bar on **Contacts** page
 
      ![](../images/newcontact1.png)
      
@@ -160,7 +168,7 @@ In this exercise, you will create a Phone Call activity and then convert the act
 
       ![](../images/contactjon.png)
       
-3.  In the Timeline, click on **+ (1)**, and select **Phone Call (2)**.
+1.  In the Timeline, click on **+ (1)**, and select **Phone Call (2)**.
 
     ![](../images/jonphonecall.png)
 
@@ -190,7 +198,7 @@ In this exercise, you will create a Phone Call activity and then convert the act
 
     ![](../images/record-1.png)
 
-2.  Click **Convert To** located on the command bar and click on **To Case**
+1.  Click **Convert To** located on the command bar and click on **To Case**
   
      > **Note:** you may need to click on the ellipsis (...).
 
@@ -199,14 +207,19 @@ In this exercise, you will create a Phone Call activity and then convert the act
      ![](../images/tocase.png)
 
 
-5.  Leave the options as default and click **Convert**.
+1.  Leave the options as default and click **Convert**.
 
     ![](../images/convert.png)
 
-6.  Review the case that was created is closed now. Note that the customer is linked to the contact and the origin is set to Phone.
+1.  Review the case that was created is closed now. Note that the customer is linked to the contact and the origin is set to Phone.
 
     ![](../images/CovertPhoneCallactivity-1.png)
     
-**Result:** You have successfully created the cases in dynamic 365 customer service hub app. 
+    **Result**: You have successfully created the cases in dynamic 365 customer service hub app. 
 
-### **Proceed with the next Lab.**
+### Review
+In this lab, you have completed:
+- Create Account, a Contact, and a Case record
+- Create a Phone Call activity and then convert the activity to a Case
+
+### Proceed with the next Lab.

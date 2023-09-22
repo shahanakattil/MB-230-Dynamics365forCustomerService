@@ -1,8 +1,14 @@
 # Practice Lab 6 – Knowledge management
 
-## Scenario
+## Lab scenario
 
 As a customer care coordinator at City Power & Light, you are responsible for instructing the customer service team and providing them with troubleshooting articles to support case resolution. You need to create a knowledge article within Dynamics 365 for Customer Service. In this lab, you will create a knowledge article, walk through the publishing process and then revise that article.
+
+## Lab objective
+In this lab, you will perform:
++ Exercise 1 – Knowledge Management
+
+## Estimated time: 20 minutes
 
 ## Exercise 1 – Knowledge Management
 
@@ -148,4 +154,9 @@ Article.
 
 **Result:** You have successfully created the Knowledge Management and approved and publish knowledge articles in Dynamic 365 customer services. 
 
+### Review
+In this lab, you have completed:
+- Create an Internal Article
+- Approve and Publish Knowledge Article and Revise Knowledge Article
+  
 ### **Proceed with the next Lab.**

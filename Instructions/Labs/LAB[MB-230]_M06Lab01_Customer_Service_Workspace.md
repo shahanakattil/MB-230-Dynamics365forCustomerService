@@ -1,8 +1,14 @@
 # Practice Lab 10 – Customer Service workspace
 
-## Scenario
+## Lab scenario
 
 You are a customer service manager at City Power & Light who has been tasked with configuring the Customer Service workspace before rolling it out to your users. In this lab, you will explore how the the Customer Service workspace works.
+
+## Lab objective
+In this lab, you will perform:
++ Exercise 1 – Navigate Customer Service workspace
+
+## Estimated time: 20 minutes
 
 ## Exercise 1 – Navigate Customer Service workspace
 
@@ -53,5 +59,10 @@ In this exercise you will learn how to navigate the Customer Service workspace a
 14. The Customer Service Agent Dashboard is displayed.
 
 **Result:** You have successfully created customer Service workspace and displayed on the Customer Service Agent Dashboard. 
+
+### Review
+In this lab, you have completed:
+- Navigate to Customer Service workspace and use shortcut keys
+- Create the Customer Service workspace and open sessions
 
 ### **Proceed with the next Lab.**

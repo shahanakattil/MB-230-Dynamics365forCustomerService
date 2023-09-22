@@ -1,8 +1,15 @@
 # Practice Lab 9 – Customer Service Scheduling Services
 
-## Scenario
+## Lab scenario
 
 You are the scheduling manager at City Power & Light who has been tasked with testing the Service Scheduling functionality to perform services for customers at your locations.
+
+## Lab objectives
+In this lab, you will perform:
++ Exercise 1: Define Services
++ Exercise 2: Create and schedule Service activities 
+
+## Estimated time: 30 minutes
 
 ## Exercise 1: Define Services
 
@@ -164,4 +171,11 @@ In this task you will create and schedule an oil change service activity.
 
 **Result:** You have successfully created Customer Service Scheduling Services in this lab.
 
-### **Proceed with the next Lab.**
+### Review
+In this lab, you have completed:
+- Create Oil Change Service
+- Create Tire Service
+- Define Business Closure
+- Create and schedule service activities for an oil change and a tire rotation
+  
+### Proceed with the next Lab.

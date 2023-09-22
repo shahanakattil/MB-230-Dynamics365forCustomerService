@@ -1,8 +1,14 @@
 # Practice Lab 2 – Queues
 
-## Scenario
+## Lab scenario
 
 You are a customer service manager at City Power & Light. You need to create queues for the customer service representatives to use for processing cases. In this lab, you will create a create multiple queues and add cases to activities to queues.
+
+## Lab objective
+In this lab, you will perform:
++ Exercise 1 – Create Queues
+
+## Estimated time: 30 minutes
 
 ## Exercise 1 – Create Queues
 
@@ -162,6 +168,11 @@ In this exercise, you will create four queues.
 
     ![](../images/release-1.1.png)
     
-**Result:** You have accomplished the creation of queues, inclusion of cases in the queues, and execution of actions on queue items.
+    **Result:** You have accomplished the creation of queues, inclusion of cases in the queues, and execution of actions on queue items.
+
+### Review
+In this lab, you have completed:
+- Create a queues and adding cases to queues
+- Perform action on queue items
 
 ### **Proceed with the next Lab.**

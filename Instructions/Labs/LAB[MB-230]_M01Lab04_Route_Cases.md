@@ -1,9 +1,17 @@
 # Practice Lab 4 – Routing cases
 
-## Scenario
+## Lab scenario
 
 You are a customer service manager at City Power & Light who has been tasked with trying the new case routing functionality before rolling it out to your users. In this lab, you will create record creation rules, and case routing rules and test how they work.
 
+## Lab objectives
+In this lab, you will perform:
++ Exercise 1 – Configure record creation rules
++ Exercise 2 – Basic routing
++ Exercise 3 – Route cases
+
+## Estimated time: 30 minutes
+  
 ## Exercise 1 – Configure record creation rules
 
 ### Task 1 – Enable a case to be created from an email in a queue
@@ -205,4 +213,10 @@ You are a customer service manager at City Power & Light who has been tasked wit
     
 **Result:** You have successfully Configured the basic routing rule set and created the route cases in this lab. 
 
+### Review
+In this lab, you have completed:
+- Enable a case to be created from an email in a queue
+- Configure basic routing rule set
+- Created the route cases
+  
 ### **Proceed with the next Lab.**

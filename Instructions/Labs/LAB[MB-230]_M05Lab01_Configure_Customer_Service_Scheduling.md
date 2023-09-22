@@ -1,8 +1,15 @@
 # Practice Lab 8 – Customer Service Scheduling Configuration
 
-## Scenario
+## Lab scenario
 
 You are the scheduling manager at City Power & Light who has been tasked with setting up the new Service Scheduling functionality to perform services for customers at three of your locations.
+
+## Lab objectives
+In this lab, you will perform:
++ Exercise 1: Configure Customer Service Scheduling
++ Exercise 2: Resource Configuration
+
+## Estimated time: 30 minutes
 
 ## Exercise 1: Configure Customer Service Scheduling
 
@@ -291,4 +298,11 @@ In this task you will create resources using the contacts you created.
 
 **Result:** You have successfully Configured Customer Service Scheduling and Resource Configuration in this lab. 
 
-### **Proceed with the next Lab.**
+### Review
+In this lab, you have completed:
+- Define Organization Units
+- Define Business Closure
+- create facilities/equipment records for the organizational units
+- Create contact records, create resource categories, and create resources
+
+### Proceed with the next Lab.
