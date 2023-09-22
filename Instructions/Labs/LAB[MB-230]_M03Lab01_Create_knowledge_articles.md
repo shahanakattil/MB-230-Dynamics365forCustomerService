@@ -5,6 +5,7 @@
 As a customer care coordinator at City Power & Light, you are responsible for instructing the customer service team and providing them with troubleshooting articles to support case resolution. You need to create a knowledge article within Dynamics 365 for Customer Service. In this lab, you will create a knowledge article, walk through the publishing process and then revise that article.
 
 ## Lab objective
+In this lab, you will perform:
 + Exercise 1 – Knowledge Management
 
 ## Estimated time: 20 minutes
