@@ -9,7 +9,7 @@ In this lab, you will perform:
 + Exercise 1 – Create case
 + Exercise 1 - Create case from an activity
 
-## Estimated time: 40 minutes
+## Estimated time: 30 minutes
 
 ## Architecture Diagram
  ![](../images/mb-230-arch-diagram.png)
