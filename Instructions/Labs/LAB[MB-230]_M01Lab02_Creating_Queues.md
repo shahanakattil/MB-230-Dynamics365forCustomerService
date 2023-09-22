@@ -8,7 +8,7 @@ You are a customer service manager at City Power & Light. You need to create que
 In this lab, you will perform:
 + Exercise 1 – Create Queues
 
-## Estimated timing: 30 minutes
+## Estimated time: 30 minutes
 
 ## Exercise 1 – Create Queues
 
