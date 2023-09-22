@@ -172,7 +172,7 @@ In this exercise, you will create four queues.
 
 ### Review
 In this lab, you have completed:
-- Creating a queues and adding cases to queues
-- Performing action on queue items
+- Create a queues and adding cases to queues
+- Perform action on queue items
 
 ### **Proceed with the next Lab.**
