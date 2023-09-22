@@ -8,6 +8,9 @@ As a customer service manager at City Power & Light, you need to create entitlem
 + Exercise 1 – Entitlements
 + Exercise 2 – Entitlement Templates
 + Exercise 3 – Service Level Agreements
+
+## Estimated time: 40 minutes
+
 ## Exercise 1 – Entitlements
 
 In this exercise, you will create an entitlement for your user, this entitlement will allow you to create 50 cases through the Email channel, 30 Cases through the Web channel, and 10 Cases each for Twitter and Facebook channels.
@@ -587,5 +590,13 @@ In this task, you will test that the SLA is applied to cases.
 > - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
 
 **Result:** You have successfully created the Entitlements, Entitlement Templates, and Service Level Agreements in this lab. 
+
+### Review
+In this lab, you have completed:
+- Creating an entitlement for your user
+- Adding Channels to the entitlement and Tested the Entitlement
+- Creating Entitlement Templates and Tested the Entitlement
+- Holiday Schedule and Customer Service Schedule
+- Creating and testing Service Level Agreement and settings
 
 ### **Proceed with the next Lab.**
