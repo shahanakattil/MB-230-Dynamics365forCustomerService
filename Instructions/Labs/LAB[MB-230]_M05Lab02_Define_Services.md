@@ -5,6 +5,7 @@
 You are the scheduling manager at City Power & Light who has been tasked with testing the Service Scheduling functionality to perform services for customers at your locations.
 
 ## Lab objectives
+In this lab, you will perform:
 + Exercise 1: Define Services
 + Exercise 2: Create and schedule Service activities 
 
