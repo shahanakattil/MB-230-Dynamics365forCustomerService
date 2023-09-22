@@ -5,6 +5,7 @@
 You are a customer service manager at City Power & Light who has been tasked with trying the new Customer Voice functionality to capture feedback on cases before rolling it out to your customers.
 
 ## Lab objectives
+In this lab, you will perform:
 + Exercise 1: Create survey
 + Exercise 2: Send survey
 
