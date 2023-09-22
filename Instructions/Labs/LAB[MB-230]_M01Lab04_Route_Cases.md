@@ -10,7 +10,7 @@ In this lab, you will perform:
 + Exercise 2 – Basic routing
 + Exercise 3 – Route cases
 
-## Estimated time: 40 minutes
+## Estimated time: 30 minutes
   
 ## Exercise 1 – Configure record creation rules
 
