@@ -1,9 +1,13 @@
 # Practice Lab 5 – Entitlements and templates
 
-## Scenario
+## Lab scenario
 
 As a customer service manager at City Power & Light, you need to create entitlements and entitlement templates to manage complex service offerings and guide your team in processing cases from various channels. In this lab, you will create an entitlement with entitlement channels. You will also create an entitlement template and create an entitlement from the template.
 
+## Lab objectives
++ Exercise 1 – Entitlements
++ Exercise 2 – Entitlement Templates
++ Exercise 3 – Service Level Agreements
 ## Exercise 1 – Entitlements
 
 In this exercise, you will create an entitlement for your user, this entitlement will allow you to create 50 cases through the Email channel, 30 Cases through the Web channel, and 10 Cases each for Twitter and Facebook channels.
@@ -115,7 +119,7 @@ In this task, you will test the default entitlement for Relecloud.
 
      ![](../images/cases1.png)
 
-1.  Enter **Audio_System_Setup_Issues (1)** for **Case Title**, select the **Relecloud (2)** account you created in the earlier lab for **Customer**, select **Email (3)** for **Origin** and click **Save & Close (4)**. The entitlement should be applied automatically.
+1.  Enter **Audio_System_Setup_Issues (1)** for **Case Title**, select the **Relecloud (2)** account you created in the earlier lab for **Customer**, select **Email(3)** for **Origin** and click **Save & Close (4)**. The entitlement should be applied automatically.
 
     ![](../images/newcase.png)
 
@@ -237,17 +241,17 @@ In this task, you will create 20 phone call only entitlement from the entitlemen
 
     ![](../images/Entitlement-6.png)
 
-2.  Click on the drop-down button **(1)** next to the **+ New** button and select **From Template (2)**.
+1.  Click on the drop-down button **(1)** next to the **+ New** button and select **From Template (2)**.
 
     ![](../images/fromtemplate.png)
 
-3.  Select **20 Free Terms** template you created for **Entitlement Template** and click **Select**.
+1.  Select **20 Free Terms** template you created for **Entitlement Template** and click **Select**.
 
      ![](../images/20free.png)
      
-4.  Some of the fields will be auto-filled from the template.
+1.  Some of the fields will be auto-filled from the template.
 
-5.  Enter **Phone_Call _Only_Terms (1)** for **Name**, select the **Relecloud (2)** account for **Primary Customer**, select today's date for **Start Date (3)**, select a year from today for **End Date (4)**, and click **Save (5)**.
+1.  Enter **Phone_Call _Only_Terms (1)** for **Name**, select the **Relecloud (2)** account for **Primary Customer**, select today's date for **Start Date (3)**, select a year from today for **End Date (4)**, and click **Save (5)**.
 
     ![](../images/phonecall1.png)
     
@@ -255,7 +259,7 @@ In this task, you will create 20 phone call only entitlement from the entitlemen
 
     ![](../images/activate.png)
     
-7.  Confirm activation. DO NOT navigate away from this page.
+1.  Confirm activation. DO NOT navigate away from this page.
 
 ### Task 3 – Test the Entitlement
 
@@ -265,44 +269,44 @@ In this task, you will test the entitlement you created from the entitlement tem
 
 1.  Click on **Home** at the top of the left-hand side navigation.
 
-2.  Click on **Cases** in the **Service** section of the sitemap and click on **+ New Case**.
+1.  Click on **Cases** in the **Service** section of the sitemap and click on **+ New Case**.
 
      ![](../images/newcases.png)
 
-4.  Enter **Missing Parts (1)** for **Case Title** and select the **Relecloud (2)** account for **Customer**, Select **Phone (3)** for **Origin**, select **Phone Call Only Terms (4)** for **Entitlement** and click **Save (5)**.
+1.  Enter **Missing Parts (1)** for **Case Title** and select the **Relecloud (2)** account for **Customer**, Select **Phone (3)** for **Origin**, select **Phone Call Only Terms (4)** for **Entitlement** and click **Save (5)**.
 
     ![](../images/missingparts.png)
 
-6.  Click **Go back**, click **+ New Case**.
+1.  Click **Go back**, click **+ New Case**.
 
-7.  Enter **Wrong cables (1)** for **Case Title** and select the **Relecloud (2)** account for **Customer**, Select **Web (3)** for **Origin**, scroll down to the **Entitlement** field and select **Phone Call Only Terms (4)**, click **Save (5)**. 
+1.  Enter **Wrong cables (1)** for **Case Title** and select the **Relecloud (2)** account for **Customer**, Select **Web (3)** for **Origin**, scroll down to the **Entitlement** field and select **Phone Call Only Terms (4)**, click **Save (5)**. 
 
      ![](../images/wrongcables.png)
-8. You will get an error telling you that there are no available terms.
+1. You will get an error telling you that there are no available terms.
 
-11. Click **OK**.
+1. Click **OK**.
 
     ![](../images/wrngcable.png)
 
-12. You should get the same error if you select Email, Facebook or Twitter for Origin.
+1. You should get the same error if you select Email, Facebook or Twitter for Origin.
 
-13. Select **Web** for **Origin** and clear the **Entitlement** field.
+1. Select **Web** for **Origin** and clear the **Entitlement** field.
 
-14. Click **Save**.
+1. Click **Save**.
 
-15. Since you didn’t select the **Phone Call Only Terms** entitlement, the case will now be created.
+1. Since you didn’t select the **Phone Call Only Terms** entitlement, the case will now be created.
 
-16.  Click on the **Customer Service Hub** app from the top and select **Customer service admin**.
+1.  Click on the **Customer Service Hub** app from the top and select **Customer service admin**.
 
    ![](../images/Customer-service-admin-1.png)
     
-7.  In the site map, select **Service terms** in Operations. The Service Terms page appears.
+1.  In the site map, select **Service terms** in Operations. The Service Terms page appears.
 
-18. Click on **Manage** in the **Entitlement** section.
+1. Click on **Manage** in the **Entitlement** section.
 
-19. Click to open the **Phone Call Only Terms** entitlement.
+1. Click to open the **Phone Call Only Terms** entitlement.
 
-20. Make sure you have **19 Remaining Terms** and **19 Phone** channel **Remaining Terms**.
+1. Make sure you have **19 Remaining Terms** and **19 Phone** channel **Remaining Terms**.
 
 > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
 > - Select the **Lab Validation** tab located at the upper right corner of the lab guide section.
@@ -364,25 +368,25 @@ In this task, you will create a Customer Service Schedule to use with SLAs.
 
     ![](../images/Entitlement-9.png)
 
-2.  Click **+ New**.
+1.  Click **+ New**.
 
-3.  Enter **Customer Service Schedule (1)** for **Name** and click on **Create (2)**.
+1.  Enter **Customer Service Schedule (1)** for **Name** and click on **Create (2)**.
 
      ![](../images/customerservice.png)
      
-5.  Uncheck **Saturday (2)** and **Sunday (3)**. 
+1.  Uncheck **Saturday (2)** and **Sunday (3)**. 
 
-6.  Click **Set Work Hours**.
+1.  Click **Set Work Hours**.
 
-7. Set Start to **9:00AM** and End to **5:00PM**. **(4)**
+1. Set Start to **9:00AM** and End to **5:00PM**. **(4)**
 
-8. Click **OK**.
+1. Click **OK**.
 
-9. Set **Holiday Schedule** to **Observe (5)** and select the **Holiday Schedule (6)** you created.
+1. Set **Holiday Schedule** to **Observe (5)** and select the **Holiday Schedule (6)** you created.
 
-10. Select your local **Time Zone (7)**
+1. Select your local **Time Zone (7)**
 
-11. Click **Save & Close (8)**.
+1. Click **Save & Close (8)**.
 
     ![](../images/css.png)
 
