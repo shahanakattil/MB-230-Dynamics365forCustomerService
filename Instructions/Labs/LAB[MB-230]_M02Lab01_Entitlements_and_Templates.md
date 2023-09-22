@@ -5,6 +5,7 @@
 As a customer service manager at City Power & Light, you need to create entitlements and entitlement templates to manage complex service offerings and guide your team in processing cases from various channels. In this lab, you will create an entitlement with entitlement channels. You will also create an entitlement template and create an entitlement from the template.
 
 ## Lab objectives
+In this lab, you will perform:
 + Exercise 1 – Entitlements
 + Exercise 2 – Entitlement Templates
 + Exercise 3 – Service Level Agreements
