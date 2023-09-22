@@ -16,6 +16,8 @@ In this lab, you will perform:
 + Exercise 2: Configure Case Swarming
 + Exercise 3: Leverage the different collaboration features 
 
+## Estimated time: 30 minutes
+
 ## Exercise 1: Enable the necessary collaboration features in your environment 
 
 Before your agents can begin collaborating with subject matter experts at your organization, you will need to ensure that you have enabled the necessary features in your environment.
