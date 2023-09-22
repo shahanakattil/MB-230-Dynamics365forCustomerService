@@ -12,6 +12,7 @@ In this lab, you will perform:
 ## Estimated time: 40 minutes
 
 ## Architecture Diagram
+ ![](../images/mb-230-arch-diagram.png)
 
 ## Exercise 1 – Create case
 
