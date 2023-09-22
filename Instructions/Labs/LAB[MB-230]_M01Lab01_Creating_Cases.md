@@ -219,7 +219,7 @@ In this exercise, you will create a Phone Call activity and then convert the act
 
 ### Review
 In this lab, you have completed:
-- Creating Account, a Contact, and a Case record.
-- Created a Phone Call activity and then convert the activity to a Case.
+- Creating Account, a Contact, and a Case record
+- Created a Phone Call activity and then convert the activity to a Case
 
-### Proceed with the next Lab.
+### Proceed with the next Lab
